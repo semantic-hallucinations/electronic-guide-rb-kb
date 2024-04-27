@@ -1,0 +1,19 @@
+nrel_is_region
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [Является областью*] (* <- lang_ru;;*);   
+    [Is region*] (* <- lang_en;;*);;    
+
+
+definition -> definition_of_is_region (*
+	-> rrel_key_sc_element: nrel_is_region;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Область - административно-территориальная единица.] (* <- lang_ru;; *);;
+		-> [Region is an administrative-territorial unit.] (* <- lang_en;; *);;
+	*);;
+
+    => nrel_main_idtf:
+		[Опр. (Область)] (* <- lang_ru;; *);
+		[Def. (Region)] (* <- lang_en;; *);;
+*);;
