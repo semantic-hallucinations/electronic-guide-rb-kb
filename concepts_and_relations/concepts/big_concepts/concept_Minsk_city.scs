@@ -1,0 +1,23 @@
+concept_Minsk_city
+=> nrel_main_idtf:
+    [город Минск] (* <- lang_ru;;*);   
+    [Minsk city] (* <- lang_en;;*); 
+    
+=> nrel_placed_in_Minsk_city: concept_sights_of_Minsk_city;;
+
+definition -> definition_of_Minsk_city (*
+	-> rrel_key_sc_element: concept_Minsk_city;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Минск — столица и крупнейший город Беларуси, административный центр Минской области
+         и Минского района, в состав которых не входит, 
+        поскольку является самостоятельной административно-территориальной единицей с особым статусом.] (* <- lang_ru;; *);;
+		-> [Minsk is the capital and largest city of Belarus, the administrative center of the Minsk
+         region and Minsk district, which it is not part of, 
+        since it is an independent administrative-territorial unit with a special status.] (* <- lang_en;; *);;
+	*);;
+
+    => nrel_main_idtf:
+		[Опр. (Город Минск)] (* <- lang_ru;; *);
+		[Def. (Minsk city)] (* <- lang_en;; *);;
+*);;
