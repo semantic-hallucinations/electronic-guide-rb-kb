@@ -1,0 +1,29 @@
+concept_sights_of_Republic_of_Belarus
+<- concept_sights;
+=> nrel_main_idtf:
+    [Достопримечательности Республики Беларусь] (* <- lang_ru;;*);   
+    [Sights of the Republic of Belarus] (* <- lang_en;;*);
+    
+=> nrel_inclusion:
+    concept_sights_of_Minsk_region;
+    concept_sights_of_Brest_region; 
+    concept_sights_of_Grodno_region; 
+    concept_sights_of_Gomel_region; 
+    concept_sights_of_Vitebsk_region; 
+    concept_sights_of_Mogilev_region;;
+
+
+definition -> definition_of_sights_of_Republic_of_Belarus (*
+	-> rrel_key_sc_element: concept_sights_of_Republic_of_Belarus;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Достопримечательности Республики Беларусь - все достопримечательности, 
+    находящиеся на территории Республики Беларусь.] (* <- lang_ru;; *);;
+		-> [Sights of the Republic of Belarus - all attractions
+     located on the territory of the Republic of Belarus.] (* <- lang_en;; *);;
+	*);;
+
+    => nrel_main_idtf:
+		[Опр. (Достопримечательности Республики Беларусь)] (* <- lang_ru;; *);
+		[Def. (Sights of the Republic of Belarus)] (* <- lang_en;; *);;
+*);;
