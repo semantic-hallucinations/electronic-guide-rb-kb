@@ -1,0 +1,60 @@
+section_subject_domain_of_sights_of_Brest_city
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область достопримечательностей города Бреста]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of sights of Brest city]
+    (* <- lang_en;;*);
+
+    <= nrel_section_decomposition:
+    {
+        section_subject_domain_of_Brest_bars
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Brest_museums;;
+        *);
+        section_subject_domain_of_Brest_museums
+        section_subject_domain_of_Brest_monuments
+        section_subject_domain_of_Brest_restaraunts
+        section_subject_domain_of_Brest_theaters
+        section_subject_domain_of_Brest_cinemas
+        section_subject_domain_of_Brest_parks
+        section_subject_domain_of_Brest_bars
+        section_subject_domain_of_Brest_librares
+        section_subject_domain_of_Brest_galleries
+        section_subject_domain_of_Brest_zooes
+
+
+    };
+
+    -> rrel_key_sc_element:
+        concept_sights_of_Brest_city;
+        concept_Brest_bars;
+        concept_Brest_museums;
+
+    <- non_atomic_section;;
+
+section_subject_domain_of_sights_of_Brest_city 
+    = [*
+        subject_domain_of_sights_of_Brest_city
+
+            => nrel_main_idtf:
+            [Предметная область достопримечательностей Брестской области]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Brest city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            => nrel_private_subject_domain:
+                subject_domain_of_sights_of_Brest_museums;
+                subject_domain_of_sights_of_Brest_bars;
+
+            -> rrel_maximum_studied_object_class:
+                concept_sights_of_Brest_city;
+
+            -> rrel_not_maximum_studied_object_class:
+                concept_sights_of_Brest_bars;
+                concept_sights_of_Brest_museums;;
+            
+    *];;
