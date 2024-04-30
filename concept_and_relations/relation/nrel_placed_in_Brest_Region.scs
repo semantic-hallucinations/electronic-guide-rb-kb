@@ -1,0 +1,14 @@
+nrel_placed_in_Brest_region
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [Находится в Брестской области*] (* <- lang_ru;;*);   
+    [Placed in Brest region*] (* <- lang_en;;*);;    
+
+
+definition -> definition_of_placed_in_Brest_region (*
+	-> rrel_key_sc_element: nrel_placed_in_Brest_region;;
+
+    => nrel_main_idtf:
+		[Опр. (Находится в Брестской области)] (* <- lang_ru;; *);
+		[Def. (Placed in Brest region)] (* <- lang_en;; *);;
+*);;
