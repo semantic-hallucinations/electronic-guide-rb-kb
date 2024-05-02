@@ -1,0 +1,29 @@
+museum_of_Minsk_history
+
+<-concept_museum;
+
+=> nrel_main_idtf:
+    [Музей истории города Минска] (* <- lang_ru;;*);   
+    [Museum of Minsk history] (* <- lang_en;;*);;
+    
+
+definition -> definition_of_sights_of_Minsk_city (*
+	-> rrel_key_sc_element: museum_of_Minsk_history;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [«Музей истории города Минска» — это комплекс экспозиций 
+    на территории Верхнего города и Лошицкого усадебно-паркового комплекса.
+    Основу фондов музея составляют коллекции археологических раскопок Минска XI—XIX вв., 
+    предметов городского быта, фотоаппаратов конца XIX—ХХ вв., живописи, графики,
+     декоративно-прикладного искусства, мемориальные собрания знаменитых минчан и другие.] (* <- lang_ru;; *);;
+		-> [“Museum of the History of the City of Minsk” is a complex of exhibitions
+     on the territory of the Upper Town and the Loshitsa manor and park complex.
+     The basis of the museum’s funds are collections of archaeological excavations in Minsk from the 11th to the 19th centuries,
+     objects of urban life, cameras of the late 19th-20th centuries, paintings, graphics,
+      decorative and applied arts, memorial collections of famous Minsk residents and others.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Музей истории города Минска)] (* <- lang_ru;; *);
+		[Def. (Museums of Minsk history)] (* <- lang_en;; *);;
+*);;

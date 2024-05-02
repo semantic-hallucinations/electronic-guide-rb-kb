@@ -1,0 +1,28 @@
+concept_Minsk_museums
+
+=> nrel_main_idtf:
+    [Музеи города Минска] (* <- lang_ru;;*);   
+    [Sights of Minsk city] (* <- lang_en;;*);
+    
+=> nrel_belonging:
+    museum_of_Minsk_history;;
+
+
+definition -> definition_of_sights_of_Minsk_city (*
+	-> rrel_key_sc_element: concept_Minsk_museums;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музеи города Минска - все музеи, 
+    находящиеся на территории города Минска. В минских музеях можно поближе познакомиться 
+    с историей и культурой страны, а многие из них
+     — архитектурные достопримечательности сами по себе.] (* <- lang_ru;; *);;
+		-> [Museums of the Minsk city - all museums
+     located on the territory of the Minsk city. In Minsk museums you can get a closer look
+      at the history and culture of the country,
+       and many of them are architectural attractions in themselves.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Музеи города Минска)] (* <- lang_ru;; *);
+		[Def. (Museums of the Minsk city)] (* <- lang_en;; *);;
+*);;
