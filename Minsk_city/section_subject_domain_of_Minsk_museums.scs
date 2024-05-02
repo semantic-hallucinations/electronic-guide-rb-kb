@@ -1,0 +1,32 @@
+section_subject_domain_of_Minsk_museums
+    => nrel_main_idtf:
+    [Раздел. Предметная область музеев города Минска]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Minsk museums]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Minsk_museums;
+        museum_of_Minsk_history;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Minsk_museums
+    = [*
+        subject_domain_of_Minsk_museums
+
+            => nrel_main_idtf:
+            [Предметная область музеев города Минска]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Minsk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Minsk_museums;
+
+            -> rrel_not_maximum_studied_object_class:
+                museum_of_Minsk_history;;
+            
+    *];;
