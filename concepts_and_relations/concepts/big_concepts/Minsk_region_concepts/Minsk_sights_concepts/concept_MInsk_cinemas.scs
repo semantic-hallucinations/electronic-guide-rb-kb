@@ -1,0 +1,29 @@
+concept_Minsk_cinemas
+
+=> nrel_main_idtf:
+    [Кинотеатры города Минска] (* <- lang_ru;;*);
+    [Cinemas of Minsk city] (* <- lang_en;;*);
+
+=> nrel_belonging:
+    ...;;
+
+definition -> definition_of_Minsk_cinemas (*
+    -> rrel_key_sc_element: concept_Minsk_cinemas;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Кинотеатры города Минска - все кинотеатры,
+         находящиеся на территории города Минска. Кинотеатры располагают разнообразными залами
+          с широким выбором фильмов от мировых кинокомпаний и артхаусных кинолент до премьерных показов
+           и фестивальных сеансов. Все эти кинотеатры обеспечивают комфортные условия для просмотра
+            и качественное звуковое и видео оборудование.] (* <- lang_ru;;*);;
+        -> [Cinemas of the city of Minsk - all cinemas,
+         located on the territory of the city of Minsk. Here you can find various movie theaters
+          with a wide selection of films from global film companies and art-house movies to premieres
+           and festival screenings. All these cinemas provide comfortable conditions for viewing
+            and high-quality sound and video equipment.] (* <- lang_en;;*);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (Кинотеатры города Минска)] (* <- lang_ru;;*);
+        [Def. (Cinemas of the Minsk city)] (* <- lang_en;;*);;
+*);;

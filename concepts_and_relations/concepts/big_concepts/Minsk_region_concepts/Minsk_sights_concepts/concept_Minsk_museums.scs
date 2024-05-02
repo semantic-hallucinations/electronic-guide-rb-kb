@@ -2,13 +2,12 @@ concept_Minsk_museums
 
 => nrel_main_idtf:
     [Музеи города Минска] (* <- lang_ru;;*);   
-    [Sights of Minsk city] (* <- lang_en;;*);
+    [Museums of Minsk city] (* <- lang_en;;*);
     
 => nrel_belonging:
     museum_of_Minsk_history;;
 
-
-definition -> definition_of_sights_of_Minsk_city (*
+definition -> definition_of_Minsk_museums (*
 	-> rrel_key_sc_element: concept_Minsk_museums;;
 
 	<= nrel_sc_text_translation: ... (*

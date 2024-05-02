@@ -1,0 +1,30 @@
+concept_Minsk_monuments
+
+=> nrel_main_idtf:
+    [Памятники города Минска] (* <- lang_ru;;*);
+    [Monuments of Minsk city] (* <- lang_en;;*);
+
+=> nrel_belonging:
+    ...;;
+
+definition -> definition_of_Minsk_monuments (*
+    -> rrel_key_sc_element: concept_Minsk_monuments;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Памятники города Минска - все памятники,
+         находящиеся на территории города Минска. Это исторические и культурные символы, которые украшают территорию города.
+         Здесь можно найти разнообразные памятники, отражающие важные события, личности и культурные традиции города.
+          Эти памятники являются не только объектами исторического и культурного наследия, но и местами,
+           привлекающими туристов и жителей города.] (* <- lang_ru;;*);;
+        -> [Monuments of the city of Minsk - all monuments,
+         located on the territory of the city of Minsk. these are historical and cultural symbols that adorn the city's territory.
+         Here you can find various monuments reflecting important events, personalities, and cultural traditions of the city.
+          These monuments are not only objects of historical and cultural heritage but also places that attract tourists
+           and city residents.]
+            (* <- lang_en;;*);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (Памятники города Минска)] (* <- lang_ru;;*);
+        [Def. (Monuments of the Minsk city)] (* <- lang_en;;*);;
+*);;

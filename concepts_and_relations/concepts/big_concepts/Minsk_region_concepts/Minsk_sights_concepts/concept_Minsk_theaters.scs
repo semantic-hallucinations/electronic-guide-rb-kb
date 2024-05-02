@@ -1,0 +1,29 @@
+concept_Minsk_theaters
+
+=> nrel_main_idtf:
+    [Театры города Минска] (* <- lang_ru;;*);
+    [Theaters of Minsk city] (* <- lang_en;;*);
+
+=> nrel_belonging:
+    ...;;
+
+definition -> definition_of_Minsk_theaters (*
+    -> rrel_key_sc_element: concept_Minsk_theaters;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Театры города Минска - все театры,
+         расположенные на территории города Минска. Здесь представлены различные театральные жанры
+          от классической драмы и комедии до современных экспериментальных постановок.
+           Театры города Минска являются центром культурной жизни, предлагая широкий выбор
+            спектаклей для зрителей разных возрастов и вкусов.] (* <- lang_ru;;*);;
+        -> [Theaters of the city of Minsk - all theaters,
+         located on the territory of the city of Minsk. Here you can find various theatrical genres
+          from classical drama and comedy to contemporary experimental productions.
+           The theaters of Minsk city are the center of cultural life, offering a wide range
+            of performances for audiences of different ages and tastes.] (* <- lang_en;;*);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (Театры города Минска)] (* <- lang_ru;;*);
+        [Def. (Theaters of the Minsk city)] (* <- lang_en;;*);;
+*);;

@@ -6,6 +6,10 @@ concept_sights_of_Minsk_city
     
 => nrel_inclusion:
     concept_Minsk_bars;
+    cocncept_Minsk_galeries;
+    concept_Minsk_monuments;
+    concept_Minsk_cinemas;
+    concept_Minsk_theatres;
     concept_Minsk_museums;;
 
 
