@@ -1,0 +1,39 @@
+museum_the_5th_fort
+
+<-concept_museum; 
+
+=> nrel_main_idtf:
+    [Музей «5 форт»] (* <- lang_ru;;*);   
+    [The 5th Fort] (* <- lang_en;;*);;
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:museum_the_5th_fort 
+  	[Музей «5 форт»] (* <- lang_ru;; *);
+	[The 5th Fort] (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/museum_the_5th_fort.jpg"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_sights_of_Brest_city (*
+	-> rrel_key_sc_element: museum_the_5th_fort;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Археологический музей «Берестье» – единственный в мире музей 
+        средневекового восточнославянского города, расположенный на месте детинца
+        древнего Берестья.] (* <- lang_ru;; *);;
+		-> [Archaeological Museum "Berestye" is the only museum in the
+        world of a medieval East Slavic city, located on the site of the ancient 
+        Berestye village.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Музей «5 форт»)] (* <- lang_ru;; *);
+		[Def. (Brest Railway Museum)] (* <- lang_en;; *);;
+*);;

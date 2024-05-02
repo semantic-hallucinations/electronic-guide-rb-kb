@@ -1,0 +1,45 @@
+museum_of_brest_railway
+
+<-concept_museum; 
+
+=> nrel_main_idtf:
+    [Брестский железнодорожный музей] (* <- lang_ru;;*);   
+    [Brest Railway Museum] (* <- lang_en;;*);;
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:museum_of_brest_railway 
+  	[Брестский железнодорожный музей] (* <- lang_ru;; *);
+	[Brest Railway Museum] (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/museum_of_brest_railway.jpg"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_sights_of_Brest_city (*
+	-> rrel_key_sc_element: museum_of_brest_railway;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Брестский железнодорожный музей - это уникальное заведение, посвященное
+        истории железнодорожного транспорта в Беларуси. Музей располагается в 
+        здании бывшего вокзала и представляет коллекцию паровозов, вагонов, 
+        железнодорожной техники, фотографий и документов, отражающих развитие 
+        железнодорожного сообщения в регионе.
+
+] (* <- lang_ru;; *);;
+		-> [Brest Railway Museum is a unique institution dedicated to the history 
+        of railway transport in Belarus. Located in a former train station building,
+        the museum showcases a collection of steam locomotives, wagons, railway
+        equipment, photographs, and documents that reflect the development of
+        railway communication in the region.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Брестский железнодорожный музей)] (* <- lang_ru;; *);
+		[Def. (Brest Railway Museum)] (* <- lang_en;; *);;
+*);;

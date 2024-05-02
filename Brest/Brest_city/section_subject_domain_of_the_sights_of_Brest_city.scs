@@ -13,23 +13,19 @@ section_subject_domain_of_sights_of_Brest_city
             => nrel_section_base_order: 
             section_subject_domain_of_Brest_museums;;
         *);
-        section_subject_domain_of_Brest_museums
-        section_subject_domain_of_Brest_monuments
-        section_subject_domain_of_Brest_restaraunts
-        section_subject_domain_of_Brest_theaters
-        section_subject_domain_of_Brest_cinemas
-        section_subject_domain_of_Brest_parks
-        section_subject_domain_of_Brest_bars
-        section_subject_domain_of_Brest_librares
-        section_subject_domain_of_Brest_galleries
-        section_subject_domain_of_Brest_zooes
+        section_subject_domain_of_sights_of_Brest_zooes;
+        section_subject_domain_of_sights_of_Brest_cinemas;
+        section_subject_domain_of_sights_of_Brest_galleries;
+        section_subject_domain_of_sights_of_Brest_monuments;
+        section_subject_domain_of_sights_of_Brest_theaters;
+    
 
 
     };
 
     -> rrel_key_sc_element:
         concept_sights_of_Brest_city;
-        concept_Brest_bars;
+        concept_Brest_zooes;
         concept_Brest_museums;
 
     <- non_atomic_section;;
@@ -48,13 +44,13 @@ section_subject_domain_of_sights_of_Brest_city
 
             => nrel_private_subject_domain:
                 subject_domain_of_sights_of_Brest_museums;
-                subject_domain_of_sights_of_Brest_bars;
+                subject_domain_of_sights_of_Brest_zooes;
 
             -> rrel_maximum_studied_object_class:
                 concept_sights_of_Brest_city;
 
             -> rrel_not_maximum_studied_object_class:
-                concept_sights_of_Brest_bars;
+                concept_sights_of_Brest_zooes;
                 concept_sights_of_Brest_museums;;
             
     *];;

@@ -1,0 +1,43 @@
+museum_of_brest_history
+
+<-concept_museum; 
+
+=> nrel_main_idtf:
+    [Музей истории города Бреста] (* <- lang_ru;;*);   
+    [Brest City History Museum] (* <- lang_en;;*);;
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Музей истории города Бреста] (* <- lang_ru;; *);
+	[Brest City History Museum] (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/museum_of_brest_history.jpg"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_sights_of_Brest_city (*
+	-> rrel_key_sc_element: museum_of_brest_history;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музей истории города Бреста является одним из крупнейших музеев в Беларуси,
+        посвященных истории города Бреста. Он располагается в здании бывшего княжеского
+        дворца и представляет богатую коллекцию артефактов, документов и экспонатов,
+        связанных с историей города. Музей позволяет посетителям узнать о различных 
+        периодах и событиях, которые сформировали историю Бреста.] (* <- lang_ru;; *);;
+		-> [The Brest City History Museum is one of the largest museums in Belarus dedicated
+        to the history of the city of Brest. Located in the former princely palace, 
+        it houses a rich collection of artifacts, documents, and exhibits related to
+        the city's history. The museum allows visitors to learn about various periods 
+        and events that have shaped the history of Brest.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Музей истории города Бреста)] (* <- lang_ru;; *);
+		[Def. (Brest City History Museum)] (* <- lang_en;; *);;
+*);;
