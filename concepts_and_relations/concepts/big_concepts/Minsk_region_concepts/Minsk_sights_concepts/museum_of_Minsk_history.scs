@@ -4,10 +4,9 @@ museum_of_Minsk_history
 
 => nrel_main_idtf:
     [Музей истории города Минска] (* <- lang_ru;;*);   
-    [Museum of Minsk history] (* <- lang_en;;*);;
-    
+    [Museum of Minsk history] (* <- lang_en;;*);;   
 
-definition -> definition_of_sights_of_Minsk_city (*
+definition -> definition_of_museum_of_Minsk_history (*
 	-> rrel_key_sc_element: museum_of_Minsk_history;;
 
 	<= nrel_sc_text_translation: ... (*

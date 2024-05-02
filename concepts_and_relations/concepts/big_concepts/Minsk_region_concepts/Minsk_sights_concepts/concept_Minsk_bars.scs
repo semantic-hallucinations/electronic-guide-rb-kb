@@ -5,7 +5,7 @@ concept_Minsk_bars
     [Bars of Minsk city] (* <- lang_en;;*);
     
 => nrel_belonging:
-    ...;;
+    bar_HookahPlace_Lounge_Bar;;
 
 definition -> definition_of_Minsk_bars (*
 	-> rrel_key_sc_element: concept_Minsk_bars;;

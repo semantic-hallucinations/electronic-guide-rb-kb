@@ -1,0 +1,32 @@
+bar_HookahPlace_Lounge_Bar
+
+<-concept_bar;
+
+=> nrel_main_idtf:
+    [Бар "HookahPlace Lounge Bar"] (* <- lang_ru;;*);   
+    ["HookahPlace Lounge Bar"] (* <- lang_en;;*);;   
+
+definition -> definition_of_bar_HookahPlace_Lounge_Bar (*
+	-> rrel_key_sc_element: bar_HookahPlace_Lounge_Bar;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> ["HookahPlace Lounge Bar" - это бар с уникальным форматом отдыха.
+      Заведение предлагает профессионально подобранный кальянный парк и
+      широкий выбор блюд европейской кухни с акцентом на гриль. 
+      Интерьер заведения объединяет промышленный стиль с элементами старинной мастерской,
+      создавая уникальную атмосферу. В зале можно насладиться живой музыкой
+      в стиле Lounge и авторскими DJ сетами,
+    а также провести время в игровых зонах с PS4 и настольными играми.] (* <- lang_ru;; *);;
+		-> ["HookahPlace Lounge Bar" is a bar with a unique concept inspired by
+     the finest traditions of HookahPlace™. The establishment offers a professionally curated
+      hookah selection and a wide range of European cuisine dishes with a focus on grilled items.
+       Its interior combines industrial style with elements of an old workshop, 
+       creating a distinctive atmosphere. Guests can enjoy live music
+        in the Lounge style and DJ sets, 
+    as well as spend time in gaming areas with PS4 consoles and tabletop games.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Бар "HookahPlace Lounge Bar")] (* <- lang_ru;; *);
+		[Def. ("HookahPlace Lounge Bar")] (* <- lang_en;; *);;
+*);;

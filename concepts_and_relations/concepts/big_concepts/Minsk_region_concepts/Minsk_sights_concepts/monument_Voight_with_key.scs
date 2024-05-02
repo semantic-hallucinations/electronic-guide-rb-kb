@@ -1,0 +1,26 @@
+monument_Voight_with_the_key
+
+<- concept_monument;
+
+=> nrel_main_idtf:
+    [Скульптура "Войт с ключом"] (* <- lang_ru;;*);
+    ["Voight with the Key" sculpture] (* <- lang_en;;*);;
+
+definition -> definition_of_monument_Voight_with_the_key (*
+    -> rrel_key_sc_element: monument_Voight_with_the_key;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Скульптура главы магистрата или "Войт с ключом". 
+        Скульптор С.Оганов, архитектор С.Багласов. 2014г.
+          Располагается у входа в Ратушу. У ног главы магистрата - план Минска XVI века.
+          Посвящена получению в 1499 году Минском Магдебурского права (право самоуправления).] (* <- lang_ru;;*);;
+        -> [Sculpture of the head of the magistrate or "Voin with the key".
+         Sculptor S. Oganov, architect S. Baglasov. 2014
+           Located at the entrance to the Town Hall. At the feet of the head of the magistrate is a plan of Minsk of the 16th century.
+           Dedicated to the acquisition of Magdeburg law (the right of self-government) by Minsk in 1499.] (* <- lang_en;;*);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (Скульптура "Войт с ключом")] (* <- lang_ru;;*);
+        [Def. ("Voight with the Key" sculpture)] (* <- lang_en;;*);;
+*);;

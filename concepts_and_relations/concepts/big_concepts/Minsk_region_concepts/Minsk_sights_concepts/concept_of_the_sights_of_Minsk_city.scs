@@ -12,7 +12,6 @@ concept_sights_of_Minsk_city
     concept_Minsk_theatres;
     concept_Minsk_museums;;
 
-
 definition -> definition_of_sights_of_Minsk_city (*
 	-> rrel_key_sc_element: concept_sights_of_Minsk_city;;
 

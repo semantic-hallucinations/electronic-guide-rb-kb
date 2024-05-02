@@ -1,0 +1,26 @@
+theater_Belarusian_National_Academic_Big_Theater
+
+<- concept_theater;
+
+=> nrel_main_idtf:
+    [Большой театр Беларуси] (* <- lang_ru;;*);
+    [Belarusian National Academic Big Theater] (* <- lang_en;;*);;
+
+definition -> definition_of_theater_Belarusian_National_Academic_Big_Theater (*
+    -> rrel_key_sc_element: theater_Belarusian_National_Academic_Big_Theater;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Большой театр Беларуси - это ведущий театр страны, расположенный в центре Минска
+         по адресу проспект Независимости, дом 1. В театре работают оперная и 
+         балетная труппы, симфонический оркестр, хор, Детский музыкальный театр-студия.
+           Это один из старейших и наиболее престижных театров в Беларуси.] (* <- lang_ru;;*);;
+        -> [The Bolshoi Theater of Belarus is the country's leading theater, located in the center of Minsk
+          at the address: Independence Avenue, building 1. The theater has an opera house and
+          ballet troupe, symphony orchestra, choir, Children's musical theater studio.
+            This is one of the oldest and most prestigious theaters in Belarus.] (* <- lang_en;;*);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (Большой театр Беларуси)] (* <- lang_ru;;*);
+        [Def. (Belarusian National Academic Big Theater)] (* <- lang_en;;*);;
+*);;
