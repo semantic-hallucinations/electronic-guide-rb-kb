@@ -1,2 +1,1 @@
-# electronic-guide-rb-kb
-Knowledge base for electronic guide to the Republic of Belarus
+# Branch of section subject domain of the Republic of Belarus
