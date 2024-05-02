@@ -2,23 +2,17 @@ concept_Brest_museums
 
 => nrel_main_idtf:
     [Музеи города Бреста] (* <- lang_ru;;*);   
-    [Sights of Brest city] (* <- lang_en;;*);
+    [Museums of Brest city] (* <- lang_en;;*);
     
 => nrel_belonging:
-    museum_memorial_complex_brest_hero_fortress;
-    museum_berestye;
-    museum_of_nemtsevichi_estate;
-    museum_of_brest_history;
-    museum_of_brest_railway;
-    museum_the_5th_fort;;
+    museum_of_Brest_history;;
 
-
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_Brest_museums (*
 	-> rrel_key_sc_element: concept_Brest_museums;;
 
 	<= nrel_sc_text_translation: ... (*
 		-> [Музеи города Бреста - все музеи, 
-    находящиеся на территории города Бреста. В Брестских музеях можно поближе познакомиться 
+    находящиеся на территории города Бреста. В минских музеях можно поближе познакомиться 
     с историей и культурой страны, а многие из них
      — архитектурные достопримечательности сами по себе.] (* <- lang_ru;; *);;
 		-> [Museums of the Brest city - all museums

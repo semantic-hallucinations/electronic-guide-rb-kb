@@ -25,15 +25,15 @@ definition -> definition_of_sights_of_Brest_city (*
 	-> rrel_key_sc_element: museum_the_5th_fort;;
 
 	<= nrel_sc_text_translation: ... (*
-		-> [Археологический музей «Берестье» – единственный в мире музей 
-        средневекового восточнославянского города, расположенный на месте детинца
-        древнего Берестья.] (* <- lang_ru;; *);;
-		-> [Archaeological Museum "Berestye" is the only museum in the
-        world of a medieval East Slavic city, located on the site of the ancient 
-        Berestye village.] (* <- lang_en;; *);;
+		-> [Форт № 5 — уникальный памятник русского фортификационного искусства конца XIX — начала XX веков.
+        Форт входил в число оборонительных объектов Брест-Литовской крепости второй линии.
+        Построен в 1880-е годы.] (* <- lang_ru;; *);;
+		-> [Fort No. 5 is a unique monument of Russian fortification art of the late 19th - early 20th centuries.
+        The fort was one of the defensive objects of the Brest-Litovsk Fortress of the second line.
+        Built in the 1880s.] (* <- lang_en;; *);;
 	*);;
 
   => nrel_main_idtf:
 		[Опр. (Музей «5 форт»)] (* <- lang_ru;; *);
-		[Def. (Brest Railway Museum)] (* <- lang_en;; *);;
+		[Def. (The 5th Fort)] (* <- lang_en;; *);;
 *);;

@@ -6,16 +6,13 @@ concept_sights_of_Brest_city
    city] (* <- lang_en;;*);
     
 => nrel_inclusion:
-    concept_Brest_bars;
-    concept_Brest_museums;
-    concept_Brest_monuments;
-    concept_Brest_restaraunts;
-    concept_Brest_theaters;
-    concept_Brest_cinemas;
-    concept_Brest_parks;
-    concept_Brest_librares;
-    concept_Brest_galleries;
-    concept_Brest_zooes;;
+
+  concept_Brest_bars;
+  concept_Brest_cinemas;
+  concept_Brest_galleries;
+  concept_Brest_monuments;
+  concept_Brest_theaters;
+  concept_Brest_museums;
 
 definition -> definition_of_sights_of_Brest_city (*
 	-> rrel_key_sc_element: concept_sights_of_Brest

@@ -35,5 +35,5 @@ definition -> definition_of_sights_of_Brest_city (*
 
   => nrel_main_idtf:
 		[Опр. (Археологический музей "Берестье")] (* <- lang_ru;; *);
-		[Def. (Brest Railway Museum)] (* <- lang_en;; *);;
+		[Def. (Berestye Archeological Museum)] (* <- lang_en;; *);;
 *);;

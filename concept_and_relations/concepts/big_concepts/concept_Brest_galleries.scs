@@ -1,0 +1,29 @@
+concept_Brest_galleries
+
+=> nrel_main_idtf:
+    [Галереи города Бреста] (* <- lang_ru;;*);
+    [Galleries of Brest city] (* <- lang_en;;*);
+
+=> nrel_belonging:
+    ...;;
+
+definition -> definition_of_Brest_galleries (*
+    -> rrel_key_sc_element: concept_Brest_galleries;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Галереи города Бреста - все галереи,
+         расположенные на территории города Бреста. Это места, где представлено разнообразие художественных
+          произведений, от классических картин до современных инсталляций. В галереях города Бреста
+           можно насладиться работами как местных, так и мировых художников, а также узнать больше
+            о местной художественной сцене и культуре.] (* <- lang_ru;;*);;
+        -> [Galleries of the city of Brest - all galleries,
+         located on the territory of the city of Brest. These are places where a variety of artistic works
+          are presented, from classical paintings to contemporary installations. In the galleries of Brest city,
+           you can enjoy works by both local and international artists, as well as learn more about
+            the local art scene and culture.] (* <- lang_en;;*);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (Галереи города Бреста)] (* <- lang_ru;;*);
+        [Def. (Galleries of the Brest city)] (* <- lang_en;;*);;
+*);;
