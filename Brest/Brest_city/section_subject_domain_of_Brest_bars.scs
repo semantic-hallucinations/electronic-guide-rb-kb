@@ -10,7 +10,8 @@ section_subject_domain_of_Brest_bars
             bar_coyote_club;
             bar_parubab;
             bar_pogrujenie;
-            bar_druft_house;;
+            bar_druft_house;
+	    bar_lobby;;
     <- atomic_section;;
 
 section_subject_domain_of_Brest_bars
@@ -32,5 +33,6 @@ section_subject_domain_of_Brest_bars
                 bar_coyote_club;
                 bar_parubab;
                 bar_pogrujenie;
-                bar_druft_house;;
+                bar_druft_house;
+		bar_lobby;;
     *];;
