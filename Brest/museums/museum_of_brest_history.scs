@@ -16,7 +16,7 @@ museum_of_brest_history
  (*
   -> rrel_example: "file://img/museum_of_brest_history.jpg"
   (*
-   => nrel_format: format_png;;
+   => nrel_format: format_jpg;;
   *);;
  *);;
 *);;

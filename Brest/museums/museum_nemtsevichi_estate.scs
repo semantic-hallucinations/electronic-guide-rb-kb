@@ -16,7 +16,7 @@ museum_of_nemtsevichi_estate
  (*
   -> rrel_example: "file://img/museum_of_nemtsevichi_estate.jpg"
   (*
-   => nrel_format: format_png;;
+   => nrel_format: format_jpg;;
   *);;
  *);;
 *);;

@@ -1,0 +1,43 @@
+bar_coyote_club
+
+<-concept_bar; 
+
+=> nrel_main_idtf:
+    [Бар Coyote Club Brest] (* <- lang_ru;;*);   
+    [Bar Coyote Club Brest] (* <- lang_en;;*);;
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:bar_coyote_club 
+  	[Бар Coyote Club Brest] (* <- lang_ru;; *);
+	[Bar Coyote Club Brest] (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/bar_coyote_club.jpg"
+  (*
+   => nrel_format: format_jpg;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_sights_of_Brest_city (*
+	-> rrel_key_sc_element: bar_coyote_club;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Бар Coyote Club Brest если любите международную кухню, обязательно загляните сюда. 
+        В Coyote закажите неплохие стейки. Из напитков здесь стоит 
+        попробовать хорошее бочковое пиво или вкусный виски. Уютная 
+        атмосфера этого места позволяет гостям отдохнуть после 
+        тяжелого дня.] (* <- lang_ru;; *);;
+		-> [Bar Coyote Club Brest If you like international cuisine, be sure to check it out.
+         Get some good steaks at Coyote. Of the drinks here it's worth
+         try good draft beer or delicious whiskey. Cozy
+         the atmosphere of this place allows guests to relax after
+         hard day.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Бар Coyote Club Brest)] (* <- lang_ru;; *);
+		[Def. (Bar Coyote Club Brest)] (* <- lang_en;; *);;
+*);;

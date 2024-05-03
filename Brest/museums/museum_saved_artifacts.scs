@@ -16,7 +16,7 @@ museum_saved_artifacts
  (*
   -> rrel_example: "file://img/museum_saved_artifacts.jpg"
   (*
-   => nrel_format: format_png;;
+   => nrel_format: format_jpg;;
   *);;
  *);;
 *);;

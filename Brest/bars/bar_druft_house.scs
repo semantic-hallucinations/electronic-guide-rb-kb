@@ -1,0 +1,37 @@
+bar_druft_house
+
+<-concept_bar; 
+
+=> nrel_main_idtf:
+    [Бар Druft House] (* <- lang_ru;;*);   
+    [Bar Druft House] (* <- lang_en;;*);;
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:bar_druft_house 
+  	[Бар Druft House] (* <- lang_ru;; *);
+	[Bar Druft House] (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/bar_druft_house.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_sights_of_Brest_city (*
+	-> rrel_key_sc_element: bar_druft_house;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Бар Druft House cтильный, но не вычурный интерьер, приятная обстановка, внимательное обслуживание. 
+        Очень вкусно и недорого.] (* <- lang_ru;; *);;
+		-> [Bar Druft House stylish but not pretentious interior, pleasant atmosphere, attentive service. 
+        Very tasty and inexpensive.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Бар Druft House)] (* <- lang_ru;; *);
+		[Def. (Bar Druft House)] (* <- lang_en;; *);;
+*);;

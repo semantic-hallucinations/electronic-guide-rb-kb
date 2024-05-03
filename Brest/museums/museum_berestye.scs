@@ -16,7 +16,7 @@ museum_berestye
  (*
   -> rrel_example: "file://img/museum_berestye.jpg"
   (*
-   => nrel_format: format_png;;
+   => nrel_format: format_jpg;;
   *);;
  *);;
 *);;
