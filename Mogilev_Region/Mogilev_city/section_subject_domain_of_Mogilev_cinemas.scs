@@ -1,0 +1,36 @@
+section_subject_domain_of_Mogilev_cinemas
+    => nrel_main_idtf:
+    [Раздел. Предметная область кинотеатры города Могилёв]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mogilev cinemas]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Mogilev_cinemas;
+	    Krasnaya_Zvezda_cinema_in_Mogilev;
+	    Starlight_cinema_in_Mogilev;
+	    Rodina_cinema_in_Mogilev;
+            Cosmos_cinema_in_Mogilev;
+    <- atomic_section;;
+
+section_subject_domain_of_Mogilev_cinemas
+    = [*
+        subject_domain_of_Mogilev_cinemas
+
+            => nrel_main_idtf:
+            [Предметная область кинотеатры города Могилёв]
+            (* <- lang_ru;;*);
+            [Subject domain of Mogilev cinemas]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mogilev_cinemas;
+
+            -> rrel_not_maximum_studied_object_class:
+                Krasnaya_Zvezda_cinema_in_Mogilev;
+	    	Starlight_cinema_in_Mogilev;
+	    	Rodina_cinema_in_Mogilev;
+            	Cosmos_cinema_in_Mogilev;;
+    *];;

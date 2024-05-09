@@ -1,0 +1,115 @@
+section_subject_domain_of_sights_of_Mogilev_region
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область достопримечательностей Могилёвской области]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of sights of Mogilev region]
+    (* <- lang_en;;*);
+
+    <= nrel_section_decomposition:
+    {
+        section_subject_domain_of_sights_of_Mogilev_city 
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Mogilev_city;;
+        *);
+        section_subject_domain_of_sights_of_Bobruisk_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Bobruisk_city;;
+        *);
+        section_subject_domain_of_sights_of_Osipovichi_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Osipovichi_city;;
+        *);
+        section_subject_domain_of_sights_of_Bykhov_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Bykhov_city;;
+        *);
+        section_subject_domain_of_sights_of_Gorki_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Gorki_city;;
+        *);
+        section_subject_domain_of_sights_of_Shklov_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Shklov_city;;
+        *);
+        section_subject_domain_of_sights_of_Byelynichi_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Byelynichi_city;;
+        *);
+        section_subject_domain_of_sights_of_Kirovsk_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Kirovsk_city;;
+        *);
+        section_subject_domain_of_sights_of_Krichev_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Krichev_city;;
+        *);
+        section_subject_domain_of_sights_of_Mstislavl_city
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_sights_of_Mstislavl_city;;
+        *)
+
+    };
+
+    -> rrel_key_sc_element:
+        concept_sights_of_Mogilev_region;
+        concept_sights_of_Mogilev_city;
+        concept_sights_of_Bobruisk_city;
+        concept_sights_of_Osipovichi_city;
+        concept_sights_of_Bykhov_city;
+        concept_sights_of_Gorki_city;
+        concept_sights_of_Shklov_city;
+        concept_sights_of_Byelynichi_city;
+        concept_sights_of_Kirovsk_city;
+        concept_sights_of_Mstislavl_city;
+
+    <- non_atomic_section;;
+
+section_subject_domain_of_sights_of_Mogilev_region 
+    = [*
+        subject_domain_of_sights_of_Mogilev_region
+
+            => nrel_main_idtf:
+            [Предметная область достопримечательностей Могилёвской области]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Mogilev region]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            => nrel_private_subject_domain:
+                subject_domain_of_sights_of_Mogilev_city;
+        	subject_domain_of_sights_of_Bobruisk_city;
+        	subject_domain_of_sights_of_Osipovichi_city;
+        	subject_domain_of_sights_of_Bykhov_city;
+        	subject_domain_of_sights_of_Gorki_city;
+        	subject_domain_of_sights_of_Shklov_city;
+        	subject_domain_of_sights_of_Byelynichi_city;
+        	subject_domain_of_sights_of_Kirovsk_city;
+        	subject_domain_of_sights_of_Mstislavl_city;
+
+            -> rrel_maximum_studied_object_class:
+                concept_sights_of_Mogilev_region;
+
+            -> rrel_not_maximum_studied_object_class:
+                concept_sights_of_Mogilev_city;
+        	concept_sights_of_Bobruisk_city;
+        	concept_sights_of_Osipovichi_city;
+        	concept_sights_of_Bykhov_city;
+        	concept_sights_of_Gorki_city;
+        	concept_sights_of_Shklov_city;
+        	concept_sights_of_Byelynichi_city;
+        	concept_sights_of_Kirovsk_city;
+        	concept_sights_of_Mstislavl_city;;
+            
+    *];;

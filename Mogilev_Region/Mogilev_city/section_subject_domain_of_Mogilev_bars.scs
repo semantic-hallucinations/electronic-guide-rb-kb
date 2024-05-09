@@ -1,0 +1,38 @@
+section_subject_domain_of_Mogilev_restaurants
+    => nrel_main_idtf:
+    [Раздел. Предметная область рестораны города Могилёв]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mogilev restaurants]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Mogilev_restaurants;
+            PARMESAN_Pizzeria_in_Mogilev;
+            Vasilki_in_Mogilev;
+            Restaurant_101_in_Mogilev;
+            Mr_Bulban_in_Mogilev;
+	    Beer_House_in_Mogilev;
+    <- atomic_section;;
+
+section_subject_domain_of_Mogilev_restaurants
+    = [*
+        subject_domain_of_Mogilev_restaurants
+
+            => nrel_main_idtf:
+            [Предметная область рестораны города Могилёв]
+            (* <- lang_ru;;*);
+            [Subject domain of of Mogilev restaurants]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mogilev_restaurants;
+
+            -> rrel_not_maximum_studied_object_class:
+                PARMESAN_Pizzeria_in_Mogilev;
+            	Vasilki_in_Mogilev;
+            	Restaurant_101_in_Mogilev;
+            	Mr_Bulban_in_Mogilev;
+	    	Beer_House_in_Mogilev;;
+    *];;

@@ -1,0 +1,39 @@
+section_subject_domain_of_Mogilev_historical_landmarks
+    => nrel_main_idtf:
+    [Раздел. Предметная область исторических достопримечательностей города Могилёв]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mogilev historical landmarks]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Mogilev_historical_landmarks;
+            Bishops_Palace_in_Mogilev;
+            Town_Hall_in_Mogilev;
+            Triumphal_Arch_in_Mogilev;
+            House_of_Soviets_in_Mogilev;
+            Star_Square_in_Mogilev;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Mogilev_historical_landmarks
+    = [*
+        subject_domain_of_Mogilev_historical_landmarks
+
+            => nrel_main_idtf:
+            [Предметная область исторических достопримечательностей города Могилёв]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Mogilev historical landmarks]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mogilev_historical_landmarks;
+
+            -> rrel_not_maximum_studied_object_class:
+                Bishops_Palace_in_Mogilev;
+            	Town_Hall_in_Mogilev;
+            	Triumphal_Arch_in_Mogilev;
+            	House_of_Soviets_in_Mogilev;
+            	Star_Square_in_Mogilev;;
+    *];;

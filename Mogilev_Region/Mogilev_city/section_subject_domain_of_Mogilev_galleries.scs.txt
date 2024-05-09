@@ -1,0 +1,30 @@
+section_subject_domain_of_Mogilev_galleries
+    => nrel_main_idtf:
+    [Раздел. Предметная область галереи города Бреста]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mogilev galleries]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Brest_galleries;
+            museum_memorial_complex_brest_hero_fortress;;
+    <- atomic_section;;
+
+section_subject_domain_of_Mogilev_galleries
+    = [*
+        subject_domain_of_Mogilev_galleries
+
+            => nrel_main_idtf:
+            [Предметная область галереи города Могилёв]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Mogilev city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mogilev_galleries;
+
+            -> rrel_not_maximum_studied_object_class:
+                museum_memorial_complex_brest_hero_fortress;;
+    *];;

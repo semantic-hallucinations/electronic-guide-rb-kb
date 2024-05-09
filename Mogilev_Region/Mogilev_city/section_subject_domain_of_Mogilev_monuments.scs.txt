@@ -1,0 +1,30 @@
+section_subject_domain_of_Mogilev_monuments
+    => nrel_main_idtf:
+    [Раздел. Предметная область памятники города Могилёв]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mogilev monuments]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Mogilev_monuments;
+            museum_memorial_complex_brest_hero_fortress;;
+    <- atomic_section;;
+
+section_subject_domain_of_Mogilev_monuments
+    = [*
+        subject_domain_of_Mogilev_monuments
+
+            => nrel_main_idtf:
+            [Предметная область памятники города Могилёв]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Mogilev city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Brest_monuments;
+
+            -> rrel_not_maximum_studied_object_class:
+                museum_memorial_complex_brest_hero_fortress;;
+    *];;
