@@ -1,0 +1,42 @@
+Lyubimoye_mesto_in_Bobruisk
+
+<-concept_restaurants; 
+
+=> nrel_main_idtf:
+    [Любимое место]
+    (* <- lang_ru;;*);
+    [Lyubimoye mesto]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Любимое место]
+    	(* <- lang_ru;;*);
+    	[Lyubimoye mesto]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Lyubimoye_mesto_in_Bobruisk.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Lyubimoye_mesto_in_Bobruisk (*
+	-> rrel_key_sc_element: Lyubimoye_mesto_in_Bobruisk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [ Любимое место" - уютное кафе в центре Бобруйска.
+Каждый наш гость может насладиться лучшим кофе в городе, горячими завтраками и бизнес-ланчами, вкусными блюдами и приятной музыкой. Широкий выбор десертов удовлетворит желания любого истинного гурмана. Мы ждем Вас на романтические свидание и бизнес-переговоры, для отдыха семьей и наслаждения одиночеством, на завтрак и кофе-паузу. Приветливый и дружелюбный персонал всегда рад каждому гостю!] (* <- lang_ru;; *);;
+		-> [Favorite place" - a cozy cafe in the center of Bobruisk.
+Each of our guests can enjoy the best coffee in the city, hot breakfasts and business lunches, delicious dishes and pleasant music. A wide selection of desserts will satisfy the desires of any true gourmet. We are waiting for you for a romantic date and business negotiations, for family relaxation and enjoying solitude, for breakfast and coffee breaks. Welcoming and friendly staff are always happy to welcome every guest!] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Любимое место)] (* <- lang_ru;; *);
+		[Def. (Lyubimoye mesto)] (* <- lang_en;; *);;
+*);;

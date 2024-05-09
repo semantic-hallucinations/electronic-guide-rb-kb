@@ -1,0 +1,40 @@
+PARMESAN_Pizzeria_in_Mogilev
+
+<-concept_restaurants; 
+
+=> nrel_main_idtf:
+    [ПАРМЕЗАН Пиццерия]
+    (* <- lang_ru;;*);
+    [PARMESAN Pizzeria]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[ПАРМЕЗАН Пиццерия]
+    	(* <- lang_ru;;*);
+    	[PARMESAN Pizzeria]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/PARMESAN_Pizzeria_in_Mogilev.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_PARMESAN_Pizzeria_in_Mogilev (*
+	-> rrel_key_sc_element: PARMESAN_Pizzeria_in_Mogilev;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [«Пармезан» - классическая пиццерия. Настоящая неаполитанская пицца более 20 видов, паста с морепродуктами, свежие и пахнущие весной салаты с оливковым маслом, итальянские десерты, приготовленные с любовью и чашечка ароматного кофе. Благородные сыры, свежая рукола и розмарин, сочные стейки из телятины, форели, тунца и бокал терпкого вина. Не случайно, кафе носит название, пожалуй, самого благородного итальянского сыра. -Богата и разнообразна винная карта. -Осуществляется ДОСТАВКА блюд по городу.] (* <- lang_ru;; *);;
+		-> [Parmesan is a classic pizzeria. Authentic Neapolitan pizza of more than 20 types, pasta with seafood, fresh and spring-scented salads with olive oil, Italian desserts prepared with love and a cup of aromatic coffee. Noble cheeses, fresh arugula and rosemary, juicy veal steaks, trout, tuna and a glass of tart wine. It is no coincidence that the cafe is named after perhaps the most noble Italian cheese. -The wine list is rich and varied. -DELIVERY of dishes throughout the city is carried out.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (ПАРМЕЗАН Пиццерия)] (* <- lang_ru;; *);
+		[Def. (PARMESAN Pizzeria)] (* <- lang_en;; *);;
+*);;

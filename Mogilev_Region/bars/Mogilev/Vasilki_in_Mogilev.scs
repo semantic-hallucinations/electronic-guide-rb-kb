@@ -1,0 +1,40 @@
+Vasilki_in_Mogilev
+
+<-concept_restaurants; 
+
+=> nrel_main_idtf:
+    [Васильки]
+    (* <- lang_ru;;*);
+    [Vasilki]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Васильки]
+    	(* <- lang_ru;;*);
+    	[Vasilki]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Vasilki_in_Mogilev.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Vasilki_in_Mogilev (*
+	-> rrel_key_sc_element: Vasilki_in_Mogilev;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Рестораны народной кухни «Васiлькi» ежедневно встречают Гостей белорусским радушием и гостеприимством, ведь это не только место, где можно вкусно поесть, но и то самое место, где можно отдохнуть душой и провести время в компании близких!] (* <- lang_ru;; *);;
+		-> [Folk cuisine restaurants "Vasilki" greet Guests every day with Belarusian cordiality and hospitality, because this is not only a place where you can eat deliciously, but also the very place where you can relax your soul and spend time in the company of loved ones!] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Васильки)] (* <- lang_ru;; *);
+		[Def. (Vasilki)] (* <- lang_en;; *);;
+*);;

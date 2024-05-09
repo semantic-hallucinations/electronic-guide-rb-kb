@@ -1,0 +1,40 @@
+Beer_House_in_Mogilev
+
+<-concept_restaurants; 
+
+=> nrel_main_idtf:
+    [Пивной Дом]
+    (* <- lang_ru;;*);
+    [Beer House]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Пивной Дом]
+    	(* <- lang_ru;;*);
+    	[Beer House]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Beer_House_in_Mogilev.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Beer_House_in_Mogilev (*
+	-> rrel_key_sc_element: Beer_House_in_Mogilev;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [ В гриль-баре «Пивной дом» можно взять с собой крафтовое пиво. В меню заведения большой ассортимент блюд и холодных закусок к пенному напитку. В баре проходят трансляции киберспортивных матчей. Возможно проведение мини-банкетов.] (* <- lang_ru;; *);;
+		-> [You can take craft beer with you at the Beer House Grill Bar. The restaurant's menu has a wide range of dishes and cold appetizers to go with your foamy drink. The bar hosts broadcasts of eSports matches. It is possible to hold mini-banquets.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Пивной Дом)] (* <- lang_ru;; *);
+		[Def. (Beer House)] (* <- lang_en;; *);;
+*);;

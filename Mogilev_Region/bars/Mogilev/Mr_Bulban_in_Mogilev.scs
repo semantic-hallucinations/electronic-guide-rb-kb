@@ -1,0 +1,40 @@
+Mr_Bulban_in_Mogilev
+
+<-concept_restaurants; 
+
+=> nrel_main_idtf:
+    [Пан Бульбан]
+    (* <- lang_ru;;*);
+    [Mr Bulban]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Пан Бульбан]
+    	(* <- lang_ru;;*);
+    	[Mr Bulban]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Mr_Bulban_in_Mogilev.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Mr_Bulban_in_Mogilev (*
+	-> rrel_key_sc_element: Mr_Bulban_in_Mogilev;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [«Пан Бульбан» — бистро традиционной белорусской кухни. В кафе можно отведать фирменный печеный картофель, вкуснейшие драники, горячие блинчики с разнообразными начинками, а также ароматные супы и сырники. Также можно взять еду и кофе на вынос.] (* <- lang_ru;; *);;
+		-> [“Pan Bulban” is a bistro of traditional Belarusian cuisine. In the cafe you can taste signature baked potatoes, delicious potato pancakes, hot pancakes with a variety of fillings, as well as aromatic soups and cheesecakes. You can also get food and coffee to go.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Пан Бульбан)] (* <- lang_ru;; *);
+		[Def. (Mr Bulban)] (* <- lang_en;; *);;
+*);;

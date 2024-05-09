@@ -1,0 +1,42 @@
+TiKava_in_Bobruisk
+
+<-concept_restaurants; 
+
+=> nrel_main_idtf:
+    [ТиКава]
+    (* <- lang_ru;;*);
+    [TiKava]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[ТиКава]
+    	(* <- lang_ru;;*);
+    	[TiKava]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/TiKava_in_Bobruisk.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_TiKava_in_Bobruisk (*
+	-> rrel_key_sc_element: TiKava_in_Bobruisk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [ Кафе "ТиКава" уникально расположено в историческом центре Бобруйска на пересечении Московской и Социалистической улицы. В меню представленная европейская кухня (закуски, салаты, горячие блюда, супы). Также каждое утро Вас ждет свежайшая крафтовая выпечка, большой выбор алкогольных и безалкогольных напитков. И, конечно, ароматный кофе.
+Маленьких гостей ждет игровая зона с развивающими игрушками, а также мягкие подоконники возле столиков.] (* <- lang_ru;; *);;
+		-> [Cafe "TiKava" is uniquely located in the historical center of Bobruisk at the intersection of Moskovskaya and Socialist streets. The menu features European cuisine (appetizers, salads, hot dishes, soups). Also, every morning you will find the freshest craft pastries, a large selection of alcoholic and non-alcoholic drinks. And, of course, aromatic coffee.
+Young guests will find a play area with educational toys, as well as soft window sills near the tables.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (ТиКава)] (* <- lang_ru;; *);
+		[Def. (TiKava)] (* <- lang_en;; *);;
+*);;
