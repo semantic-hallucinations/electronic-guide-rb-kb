@@ -1,0 +1,38 @@
+section_subject_domain_of_Mogilev_bars
+    => nrel_main_idtf:
+    [Раздел. Предметная область бары города Могилёв]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mogilev bars]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Mogilev_bars;
+            bar_coyote_club;
+            bar_parubab;
+            bar_pogrujenie;
+            bar_druft_house;
+	    bar_lobby;
+    <- atomic_section;;
+
+section_subject_domain_of_Mogilev_bars
+    = [*
+        subject_domain_of_Mogilev_bars
+
+            => nrel_main_idtf:
+            [Предметная область бары города Могилёв]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Mogilev city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mogilev_bars;
+
+            -> rrel_not_maximum_studied_object_class:
+                bar_coyote_club;
+                bar_parubab;
+                bar_pogrujenie;
+                bar_druft_house;
+		bar_lobby;;
+    *];;

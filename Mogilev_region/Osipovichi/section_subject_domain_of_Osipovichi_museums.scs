@@ -1,0 +1,31 @@
+section_subject_domain_of_Osipovichi_museums
+    => nrel_main_idtf:
+    [Раздел. Предметная область музеи города Осиповичи]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Osipovichi museums]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Osipovichi_museums;
+	    Osipovichi_District_Museum_of_History_and_Local_Lore;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Osipovichi_museums
+    = [*
+        subject_domain_of_Osipovichi_museums
+
+            => nrel_main_idtf:
+            [Предметная область музеев города Осиповичи]
+            (* <- lang_ru;;*);
+            [Subject domain of Osipovichi museums]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Osipovichi_museums;
+
+            -> rrel_not_maximum_studied_object_class:
+		Osipovichi_District_Museum_of_History_and_Local_Lore;;
+    *];;

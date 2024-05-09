@@ -1,0 +1,35 @@
+section_subject_domain_of_Mstislavl_museums
+    => nrel_main_idtf:
+    [Раздел. Предметная область музеи города Мстиславль]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mstislavl museums]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Bobruisk_museums;
+	    Castle_Hill_in_Mstislavl;
+            Mstislavsky_District_Historical_and_Archaeological_Museum;
+            house_museum_of_Maxim_Goretsky_in_Bogatkovka;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Mstislavl_museums
+    = [*
+        subject_domain_of_Mstislavl_museums
+
+            => nrel_main_idtf:
+            [Предметная область музеев города Мстиславль]
+            (* <- lang_ru;;*);
+            [Subject domain of Mstislavl museums]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mstislavl_museums;
+
+            -> rrel_not_maximum_studied_object_class:
+		Castle_Hill_in_Mstislavl;
+		house_museum_of_Maxim_Goretsky_in_Bogatkovka;
+                Mstislavsky_District_Historical_and_Archaeological_Museum;;
+    *];;

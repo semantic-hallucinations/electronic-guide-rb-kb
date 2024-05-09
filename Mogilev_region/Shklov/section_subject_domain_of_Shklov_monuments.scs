@@ -1,0 +1,30 @@
+section_subject_domain_of_Shklov_monuments
+    => nrel_main_idtf:
+    [Раздел. Предметная область памятники города Шклов]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Shklov monuments]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Shklov_monuments;
+            monument_to_cucumber_in_Shklov;
+    <- atomic_section;;
+
+section_subject_domain_of_Shklov_monuments
+    = [*
+        subject_domain_of_Shklov_monuments
+
+            => nrel_main_idtf:
+            [Предметная область памятники города Шклов]
+            (* <- lang_ru;;*);
+            [Subject domain of Shklov monuments]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Shklov_monuments;
+
+            -> rrel_not_maximum_studied_object_class:
+                monument_to_cucumber_in_Shklov;;
+    *];;

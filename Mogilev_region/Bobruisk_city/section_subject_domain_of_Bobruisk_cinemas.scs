@@ -1,0 +1,32 @@
+section_subject_domain_of_Bobruisk_cinemas
+    => nrel_main_idtf:
+    [Раздел. Предметная область кинотеатры города Бобруйск]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Bobruisk cinemas]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Bobruisk_cinemas;
+	    cinema_Mir_in_Bobruisk;
+            cinema_Tovarishch_in_Bobruisk;
+    <- atomic_section;;
+
+section_subject_domain_of_Bobruisk_cinemas
+    = [*
+        subject_domain_of_Bobruisk_cinemas
+
+            => nrel_main_idtf:
+            [Предметная область кинотеатры города Бобруйск]
+            (* <- lang_ru;;*);
+            [Subject domain of Bobruisk cinemas]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Bobruisk_cinemas;
+
+            -> rrel_not_maximum_studied_object_class:
+                cinema_Mir_in_Bobruisk;
+            	cinema_Tovarishch_in_Bobruisk;;
+    *];;

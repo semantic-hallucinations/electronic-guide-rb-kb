@@ -1,0 +1,35 @@
+section_subject_domain_of_Osipovichi_historical_landmarks
+    => nrel_main_idtf:
+    [Раздел. Предметная область исторических достопримечательностей города Осиповичи]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Osipovichi historical landmarks]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Osipovichi_historical_landmarks;
+            Zhuzhlyanka_settlement;
+            fortification_in_Zborsk;
+            Railway_station_in_Osipovichi;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Osipovichi_historical_landmarks
+    = [*
+        subject_domain_of_Osipovichi_historical_landmarks
+
+            => nrel_main_idtf:
+            [Предметная область исторических достопримечательностей города Осиповичи]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Osipovichi historical landmarks]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Osipovichi_historical_landmarks;
+
+            -> rrel_not_maximum_studied_object_class:
+                Zhuzhlyanka_settlement;
+            	fortification_in_Zborsk;
+            	Railway_station_in_Osipovichi;;
+    *];;
