@@ -1,0 +1,40 @@
+Holy_Vvedensky_Church_in_Osipovichi
+
+<-concept_temples; 
+
+=> nrel_main_idtf:
+    [Свято-Введенский храм в Осиповичах]
+    (* <- lang_ru;;*);
+    [Holy Vvedensky Church in Osipovichi]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Свято-Введенский храм в Осиповичах]
+    	(* <- lang_ru;;*);
+    	[Holy Vvedensky Church in Osipovichi]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Holy_Vvedensky_Church_in_Osipovichi.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Holy_Vvedensky_Church_in_Osipovichi (*
+	-> rrel_key_sc_element: Holy_Vvedensky_Church_in_Osipovichi;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [В 1992 году в ознаменование 120-летия Осипович было начато строительство Свято-Введенского храма – на выбранном и освященном месте установили крест и поставили камень.  3 июня 1993 года был совершен крестный ход и заложен камень в фундамент нового храма, который возводился на протяжении 7 лет. В честь 2000-летия от Рождества Христова храм был освящен его Высокопреосвященством Владыкой Максимом в сослужение духовенства Могилевской епархии.] (* <- lang_ru;; *);;
+		-> [In 1992, to commemorate the 120th anniversary of Osipovich, the construction of the Holy Vvedensky Church began - a cross was erected at the chosen and consecrated site and a stone was placed. On June 3, 1993, a religious procession was held and the foundation stone was laid for the new temple, which was built over the course of 7 years. In honor of the 2000th anniversary of the Nativity of Christ, the temple was consecrated by His Eminence Vladyka Maxim in the concelebration of the clergy of the Mogilev diocese.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Свято-Введенский храм в Осиповичах)] (* <- lang_ru;; *);
+		[Def. (Holy Vvedensky Church in Osipovichi)] (* <- lang_en;; *);;
+*);;

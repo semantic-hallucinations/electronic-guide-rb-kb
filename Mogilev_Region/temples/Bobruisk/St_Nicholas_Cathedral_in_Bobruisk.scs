@@ -1,0 +1,40 @@
+St_Nicholas_Cathedral_in_Bobruisk
+
+<-concept_temples; 
+
+=> nrel_main_idtf:
+    [Свято-Никольский кафедральный собор в Бобруйске]
+    (* <- lang_ru;;*);
+    [St. Nicholas Cathedral in Bobruisk]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Свято-Никольский кафедральный собор в Бобруйске]
+    	(* <- lang_ru;;*);
+    	[St. Nicholas Cathedral in Bobruisk]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/St_Nicholas_Cathedral_in_Bobruisk.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_St_Nicholas_Cathedral_in_Bobruisk (*
+	-> rrel_key_sc_element: St_Nicholas_Cathedral_in_Bobruisk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Храм в ретроспективно-русском стиле был возведен за счет казны и церковных пожертвований в 1892–1894 гг. В 1930-х с соборной колокольни сбросили стопудовый медный колокол, который вместе с крестами отправили на переплавку. В 1965 году в перестроенном до неузнаваемости культовом здании разместился бассейн – многие бобруйчане, любители плавания, зачастую даже не догадывались, что на облицованных кафельной плиткой колоннах и заштукатуренных стенах сохранились фрески ХIХ века. Второе рождение памятника произошло в 2002 году: его возвратили верующим и начали освобождать от безобразной кирпичной надстройки – так, чтобы облик соответствовал старинным чертежам. Наружная реконструкция собора в честь Святого Николая Чудотворца была завершена в 2007-м, когда вознесся ввысь на 32 метра шпиль церковной колокольни. На сегодняшний день этот храм является одним из самых крупных в Могилевской области, центром образованной в 2004 году Бобруйско-Быховской православной епархии.] (* <- lang_ru;; *);;
+		-> [The temple in the retrospective Russian style was erected at the expense of the treasury and church donations in 1892–1894. In the 1930s, a hundred-pound copper bell was thrown from the cathedral bell tower, which, along with the crosses, was sent for melting down. In 1965, the iconic building, rebuilt beyond recognition, housed a swimming pool - many Bobruisk residents and swimming enthusiasts often did not even realize that frescoes from the 19th century were preserved on the tiled columns and plastered walls. The rebirth of the monument occurred in 2002: it was returned to believers and they began to free it from the ugly brick superstructure - so that the appearance corresponded to the ancient drawings. The external reconstruction of the cathedral in honor of St. Nicholas the Wonderworker was completed in 2007, when the spire of the church bell tower rose 32 meters high. Today this temple is one of the largest in the Mogilev region, the center of the Bobruisk-Bykhov Orthodox diocese formed in 2004.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Свято-Никольский кафедральный собор в Бобруйске)] (* <- lang_ru;; *);
+		[Def. (St. Nicholas Cathedral in Bobruisk)] (* <- lang_en;; *);;
+*);;

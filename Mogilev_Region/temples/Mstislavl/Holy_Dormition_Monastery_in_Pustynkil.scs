@@ -1,0 +1,41 @@
+Holy_Dormition_Monastery_in_Pustynkil
+
+<-concept_temples; 
+
+=> nrel_main_idtf:
+    [Свято-Успенский мужской монастырь в Пустынках]
+    (* <- lang_ru;;*);
+    [Holy Dormition Monastery in Pustynki]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Свято-Успенский мужской монастырь в Пустынках]
+    	(* <- lang_ru;;*);
+    	[Holy Dormition Monastery in Pustynki]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Holy_Dormition_Monastery_in_Pustynkil.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Holy_Dormition_Monastery_in_Pustynkil (*
+	-> rrel_key_sc_element: Holy_Dormition_Monastery_in_Pustynkil;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Пустынский монастырь – старейшая православная обитель Могилевщины, основанная в 1380 году мстиславским князем Симеоном Ольгердовичем. Монастырь расположен в 12 км от Мстиславля и всего в полукилометре от границы с Россией – в местечке Пустынки. Существует легенда, что князь Симеон после тяжелой болезни стал плохо видеть, и зрение его все ухудшалось. Однажды во сне ему явился старец и сказал: «Иди в пустынь, умойся из источника и получишь исцеление». Князь нашел пустынь и источник в живописном месте неподалеку от Мстиславля. Зрение к нему вернулось, и он в благодарность построил рядом с источником монастырь, а к исцеляющему роднику потянулись верующие со всей округи. В XVI веке Пустынский монастырь был одним из крупнейших на восточно-белорусских землях. В 1605 году монастырь стал униатским. В 1801–1808 гг. на месте деревянных построек храма появился каменный Успенский собор. В 1925-м новые власти выселили монахов из обители, а все имущество, в том числе иконы, было конфисковано. В кельях разместили детей-сирот – так появился Пустынский детский дом, благодаря чему постройки монастыря сохранились еще на несколько десятилетий. К началу нового тысячелетия от монастыря почти ничего не осталось. По одной из версий, его взорвали немцы, по другой – варварски разрушили в советское время. Работы по восстановлению Пустынского монастыря были начаты в 2003 году и ведутся до сих пор. Воду в местном источнике считают чудотворной; летом монастырь посещают до 1000 паломников.
+] (* <- lang_ru;; *);;
+		-> [Pustynsky Monastery is the oldest Orthodox monastery in the Mogilev region, founded in 1380 by the Mstislav prince Simeon Olgerdovich. The monastery is located 12 km from Mstislavl and just half a kilometer from the border with Russia - in the town of Pustynki. There is a legend that Prince Simeon, after a serious illness, began to see poorly, and his vision was deteriorating. One day an old man appeared to him in a dream and said: “Go to the desert, wash yourself from the spring and you will receive healing.” The prince found a desert and a spring in a picturesque place not far from Mstislavl. His vision returned, and in gratitude he built a monastery next to the spring, and believers from all over the area flocked to the healing spring. In the 16th century, the Pustynsky Monastery was one of the largest in the eastern Belarusian lands. In 1605 the monastery became Uniate. In 1801–1808 On the site of the wooden buildings of the temple, a stone Assumption Cathedral appeared. In 1925, the new authorities evicted the monks from the monastery, and all property, including icons, was confiscated. Orphans were placed in the cells - this is how the Pustynsky orphanage appeared, thanks to which the buildings of the monastery were preserved for several more decades. By the beginning of the new millennium, almost nothing remained of the monastery. According to one version, it was blown up by the Germans; according to another, it was barbarically destroyed in Soviet times. Work to restore the Pustynsky Monastery began in 2003 and is still ongoing. The water in the local spring is considered miraculous; In summer, up to 1000 pilgrims visit the monastery.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Свято-Успенский мужской монастырь в Пустынках)] (* <- lang_ru;; *);
+		[Def. (Holy Dormition Monastery in Pustynki)] (* <- lang_en;; *);;
+*);;

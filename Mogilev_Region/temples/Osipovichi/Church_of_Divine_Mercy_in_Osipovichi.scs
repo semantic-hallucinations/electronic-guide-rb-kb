@@ -1,0 +1,40 @@
+Church_of_Divine_Mercy_in_Osipovichi
+
+<-concept_temples; 
+
+=> nrel_main_idtf:
+    [Костел Божьего Милосердия в Осиповичах]
+    (* <- lang_ru;;*);
+    [Church of Divine Mercy in Osipovichi]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Костел Божьего Милосердия в Осиповичах]
+    	(* <- lang_ru;;*);
+    	[Church of Divine Mercy in Osipovichi]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Church_of_Divine_Mercy_in_Osipovichi.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Church_of_Divine_Mercy_in_Osipovichi (*
+	-> rrel_key_sc_element: Church_of_Divine_Mercy_in_Osipovichi;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Римско-католический костел Божьего Милосердия в Осиповичах построен в 2005 году. Приход, основанный здесь в ХХ в., «разделил судьбы остальных» и был возрожден только в 90-ых гг. прошлого века. Тогда в городе была построена часовня, а в 1999 г. началось возведение нового храма. Освящение костела титулом Божьего Милосердия состоялось в 2013 году Митрополитом Тадеушем Кондрусевичем.] (* <- lang_ru;; *);;
+		-> [The Roman Catholic Church of Divine Mercy in Osipovichi was built in 2005. The parish, founded here in the twentieth century, “shared the fate of the others” and was revived only in the 90s. last century. Then a chapel was built in the city, and in 1999 the construction of a new temple began. The consecration of the church with the title of Divine Mercy took place in 2013 by Metropolitan Tadeusz Kondrusiewicz.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Костел Божьего Милосердия в Осиповичах)] (* <- lang_ru;; *);
+		[Def. (Church of Divine Mercy in Osipovichi)] (* <- lang_en;; *);;
+*);;
