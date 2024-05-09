@@ -1,0 +1,40 @@
+Town_Hall_in_Shklov
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [Ратуша в Шклове]
+    (* <- lang_ru;;*);
+    [Town Hall in Shklov]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Ратуша в Шклове]
+    	(* <- lang_ru;;*);
+    	[Town Hall in Shklov]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Town_Hall_in_Shklov.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Town_Hall_in_Shklov (*
+	-> rrel_key_sc_element: Town_Hall_in_Shklov;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ратуша, построенная в стиле классицизма, появилась в Шклове в конце XVIII века. Она является главной достопримечательностью города и уникальным объектом для всей Беларуси. Шклов получил магдебургское право в 70-х годах XVI века. Но только в конце XVIII столетия местечко начало превращаться в организованное поселение, появился проект его застройки. Центральная площадь отводилась под рынок. Город начал отстраиваться именно с этого участка, и здесь в скором времени вместе с торговыми рядами выросла каменная ратуша. Шкловская ратуша была построена в традиционной для Беларуси форме: двухэтажная основа перерастала в башню с часами и шпилем. Однако это все же исключительный объект, поскольку в Беларуси сохранилось всего семь построек такого типа. Ратуша и примыкающие к ней торговые ряды образовывали прямоугольный двор. Вся застройка была отреставрирована в 1999 году. Сейчас в историческом здании располагаются гимназия и историко-краеведческий музей; экскурсии по нему зачастую проводят сами школьники. Любопытно, что шкловская достопримечательность внесена даже в каталог памятников мировой архитектуры, изданный в США.] (* <- lang_ru;; *);;
+		-> [The town hall, built in the classicist style, appeared in Shklov at the end of the 18th century. It is the main attraction of the city and a unique object for the whole of Belarus. Shklov received Magdeburg law in the 70s of the 16th century. But only at the end of the 18th century the town began to turn into an organized settlement, and a project for its development appeared. The central square was allocated for the market. The city began to be rebuilt from this site, and a stone town hall soon grew here along with the shopping arcades. The Shklov Town Hall was built in the traditional form for Belarus: a two-story base grew into a tower with a clock and a spire. However, this is still an exceptional object, since only seven buildings of this type have survived in Belarus. The town hall and the adjacent shopping arcades formed a rectangular courtyard. The entire building was restored in 1999. Now the historical building houses a gymnasium and a local history museum; excursions around it are often conducted by schoolchildren themselves. It is curious that the Shklov landmark is even included in the catalog of world architectural monuments published in the USA.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Ратуша в Шклове)] (* <- lang_ru;; *);
+		[Def. (Town Hall in Shklov)] (* <- lang_en;; *);;
+*);;

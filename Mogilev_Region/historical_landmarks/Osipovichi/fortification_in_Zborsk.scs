@@ -1,0 +1,40 @@
+fortification_in_Zborsk
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [Городище в Зборске]
+    (* <- lang_ru;;*);
+    [Settlement in Zborsk]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Городище в Зборске]
+    	(* <- lang_ru;;*);
+    	[Settlement in Zborsk]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/fortification_in_Zborsk.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_fortification_in_Zborsk (*
+	-> rrel_key_sc_element: fortification_in_Zborsk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Городище в Зборске расположено на южной окраине этой деревни. Оно занимает мыс, образованный Свислочью и впадающим в нее безымянным ручьем. Проведенные раскопки позволили установить, что в разное время здесь проживали представители милоградской и зарубинецкой культур, а также культуры штриховой керамики. Последний слой относится к эпохе Киевской Руси. Городище в Зборске состоит из двух площадок, разделенных земляным валом, чья высота достигает 2 м. Оно является памятником археологии. ] (* <- lang_ru;; *);;
+		-> [The settlement in Zborsk is located on the southern outskirts of this village. It occupies a cape formed by the Svisloch River and an unnamed stream flowing into it. The excavations made it possible to establish that at different times representatives of the Milograd and Zarubinets cultures, as well as the culture of lined ceramics, lived here. The last layer dates back to the era of Kievan Rus. The settlement in Zborsk consists of two platforms separated by an earthen rampart, whose height reaches 2 m. It is an archaeological monument.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Городище в Зборске)] (* <- lang_ru;; *);
+		[Def. (Settlement in Zborsk)] (* <- lang_en;; *);;
+*);;

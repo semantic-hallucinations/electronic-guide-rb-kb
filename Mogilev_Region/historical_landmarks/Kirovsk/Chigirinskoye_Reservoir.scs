@@ -1,0 +1,42 @@
+Chigirinskoye_Reservoir
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [Чигиринское водохранилище]
+    (* <- lang_ru;;*);
+    [Chigirinskoye Reservoir]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Чигиринское водохранилище]
+    	(* <- lang_ru;;*);
+    	[Chigirinskoye Reservoir]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Chigirinskoye_Reservoir.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Chigirinskoye_Reservoir (*
+	-> rrel_key_sc_element: Chigirinskoye_Reservoir;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Этот искусственный водоем находится на границе Быховского и Кировского районов Могилевской области. На карте Беларуси он появился в 1960 году после того, как на реке Друть была построена плотина. Основной целью создания Чигиринского водохранилища было обеспечение работы одноименной гидроэлектростанции. Кроме того, на этом водоеме созданы условия для занятия активными видами отдыха, включая гребные и водомоторные виды спорта. Кроме того, Чигиринское водохранилище очень популярно среди рыбаков: здесь проводятся соревнования по различным видам ловли (причем как районного и республиканского, так и международного уровня). Берега этого водоема в восточной части высокие, обрывистые, а в западной – более пологие. Дно представляет собой бывшую пойму реки Друть, которая после подъема уровня воды оказалась затопленной и постепенно заилилась. Общая площадь водного зеркала составляет 21,1 км2, что делает Чигиринское водохранилище одним из самых больших на территории Беларуси, максимальная глубина превышает 8 м. По всему периметру данного водоема расположены санатории, базы отдыха и другие объекты, относящиеся к рекреационной инфраструктуре. В то же самое время Чигиринское водохранилище является важным местом отдыха для мигрирующих водно-болотных птиц. Часть из них остается на зимовку. Именно здесь в 2016 году впервые на территории Беларуси был отмечен кудрявый пеликан. Чигиринское водохранилище также известно как место проведения Большой бард-рыбалки. На этот фестиваль авторской песни собираются исполнители из ближнего и дальнего зарубежья. 
+] (* <- lang_ru;; *);;
+		-> [Перевод
+This artificial reservoir is located on the border of the Bykhovsky and Kirovsky districts of the Mogilev region. It appeared on the map of Belarus in 1960 after a dam was built on the Drut River. The main purpose of creating the Chigirinsky reservoir was to ensure the operation of the hydroelectric power station of the same name. In addition, this reservoir has created conditions for active recreation, including rowing and water-motor sports. In addition, the Chigirinskoye Reservoir is very popular among fishermen: competitions in various types of fishing are held here (both at the regional and republican, as well as at the international level). The banks of this reservoir in the eastern part are high and steep, and in the western part they are flatter. The bottom represents the former floodplain of the Drut River, which, after the water level rose, became flooded and gradually silted up. The total area of ​​the water surface is 21.1 km2, which makes the Chigirinskoe reservoir one of the largest in Belarus, the maximum depth exceeds 8 m. Sanatoriums, recreation centers and other recreational infrastructure facilities are located along the entire perimeter of this reservoir. At the same time, the Chigirinskoye Reservoir is an important resting place for migratory waterbirds. Some of them remain for the winter. It was here in 2016 that the Dalmatian Pelican was recorded for the first time in Belarus. The Chigirinskoye Reservoir is also known as the site of the Great Bard Fishing. This art song festival brings together performers from near and far abroad.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Чигиринское водохранилище)] (* <- lang_ru;; *);
+		[Def. (Chigirinskoye Reservoir)] (* <- lang_en;; *);;
+*);;

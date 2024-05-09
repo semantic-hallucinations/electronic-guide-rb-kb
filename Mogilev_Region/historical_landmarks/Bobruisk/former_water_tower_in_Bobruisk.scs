@@ -1,0 +1,40 @@
+former_water_tower_in_Bobruisk
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [бывшая водонапорная башня в Бобруйске]
+    (* <- lang_ru;;*);
+    [former water tower in Bobruisk]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[бывшая водонапорная башня в Бобруйске]
+    	(* <- lang_ru;;*);
+    	[former water tower in Bobruisk]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/former_water_tower_in_Bobruisk.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_former_water_tower_in_Bobruisk (*
+	-> rrel_key_sc_element: former_water_tower_in_Bobruisk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Эта башня из красного кирпича была сооружена в 1927 году. После того как несколько лет назад в ней устроили ресторан «Чырвоная вежа», постройка стала его украшением. И не только: когда на верхнем ярусе башни установили часы, жители окрестных улиц стали сверять по ним точное бобруйское время. А внутри «вежы» специально сохранили стальной бак — главную часть водонапорного механизма, так что в случае надобности сооружение сможет, как когда-то, обеспечивать город водой.] (* <- lang_ru;; *);;
+		-> [This red brick tower was built in 1927. After the restaurant “Chyrvonaya Vezha” was opened there a few years ago, the building became its decoration. And not only that: when a clock was installed on the upper tier of the tower, residents of the surrounding streets began to check the exact Bobruisk time using it. And inside the “vezha” they specially preserved a steel tank - the main part of the water-pressure mechanism, so that if necessary, the structure will be able, as it once was, to provide the city with water.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (бывшая водонапорная башня в Бобруйске)] (* <- lang_ru;; *);
+		[Def. (former water tower in Bobruisk)] (* <- lang_en;; *);;
+*);;

@@ -1,0 +1,40 @@
+sports_complex_Bobruisk_arena
+
+    <-concept_historical_landmarks; 
+    
+    => nrel_main_idtf:
+    [Спортивный комплекс «Бобруйск-Арена»]
+    (* <- lang_ru;;*);
+    [Sports complex "Bobruisk-Arena"]
+    (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+ 	<- illustration;;
+	=> nrel_main_idtf:
+  	[Спортивный комплекс «Бобруйск-Арена»]
+    	(* <- lang_ru;;*);
+    	[Sports complex "Bobruisk-Arena"]
+    	(* <- lang_en;;*);;
+
+ 	<= nrel_sc_text_translation: ...
+ 	(*
+  	-> rrel_example: "file://img/sports_complex_Bobruisk_arena.png"
+  	(*
+   	=> nrel_format: format_png;;
+  	*);;
+ 	*);;
+    *);;
+
+definition -> definition_of_sports_complex_Bobruisk_arena (*
+	-> rrel_key_sc_element: sports_complex_Bobruisk_arena;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Спортивный комплекс «Бобруйск-Арена» был построен в 2008 году. Его основой является хоккейная площадка, на которой выступает клуб «Бобруйск», представляющий город в Высшей лиге Беларуси. Она соответствует всем стандартам ИИХФ, что позволяет проводить на «Бобруйск-Арене» в том числе и матчи национальной соборной. Кроме того, она используется для тренировок и соревнований по другим ледовым видам спорта (в остальное время здесь организуется массовое катание на коньках, а также проводятся концерты и другие культурные мероприятия). Само здание «Бобруйск-Арены», которое является образцом современной архитектуры, имеет круглую форму. Его диаметр составляет 118,8 м, а трибуны могут вместить более 7 тыс. болельщиков.] (* <- lang_ru;; *);;
+		-> [The Bobruisk Arena sports complex was built in 2008. Its basis is the hockey rink, where the Bobruisk club plays, representing the city in the Major League of Belarus. It meets all IIHF standards, which makes it possible to hold matches of the national cathedral at the Bobruisk Arena. In addition, it is used for training and competitions in other ice sports (at other times, public ice skating is organized here, as well as concerts and other cultural events). The Bobruisk Arena building itself, which is an example of modern architecture, has a round shape. Its diameter is 118.8 m, and the stands can accommodate more than 7 thousand fans.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Спортивный комплекс «Бобруйск-Арена»)] (* <- lang_ru;; *);
+		[Def. (Sports complex "Bobruisk-Arena")] (* <- lang_en;; *);;
+*);;

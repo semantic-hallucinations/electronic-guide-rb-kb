@@ -1,0 +1,40 @@
+House_of_Soviets_in_Mogilev
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [ом Советов в Могилеве]
+    (* <- lang_ru;;*);
+    [House of Soviets in Mogilev]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[ом Советов в Могилеве]
+    	(* <- lang_ru;;*);
+    	[House of Soviets in Mogilev]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/House_of_Soviets_in_Mogilev.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_House_of_Soviets_in_Mogilev (*
+	-> rrel_key_sc_element: House_of_Soviets_in_Mogilev;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [В 1937 году руководители БССР обратились в Кремль с предложением перенести столицу республики из Минска в Могилев. Это объяснялось близостью Минска к польской границе, да и тем, что город был слабо связан железнодорожными и шоссейными магистралями с другими центрами Союза. Изначально предполагаемую столицу собирались отстраивать с нуля: перечень новых объектов занял 12 страниц. Сталин идею хоть и одобрил, но масштабы действий уменьшил. В любом случае в числе новых построек остался Дом Советов. Здание начали возводить в 1938 году. Архитектором был Иосиф Лангбард, автор проекта Дома правительства в Минске, построенного несколько ранее. В Могилеве было решено поставить уменьшенную копию минского здания. Буквально через пару лет постройка была завершена. Но в 1939 году граница государства сдвинулась на целых триста километров, и необходимость в переносе столицы отпала сама собой. Сегодня в несостоявшемся Доме Советов расположен Могилевский облисполком.] (* <- lang_ru;; *);;
+		-> [In 1937, the leaders of the BSSR turned to the Kremlin with a proposal to move the capital of the republic from Minsk to Mogilev. This was explained by the proximity of Minsk to the Polish border, and also by the fact that the city was weakly connected by railways and highways with other centers of the Union. Initially, the proposed capital was going to be rebuilt from scratch: the list of new objects took 12 pages. Although Stalin approved the idea, he reduced the scale of action. In any case, the House of Soviets remained among the new buildings. Construction of the building began in 1938. The architect was Joseph Langbard, the author of the project for the Government House in Minsk, built a little earlier. It was decided to erect a smaller copy of the Minsk building in Mogilev. Literally a couple of years later the construction was completed. But in 1939, the state border moved as much as three hundred kilometers, and the need to move the capital disappeared by itself. Today, the Mogilev Regional Executive Committee is located in the failed House of Soviets.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (ом Советов в Могилеве)] (* <- lang_ru;; *);
+		[Def. (House of Soviets in Mogilev)] (* <- lang_en;; *);;
+*);;

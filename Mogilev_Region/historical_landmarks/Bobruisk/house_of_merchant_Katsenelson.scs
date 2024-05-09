@@ -1,0 +1,40 @@
+house_of_merchant_Katsenelson
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [Дом купчихи Катценельсон]
+    (* <- lang_ru;;*);
+    [House of merchant Katsenelson]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Дом купчихи Катценельсон]
+    	(* <- lang_ru;;*);
+    	[House of merchant Katsenelson]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/house_of_merchant_Katsenelson.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_sights_of_house_of_merchant_Katsenelson (*
+	-> rrel_key_sc_element: house_of_merchant_Katsenelson;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [В 1912 году на Присутственной (ныне Интернациональной) улице появился деревянный особняк с мезонином, принадлежавший купчихе 1-й гильдии Пае-Брайне Каценельсон. Говорят, она вывезла этот приглянувшийся ей домик в стиле модерн из Прибалтики, а затем его, словно конструктор, собрали уже на бобруйской земле. Впрочем, Каценельсон, занимавшаяся торговлей лесом, вполне могла реализовать подобный каприз, ибо принадлежала к числу богатейших людей Беларуси начала XX века. В 1901 году оборот ее фирмы составлял два миллиона рублей в год, а фамилия Каценельсон была хорошо известна за пределами империи, в частности, на английском рынке. Незадолго до революции купчиха сдала свой дом в аренду полицейской управе, а сама переехала в Петербург, поближе к сыну Нисону — доктору философии, депутату российской Государственной думы, будущему директору Еврейского колониального банка в Лондоне. В 1918 году в особняке разместился уездный ревком — временный чрезвычайный орган местной власти, а в наши дни тут работает центральная районная библиотека.] (* <- lang_ru;; *);;
+		-> [In 1912, a wooden mansion with a mezzanine appeared on Prisutstvennaya (now International) Street, which belonged to the merchant of the 1st Guild Pae-Brine Katsenelson. They say that she took this house in the Art Nouveau style that she liked from the Baltics, and then, like a construction set, it was assembled on Bobruisk soil. However, Katsenelson, who was engaged in the timber trade, could well have realized such a whim, because she belonged to the richest people in Belarus at the beginning of the 20th century. In 1901, her company's turnover was two million rubles a year, and the Katsenelson surname was well known outside the empire, in particular in the English market. Shortly before the revolution, the merchant's wife rented out her house to the police department, and she moved to St. Petersburg, closer to her son Neeson, Ph.D., deputy of the Russian State Duma, future director of the Jewish Colonial Bank in London. In 1918, the mansion housed the county revolutionary committee, a temporary emergency body of local government, and today the central regional library operates here.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Дом купчихи Катценельсон)] (* <- lang_ru;; *);
+		[Def. (House of merchant Katsenelson)] (* <- lang_en;; *);;
+*);;

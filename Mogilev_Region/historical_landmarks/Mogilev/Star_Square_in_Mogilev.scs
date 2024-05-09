@@ -1,0 +1,40 @@
+Star_Square_in_Mogilev
+
+<-concept_historical_landmarks; 
+
+=> nrel_main_idtf:
+    [Площадь звезд в Могилеве]
+    (* <- lang_ru;;*);
+    [Star Square in Mogilev]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Площадь звезд в Могилеве]
+    	(* <- lang_ru;;*);
+    	[Star Square in Mogilev]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Star_Square_in_Mogilev.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Star_Square_in_Mogilev (*
+	-> rrel_key_sc_element: Star_Square_in_Mogilev;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [ Площадь звезд находится в историческом центре Могилева. Появилась она в 2004 году и является оригинальным украшением города. В центре расположена композиция «Звездочет», выполненная по проекту известного белорусского скульптора Владимира Жбанова. На высоком стуле сидит задумчивый звездочет и указывает пальцем в небо. Рядом с ним стоит телескоп, который представляет собой стрелку-указатель солнечных часов. Вокруг памятника – 12 стульев, каждый из которых соответствует определенному знаку зодиака. Одновременно площадь является местной «аллеей славы», так как здесь увековечены имена почетных граждан Могилевщины, среди них спортсмены, музыканты, ученые. Каждый год список пополняется несколькими именами.] (* <- lang_ru;; *);;
+		-> [The Square of Stars is located in the historical center of Mogilev. It appeared in 2004 and is an original decoration of the city. In the center is the composition “Stargazer”, designed by the famous Belarusian sculptor Vladimir Zhbanov. A thoughtful astrologer sits on a high chair and points his finger to the sky. Next to it stands a telescope, which is a sundial pointer. There are 12 chairs around the monument, each of which corresponds to a specific zodiac sign. At the same time, the square is a local “walk of fame”, since the names of honorary citizens of the Mogilev region are immortalized here, among them athletes, musicians, and scientists. Every year the list is replenished with several names.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Площадь звезд в Могилеве)] (* <- lang_ru;; *);
+		[Def. (Star Square in Mogilev)] (* <- lang_en;; *);;
+*);;
