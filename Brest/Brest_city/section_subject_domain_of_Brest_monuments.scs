@@ -5,11 +5,9 @@ section_subject_domain_of_Brest_monuments
     [Section. Subject domain of Brest monuments]
     (* <- lang_en;;*);
 
-    -> rrel_key_sc_element:
+    -> nrel_belonging:
         concept_Brest_monuments;
             museum_memorial_complex_brest_hero_fortress;;
-    <- atomic_section;;
-
 section_subject_domain_of_Brest_monuments
     = [*
         subject_domain_of_Brest_monuments

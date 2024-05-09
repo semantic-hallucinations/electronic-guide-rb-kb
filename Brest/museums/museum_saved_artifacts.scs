@@ -6,22 +6,22 @@ museum_saved_artifacts
     [Музей «Спасённые художественные ценности»] (* <- lang_ru;;*);   
     [Saved Artifacts Museum] (* <- lang_en;;*);;
 
-<- rrel_key_sc_element: ...
-(*
- <- illustration;;
- => nrel_main_idtf:museum_saved_artifacts 
-  	[Музей «Спасённые художественные ценности»] (* <- lang_ru;; *);
-	[Saved Artifacts Museum] (* <- lang_en;; *);;
- <= nrel_sc_text_translation: ...
- (*
-  -> rrel_example: "file://img/museum_saved_artifacts.jpg"
-  (*
-   => nrel_format: format_jpg;;
-  *);;
- *);;
-*);;
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:museum_saved_artifacts 
+//   	[Музей «Спасённые художественные ценности»] (* <- lang_ru;; *);
+// 	[Saved Artifacts Museum] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/museum_saved_artifacts.jpg"
+//   (*
+//    => nrel_format: format_jpg;;
+//   *);;
+//  *);;
+// *);;
 
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_smuseum_saved_artifacts (*
 	-> rrel_key_sc_element: museum_saved_artifacts;;
 
 	<= nrel_sc_text_translation: ... (*

@@ -5,22 +5,22 @@ bar_lobby
     [Lobby Бар] (* <- lang_ru;;*);   
     [Lobby Bar] (* <- lang_en;;*);;
 
-<- rrel_key_sc_element: ...
-(*
- <- illustration;;
- => nrel_main_idtf:bar_lobby 
-  	[Lobby Бар] (* <- lang_ru;; *);
-	[Lobby Bar] (* <- lang_en;; *);;
- <= nrel_sc_text_translation: ...
- (*
-  -> rrel_example: "file://img/bar_lobby.png"
-  (*
-   => nrel_format: format_png;;
-  *);;
- *);;
-*);;
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:bar_lobby 
+//   	[Lobby Бар] (* <- lang_ru;; *);
+// 	[Lobby Bar] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/bar_lobby.png"
+//   (*
+//    => nrel_format: format_png;;
+//   *);;
+//  *);;
+// *);;
 
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_bar_lobby (*
 	-> rrel_key_sc_element: bar_lobby;;
 
 	<= nrel_sc_text_translation: ... (*

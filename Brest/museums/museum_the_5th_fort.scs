@@ -6,22 +6,22 @@ museum_the_5th_fort
     [Музей «5 форт»] (* <- lang_ru;;*);   
     [The 5th Fort] (* <- lang_en;;*);;
 
-<- rrel_key_sc_element: ...
-(*
- <- illustration;;
- => nrel_main_idtf:museum_the_5th_fort 
-  	[Музей «5 форт»] (* <- lang_ru;; *);
-	[The 5th Fort] (* <- lang_en;; *);;
- <= nrel_sc_text_translation: ...
- (*
-  -> rrel_example: "file://img/museum_the_5th_fort.jpg"
-  (*
-   => nrel_format: format_jpg;;
-  *);;
- *);;
-*);;
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:museum_the_5th_fort 
+//   	[Музей «5 форт»] (* <- lang_ru;; *);
+// 	[The 5th Fort] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/museum_the_5th_fort.jpg"
+//   (*
+//    => nrel_format: format_jpg;;
+//   *);;
+//  *);;
+// *);;
 
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_museum_the_5th_fort (*
 	-> rrel_key_sc_element: museum_the_5th_fort;;
 
 	<= nrel_sc_text_translation: ... (*

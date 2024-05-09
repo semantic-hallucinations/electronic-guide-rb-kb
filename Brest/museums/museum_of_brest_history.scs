@@ -6,22 +6,22 @@ museum_of_brest_history
     [Музей истории города Бреста] (* <- lang_ru;;*);   
     [Brest City History Museum] (* <- lang_en;;*);;
 
-<- rrel_key_sc_element: ...
-(*
- <- illustration;;
- => nrel_main_idtf:
-  	[Музей истории города Бреста] (* <- lang_ru;; *);
-	[Brest City History Museum] (* <- lang_en;; *);;
- <= nrel_sc_text_translation: ...
- (*
-  -> rrel_example: "file://img/museum_of_brest_history.jpg"
-  (*
-   => nrel_format: format_jpg;;
-  *);;
- *);;
-*);;
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:
+//   	[Музей истории города Бреста] (* <- lang_ru;; *);
+// 	[Brest City History Museum] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/museum_of_brest_history.jpg"
+//   (*
+//    => nrel_format: format_jpg;;
+//   *);;
+//  *);;
+// *);;
 
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_museum_of_brest_history (*
 	-> rrel_key_sc_element: museum_of_brest_history;;
 
 	<= nrel_sc_text_translation: ... (*

@@ -6,22 +6,22 @@ museum_memorial_complex_brest_hero_fortress
     [Мемориальный комплекс Брестская крепость-герой] (* <- lang_ru;;*);   
     [Memorial Complex Brest Hero-Fortress] (* <- lang_en;;*);;
 
-<- rrel_key_sc_element: ...
-(*
- <- illustration;;
- => nrel_main_idtf:
-  	[Мемориальный комплекс Брестская крепость-герой] (* <- lang_ru;; *);
-	[Memorial Complex Brest Hero-Fortress] (* <- lang_en;; *);;
- <= nrel_sc_text_translation: ...
- (*
-  -> rrel_example: "file://img/hero_fortress.png"
-  (*
-   => nrel_format: format_png;;
-  *);;
- *);;
-*);;
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:
+//   	[Мемориальный комплекс Брестская крепость-герой] (* <- lang_ru;; *);
+// 	[Memorial Complex Brest Hero-Fortress] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/hero_fortress.png"
+//   (*
+//    => nrel_format: format_png;;
+//   *);;
+//  *);;
+// *);;
 
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_museum_memorial_complex_brest_hero_fortress (*
 	-> rrel_key_sc_element: museum_memorial_complex_brest_hero_fortress;;
 
 	<= nrel_sc_text_translation: ... (*

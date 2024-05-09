@@ -6,22 +6,22 @@ bar_coyote_club
     [Бар Coyote Club Brest] (* <- lang_ru;;*);   
     [Bar Coyote Club Brest] (* <- lang_en;;*);;
 
-<- rrel_key_sc_element: ...
-(*
- <- illustration;;
- => nrel_main_idtf:bar_coyote_club 
-  	[Бар Coyote Club Brest] (* <- lang_ru;; *);
-	[Bar Coyote Club Brest] (* <- lang_en;; *);;
- <= nrel_sc_text_translation: ...
- (*
-  -> rrel_example: "file://img/bar_coyote_club.jpg"
-  (*
-   => nrel_format: format_jpg;;
-  *);;
- *);;
-*);;
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:bar_coyote_club 
+//   	[Бар Coyote Club Brest] (* <- lang_ru;; *);
+// 	[Bar Coyote Club Brest] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/bar_coyote_club.jpg"
+//   (*
+//    => nrel_format: format_jpg;;
+//   *);;
+//  *);;
+// *);;
 
-definition -> definition_of_sights_of_Brest_city (*
+definition -> definition_of_bar_coyote_club (*
 	-> rrel_key_sc_element: bar_coyote_club;;
 
 	<= nrel_sc_text_translation: ... (*
