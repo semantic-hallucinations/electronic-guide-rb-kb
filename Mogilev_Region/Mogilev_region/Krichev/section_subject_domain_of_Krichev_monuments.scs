@@ -1,0 +1,30 @@
+section_subject_domain_of_Krichev_monuments
+    => nrel_main_idtf:
+    [Раздел. Предметная область памятники города Кричев]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Krichev monuments]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Krichev_monuments;
+            Sculptural_composition_Singing_near_the_village_of_Prudok;
+    <- atomic_section;;
+
+section_subject_domain_of_Krichev_monuments
+    = [*
+        subject_domain_of_Krichev_monuments
+
+            => nrel_main_idtf:
+            [Предметная область памятники города Кричев]
+            (* <- lang_ru;;*);
+            [Subject domain of Krichev monuments]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Krichev_monuments;
+
+            -> rrel_not_maximum_studied_object_class:
+                Sculptural_composition_Singing_near_the_village_of_Prudok;;
+    *];;

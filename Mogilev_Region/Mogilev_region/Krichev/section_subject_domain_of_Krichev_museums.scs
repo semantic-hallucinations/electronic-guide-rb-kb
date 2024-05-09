@@ -1,0 +1,31 @@
+section_subject_domain_of_Krichev_museums
+    => nrel_main_idtf:
+    [Раздел. Предметная область музеи города Кричев]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Krichev museums]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Krichev_museums;
+	    Krichev_Historical_Museum;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Krichev_museums
+    = [*
+        subject_domain_of_Krichev_museums
+
+            => nrel_main_idtf:
+            [Предметная область музеев города Кричев]
+            (* <- lang_ru;;*);
+            [Subject domain of Krichev museums]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Krichev_museums;
+
+            -> rrel_not_maximum_studied_object_class:
+		Krichev_Historical_Museum;;
+    *];;

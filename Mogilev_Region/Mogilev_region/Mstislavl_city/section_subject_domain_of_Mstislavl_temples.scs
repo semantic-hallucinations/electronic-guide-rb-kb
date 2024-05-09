@@ -1,0 +1,30 @@
+section_subject_domain_of_Mstislavl_temples
+    => nrel_main_idtf:
+    [Раздел. Предметная область храмы города Мстиславль]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Mstislavl temples]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Mstislavl_temples;
+            Holy_Dormition_Monastery_in_Pustynkil;
+    <- atomic_section;;
+
+section_subject_domain_of_Mstislavl_temples
+    = [*
+        subject_domain_of_Mstislavl_temples
+
+            => nrel_main_idtf:
+            [Предметная область храмы города Мстиславль]
+            (* <- lang_ru;;*);
+            [Subject domain of Mstislavl temples]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Mstislavl_temples;
+
+            -> rrel_not_maximum_studied_object_class:
+                Holy_Dormition_Monastery_in_Pustynkil;;
+    *];;

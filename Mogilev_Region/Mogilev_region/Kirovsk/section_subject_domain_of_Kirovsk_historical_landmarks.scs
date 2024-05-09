@@ -1,0 +1,31 @@
+section_subject_domain_of_Kirovsk_historical_landmarks
+    => nrel_main_idtf:
+    [Раздел. Предметная область исторических достопримечательностей города Кировск]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Kirovsk historical landmarks]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Kirovsk_historical_landmarks;
+            Chigirinskoye_Reservoir;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Kirovsk_historical_landmarks
+    = [*
+        subject_domain_of_Kirovsk_historical_landmarks
+
+            => nrel_main_idtf:
+            [Предметная область исторических достопримечательностей города Кировск]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Kirovsk historical landmarks]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Kirovsk_historical_landmarks;
+
+            -> rrel_not_maximum_studied_object_class:
+                Chigirinskoye_Reservoir;;
+    *];;

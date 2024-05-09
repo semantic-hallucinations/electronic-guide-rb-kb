@@ -1,0 +1,30 @@
+section_subject_domain_of_Bobruisk_theaters
+    => nrel_main_idtf:
+    [Раздел. Предметная область театры города Бобруйск]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Bobruisk theaters]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Bobruisk_theaters;
+            Mogilev_Regional_Drama_and_Comedy_Theater_in_Bobruisk;
+    <- atomic_section;;
+
+section_subject_domain_of_Bobruisk_theaters
+    = [*
+        subject_domain_of_Bobruisk_theaters
+
+            => nrel_main_idtf:
+            [Предметная область театры города Бобруйск]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Bobruisk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Bobruisk_theaters;
+
+            -> rrel_not_maximum_studied_object_class:
+                Mogilev_Regional_Drama_and_Comedy_Theater_in_Bobruisk;;
+    *];;

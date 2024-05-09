@@ -1,0 +1,30 @@
+section_subject_domain_of_Osipovichi_monuments
+    => nrel_main_idtf:
+    [Раздел. Предметная область памятники города Осиповичи]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Osipovichi monuments]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Osipovichi_monuments;
+            Monument_to_F.A._Krylovich_in_Osipovichi;
+    <- atomic_section;;
+
+section_subject_domain_of_Osipovichi_monuments
+    = [*
+        subject_domain_of_Osipovichi_monuments
+
+            => nrel_main_idtf:
+            [Предметная область памятники города Осиповичи]
+            (* <- lang_ru;;*);
+            [Subject domain of Osipovichi monuments]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Osipovichi_monuments;
+
+            -> rrel_not_maximum_studied_object_class:
+                Monument_to_F.A._Krylovich_in_Osipovichi;;
+    *];;

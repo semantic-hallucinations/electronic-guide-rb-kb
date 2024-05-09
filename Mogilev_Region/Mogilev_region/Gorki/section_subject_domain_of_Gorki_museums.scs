@@ -1,0 +1,30 @@
+section_subject_domain_of_Gorki_museums
+    => nrel_main_idtf:
+    [Раздел. Предметная область музеи города Горки]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Gorki museums]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Gorki_museums;
+	    Museum_of_the_Soviet_Polish_military_partnership_in_the_agricultural_town_of_Lenino;
+    <- atomic_section;;
+
+section_subject_domain_of_Gorki_museums
+    = [*
+        subject_domain_of_Gorki_museums
+
+            => nrel_main_idtf:
+            [Предметная область музеи города Горки]
+            (* <- lang_ru;;*);
+            [Subject domain of Gorki museums]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Gorki_museums;
+
+            -> rrel_not_maximum_studied_object_class:
+                Museum_of_the_Soviet_Polish_military_partnership_in_the_agricultural_town_of_Lenino;;
+    *];;
