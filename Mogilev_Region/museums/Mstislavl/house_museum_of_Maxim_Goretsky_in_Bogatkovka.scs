@@ -1,0 +1,40 @@
+house_museum_of_Maxim_Goretsky_in_Bogatkovka
+
+<-concept_museums; 
+
+=> nrel_main_idtf:
+    [Дом-музей Максима Горецкого в Богатьковке]
+    (* <- lang_ru;;*);
+    [House-Museum of Maxim Goretsky in Bogatkovkam]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Дом-музей Максима Горецкого в Богатьковке]
+    	(* <- lang_ru;;*);
+    	[House-Museum of Maxim Goretsky in Bogatkovka]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/house_museum_of_Maxim_Goretsky_in_Bogatkovka.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_house_museum_of_Maxim_Goretsky_in_Bogatkovka (*
+	-> rrel_key_sc_element: house_museum_of_Maxim_Goretsky_in_Bogatkovka;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [ В деревне Малой Богатьковке Мстиславского района в 1893 году родился белорусский писатель, литературовед, переводчик и фольклорист Максим Горецкий. С инициативой восстановить семейную усадьбу Горецких выступил писатель Владимир Короткевич — так в бывшем отцовском доме Горецкого появился литературный музей. Здание музея представляет собой типичную деревенскую жилую постройку конца XIX века. Экспозиция была открыта в 1993 году и включает в себя два зала: литературно-документальный, где рассказывается о сложной судьбе писателя, и этнографически-бытовой, где воссоздан интерьер деревенского дома тех времен. ] (* <- lang_ru;; *);;
+		-> [In the village of Malaya Bogatkovka, Mstislavsky district, the Belarusian writer, literary critic, translator and folklorist Maxim Goretsky was born in 1893. The initiative to restore the Goretsky family estate was taken by the writer Vladimir Korotkevich - this is how a literary museum appeared in Goretsky’s former father’s house. The museum building is a typical village residential building from the late 19th century. The exhibition was opened in 1993 and includes two halls: a literary and documentary hall, where the difficult fate of the writer is told, and an ethnographic and everyday hall, where the interior of a village house of those times is recreated.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Дом-музей Максима Горецкого в Богатьковке)] (* <- lang_ru;; *);
+		[Def. (House-Museum of Maxim Goretsky in Bogatkovka)] (* <- lang_en;; *);;
+*);;

@@ -1,0 +1,40 @@
+Memorial_complex_In_memory_of_the_burned_villages_of_the_Mogilev_region_in_Borki
+
+<-concept_museums; 
+
+=> nrel_main_idtf:
+    [Мемориальный комплекс «Памяти сожженных деревень Могилевской области» в Борках]
+    (* <- lang_ru;;*);
+    [Memorial complex “In memory of the burned villages of the Mogilev region” in Borki]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Мемориальный комплекс «Памяти сожженных деревень Могилевской области» в Борках]
+    	(* <- lang_ru;;*);
+    	[Memorial complex “In memory of the burned villages of the Mogilev region” in Borki]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Memorial_complex_In_memory_of_the_burned_villages_of_the_Mogilev_region_in_Borki.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Memorial_complex_In_memory_of_the_burned_villages_of_the_Mogilev_region_in_Borki (*
+	-> rrel_key_sc_element: Memorial_complex_In_memory_of_the_burned_villages_of_the_Mogilev_region_in_Borki;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [ 15 июня 1942 года немецкие захватчики провели одну из самых массовых карательных операций против мирных жителей Беларуси. В деревне Борки в тот день погибли 1800 человек. Это были жители Борок и окрестных сел. Деревня Борки со временем возродилась, но многие другие поселки после трагедии навсегда исчезли с карты Беларуси. В 1960-е годы в Борках появился первый памятник в честь страшных событий. В 2005 году там же была построена часовня в честь иконы Божьей Матери «Взыскание погибших». А в 2008 году на месте трагедии был возведен мемориальный комплекс «Памяти сожженных деревень Могилевской области». Он включает Стену памяти, где указаны все уничтоженные деревни. Стену опоясывает конструкция с колоколами. «Акция устрашения», проведенная в Кировском районе, стала основой для повести Алеся Адамовича «Каратели». В 2019 году руководство области решило реконструировать мемориал в деревне Борки и создать на этом месте композицию, которая бы в полной мере показала все зверства нацизма. По проекту появились элементы мемориального комплекса, олицетворяющие ужас трагедии в Борках: скульптурные композиции «Беларусь – скорбящая мать», «Улица», «Пламя», «Колодец». В конце импровизированной улицы установлен камень с посланием к потомкам и разбит парк,олицетворяющий жизнь. ] (* <- lang_ru;; *);;
+		-> [On June 15, 1942, the German invaders carried out one of the most massive punitive operations against civilians in Belarus. In the village of Borki, 1,800 people died that day. These were residents of Borok and surrounding villages. The village of Borki was revived over time, but many other villages disappeared forever from the map of Belarus after the tragedy. In the 1960s, the first monument in honor of the terrible events appeared in Borki. In 2005, a chapel was built there in honor of the icon of the Mother of God “Seeking the Lost.” And in 2008, a memorial complex “In memory of the burned villages of the Mogilev region” was erected at the site of the tragedy. It includes a Wall of Remembrance that lists all the destroyed villages. The wall is surrounded by a structure with bells. The “action of intimidation” carried out in the Kirov region became the basis for Ales Adamovich’s story “The Punishers”. In 2019, the regional leadership decided to reconstruct the memorial in the village of Borki and create a composition on this site that would fully show all the atrocities of Nazism. According to the project, elements of the memorial complex appeared that personified the horror of the tragedy in Borki: sculptural compositions “Belarus - a grieving mother”, “Street”, “Flame”, “Well”. At the end of the makeshift street, a stone was installed with a message to descendants and a park was laid out, personifying life.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Мемориальный комплекс «Памяти сожженных деревень Могилевской области» в Борках)] (* <- lang_ru;; *);
+		[Def. (Memorial complex “In memory of the burned villages of the Mogilev region” in Borki)] (* <- lang_en;; *);;
+*);;

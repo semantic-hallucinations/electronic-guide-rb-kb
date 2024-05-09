@@ -1,0 +1,40 @@
+Mogilev_Regional_Art_Museum_named_after_Maslenikov
+
+<-concept_museums; 
+
+=> nrel_main_idtf:
+    [Могилевский областной художественный музей имени Масленикова]
+    (* <- lang_ru;;*);
+    [Mogilev Regional Art Museum named after Maslenikov]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Могилевский областной художественный музей имени Масленикова]
+    	(* <- lang_ru;;*);
+    	[Mogilev Regional Art Museum named after Maslenikov]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Mogilev_Regional_Art_Museum_named_after_Maslenikov.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Mogilev_Regional_Art_Museum_named_after_Maslenikov (*
+	-> rrel_key_sc_element: Mogilev_Regional_Art_Museum_named_after_Maslenikov;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Могилевский областной художественный музей расположен в здании бывшего Крестьянского поземельного банка, которое построено в 1914 году в стиле модерн. Примерно в 1920-м в здании разместился Могилевский государственный исторический музей. От банка здесь осталась несгораемая бронированная комната-сейф, в которой долгое время хранились ценности из музеев Минска, Полоцка, Витебска и других городов. Здесь было множество реликвий: коллекция белорусских рукописных книг и грамот, оружие X–XIV веков, золотой и серебряный ключи от Могилева, серебряная булава короля Жигимонта III, вещи из раскопок Помпеи и др. Знаменитый крест Евфросинии Полоцкой также хранился в могилевском музее. С началом Второй мировой все ценные экспонаты бесследно исчезли из сейфа. Как и куда – до сих пор остается загадкой. В 1994 году народный художник Беларуси Павел Маслеников передал Могилеву 125 произведений живописи, ставших основой фонда открытого в 1990-м художественного музея, в котором сейчас насчитывается около 4 тысяч экспонатов. В нем работают залы, посвященные творчеству художников Владимира Летуна и Константина Гедды. Действуют также экспозиции «Сохраненное наследие» и «Изобразительное искусство Могилевщины XX века».] (* <- lang_ru;; *);;
+		-> [The Mogilev Regional Art Museum is located in the building of the former Peasant Land Bank, which was built in 1914 in the Art Nouveau style. Around 1920, the building housed the Mogilev State Historical Museum. What remains of the bank here is a fireproof armored safe room, in which valuables from the museums of Minsk, Polotsk, Vitebsk and other cities were kept for a long time. There were many relics here: a collection of Belarusian handwritten books and letters, weapons of the 10th–14th centuries, gold and silver keys to Mogilev, the silver mace of King Zhigimont III, things from the excavations of Pompeii, etc. The famous cross of Euphrosyne of Polotsk was also kept in the Mogilev Museum. With the outbreak of World War II, all valuable exhibits disappeared from the safe without a trace. How and where is still a mystery. In 1994, People's Artist of Belarus Pavel Maslenikov donated 125 works of painting to Mogilev, which became the basis of the fund of the art museum opened in 1990, which now has about 4 thousand exhibits. It houses halls dedicated to the work of artists Vladimir Letun and Konstantin Gedda. There are also exhibitions “Preserved Heritage” and “Fine Art of the Mogilev Region of the 20th Century”.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Могилевский областной художественный музей имени Масленикова)] (* <- lang_ru;; *);
+		[Def. (Mogilev Regional Art Museum named after Maslenikov)] (* <- lang_en;; *);;
+*);;

@@ -1,0 +1,40 @@
+Memorial_complex_Buinichi_Field
+
+<-concept_museums; 
+
+=> nrel_main_idtf:
+    [Мемориальный комплекс «Буйничское поле»]
+    (* <- lang_ru;;*);
+    [Memorial complex "Buinichi Field"]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Мемориальный комплекс «Буйничское поле»]
+    	(* <- lang_ru;;*);
+    	[Memorial complex "Buinichi Field"]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Memorial_complex_Buinichi_Field.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Memorial_complex_Buinichi_Field (*
+	-> rrel_key_sc_element: Memorial_complex_Buinichi_Field;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [В пригороде Могилева, вблизи деревни Буйничи, расположен комплекс, посвященный Великой Отечественной войне, – «Буйничское поле». В 1941 году в этом месте проходила линия советской обороны и шла сложная борьба за Могилев. Бои за Могилев начались 10 июля. Немецкие войска рассчитывали с ходу занять областной центр, и, наступая, направили на Буйничское поле 70 танков. Основной бой длился 14 часов. Советским солдатам удалось сжечь 39 танков и отбить несколько атак. Оборона Могилева продолжалась до 22 июля. Немецкие командиры не решились сообщить Гитлеру о неудачах на подходе к Могилеву и доложили, что наступление прошло успешно. В могилевском музее вам обязательно расскажут историю о том, как один из гитлеровских офицеров отправился изучать могилевские рестораны, думая, что город давно взят, и был захвачен советскими солдатами. Буйничское поле стало символом отваги советских солдат. Во время наступления немецких войск здесь присутствовал корреспондент газеты «Известия» писатель Константин Симонов. Легендарное сражение он описал в романе «Живые и мертвые», а свой прах завещал развеять именно над Буйничским полем. Мемориальный комплекс «Буйничское поле» появился на месте сражения в 1995 году. Он включает в себя 27-метровую часовню, арку, аллею с центральной композицией. Здесь размещены образцы боевого вооружения периода Второй мировой, горельефные доски, а также памятный камень Константину Симонову.] (* <- lang_ru;; *);;
+		-> [In the suburbs of Mogilev, near the village of Buinichi, there is a complex dedicated to the Great Patriotic War - “Buinichi Field”. In 1941, the Soviet defense line passed through this place and there was a difficult struggle for Mogilev. The fighting for Mogilev began on July 10. German troops expected to immediately occupy the regional center, and, advancing, sent 70 tanks to the Buinichi field. The main battle lasted 14 hours. Soviet soldiers managed to burn 39 tanks and repulse several attacks. The defense of Mogilev continued until July 22. The German commanders did not dare to inform Hitler about the failures on the approach to Mogilev and reported that the offensive was successful. In the Mogilev museum they will definitely tell you the story of how one of Hitler’s officers went to study Mogilev restaurants, thinking that the city had long been taken and was captured by Soviet soldiers. The Buynichi field became a symbol of the courage of Soviet soldiers. During the offensive of the German troops, the correspondent of the Izvestia newspaper, writer Konstantin Simonov, was present here. He described the legendary battle in the novel “The Living and the Dead,” and bequeathed his ashes to be scattered over the Buinichi field. The Buinichi Field memorial complex appeared on the site of the battle in 1995. It includes a 27-meter chapel, an arch, an alley with a central composition. Samples of military weapons from the Second World War period, high relief plaques, as well as a memorial stone to Konstantin Simonov are located here.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Мемориальный комплекс «Буйничское поле»)] (* <- lang_ru;; *);
+		[Def. (Memorial complex "Buinichi Field"] (* <- lang_en;; *);;
+*);;

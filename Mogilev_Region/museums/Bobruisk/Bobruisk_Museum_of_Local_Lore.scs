@@ -1,0 +1,40 @@
+Bobruisk_Museum_of_Local_Lore
+
+<-concept_museums; 
+
+=> nrel_main_idtf:
+    [Бобруйский краеведческий музей]
+    (* <- lang_ru;;*);
+    [Bobruisk Museum of Local Lore]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Бобруйский краеведческий музей]
+    	(* <- lang_ru;;*);
+    	[Bobruisk Museum of Local Lore]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Bobruisk_Museum_of_Local_Lore.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Bobruisk_Museum_of_Local_Lore (*
+	-> rrel_key_sc_element: Bobruisk_Museum_of_Local_Lore;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музей был основан в 1924 году. Здесь имелись отделы животных, растений, леса, полеводства, промышленности, но самой богатой считалась коллекция минералов, насчитывавшая около 500 предметов. В годы фашистской оккупации музейное здание было разрушено, а экспонаты разграблены, так что воссоздавать коллекцию пришлось по крупицам. Сегодня экспозиция Бобруйского краеведческого музея позволяет проводить экскурсии по истории не только города, но и всей Беларуси. Старейшие экспонаты коллекции — многочисленные находки периода бронзового века, а также римская монета начала I тысячелетия с изображением императора Марка Аврелия, обнаруженная при раскопках древнего городища в микрорайоне Дедново. Обратите внимание на два представленных в экспозиции макета: на первом по описаниям городских инвентарей воссоздан Бобруйск ХVII века, второй представляет фрагмент крепости, каковой она была в 30–50-х годах ХIХ столетия. Здесь же вы увидите символический ключ от цитадели, которого так и не дождались в 1812-м наполеоновские генералы] (* <- lang_ru;; *);;
+		-> [The museum was founded in 1924. There were departments of animals, plants, forests, field cultivation, and industry, but the collection of minerals, numbering about 500 items, was considered the richest. During the years of fascist occupation, the museum building was destroyed and the exhibits were looted, so the collection had to be recreated bit by bit. Today, the exhibition of the Bobruisk Museum of Local Lore allows for excursions on the history of not only the city, but the whole of Belarus. The oldest exhibits in the collection are numerous finds from the Bronze Age period, as well as a Roman coin from the beginning of the 1st millennium with the image of Emperor Marcus Aurelius, discovered during excavations of an ancient settlement in the Dednovo microdistrict. Pay attention to the two models presented in the exhibition: the first one recreates Bobruisk of the 17th century based on descriptions of city inventories, the second represents a fragment of the fortress as it was in the 30s–50s of the 19th century. Here you will see the symbolic key to the citadel, which Napoleonic generals never received in 1812.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Бобруйский краеведческий музей)] (* <- lang_ru;; *);
+		[Def. (Bobruisk Museum of Local Lore)] (* <- lang_en;; *);;
+*);;

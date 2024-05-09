@@ -1,0 +1,42 @@
+Bobruisk_Art_Museum
+
+<-concept_museums; 
+
+=> nrel_main_idtf:
+    [Бобруйский художественный музей]
+    (* <- lang_ru;;*);
+    [Bobruisk Art Museum]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Бобруйский художественный музей]
+    	(* <- lang_ru;;*);
+    	[Bobruisk Art Museum]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Bobruisk_Art_Museum.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Bobruisk_Art_Museum (*
+	-> rrel_key_sc_element: Bobruisk_Art_Museum;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Собирая, изучая и сохраняя художественное наследие, музей выделяет особенности культуры города, прослеживает развитие творческой жизни Бобруйска в контексте истории современного белорусского искусства. Музейная экспозиция «Творчество художников Бобруйска второй половины ХХ – начала ХХІ вв» (располагается по ул. М.Горького,28) представляет собой ретроспекцию произведений художников, которые способствовали формированию культуры и своеобразия города. Бобруйский художественный музей является одним из организаторов Международных пленэров по керамике «АРТ-Жыжаль», которые ежегодно проходят в Бобруйске с 2003 года. По итогам пленэров в музее сформирована значительная коллекция современной художественной керамики, лучшие произведения которой представлены в экспозиции. Музейная экспозиция минералов и горных пород «Живопись Земли»
+(располагается в выставочном зале Бобруйского художественного музея по ул. Социалистической,100) Основой для создания минералогической экспозиции послужила уникальная коллекция минералов и горных пород, переданная в дар в 2006 году городу Бобруйску геологоразведчиком, альпинистом, мастером спорта СССР по туризму, путешественником, членом Белорусского союза мастеров народного творчества, Виталием Николаевичем Соколовым. Большинство образцов коллекции Соколова представляет собой уникальную демонстрационную ценность, собраны в разных регионах постсоветского пространства и мира, широко представляющих географию месторождений: Подмосковный бассейн, Урал, Сибирь, Чукотский полуостров, Камчатка, Алтай, Кольский полуостров, Приморье, Прибайкалье, Карелия, Башкортостан, Якутия, Кавказ, Казахстан, Беларусь, Украина, Грузия, Туркменистан, Азербайджан… В музейной экспозиции «Живопись Земли» более 1300 экспонатов: образцы представлены основными группами по химическому составу и физическим свойствам, условно делятся на три части - окаменелости, горные породы и минералы.] (* <- lang_ru;; *);;
+		-> [By collecting, studying and preserving the artistic heritage, the museum highlights the cultural features of the city and traces the development of the creative life of Bobruisk in the context of the history of modern Belarusian art. The museum exhibition “The Work of Bobruisk Artists of the Second Half of the 20th – Early 21st Centuries” (located on M. Gorky St., 28) is a retrospective of the works of artists who contributed to the formation of the culture and identity of the city. The Bobruisk Art Museum is one of the organizers of the International Ceramics Plein Airs “ART-Zhyzhal”, which have been held annually in Bobruisk since 2003. As a result of the plein airs, the museum has formed a significant collection of modern artistic ceramics, the best works of which are presented in the exhibition. Museum exhibition of minerals and rocks “Painting of the Earth”
+(located in the exhibition hall of the Bobruisk Art Museum on Sotsialisticheskaya Street, 100) The basis for creating the mineralogical exhibition was a unique collection of minerals and rocks, donated to the city of Bobruisk in 2006 by a geologist, climber, master of sports of the USSR in tourism, traveler, member of the Belarusian Union of Folk Art Masters, Vitaly Nikolaevich Sokolov. Most of the samples in Sokolov’s collection are of unique demonstration value, collected in different regions of the post-Soviet space and the world, broadly representing the geography of deposits: the Moscow Basin, the Urals, Siberia, the Chukotka Peninsula, Kamchatka, Altai, the Kola Peninsula, Primorye, the Baikal region, Karelia, Bashkortostan, Yakutia , Caucasus, Kazakhstan, Belarus, Ukraine, Georgia, Turkmenistan, Azerbaijan... The museum exhibition “Painting of the Earth” contains more than 1,300 exhibits: samples are presented in main groups according to chemical composition and physical properties, conventionally divided into three parts - fossils, rocks and minerals.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Бобруйский художественный музей)] (* <- lang_ru;; *);
+		[Def. (Bobruisk Art Museum)] (* <- lang_en;; *);;
+*);;
