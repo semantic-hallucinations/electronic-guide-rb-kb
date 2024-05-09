@@ -1,0 +1,39 @@
+section_subject_domain_of_Vitebsk_bars
+    => nrel_main_idtf:
+    [Раздел. Предметная область бары города Витебска]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Vitebsk bars]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Vitebsk_bars;
+            bar_rib;
+            bar_big_tim;
+            bar_white_fox;
+            bar_ryumochnaya;
+	        bar_mayakovskiy_diskaunt;;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Vitebsk_bars
+    = [*
+        subject_domain_of_Vitebsk_bars
+
+            => nrel_main_idtf:
+            [Предметная область бары города Витебска]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Vitebsk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Brest_bars;
+
+            -> rrel_not_maximum_studied_object_class:
+                bar_rib;
+                bar_big_tim;
+                bar_white_fox;
+                bar_ryumochnaya;
+	            bar_mayakovskiy_diskaunt;;
+    *];;

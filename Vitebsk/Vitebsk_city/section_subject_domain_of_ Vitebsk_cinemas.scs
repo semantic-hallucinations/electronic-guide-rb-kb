@@ -1,0 +1,35 @@
+section_subject_domain_of_Vitebsk_cinemas
+    => nrel_main_idtf:
+    [Раздел. Предметная область кинотеатры города Витебска]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Vitebsk cinemas]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Vitebsk_cinemas;
+            сinema_mir;
+            cinema_dom_kino; 
+            cinema_bigantina_kinoteatr;;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Vitebsk_cinemas
+    = [*
+        subject_domain_of_Vitebsk_cinemas
+
+            => nrel_main_idtf:
+            [Предметная область кинотеатры города Витебска]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Vitebsk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Vitebsk_cinemas;
+
+            -> rrel_not_maximum_studied_object_class:
+                 сinema_mir;
+                 cinema_dom_kino; 
+                 cinema_bigantina_kinoteatr;;
+    *];;

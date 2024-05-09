@@ -1,0 +1,82 @@
+section_subject_domain_of_sights_of_Vitebsk_city
+
+    => nrel_main_idtf:
+    [Раздел. Предметная область достопримечательностей города Витебска]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of sights of Vitebsk city]
+    (* <- lang_en;;*);
+
+    <= nrel_section_decomposition:
+    {
+        section_subject_domain_of_Vitebsk_bars
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Vitebsk_museums;;
+        *);
+        section_subject_domain_of_Vitebsk_museums
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Vitebsk_cinemas;;
+        *);
+        section_subject_domain_of_Vitebsk_cinemas
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Vitebsk_galleries;;
+        *);
+        section_subject_domain_of_Vitebsk_galleries
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Vitebsk_monuments;;
+        *);
+        section_subject_domain_of_Vitebsk_monuments
+        (* 
+            => nrel_section_base_order: 
+            section_subject_domain_of_Vitebsk_theaters;;
+        *);
+        section_subject_domain_of_Vitebsk_theaters
+       
+    };
+
+    -> rrel_key_sc_element:
+        concept_sights_of_Vitebsk_city;
+        concept_Vitebsk_bars;
+        concept_Vitebsk_museums;
+        concept_Vitebsk_cinemas;
+        concept_Vitebsk_galleries;
+        concept_Vitebsk_monuments;
+        concept_Vitebsk_theaters;
+
+    <- non_atomic_section;;
+
+section_subject_domain_of_sights_of_Vitebsk_city 
+    = [*
+        subject_domain_of_sights_of_Vitebsk_city
+
+            => nrel_main_idtf:
+            [Предметная область достопримечательностей города Витебска]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Vitebsk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            => nrel_private_subject_domain:
+                subject_domain_of_sights_of_Vitebsk_museums;
+                subject_domain_of_sights_of_Vitebsk_bars;
+                subject_domain_of_sights_of_Vitebsk_cinemas;
+                subject_domain_of_sights_of_Vitebsk_galleries;
+                subject_domain_of_sights_of_Vitebsk_monuments;
+                subject_domain_of_sights_of_Vitebsk_theaters;
+
+            -> rrel_maximum_studied_object_class:
+                concept_sights_of_Vitebsk_city;
+
+            -> rrel_not_maximum_studied_object_class:
+                concept_Vitebsk_bars;
+                concept_Vitebsk_museums;
+                concept_Vitebsk_cinemas;
+                concept_Vitebsk_galleries;
+                concept_Vitebsk_monuments;
+                concept_Vitebsk_theaters;;
+            
+    *];;

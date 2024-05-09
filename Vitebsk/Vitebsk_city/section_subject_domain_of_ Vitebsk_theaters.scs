@@ -1,0 +1,33 @@
+section_subject_domain_of_Vitebsk_theaters
+    => nrel_main_idtf:
+    [Раздел. Предметная область театры города Витебска]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Vitebsk theaters]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Vitebsk_theaters;
+            theatre_vitebsk_jakub_kolas_drama_theatre;
+            theatre_city_theater;;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Vitebsk_theaters
+    = [*
+        subject_domain_of_Vitebsk_theaters
+
+            => nrel_main_idtf:
+            [Предметная область театры города Витебска]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Vitebsk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Vitebsk_theaters;
+
+            -> rrel_not_maximum_studied_object_class:
+                theatre_vitebsk_jakub_kolas_drama_theatre;
+                theatre_city_theater;;
+    *];;

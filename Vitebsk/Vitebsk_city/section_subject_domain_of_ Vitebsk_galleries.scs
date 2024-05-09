@@ -1,0 +1,35 @@
+section_subject_domain_of_Vitebsk_galleries
+    => nrel_main_idtf:
+    [Раздел. Предметная область галереи города Витебска]
+    (* <- lang_ru;;*);
+    [Section. Subject domain of Vitebsk galleries]
+    (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_Vitebsk_galleries;
+            gallery_marc_chagall_art;
+            gallery_master_house;
+            gallery_dukhovskoy_kruglik;;
+
+    <- atomic_section;;
+
+section_subject_domain_of_Vitebsk_galleries
+    = [*
+        subject_domain_of_Vitebsk_galleries
+
+            => nrel_main_idtf:
+            [Предметная область галереи города Витебска]
+            (* <- lang_ru;;*);
+            [Subject domain of sights of Vitebsk city]
+            (* <- lang_en;;*);
+            
+            <- subject_domain;
+
+            -> rrel_maximum_studied_object_class:
+                concept_Vitebsk_galleries;
+
+            -> rrel_not_maximum_studied_object_class:
+                gallery_marc_chagall_art;
+                gallery_master_house;
+                gallery_dukhovskoy_kruglik;;
+    *];;
