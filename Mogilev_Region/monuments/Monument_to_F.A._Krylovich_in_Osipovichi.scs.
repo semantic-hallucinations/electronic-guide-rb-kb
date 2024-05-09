@@ -1,0 +1,40 @@
+Monument_to_F.A._Krylovich_in_Osipovichi
+
+<-concept_monuments; 
+
+=> nrel_main_idtf:
+    [Памятник Ф.А. Крыловичу в Осиповичах]
+    (* <- lang_ru;;*);
+    [Monument to F.A. Krylovich in Osipovichi]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Памятник Ф.А. Крыловичу в Осиповичах]
+    	(* <- lang_ru;;*);
+    	[Monument to F.A. Krylovich in Osipovichi]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Monument_to_F.A._Krylovich_in_Osipovichi.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Monument_to_F.A._Krylovich_in_Osipovichi (*
+	-> rrel_key_sc_element: Monument_to_F.A._Krylovich_in_Osipovichi;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Памятник партизану, герою-подпольщику Федору Крыловичу установили на перроне Осиповичского железнодорожного вокзала в 2009 году. Средства на его изготовление собирали всем районом, при активном участии молодежи. Место выбрано не случайно. Проведенная на здешней железнодорожной станции одним из организаторов Осиповичского коммунистического подполья летом 1943 года операция, известная как «Диверсия Крыловича», стала крупнейшей из наземно-транспортных диверсий всей Второй мировой войны. В ту ночь было взорвано целое скопление военных эшелонов противника с огромным количеством боеприпасов и техники – в том числе с чрезвычайно ценными танками «Тигр». А сделал все это один-единственный человек, сперва повредив проводку входного семафора, а затем пронеся и приведя в действие на стратегическом объекте магнитные мины. За успешное проведение этой операции Федор Крылович был награжден в 1949 году орденом Ленина.] (* <- lang_ru;; *);;
+		-> [The monument to the partisan, underground hero Fyodor Krylovich was erected on the platform of the Osipovichi railway station in 2009. Funds for its production were collected by the entire district, with the active participation of young people. The place was not chosen by chance. Conducted at the local railway station by one of the organizers of the Osipovichi communist underground in the summer of 1943, the operation known as “Krylovich’s Sabotage” became the largest land transport sabotage of the entire Second World War. That night, a whole cluster of enemy military trains with a huge amount of ammunition and equipment was blown up - including extremely valuable Tiger tanks. And all this was done by one single person, first by damaging the wiring of the input semaphore, and then by carrying and detonating magnetic mines at a strategic facility. For the successful completion of this operation, Fyodor Krylovich was awarded the Order of Lenin in 1949.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Памятник Ф.А. Крыловичу в Осиповичах)] (* <- lang_ru;; *);
+		[Def. (Monument to F.A. Krylovich in Osipovichi)] (* <- lang_en;; *);;
+*);;
