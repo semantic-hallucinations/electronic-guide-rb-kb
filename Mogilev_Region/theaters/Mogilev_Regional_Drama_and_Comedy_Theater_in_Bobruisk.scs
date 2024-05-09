@@ -1,0 +1,39 @@
+Mogilev_Regional_Drama_and_Comedy_Theater_in_Bobruisk
+
+<-concept_theaters; 
+
+=> nrel_main_idtf:
+    [Могилевский областной театр драмы и комедии в Бобруйске]
+    (* <- lang_ru;;*);
+    [Mogilev Regional Drama and Comedy Theater in Bobruisk]
+    (* <- lang_en;;*);
+
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  	[Могилевский областной театр драмы и комедии в Бобруйске]
+    	(* <- lang_ru;;*);
+    	[Mogilev Regional Drama and Comedy Theater in Bobruisk]
+    	(* <- lang_en;;*);;
+
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://img/Mogilev_Regional_Drama_and_Comedy_Theater_in_Bobruisk.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+definition -> definition_of_Mogilev_Regional_Drama_and_Comedy_Theater_in_Bobruisk (*
+	-> rrel_key_sc_element: Mogilev_Regional_Drama_and_Comedy_Theater_in_Bobruisk;;
+	<= nrel_sc_text_translation: ... (*
+		-> [Уроженцем Бобруйского уезда был классик белорусской литературы и один из родоначальников национальной драматургии Винцент Дунин-Марцинкевич. Его имя носит Могилевский областной театр драмы и комедии в Бобруйске. Театральные традиции в городе имеют глубокие корни. В ХIХ веке здесь дебютировала будущая прима Александринского театра в Петербурге Марья Савина. В 1927–1930 гг. именно в Бобруйске было построено первое в Советской Белоруссии здание театра, труппу которого спустя три года перевели в Могилев. Вновь созданный здесь коллектив через некоторое время отправляется в Гродно, где становится основой местного драмтеатра. Третья, уже послевоенная, попытка организовать в Бобруйске музыкально-драматический театр закончилась переездом в 1970 году всей труппы, включая балет, оркестр и хор, в Минск. Так что родина столичного театра музкомедии — также Бобруйск. В том же году началась капитальная перестройка старого театрального здания. Обновленный театр драмы и комедии открыл свой первый сезон в 1978 году спектаклем «Пинская шляхта» Дунина-Марцинкевича.] (* <- lang_ru;; *);;
+		-> [A native of Bobruisk district was a classic of Belarusian literature and one of the founders of national drama, Vincent Dunin-Martsinkevich. The Mogilev Regional Drama and Comedy Theater in Bobruisk bears his name. Theater traditions in the city have deep roots. In the 19th century, the future prima of the Alexandrinsky Theater in St. Petersburg, Marya Savina, made her debut here. In 1927–1930 It was in Bobruisk that the first theater building in Soviet Belarus was built, the troupe of which was transferred to Mogilev three years later. After some time, the newly created team goes to Grodno, where it becomes the basis of the local drama theater. The third, post-war, attempt to organize a music and drama theater in Bobruisk ended in the move of the entire troupe, including ballet, orchestra and choir, to Minsk in 1970. So the birthplace of the capital’s musical comedy theater is also Bobruisk. In the same year, major reconstruction of the old theater building began. The renewed Drama and Comedy Theater opened its first season in 1978 with the play “Pinsk Gentry” by Dunin-Martsinkevich.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Могилевский областной театр драмы и комедии в Бобруйске)] (* <- lang_ru;; *);
+		[Def. (Mogilev Regional Drama and Comedy Theater in Bobruisk)] (* <- lang_en;; *);;
+*);;
