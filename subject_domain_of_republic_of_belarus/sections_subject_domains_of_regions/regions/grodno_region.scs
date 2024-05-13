@@ -1,0 +1,37 @@
+grodno_region
+
+    => nrel_main_idtf:
+        [Гроднеский район]
+        (* <- lang_ru;;*);
+        [Grodno region]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (Гродненский район)]
+            (* <- lang_ru;; *);
+            [Definition (Grodno region)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Административная единица на северо-западе Республики Беларусь.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Administrative unit in the northwest of the Republic of Belarus.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                concept_administrative_unit;
+                republic_of_belarus
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_region;;

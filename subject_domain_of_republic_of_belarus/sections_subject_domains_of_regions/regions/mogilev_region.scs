@@ -1,0 +1,37 @@
+mogilev_region
+
+    => nrel_main_idtf:
+        [Могилёвский район]
+        (* <- lang_ru;;*);
+        [Mogilev region]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (Могилёвский район)]
+            (* <- lang_ru;; *);
+            [Definition (Mogilev region)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Административная единица на востоке Республики Беларусь.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Administrative unit in the east of the Republic of Belarus.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                concept_administrative_unit;
+                republic_of_belarus
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_region;;
