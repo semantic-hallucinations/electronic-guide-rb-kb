@@ -1,17 +1,17 @@
-brest_city
+vitebsk_city
 
     => nrel_main_idtf:
-        [город Брест]
+        [город Витебск]
         (* <- lang_ru;;*);
-        [Brest city]
+        [Vitebsk city]
         (* <- lang_en;;*);
     
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (город Брест)]
+            [Определение (город Витебск)]
             (* <- lang_ru;; *);
-            [Definition (Brest city)]
+            [Definition (Vitebsk city)]
             (* <- lang_en;; *);;
 
         <- definition;;
@@ -19,16 +19,16 @@ brest_city
         <= nrel_sc_text_translation:
             ...
             (*
-                -> [Город на юго-западе Республики Белорусь, административный центр Брестской области.] (* <- lang_ru;; *);;
+                -> [Город на северо-востоке Республики Беларусь, административный центр Витебской области.] (* <- lang_ru;; *);;
             *);
             ...
             (*
-                -> [A city in the southwest of the Republic of Belarus, the administrative center of the Brest region.] (* <- lang_en;; *);;
+                -> [A city in northeastern Belarus, the administrative center of the Vitebsk region.] (* <- lang_en;; *);;
             *);;
 
         <= nrel_using_constants:
             {
-                brest_region;
+                vitebsk_region;
                 concept_administrative_center;
                 concept_city
             };; 
