@@ -1,17 +1,17 @@
-brest_city
+grodno_city
 
     => nrel_main_idtf:
-        [город Брест]
+        [город Гродно]
         (* <- lang_ru;;*);
-        [Brest city]
+        [Grodno city]
         (* <- lang_en;;*);
     
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (город Брест)]
+            [Определение (город Гродно)]
             (* <- lang_ru;; *);
-            [Definition (Brest city)]
+            [Definition (Grodno city)]
             (* <- lang_en;; *);;
 
         <- definition;;
@@ -19,16 +19,16 @@ brest_city
         <= nrel_sc_text_translation:
             ...
             (*
-                -> [Город на юго-западе Республики Белорусь, административный центр Брестской области.] (* <- lang_ru;; *);;
+                -> [Город на западе Республики Беларусь, административный центр Гродненской области.] (* <- lang_ru;; *);;
             *);
             ...
             (*
-                -> [A city in the southwest of the Republic of Belarus, the administrative center of the Brest region.] (* <- lang_en;; *);;
+                -> [A city in western Belarus, the administrative center of the Grodno region.] (* <- lang_en;; *);;
             *);;
 
         <= nrel_using_constants:
             {
-                brest_region;
+                grodno_region;
                 concept_administrative_center;
                 concept_city
             };; 

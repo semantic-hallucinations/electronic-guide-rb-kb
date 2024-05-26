@@ -1,17 +1,17 @@
-brest_city
+minsk_city
 
     => nrel_main_idtf:
-        [город Брест]
+        [город Минск]
         (* <- lang_ru;;*);
-        [Brest city]
+        [Minsk city]
         (* <- lang_en;;*);
     
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (город Брест)]
+            [Определение (город Минск)]
             (* <- lang_ru;; *);
-            [Definition (Brest city)]
+            [Definition (Minsk city)]
             (* <- lang_en;; *);;
 
         <- definition;;
@@ -19,17 +19,17 @@ brest_city
         <= nrel_sc_text_translation:
             ...
             (*
-                -> [Город на юго-западе Республики Белорусь, административный центр Брестской области.] (* <- lang_ru;; *);;
+                -> [Столица Республики Беларусь, крупнейший город страны.] (* <- lang_ru;; *);;
             *);
             ...
             (*
-                -> [A city in the southwest of the Republic of Belarus, the administrative center of the Brest region.] (* <- lang_en;; *);;
+                -> [Capital of the Republic of Belarus, the largest city in the country.] (* <- lang_en;; *);;
             *);;
 
         <= nrel_using_constants:
             {
-                brest_region;
-                concept_administrative_center;
+                minsk_region;
+                concept_capital_city;
                 concept_city
             };; 
     *);

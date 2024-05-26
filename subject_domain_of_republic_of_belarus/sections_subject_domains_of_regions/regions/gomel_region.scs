@@ -1,7 +1,7 @@
 gomel_region
 
     => nrel_main_idtf:
-        [Гомельский район]
+        [Гомельская область]
         (* <- lang_ru;;*);
         [Gomel region]
         (* <- lang_en;;*);
@@ -9,7 +9,7 @@ gomel_region
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (Гомельский район)]
+            [Определение (Гомельская область)]
             (* <- lang_ru;; *);
             [Definition (Gomel region)]
             (* <- lang_en;; *);;
