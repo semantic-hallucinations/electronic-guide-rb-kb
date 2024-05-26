@@ -1,7 +1,7 @@
 grodno_region
 
     => nrel_main_idtf:
-        [Гроднеский район]
+        [Гроднеская область]
         (* <- lang_ru;;*);
         [Grodno region]
         (* <- lang_en;;*);
@@ -9,7 +9,7 @@ grodno_region
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (Гродненский район)]
+            [Определение (Гродненская область)]
             (* <- lang_ru;; *);
             [Definition (Grodno region)]
             (* <- lang_en;; *);;
