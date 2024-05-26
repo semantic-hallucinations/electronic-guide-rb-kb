@@ -1,7 +1,7 @@
 vitebsk_region
 
     => nrel_main_idtf:
-        [Витебский район]
+        [Витебская область]
         (* <- lang_ru;;*);
         [Vitebsk region]
         (* <- lang_en;;*);
@@ -9,7 +9,7 @@ vitebsk_region
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (Витебский район)]
+            [Определение (Витебская область)]
             (* <- lang_ru;; *);
             [Definition (Vitebsk region)]
             (* <- lang_en;; *);;
