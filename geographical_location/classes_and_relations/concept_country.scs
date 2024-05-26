@@ -1,0 +1,74 @@
+concept_country
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[страна]
+	(* <- lang_ru;; *);
+	[country]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (страны)]
+        (* <- lang_ru;; *);
+        [Definition (country)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Страна — территория, имеющая политические, физико-географические, культурные или исторические границы, которые четко определены и зафиксированы.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Country is a territory that has political, physical-geographical, cultural or historical boundaries that are clearly defined and fixed.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_territory;
+            concept_politic;
+            concept_physical_geography;
+            concept_cultury;
+            concept_histiry;
+            concept_boundary;
+            concept_defined
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (страны)]
+        (* <- lang_ru;; *);
+        [Statement (country)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Территория, имеющая политические, физико-географические, культурные или исторические границы, которые четко определены и зафиксированы.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Territory that has political, physical-geographical, cultural or historical boundaries that are clearly defined and fixed.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_administrative_territorial_unit;
+            concept_part;
+            concept_country
+        };; 
+*);
+
+<= nrel_inclusion:
+    concept_continent;
+
+<= nrel_inclusion: 
+    concept_geographical_unit;;

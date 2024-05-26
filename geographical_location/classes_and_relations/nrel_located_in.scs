@@ -1,0 +1,19 @@
+nrel_lockated_in
+
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
+
+=> nrel_main_idtf:
+	[ расположено в* ]
+	(* <- lang_ru;; *);
+	[ lockated in* ]
+	(* <- lang_en;; *);
+
+=> nrel_first_domain: concept_geographical_unit;
+=> nrel_second_domain: concept_geographical_unit;;

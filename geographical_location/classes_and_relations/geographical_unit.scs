@@ -1,0 +1,66 @@
+geographical_unit
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[географическая единица]
+	(* <- lang_ru;; *);
+	[geographical_unit]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (географической единицы)]
+        (* <- lang_ru;; *);
+        [Definition (geographical_unit)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Географическая единица - это территория, выделяемая по географическому положению, природным условиям или административным границам.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A geographic unit is a territory defined by geographic location, natural conditions or administrative boundaries.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_territory;
+            concept_geographical_location;
+            concept_natural_condition;
+            concept_administrative_boundary
+        };;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (географической единицы)]
+        (* <- lang_ru;; *);
+        [Statement (geographical_unit)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Территория, выделяемая по географическому положению, природным условиям или административным границам.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Territory defined by geographic location, natural conditions or administrative boundaries.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_territory;
+            concept_geographical_location;
+            concept_natural_condition;
+            concept_administrative_boundary
+        };; 
+*);;
