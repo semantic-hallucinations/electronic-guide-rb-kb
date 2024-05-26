@@ -1,7 +1,7 @@
 mogilev_region
 
     => nrel_main_idtf:
-        [Могилёвский район]
+        [Могилёвская область]
         (* <- lang_ru;;*);
         [Mogilev region]
         (* <- lang_en;;*);
@@ -9,7 +9,7 @@ mogilev_region
     <- rrel_key_sc_element: ...
     (*
         => nrel_main_idtf:
-            [Определение (Могилёвский район)]
+            [Определение (Могилёвсая область)]
             (* <- lang_ru;; *);
             [Definition (Mogilev region)]
             (* <- lang_en;; *);;
