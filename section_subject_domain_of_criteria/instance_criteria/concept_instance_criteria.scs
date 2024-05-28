@@ -29,7 +29,7 @@ concept_instance_criteria
 
     <= nrel_using_constants:
         {
-            concept_criteria;
+        concept_criteria;
 	    concept_instance;
 	    concept_search_criteria
         };; 
@@ -57,7 +57,7 @@ concept_instance_criteria
 
     <= nrel_using_constants:
         {
-            concept_criteria;
+        concept_criteria;
 	    concept_instance;
 	    concept_search_criteria
         };; 

@@ -8,6 +8,28 @@ section_subject_domain_of_minsk_region
 
     -> rrel_key_sc_element:
         minsk_city;
+        berezino_city;
+        borisov_city;
+        vileyka_city;
+        volozhin_city;
+        dzerzhinsk_city;
+        kletsk_city;
+        kopyl_city;
+        krupki_city;
+        logoysk_city;
+        lyuban_city;
+        molodechno_city;
+        myadel_city;
+        nesvizh_city;
+        pukhovichi_city;
+        slutsk_city;
+        smolevichi_city;
+        soligorsk_city;
+        starye_dorogi_city;
+        stolbtsy_city;
+        uzda_city;
+        cherven_city;
+        zhodino_city;
 
     <- atomic_section;;
 
@@ -28,5 +50,27 @@ section_subject_domain_of_minsk_region
                 minsk_region;
 
             -> rrel_not_maximum_studied_object_class:
+                berezino_city;
+                borisov_city;
+                vileyka_city;
+                volozhin_city;
+                dzerzhinsk_city;
+                kletsk_city;
+                kopyl_city;
+                krupki_city;
+                logoysk_city;
+                lyban_city;
+                molodechno_city;
+                myadel_city;
+                nesvizh_city;
+                puhovichi_city;
+                slutsk_city;
+                smolevichi_city;
+                soligorsk_city;
+                starye_dorogi_city;
+                stolbtsy_city;
+                uzda_city;
+                cherven_city;
+                zhodino_city;
                 minsk_city;;
     *];;

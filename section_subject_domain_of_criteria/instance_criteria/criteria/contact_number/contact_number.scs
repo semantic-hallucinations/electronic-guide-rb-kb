@@ -1,0 +1,69 @@
+contact_number
+
+=> nrel_main_idtf:
+    [Критерий экземпляра. Контактный телефон]
+    (* <- lang_ru;; *);
+    [Instance criteria. Сontact number]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_contact_number;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Контактный телефон)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Сontact number)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Контактный телефон - критерий, отражающий номер телефона для связи с местом.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Working hours is a criterion that reflects the telephone number for contacting the place.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_phone_number
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Контактный телефон)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Сontact number)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий номер телефона для связи с местом.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects the telephone number for contacting the place.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_phone_number
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;

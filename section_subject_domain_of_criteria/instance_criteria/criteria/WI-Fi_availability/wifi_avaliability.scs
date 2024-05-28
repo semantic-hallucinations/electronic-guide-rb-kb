@@ -1,0 +1,68 @@
+wi_fi_availability
+=> nrel_main_idtf:
+    [Критерий экземпляра. Наличие Wi-Fi]
+    (* <- lang_ru;; *);
+    [Instance criteria. Wi-Fi availability]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_wifi_availability;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Наличие Wi-Fi)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Wi-Fi availability)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Наличие Wi-Fi - критерий, отражающий доступность Wi-Fi в данном месте.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Wi-Fi availability is a criterion that reflects the accessibility of Wi-Fi in a certain place.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_wifi
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Наличие Wi-Fi)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Wi-Fi availability)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий доступность Wi-Fi в данном месте.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects the accessibility of Wi-Fi in a certain place.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_wifi
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
