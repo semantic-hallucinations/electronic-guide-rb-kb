@@ -1,0 +1,60 @@
+criteria_value
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[Значение критерия]
+	(* <- lang_ru;; *);
+	[Criteria value]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Значения критерия)]
+        (* <- lang_ru;; *);
+        [Definition (Criteria value)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Значение критерия - варианты аргуметнов, с которыми может связывать понятие отношение критерия.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Значения критерия)]
+        (* <- lang_ru;; *);
+        [Statement (Criteria value)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Варианты аргуметнов, с которыми может связывать понятие отношение критерия.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);;

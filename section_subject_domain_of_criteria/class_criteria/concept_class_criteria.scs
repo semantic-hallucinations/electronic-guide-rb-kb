@@ -1,0 +1,63 @@
+concept_class_criteria
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[Криттерий поиска класса]
+	(* <- lang_ru;; *);
+	[Search criteria of class]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Криттерия поиска класса)]
+        (* <- lang_ru;; *);
+        [Definition (Search criteria of class)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Криттерий поиска класса - критерий поиска, используемый для определения класса по набору признаков.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Криттерия поиска класса)]
+        (* <- lang_ru;; *);
+        [Statement (Search criteria of class)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий поиска, используемый для определения класса по набору признаков.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_criteria;;

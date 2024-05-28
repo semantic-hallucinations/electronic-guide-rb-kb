@@ -1,0 +1,62 @@
+people_capacity
+
+    => nrel_main_idtf:
+	[Криттерий экземпляра. Вместимость человек]
+	(* <- lang_ru;; *);
+	[Instance criteria. People capacity]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Криттерия экземпляра. Вместимость человек)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. People capacity)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Вместимость людей - критерий, отражающий сколько человек может быть расположено в данном месте.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Криттерия экземпляра. Вместимость человек)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. People capacity)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий сколько человек может быть расположено в данном месте.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
