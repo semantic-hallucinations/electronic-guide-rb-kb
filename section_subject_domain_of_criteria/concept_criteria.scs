@@ -2,7 +2,7 @@ concept_criteria
 <- sc_node_class;
 
 => nrel_main_idtf:
-	[Криттерий поиска электронного гида]
+	[Критерий поиска электронного гида]
 	(* <- lang_ru;; *);
 	[Search criteria of Electronic guide]
 	(* <- lang_en;; *);
@@ -10,7 +10,7 @@ concept_criteria
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Определение (Криттерия поиска Электронного гида)]
+        [Определение (Критерия поиска Электронного гида)]
         (* <- lang_ru;; *);
         [Definition (Search criteria of Electronic guide)]
         (* <- lang_en;; *);;
@@ -20,23 +20,25 @@ concept_criteria
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Криттерий поиска электронного гида - условный элемент характеризующий некую особенность рассматриваемого объекта, используемый для поиска в Электронном гиде.] (* <- lang_ru;; *);;
+            -> [Критерий поиска электронного гида - условный элемент характеризующий некую особенность рассматриваемого объекта, используемый для поиска в Электронном гиде.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [Electronic guide search criterion is a conditional element characterizing a certain feature of the object in question, used for searching in the Electronic Guide.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_conditional_element;
+	    concept_electronic_guide;
+	    concept_search
         };; 
 *);
 
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Утверждение (Криттерия поиска Электронного гида)]
+        [Утверждение (Критерия поиска Электронного гида)]
         (* <- lang_ru;; *);
         [Statement (Search criteria of Electronic guide)]
         (* <- lang_en;; *);;
@@ -50,11 +52,13 @@ concept_criteria
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A conditional element characterizing a certain form of the depicted object, which must be used to search in an electronic directory.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_conditional_element;
+	    concept_electronic_guide;
+	    concept_search
         };; 
 *);;
