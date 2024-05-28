@@ -1,10 +1,13 @@
 type_of_value
 
-    => nrel_main_idtf:
-	[Криттерий класса. Тип ценности]
-	(* <- lang_ru;; *);
-	[Class criteria. Type of value]
-	(* <- lang_en;; *);
+=> nrel_main_idtf:
+    [Криттерий класса. Тип ценности]
+    (* <- lang_ru;; *);
+    [Class criteria. Type of value]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_type_of_value;
 
 <- rrel_key_sc_element: ...
 (*

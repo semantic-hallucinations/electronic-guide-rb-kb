@@ -1,10 +1,13 @@
 people_capacity
 
-    => nrel_main_idtf:
-	[Криттерий экземпляра. Вместимость человек]
-	(* <- lang_ru;; *);
-	[Instance criteria. People capacity]
-	(* <- lang_en;; *);
+=> nrel_main_idtf:
+    [Криттерий экземпляра. Вместимость человек]
+    (* <- lang_ru;; *);
+    [Instance criteria. People capacity]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_people_capacity;
 
 <- rrel_key_sc_element: ...
 (*
