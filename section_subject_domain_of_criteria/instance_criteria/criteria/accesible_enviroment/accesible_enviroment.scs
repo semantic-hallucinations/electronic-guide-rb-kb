@@ -1,0 +1,68 @@
+accessible_environment
+=> nrel_main_idtf:
+    [Критерий экземпляра. Доступная среда]
+    (* <- lang_ru;; *);
+    [Instance criteria. Accessible environment]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_accessible_environment;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Доступная среда)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Accessible environment)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Доступная среда - критерий, отражающий уровень доступности окружающей среды для людей с ограниченными возможностями.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Accessible environment is a criterion that reflects the level of accessibility of the surrounding environment for people with disabilities.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_accessibility
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Доступная среда)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Accessible environment)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий уровень доступности окружающей среды для людей с ограниченными возможностями.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects the level of accessibility of the surrounding environment for people with disabilities.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_accessibility
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
