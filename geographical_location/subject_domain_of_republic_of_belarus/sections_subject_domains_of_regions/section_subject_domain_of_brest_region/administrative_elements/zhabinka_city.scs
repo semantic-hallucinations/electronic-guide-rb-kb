@@ -1,0 +1,37 @@
+zhabinka_city
+
+    => nrel_main_idtf:
+        [город Жабинка]
+        (* <- lang_ru;;*);
+        [Zhabinka city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Жабинка)]
+            (* <- lang_ru;; *);
+            [Definition (Zhabinka city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Жабинка — город в Беларуси, на западе Брестской области. Город-спутник Бреста.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Zhabinka is a city in Belarus, in the west of the Brest region. Satellite city of Brest.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
