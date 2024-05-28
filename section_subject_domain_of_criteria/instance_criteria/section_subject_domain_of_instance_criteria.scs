@@ -1,0 +1,32 @@
+section_subject_domain_of_instance_criteria
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область критериев экземпляра поиска электронного гида]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of instance criteria of electronic guide]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_instance_criteria;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+section_subject_domain_of_instance_criteria
+    = [*
+        subject_domain_of_instance_criteria
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область критериев экземпляра поиска электронного гида]
+                (* <- lang_ru;;*);
+                [Subject domain of instance criteria of electronic guide]
+                (* <- lang_en;;*);
+        
+            -> rrel_maximum_studied_object_class:
+                concept_instance_criteria;;
+
+           // -> rrel_not_maximum_studied_object_class:
+                
+    *];;

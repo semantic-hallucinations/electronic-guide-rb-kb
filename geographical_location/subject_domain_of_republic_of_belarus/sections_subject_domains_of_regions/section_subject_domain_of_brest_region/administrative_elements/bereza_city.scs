@@ -1,0 +1,37 @@
+bereza_city
+
+    => nrel_main_idtf:
+        [город Берёза]
+        (* <- lang_ru;;*);
+        [Bereza city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Берёза)]
+            (* <- lang_ru;; *);
+            [Definition (Bereza city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Берёза — город в Брестской области Белоруссии. Административный центр Берёзовского района. На реке Ясельда. ] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Bereza is a city in the Brest region of Belarus. Administrative center of the Berezovsky district. On the Yaselda River.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
