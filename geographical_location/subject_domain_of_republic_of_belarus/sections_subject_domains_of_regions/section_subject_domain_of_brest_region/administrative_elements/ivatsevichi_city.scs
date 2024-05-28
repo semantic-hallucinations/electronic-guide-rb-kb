@@ -1,0 +1,37 @@
+ivatsevichi_city
+
+    => nrel_main_idtf:
+        [город Ивацевичи]
+        (* <- lang_ru;;*);
+        [Ivatsevichi city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Ивацевичи)]
+            (* <- lang_ru;; *);
+            [Definition (Ivatsevichi city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Ивацевичи — город в Брестской области Беларуси. Административный центр Ивацевичского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Ivatsevichi is a city in the Brest region of Belarus. Administrative center of Ivatsevichi district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

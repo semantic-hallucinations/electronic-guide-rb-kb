@@ -8,6 +8,12 @@ section_subject_domain_of_brest_region
 
     -> rrel_key_sc_element:
         brest_city;
+        baranovichi_city;
+        bereza_city;
+        ivatsevichi_city;
+        kobrin_city;
+        luninets_city;
+        pinsk_city;
 
     <- atomic_section;;
 
@@ -28,5 +34,11 @@ section_subject_domain_of_brest_region
                 brest_region;
 
             -> rrel_not_maximum_studied_object_class:
-                brest_city;;
+                brest_city;
+                baranovichi_city;
+                bereza_city;
+                ivatsevichi_city;
+                kobrin_city;
+                luninets_city;
+                pinsk_city;;
     *];;
