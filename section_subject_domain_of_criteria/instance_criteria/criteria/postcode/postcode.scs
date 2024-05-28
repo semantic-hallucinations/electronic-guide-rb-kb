@@ -1,0 +1,69 @@
+postcode
+
+=> nrel_main_idtf:
+    [Критерий экземпляра. Почтовый индекс]
+    (* <- lang_ru;; *);
+    [Instance criteria. Postcode]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_postcode;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Почтовый индекс)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Postcode)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Почтовый индекс - критерий, отражающий принадлежность места к определенному почтовому округу.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Postcode is a criterion that reflects whether a place belongs to a particular postal district.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_postcode
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Почтовый индекс)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Postcode)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий принадлежность места к определенному почтовому округу.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflectswhether a place belongs to a particular postal district.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_postcode
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
