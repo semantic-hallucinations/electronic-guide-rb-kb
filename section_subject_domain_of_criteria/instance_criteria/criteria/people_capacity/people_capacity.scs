@@ -12,7 +12,7 @@ people_capacity
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Определение (Криттерия экземпляра. Вместимость человек)]
+        [Определение (Критерия экземпляра. Вместимость человек)]
         (* <- lang_ru;; *);
         [Definition (Instance criteria. People capacity)]
         (* <- lang_en;; *);;
@@ -26,12 +26,14 @@ people_capacity
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [People capacity is a criterion that reflects how many people can be located in a certain place.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_criteria;
+            concept_instance_criteria;
+            concept_people
         };; 
 *);
 
@@ -52,12 +54,14 @@ people_capacity
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A criterion that reflects how many people can be located in a certain place.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_criteria;
+            concept_instance_criteria;
+            concept_people
         };; 
 *);
 
