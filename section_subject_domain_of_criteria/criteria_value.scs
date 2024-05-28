@@ -20,16 +20,18 @@ criteria_value
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Значение критерия - варианты аргуметнов, с которыми может связывать понятие отношение критерия.] (* <- lang_ru;; *);;
+            -> [Значение критерия - варианты аргументов, с которыми может связывать понятие отношение критерия.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [The value of a criterion is the variants of arguments with which the concept of a criterion relation can be associated.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_criteria;
+	    concept_argument;
+	    concept_criterion_relation
         };; 
 *);
 
@@ -46,15 +48,17 @@ criteria_value
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Варианты аргуметнов, с которыми может связывать понятие отношение критерия.] (* <- lang_ru;; *);;
+            -> [Варианты аргументов, с которыми может связывать понятие отношение критерия.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [Variants of arguments with which the concept of a criterion relation can be associated.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_criteria;
+	    concept_argument;
+	    concept_criterion_relation
         };; 
 *);;
