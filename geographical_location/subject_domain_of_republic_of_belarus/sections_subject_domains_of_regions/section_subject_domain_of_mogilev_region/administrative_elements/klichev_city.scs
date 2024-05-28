@@ -1,0 +1,37 @@
+klichev_city
+
+    => nrel_main_idtf:
+        [город Кличев]
+        (* <- lang_ru;;*);
+        [Klichev city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Кличев)]
+            (* <- lang_ru;; *);
+            [Definition (Klichev city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Кли́чев — город в Могилёвской области Белоруссии на реке Ольса. Административный центр Кличевского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Klichev is a city in the Mogilev region of Belarus on the Olsa River. Administrative center of Klichevsky district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
