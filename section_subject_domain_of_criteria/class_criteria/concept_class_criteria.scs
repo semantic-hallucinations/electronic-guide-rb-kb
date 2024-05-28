@@ -30,7 +30,8 @@ concept_class_criteria
     <= nrel_using_constants:
         {
             concept_criteria;
-	    concept_class
+	    concept_class;
+	    concept_search_criteria
         };; 
 *);
 
@@ -57,7 +58,8 @@ concept_class_criteria
     <= nrel_using_constants:
         {
             concept_criteria;
-	    concept_class
+	    concept_class;
+	    concept_search_criteria
         };; 
 *);
 
