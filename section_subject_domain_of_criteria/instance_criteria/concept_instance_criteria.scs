@@ -2,7 +2,7 @@ concept_instance_criteria
 <- sc_node_class;
 
 => nrel_main_idtf:
-	[Криттерий поиска экземпляра]
+	[Критерий поиска экземпляра]
 	(* <- lang_ru;; *);
 	[Search criteria of instance]
 	(* <- lang_en;; *);
@@ -10,7 +10,7 @@ concept_instance_criteria
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Определение (Криттерия поиска экземпляра)]
+        [Определение (Критерия поиска экземпляра)]
         (* <- lang_ru;; *);
         [Definition (Search criteria of instance)]
         (* <- lang_en;; *);;
@@ -20,23 +20,25 @@ concept_instance_criteria
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Криттерий поиска класса - критерий поиска, используемый для определения экземпляра по набору признаков.] (* <- lang_ru;; *);;
+            -> [Критерий поиска экземпляра - критерий поиска, используемый для определения экземпляра по набору признаков.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [Instance search criterion - search criterion used to determine an instance based on a set of characteristics] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_criteria;
+	    concept_instance;
+	    concept_search_criteria
         };; 
 *);
 
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Утверждение (Криттерия поиска экземпляра)]
+        [Утверждение (Критерия поиска экземпляра)]
         (* <- lang_ru;; *);
         [Statement (Search criteria of instance)]
         (* <- lang_en;; *);;
@@ -50,12 +52,14 @@ concept_instance_criteria
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A search criterion used to identify an instance based on a set of characteristics.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_criteria;
+	    concept_instance;
+	    concept_search_criteria
         };; 
 *);
 
