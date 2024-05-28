@@ -1,0 +1,37 @@
+gantsevichi_city
+
+    => nrel_main_idtf:
+        [город Ганцевичи]
+        (* <- lang_ru;;*);
+        [Gantsevichi city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Ганцевичи)]
+            (* <- lang_ru;; *);
+            [Definition (Gantsevichi city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Ганцевичи — город в Брестской области Беларуси. Административный центр Ганцевичского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Gantsevichi is a city in the Brest region of Belarus. Administrative center of the Gantsevichi district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
