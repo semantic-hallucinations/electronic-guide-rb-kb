@@ -1,4 +1,4 @@
-nrel_working_hours
+nrel_contact_number
 
 <-sc_node_norole_relation;
 <-relation;
@@ -10,10 +10,10 @@ nrel_working_hours
 <-asymmetric_relation;
 
 => nrel_main_idtf:
-	[ время работы* ]
+	[ контактный телефон* ]
 	(* <- lang_ru;; *);
-	[ working hours* ]
+	[ contact number* ]
 	(* <- lang_en;; *);
 
 => nrel_first_domain: concept_sight;
-=> nrel_second_domain: time;;
+=> nrel_second_domain: phone_number;;
