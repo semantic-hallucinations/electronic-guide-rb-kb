@@ -40,7 +40,7 @@ people_capacity
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Утверждение (Криттерия экземпляра. Вместимость человек)]
+        [Утверждение (Критерия экземпляра. Вместимость человек)]
         (* <- lang_ru;; *);
         [Statement (Instance criteria. People capacity)]
         (* <- lang_en;; *);;
