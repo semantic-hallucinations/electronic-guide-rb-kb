@@ -1,0 +1,39 @@
+lepel_city
+
+    => nrel_main_idtf:
+        [город Лепель]
+        (* <- lang_ru;;*);
+        [Lepel city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Лепель)]
+            (* <- lang_ru;; *);
+            [Definition (Lepel city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Лепель расположен на севере Белоруссии, в Витебской области, и является административным центром Лепельского района. 
+                Географически город находится на юго-восточном берегу Лепельского озера, в 155 км от Минска и в 110 км от Витебска.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The town of Lepel is located in the north of Belarus, in the Vitebsk region, and is the administrative center of the Lepel region. 
+                Geographically, the city is located on the southeastern shore of Lake Lepel, 155 km from Minsk and 110 km from Vitebsk.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
