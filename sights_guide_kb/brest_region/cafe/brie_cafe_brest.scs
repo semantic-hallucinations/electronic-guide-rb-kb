@@ -1,0 +1,36 @@
+brie_cafe_brest
+
+    => nrel_main_idtf:
+        [Кофейня "Brie Coffee Bar" в Бресте]
+        (* <- lang_ru;; *);
+        [Cafe "Brie Coffee Bar" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [09:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_descripti.on:
+        [Кофейня "Brie Coffee Bar" достаточно свежая концепция в понимании кофе. Здесь вам предлагают 
+        попробовать его в сочетании с сыром. И да, это действительно интересная гастропара! Можно затестить 
+        раф с добавлением сливочного сыра и специй: напиток получается тягучим и слегка солоноватым. Также 
+        обратите внимание на капучино с шапочкой из пармезана — неординарная гастрономическая эмоция обеспечена. ]
+        (* <- lang_ru;; *);;
+        [The Brie Coffee Bar coffee shop is a fairly fresh concept in the understanding of coffee. Here you are offered
+        try it in combination with cheese. And yes, this is a really interesting gastro couple! Can be tested
+        raf with the addition of cream cheese and spices: the drink is viscous and slightly salty. Also
+        Pay attention to the cappuccino with a Parmesan cap - an extraordinary gastronomic experience is guaranteed.]
+        (* <- lang_eng;; *);;

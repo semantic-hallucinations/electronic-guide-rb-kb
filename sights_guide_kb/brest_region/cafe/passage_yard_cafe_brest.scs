@@ -1,0 +1,40 @@
+passage_yard_cafe_brest
+
+    => nrel_main_idtf:
+        [Кофейня "Проходной двор" в Бресте]
+        (* <- lang_ru;; *);
+        [Cafe "Passage yard" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+
+    => nrel_working_hours:
+        [09:30 - 22:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_descripti.on:
+        [История этой локации началась с небольшой кофейни на Советской, которая зарекомендовала 
+        себя как место с отменным кофе. Ребята решили двинуться дальше и стали сами выпекать 
+        круассаны. Публике зашло, захотелось масштабироваться. Так появился «Проходной двор» 
+        — место про завтраки, кофе и вино.]
+        (* <- lang_ru;; *);;
+        [The history of this location began with a small coffee shop on Sovetskaya, which established 
+        itself as a place with excellent coffee. The guys decided to move on and began baking croissants 
+        themselves. The public came in and wanted to scale. This is how “Passage Yard” appeared - a place 
+        about breakfast, coffee and wine.]
+        (* <- lang_eng;; *);;

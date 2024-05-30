@@ -1,0 +1,32 @@
+bufet_cafe_brest
+
+    => nrel_main_idtf:
+        [Кафе  "Буфет" в Бресте]
+        (* <- lang_ru;; *);
+        [Cafe "Буфет" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        twelve_plus;
+    
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+    => nrel_accesible_environment:
+        accesible;
+
+    => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_descripti.on:
+        [У «Буфета» просторное помещение, которое требовало мультиформата. Поэтому здесь решили пойти проверенным путем: сочетать национальную кухню с европейской и самостоятельно готовить настойки.]
+        (* <- lang_ru;; *);;
+        [“Buffet” has a spacious room that required a multi-format. Therefore, they decided to go the proven route: combine national cuisine with European cuisine and prepare their own tinctures.]
+        (* <- lang_eng;; *);;
