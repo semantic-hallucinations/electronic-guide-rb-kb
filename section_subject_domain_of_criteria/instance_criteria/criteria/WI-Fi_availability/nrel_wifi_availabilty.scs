@@ -1,13 +1,13 @@
 nrel_wifi_availability
 
-<=sc_node_norole_relation;
-<=relation;
-<=norole_relation;
-<=binary_relation;
-<=oriented_relation;
-<=antireflexive_relation;
-<=antitransitive_relation;
-<=asymmetric_relation;
+<-sc_node_norole_relation;
+<-relation;
+<-norole_relation;
+<-binary_relation;
+<-oriented_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;
+<-asymmetric_relation;
 
 => nrel_main_idtf:
     [доступность Wi-Fi*]
