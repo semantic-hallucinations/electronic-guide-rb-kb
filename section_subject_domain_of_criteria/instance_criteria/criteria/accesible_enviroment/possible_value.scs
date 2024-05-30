@@ -33,3 +33,24 @@ not_accessible
 // --------------------------------------------
 
 
+// --------------------------------------------
+accesible
+=> nrel_main_idtf:
+      [Доступно для инвалидов]
+      (*<-lang_ru;;*);
+      [Accesible for disabled people]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+// --------------------------------------------
+not_accesible
+=> nrel_main_idtf:
+      [Не доступно для инвалидов]
+      (*<-lang_ru;;*);
+      [Not accesible for disabled people]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
