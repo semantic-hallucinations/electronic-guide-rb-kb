@@ -22,11 +22,11 @@ number_of_halls
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Вместимость людей - критерий, отражающий количество залов в здании.] (* <- lang_ru;; *);;
+            -> [Количество залов - критерий, отражающий количество залов в здании.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [People capacity is a criterion that reflects the number of halls in the building.] (* <- lang_en;; *);;
+            -> [Number of halls is a criterion that reflects the number of halls in the building.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
