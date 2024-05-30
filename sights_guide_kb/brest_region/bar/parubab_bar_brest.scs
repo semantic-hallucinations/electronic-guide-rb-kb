@@ -17,8 +17,8 @@ parubab_bar_brest
         [1]
         (* <- number;; *);
     
-    => nrel_accesible_environment:
-        not_accesible;
+    => nrel_accessible_environment:
+        not_accessible;
 
 
     => nrel_wifi_availability:

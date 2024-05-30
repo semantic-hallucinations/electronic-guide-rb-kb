@@ -8,6 +8,17 @@ section_subject_domain_of_gomel_region
 
     -> rrel_key_sc_element:
         gomel_city;
+        mozyr_city;
+        zhlobyn_city;
+        rechitsa_city;
+        svetlogorsk_city;
+        dobrush_city;
+        zhitkovichi_city;
+        hoiniki_city;
+        petrikov_city;
+        elsk_city;
+        chechersk_city;
+        vetka_city;
 
     <- atomic_section;;
 
@@ -28,5 +39,16 @@ section_subject_domain_of_gomel_region
                 gomel_region;
 
             -> rrel_not_maximum_studied_object_class:
-                gomel_city;;
+                gomel_city;
+                mozyr_city;
+                zhlobyn_city;
+                rechitsa_city;
+                svetlogorsk_city;
+                dobrush_city;
+                zhitkovichi_city;
+                hoiniki_city;
+                petrikov_city;
+                elsk_city;
+                chechersk_city;
+                vetka_city;;
     *];;

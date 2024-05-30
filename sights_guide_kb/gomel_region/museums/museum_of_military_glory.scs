@@ -1,0 +1,34 @@
+museum_of_military_glory
+    => nrel_main_idtf:
+        [Гомельский областной музей военной славы]
+        (* <- lang_ru;; *);
+        [Gomel Regional Museum of Military Glory]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[Гомельский областной музей военной славы - музей посвященный военной истории Гомельщины.
+        Музей был открыт в 2004 году в канун 60-летия освобождения Беларуси от немецко-фашистских 
+        захватчиков. Он включает в себя стационарную экспозицию из 8 залов, посвященных отражению 
+        и победе в Великой Отечественной войне, а также других событиях военной истории Гомельщины.
+        ] 
+        (* <- lang_ru;; *);
+		[Gomel Regional Museum of Military Glory is a museum dedicated to the military history of 
+        the Gomel region. The museum was opened in 2004 on the eve of the 60th anniversary of the 
+        liberation of Belarus from Nazi Germany invaders. It includes a permanent exhibition of 
+        8 rooms dedicated to reflection and victory in the Great Patriotic War, 
+        as well as other events in the military history of the Gomel region.] 
+        (* <- lang_en;; *);;

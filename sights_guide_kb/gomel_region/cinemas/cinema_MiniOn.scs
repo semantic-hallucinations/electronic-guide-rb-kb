@@ -1,0 +1,40 @@
+cinema_MiniOn
+    => nrel_main_idtf:
+        [Кинотеатр "МиниОн"]
+        (* <- lang_ru;; *);
+        [Cinema "MiniOn"]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [3]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [87]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [10:00 - 22:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_cinema;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Кинтеатр "МиниОн" предлагает удобное расписание сеансов, афишу на сегодня и ближайшие дни. 
+        Цены на билеты начинаются от 7 рублей. Их можно приобрести онлайн на сайте кинотеатра.
+        Кинтеатр "МиниОн" оснащен современным оборудованием и предлагает зрителям комфортный просмотр 
+        фильмов. Кинотеатр регулярно обновляет репертуар, включая новинки кинопроката.]
+        (* <- lang_ru;; *);
+        [Cinema "MiniOn" offers a convenient schedule of shows, a poster for today and the coming days.
+        Ticket prices start from 7 rubles. They can be purchased online on the cinema website. The MiniOn 
+        cinema is equipped with modern equipment and offers viewers a comfortable viewing experience.
+        films. The cinema regularly updates its repertoire, including new releases.]
+        (* <- lang_eng;; *);;
