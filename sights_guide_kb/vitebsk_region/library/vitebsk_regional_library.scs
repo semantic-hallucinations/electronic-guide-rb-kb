@@ -1,0 +1,32 @@
+vitebsk_regional_library
+
+    => nrel_main_idtf:
+        [Витебская областная библиотека]
+        (* <- lang_ru;; *);
+        [Vitebsk Regional Library]
+        (* <- lang_en;; *);
+
+    => nrel_people_capacity:
+        [325]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 22:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_library;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Витебская областная библиотека им. В. И . Ленина — крупнейшая библиотека Витебской области. Находится по адресу улица Ленина, 8а.]
+        (* <- lang_ru;; *);;

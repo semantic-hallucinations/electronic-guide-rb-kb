@@ -1,0 +1,34 @@
+lyalka_theater_vitebsk
+
+    => nrel_main_idtf:
+        [Театр "Лялька" в Витебске]
+        (* <- lang_ru;; *);
+        [Theater "Lyalka" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_people_capacity:
+        [723]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [5]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [10:00 - 19:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_theater;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        ["Лялька" — это театр кукол, основанный в 1990 году в Витебске. Расположен он на улице Пушкина, 2. 
+        Здание театра было построено как частный жилой дом усадебного типа в стиле классицизма и является памятником истории и культуры города конца XIX — начала XX века.  ]
+        (* <- lang_ru;; *);;

@@ -1,0 +1,37 @@
+vitebsk_national_art_school_history_museum
+
+    => nrel_main_idtf:
+        ["Музей истории Витебского народного художественного училища" в Витебске]
+        (* <- lang_ru;; *);
+        ["Vitebsk National Art School History Museum" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [529]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [7]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Музей истории Витебского народного художественного училища — музей в Витебске. Филиал УК «Музей „Витебский центр современного искусства“».
+        Открыт 9 февраля 2018 года в историческом здании, где в 1918—1923 гг. размещалось Витебское народное художественное училище (ВНХУ).
+        Здание было построено в 1912—1913 гг. как дом банкира Израиля Вишняка. В 1914 году было заложено владельцем в банк,
+        после Октябрьской революции перешло в собственность государства.]
+        (* <- lang_ru;; *);;

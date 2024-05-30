@@ -1,0 +1,34 @@
+white_fox_restaurant_vitebsk
+
+    => nrel_main_idtf:
+        [Ресторан "Белый Лис" в Витебске]
+        (* <- lang_ru;; *);
+        [Restaurant "White Fox" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [16]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [523]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [4]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 00:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_restaurant;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [В заведении приятная и уютная атмосфера, интересное оформление зала. Приятная музыка. В меню представлены многие виды блюд, выбор большой, при этом не теряешься в том, что выбрать. Цены очень радуют.
+         Еда всегда вкусная, выглядит красиво и эстетично. Есть возможность заказать столик. Администратор добрая и вежливая. Персонал тоже весь отзывчивый и приятный. ]
+        (* <- lang_ru;; *);;

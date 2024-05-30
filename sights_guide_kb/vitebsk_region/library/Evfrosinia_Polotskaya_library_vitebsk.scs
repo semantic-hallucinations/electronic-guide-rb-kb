@@ -1,0 +1,32 @@
+Evfrosinia_Polotskaya_library_vitebsk
+
+    => nrel_main_idtf:
+        [Библиотека имени Евфросинии Полоцкой]
+        (* <- lang_ru;; *);
+        [Evfrosinia Polotskaya Library]
+        (* <- lang_en;; *);
+
+    => nrel_people_capacity:
+        [165]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_library;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Библиотека «Библиотека имени Евфросинии Полоцкой» по адресу Витебск, улица Чкалова, 39, корп. 3.]
+        (* <- lang_ru;; *);;

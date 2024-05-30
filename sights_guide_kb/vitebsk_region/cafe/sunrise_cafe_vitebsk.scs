@@ -1,0 +1,30 @@
+sunrise_cafe_vitebsk
+
+    => nrel_main_idtf:
+        [Кафе "Восход" в Витебске]
+        (* <- lang_ru;; *);
+        [Кафе "Sunrise" in Vitebsk]
+        (* <- lang_en;; *);
+
+    
+    => nrel_people_capacity:
+        [124]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [10:00 - 22:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Бюджетный обед. Супы, гарниры, горячее, салаты. Пирожки, булочки. Персонал старается.
+         Обстановка напоминает совецкую, музыка 15-летней давности. Место настольгическое.]
+        (* <- lang_ru;; *);;

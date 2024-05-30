@@ -1,0 +1,35 @@
+vitebsk_regional_museum_the_history_of_private_collectors
+
+    => nrel_main_idtf:
+        ["Витебский областной краеведческий музей, филиал Музей истории частного коллекционирования" в Витебске]
+        (* <- lang_ru;; *);
+        ["Vitebsk Regional Museum of Local History, Branch Museum of the History of Private Collectors" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [427]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [5]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [11:00 - 18:00]
+        (* <- time;; *);
+
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Музей истории частного коллекционирования находится в историческом центре города Витебска, в здании бывшей городской электростанции, которая
+        была построена в 1897-1898 гг. для обеспечения работы витебского трамвая.В основу музея легли частные собрания крупнейших коллекционеров Витебска ХIX-XX вв.
+        Всего экспонируется около 1700 подлинников: оружие и фарфор, скульптура и дворянская вышивка, награды и монеты стран мира, курительные трубки и археологические
+        находки, а также многое другое.]
+        (* <- lang_ru;; *);;

@@ -1,0 +1,35 @@
+mir_cinema_vitebsk
+
+    => nrel_main_idtf:
+        [Кинотеатр "Мир" в Витебске]
+        (* <- lang_ru;; *);
+        [Кинотеатр "Mir" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [320]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [4]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [08:00 - 21:50]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_cinema;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Расположен недалеко от областной филармонии, напротив парка Партизанской славы имени Миная Шмырёва (бывшего парка им. Ленина).
+        Кинотеатр был открыт более 50 лет назад, 15 июля 1961 года, и с тех пор стал важным культурным центром города.]
+        (* <- lang_ru;; *);;

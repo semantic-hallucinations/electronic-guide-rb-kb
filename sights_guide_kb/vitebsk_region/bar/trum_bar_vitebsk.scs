@@ -1,0 +1,33 @@
+trum_bar_vitebsk
+    => nrel_main_idtf:
+        [Бар "Tрюм" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Trum" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [20]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [124]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [ Неплохой бар, сделанный в пиратском стиле, хотя, кроме фотообоев артиллерийской палубы парусного корабля и пиратского флажка весь антураж заканчивается. 
+        Можно не только попить пива, послушать музыку, встретиться с друзьями, поиграть в настольные игры, но также можно проводить чемпионаты по игре в дартс! ]
+        (* <- lang_ru;; *);;

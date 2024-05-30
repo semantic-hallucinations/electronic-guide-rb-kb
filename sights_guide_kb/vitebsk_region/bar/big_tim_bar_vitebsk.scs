@@ -1,0 +1,33 @@
+big_tim_bar_vitebsk
+    => nrel_main_idtf:
+        [Бар "Большой Тим" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Big Tim" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [150]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [18:00 - 02:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Хорошее уютное место. Очень атмосферно и интересно. Вкусная кухня, большой выбор напитков и блюд. 
+        Вечером в выходные играет и поют кавер. Можно послушать музыку и потанцевать.]
+        (* <- lang_ru;; *);;

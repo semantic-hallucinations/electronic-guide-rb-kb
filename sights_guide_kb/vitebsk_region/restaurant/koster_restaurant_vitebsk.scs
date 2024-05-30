@@ -1,0 +1,37 @@
+koster_restaurant_vitebsk
+
+    => nrel_main_idtf:
+        [Ресторан "Koster" в Витебске]
+        (* <- lang_ru;; *);
+        [Restaurant "Koster" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [16]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [527]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [5]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [11:00 - 23:30]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_availaible;
+
+    <= nrel_inclusion: 
+        concept_restaurant;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Еда вкусная, персонал приветливый и дружелюбный.]
+        (* <- lang_ru;; *);;

@@ -1,0 +1,30 @@
+manao_cafe_vitebsk
+
+    => nrel_main_idtf:
+        [Кафе "Manao" в Витебске]
+        (* <- lang_ru;; *);
+        [Кафе "Manao" in Vitebsk]
+        (* <- lang_en;; *);
+
+    
+    => nrel_people_capacity:
+        [61]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Вкусная еда, уютный интерьер, быстрое обслуживание, вежливый персонал, самый вкусный кальян в городе, бесконечно шикарная, расслабленная атмосфера. ]
+        (* <- lang_ru;; *);;

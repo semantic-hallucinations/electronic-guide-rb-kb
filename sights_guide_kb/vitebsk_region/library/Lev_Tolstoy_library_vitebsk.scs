@@ -1,0 +1,32 @@
+Lev_Tolstoy_library_vitebsk
+
+    => nrel_main_idtf:
+        [Библиотека имени Л. Толстого]
+        (* <- lang_ru;; *);
+        [L. Tolstoy Library]
+        (* <- lang_en;; *);
+
+    => nrel_people_capacity:
+        [334]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 22:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_library;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Библиотека имени Л. Толстого — компания из категории Культура и искусство. Находится по адресу: Витебск, ул. Герцена, 29.]
+        (* <- lang_ru;; *);;

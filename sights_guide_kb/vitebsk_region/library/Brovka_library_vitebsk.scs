@@ -1,0 +1,32 @@
+Brovka_library_vitebsk
+
+    => nrel_main_idtf:
+        [Библиотека имени П. Бровки]
+        (* <- lang_ru;; *);
+        [P. Brovka Library]
+        (* <- lang_en;; *);
+
+    => nrel_people_capacity:
+        [154]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [09:00 - 20:30]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_library;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Библиотека им. П.Бровки работает по адресу проспект Строителей 10 в Витебске. Основная область деятельности "Культура, искусство, религия" и "Библиотеки".]
+        (* <- lang_ru;; *);;
