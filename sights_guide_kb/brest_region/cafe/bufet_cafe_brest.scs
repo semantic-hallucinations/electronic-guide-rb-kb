@@ -25,7 +25,7 @@ bufet_cafe_brest
     <= nrel_lockated_in: 
         brest_city;
     
-    => nrel_sight_descripti.on:
+    => nrel_sight_description:
         [У «Буфета» просторное помещение, которое требовало мультиформата. Поэтому здесь решили пойти проверенным путем: сочетать национальную кухню с европейской и самостоятельно готовить настойки.]
         (* <- lang_ru;; *);;
         [“Buffet” has a spacious room that required a multi-format. Therefore, they decided to go the proven route: combine national cuisine with European cuisine and prepare their own tinctures.]

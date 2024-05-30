@@ -25,7 +25,7 @@ fani_cafe_brest
     <= nrel_lockated_in: 
         brest_city;
     
-    => nrel_sight_descripti.on:
+    => nrel_sight_description:
         [Сейчас в «Доме Фани Браверман» витает дух классического бистро. Панорамные окна, много дневного цвета, деликатно подобранные тона, акценты в виде экстравагантных светильников и картин. Сюда можно заглянуть и на элегантный завтрак с беллини, но все же рекомендуем как место для ужина.]
         (* <- lang_ru;; *);;
         [Nowadays, the spirit of a classic bistro is in the air in the “Fanya Braverman House”. Panoramic windows, a lot of daylight color, delicately selected tones, accents in the form of extravagant lamps and paintings. You can also come here for an elegant breakfast with bellini, but we still recommend it as a place for dinner.]

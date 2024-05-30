@@ -1,0 +1,34 @@
+nezabudka_cafe_brest
+
+    => nrel_main_idtf:
+        [Кафе "Nezabudka" в Бресте]
+        (* <- lang_ru;; *);
+        [Cafe "Nezabudka" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+    
+    => nrel_wifi_avaliability:
+        wifi_not_avaliable;  
+
+    => nrel_accesible_environment:
+        accesible;
+
+    => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Кафе «Nezabudka (Незабудка)» расположено в Бресте возле Брестской крепости.
+        В кафе можно заказать блюда: холодные закуски и салаты, горячие блюда, пасты и пиццы, десерты.]
+        (* <- lang_ru;; *);;
+        [Cafe "Nezabudka" is located in Brest near the Brest Fortress.
+        In the cafe you can order dishes: cold appetizers and salads, hot dishes, pastas and pizzas, desserts.]
+        (* <- lang_eng;; *);;
