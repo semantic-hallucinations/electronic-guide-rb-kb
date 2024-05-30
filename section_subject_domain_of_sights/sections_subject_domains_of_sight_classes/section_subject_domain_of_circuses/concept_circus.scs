@@ -1,23 +1,21 @@
-concept_monument
+concept_circus
 <- sc_node_class;
 
 => nrel_main_idtf:
-	[монумент]
+	[цирк]
 	(* <- lang_ru;; *);
-	[monument]
+	[circus]
 	(* <- lang_en;; *);
 
 => nrel_type_of_value:
-    historical_value;
-    educational_value;
-    cultural_value;
+    entertainment_value;
 
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Определение (монумент)]
+        [Определение (цирк)]
         (* <- lang_ru;; *);
-        [Definition (monument)]
+        [Definition (circus)]
         (* <- lang_en;; *);;
 
     <- definition;;
@@ -25,7 +23,7 @@ concept_monument
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Монумент - это большой памятник.] (* <- lang_ru;; *);;
+            -> [Цирк - это зрелищное предприятие для устройства представлений с участием акробатов, гимнастов, клоунов, дрессированных животных.] (* <- lang_ru;; *);;
         *);
         ...
         (*
@@ -41,9 +39,9 @@ concept_monument
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Утверждение (монумент)]
+        [Утверждение (цирк)]
         (* <- lang_ru;; *);
-        [Statement (monument)]
+        [Statement (circus)]
         (* <- lang_en;; *);;
 
     <- statement;;
@@ -51,7 +49,7 @@ concept_monument
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Большой памятник.] (* <- lang_ru;; *);;
+            -> [Зрелищное предприятие для устройства представлений с участием акробатов, гимнастов, клоунов, дрессированных животных.] (* <- lang_ru;; *);;
         *);
         ...
         (*

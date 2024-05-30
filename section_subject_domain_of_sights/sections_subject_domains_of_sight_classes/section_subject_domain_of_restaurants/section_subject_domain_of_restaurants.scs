@@ -1,0 +1,31 @@
+section_subject_domain_of_restaurants
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область ресторанов]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of restaurants]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_restaurant;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+section_subject_domain_of_restaurants
+    = [*
+        subject_domain_of_restaurants
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область ресторанов]
+                (* <- lang_ru;;*);
+                [Subject domain of restaurants]
+                (* <- lang_en;;*);
+
+            -> rrel_maximum_studied_object_class:
+                concept_restaurant;;
+
+            //-> rrel_not_maximum_studied_object_class:
+    *];;
