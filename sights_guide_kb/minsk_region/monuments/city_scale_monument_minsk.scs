@@ -9,7 +9,7 @@ city_scale_monument_minsk
 
     => nrel_working_hours:
         [Круглосуточно]
-        (* <- lang_ru;; *);
+        (* <- time;; *);
 
     => nrel_accessible_environment:
         accessible;
