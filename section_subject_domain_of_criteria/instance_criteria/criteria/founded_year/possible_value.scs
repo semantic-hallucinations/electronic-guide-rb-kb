@@ -1,0 +1,133 @@
+number
+=> nrel_main_idtf:
+      [Численное значение]
+      (*<-lang_ru;;*);
+      [Numeric value]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+// -----------------------------------
+
+before_13_v
+=> nrel_main_idtf:
+      [До XIII века]
+      (*<-lang_ru;;*);
+      [Before XIII century]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+// -----------------------------------
+
+13v
+    => nrel_main_idtf:
+        [XII век]
+        (*<-lang_ru;;*);
+        [XII century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------        
+
+14v
+    => nrel_main_idtf:
+        [XIV век]
+        (*<-lang_ru;;*);
+        [XIV century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------        
+
+15v
+    => nrel_main_idtf:
+        [XV век]
+        (*<-lang_ru;;*);
+        [XV century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+
+// -----------------------------------        
+
+16v
+    => nrel_main_idtf:
+        [XVI век]
+        (*<-lang_ru;;*);
+        [XVI century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------        
+
+17v
+    => nrel_main_idtf:
+        [XVII век]
+        (*<-lang_ru;;*);
+        [XVII century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------        
+
+18v
+    => nrel_main_idtf:
+        [XVIII век]
+        (*<-lang_ru;;*);
+        [XVIII century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------        
+
+19v
+    => nrel_main_idtf:
+        [XIX век]
+        (*<-lang_ru;;*);
+        [XIX century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+
+    
+// -----------------------------------        
+
+20v
+    => nrel_main_idtf:
+        [XX век]
+        (*<-lang_ru;;*);
+        [XX century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+
+// -----------------------------------        
+
+21v
+    => nrel_main_idtf:
+        [XXI век]
+        (*<-lang_ru;;*);
+        [XXI century]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
