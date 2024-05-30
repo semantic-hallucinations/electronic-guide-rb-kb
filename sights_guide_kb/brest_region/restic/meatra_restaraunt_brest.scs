@@ -28,7 +28,7 @@ meatra_restaraunt_brest
         блюд: сочные стейки, ребрышки, бургеры с рваной говядиной, тартар, колбаски.
         Заведение отличается не только вкусной кухней и эстетичной подачей блюд, но 
         эксклюзивным интерьером и комфортной обстановкой.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Restaurant "Meatra" in Brest offers a varied menu, including a wide selection of meat
         dishes: juicy steaks, ribs, burgers with pulled beef, tartare, sausages.
         The establishment is distinguished not only by its delicious cuisine and aesthetic presentation of dishes, but

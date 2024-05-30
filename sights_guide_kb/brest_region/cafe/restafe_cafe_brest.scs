@@ -34,7 +34,7 @@ restafe_cafe_brest
         в багетных рамах, торшеры, сухоцветы, мебель в старинном стиле… В общем, все, что понравится 
         эстетам. В меню с гастрономической точки зрения ничего любопытного — классика кофеен. Но зато 
         позавтракать здесь можно с 8:00.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [At AVA restafe everything is in the best traditions of the genre: panoramic windows, mirrors and paintings
         in baguette frames, floor lamps, dried flowers, antique-style furniture... In general, everything you like
         aesthetes. There is nothing interesting on the menu from a gastronomic point of view - a coffee shop classic. But

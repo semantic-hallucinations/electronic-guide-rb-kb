@@ -32,7 +32,7 @@ passage_yard_cafe_brest
         себя как место с отменным кофе. Ребята решили двинуться дальше и стали сами выпекать 
         круассаны. Публике зашло, захотелось масштабироваться. Так появился «Проходной двор» 
         — место про завтраки, кофе и вино.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The history of this location began with a small coffee shop on Sovetskaya, which established 
         itself as a place with excellent coffee. The guys decided to move on and began baking croissants 
         themselves. The public came in and wanted to scale. This is how “Passage Yard” appeared - a place 

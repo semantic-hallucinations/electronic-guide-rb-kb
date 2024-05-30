@@ -30,7 +30,7 @@ pastabar_cafe_brest
         Три года назад, когда открывались, здесь делали упор на формат «паста навынос». Но гости продиктовали спрос: стало понятно, что стоит работать 
         и на посадку.За процессом приготовления можно наблюдать из зала: в Pasta Bar открытая кухня. В меню найдете как классику в виде «Карбонары» или 
         «Аррабиаты», так и авторские разработки.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Pasta Bar is about 20 positions of fresca pasta of our own production. Kitchen equipment was purchased from Italy, and flour is brought from there.
         Three years ago, when they opened, they focused on the “pasta to go” format. But the guests dictated the demand: it became clear that it was worth working
         and for boarding. You can watch the cooking process from the hall: Pasta Bar has an open kitchen. On the menu you will find both classics in the form of “Carbonara” or

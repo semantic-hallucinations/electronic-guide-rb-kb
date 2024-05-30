@@ -32,7 +32,7 @@ railway_museum_brest
         здании бывшего вокзала и представляет коллекцию паровозов, вагонов, 
         железнодорожной техники, фотографий и документов, отражающих развитие 
         железнодорожного сообщения в регионе.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[Brest Railway Museum is a unique institution dedicated to the history 
         of railway transport in Belarus. Located in a former train station building,
         the museum showcases a collection of steam locomotives, wagons, railway

@@ -26,7 +26,7 @@ momoo_cafe_brest
         [В 2020 году в самом центре города Бреста мы открыли первый ресторан моно-фаст-концепции одного блюда. 
         Основной фишкой нашего меню являются бургеры… настоящие… вкусные…Приготовленные умелыми руками наших поваров 
         наши бургеры не оставят вас равнодушными и вы будете возвращаться к нам снова и снова.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [In 2020, in the very center of Brest, we opened the first restaurant with a mono-fast concept of one dish.
         The main feature of our menu is burgers... really... tasty... Prepared by the skillful hands of our chefs
         our burgers will not leave you indifferent and you will come back to us again and again.]

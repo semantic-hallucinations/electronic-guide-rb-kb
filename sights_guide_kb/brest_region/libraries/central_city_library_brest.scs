@@ -30,7 +30,7 @@ central_city_library_brest
         [Городская библиотека им. А. С. Пушкина сегодня – это универсальный хранитель
         информации в самых разных видах и формах, центр предоставления библиотечных и 
         информационных услуг, распространения знаний, духовности и интеллектуального общения.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [City Library named after. A. S. Pushkin today is a universal keeper
         information in a variety of types and forms, a center for providing library and
         information services, knowledge dissemination, spirituality and intellectual communication.]

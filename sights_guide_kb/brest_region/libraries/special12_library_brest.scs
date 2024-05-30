@@ -27,6 +27,6 @@ special12_library_brest
     
     => nrel_sight_description:
         [Специальная библиотека-филиал №12 в Бресте для инвалидов по зрению и людей с ослабленным зрением.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Special library-branch No. 12 in Brest for the visually impaired and people with low vision.]
         (* <- lang_eng;; *);;

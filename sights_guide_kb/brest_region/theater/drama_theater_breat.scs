@@ -37,7 +37,7 @@ drama_theater_brest
     => nrel_sight_description:
         [Брестский академический театр драмы — драматический театр, которому было присвоено имя 
         Ленинского комсомола Беларуси. Основан в октябре 1944 года в Бресте.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Brest Academic Drama Theater is a drama theater that was named after
         the Lenin Komsomol of Belarus. Founded in October 1944 in Brest, located at st. Lenina, 21.]
         (* <- lang_eng;; *);;

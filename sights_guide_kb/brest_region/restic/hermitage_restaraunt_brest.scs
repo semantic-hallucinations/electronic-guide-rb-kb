@@ -40,7 +40,7 @@ hermitage_restaraunt_brest
         Ресторан открыт не только для гостей отеля, но и для самых требовательных гурманов и всех тех, кто ищет незабываемые 
         вкусовые впечатления и идеальное место для празднования особых случаев. Все это благодаря разделению ресторана на 
         основной зал с летней террасой и каминный GOURMET зал.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The restaurant serving national and European cuisine at the HERMITAGE hotel is a quiet, cozy place just a 10-minute walk from the city center.
         Stylish vintage furniture and incredible paintings by contemporary Belarusian artists add a zest to the interior.
         The restaurant is open not only to hotel guests, but also to the most demanding gourmets and all those who are looking for an unforgettable

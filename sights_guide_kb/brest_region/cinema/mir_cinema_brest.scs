@@ -15,6 +15,7 @@ mir_cinema_brest
 
     => nrel_number_of_halls:
         [1]
+        (* <- number;; *);
 
     => nrel_accesible_environment:
         not_accesible;
@@ -34,7 +35,7 @@ mir_cinema_brest
         построенное по типовому проекту в городе Бресте. Вестибюль и фойе облицованы 
         мрамором и гранитом в сочетании с плитами из ракушечника.
         С 1 декабря 2010 года в кинотеатре «Мир» фильмы демонстрируются в формате 3D.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The Mir cinema opened in 1959. This was the first cinema building
         built according to a standard design in the city of Brest. The lobby and foyer are tiled
         marble and granite in combination with shell rock slabs.

@@ -1,0 +1,32 @@
+nevsky_church_kobrin
+
+    => nrel_main_idtf:
+        [Александро-Невский собор в Кобрине]
+        (* <- lang_ru;; *);
+        [Alexander Nevsky Cathedral in Cobrin]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_wifi_avaliability:
+        wifi_not_avaliable;  
+
+    => nrel_accesible_environment:
+        not_accesible;
+
+    => nrel_working_hours:
+        [08:15 - 13:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_historical_sight;
+
+    <= nrel_lockated_in: 
+        kobrin_city;
+    
+    => nrel_sight_description:
+        [Александро-Невский собор — кафедральный собор Русской православной церкви в Кобрине. Относится к Кобринскому благочинию Брестской и Кобринской епархии.]
+        (* <- lang_ru;; *);
+        [Alexander Nevsky Cathedral is the cathedral of the Russian Orthodox Church in Kobrin. Belongs to the Kobrin deanery of the Brest and Kobrin diocese.]
+        (* <- lang_eng;; *);;
