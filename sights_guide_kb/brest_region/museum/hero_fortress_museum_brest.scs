@@ -32,7 +32,7 @@ hero_fortress_museum_brest
       1941 года немецкие войска атаковали её и захватили. Крепость стала символом 
       сопротивления советских войск в начале войны. Сегодня она служит мемориалом
       и местом памяти погибших во время войны.] 
-      (* <- lang_ru;; *);;
+      (* <- lang_ru;; *);
 		[Brest Fortress is a historical fortress located in the city of Brest,
       Belarus. It is known as the site where the Great Patriotic War began, as in June
       1941, German forces attacked and captured it. The fortress became a symbol of Soviet

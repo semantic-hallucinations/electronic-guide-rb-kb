@@ -27,7 +27,7 @@ gorky_library_brest
     => nrel_sight_description:
         [Брестская областная библиотека имени М. Горького — библиотека в городе Бресте.
         Открыта, предположительно, 27 января 1940 г.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Brest Regional Library named after M. Gorky - a library in the city of Brest. 
         Opened, presumably, on January 27, 1940.]
         (* <- lang_eng;; *);;

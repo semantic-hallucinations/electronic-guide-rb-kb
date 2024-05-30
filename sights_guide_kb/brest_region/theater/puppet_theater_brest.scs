@@ -36,7 +36,7 @@ puppet_theater_brest
         Театр успешно выступает на фестивалях в странах Европы и Азии. Имеет в своем активе большое 
         количество престижных наград, является обладателем трёх Гран-при Всемирного фестиваля театров кукол 
         в Праге. Является одним из организаторов Международного театрального фестиваля «Белая Вежа».]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Brest Regional Puppet Theater is a puppet theater founded in 1963 in the Belarusian Brest.
         The theater successfully performs at festivals in Europe and Asia. Has to its credit a large
         number of prestigious awards, is the owner of three Grand Prix of the World Puppet Theater Festival

@@ -32,7 +32,7 @@ saved_artifacts_museum_brest
         типа по ул. Ленина, 39, которое было построено в 1925 г. по проекту польского архитектора Юлиана Лисецкого и является
         памятником архитектуры. Это единственный в Беларуси музей, экспозиция которого состоит из произведений 
         искусства и предметов антиквариата, изъятых таможенниками при попытке их незаконного вывоза за рубеж.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[The Museum “Saved Artifacts” was opened on February 4, 1989. It is located in a picturesque manor-type building
         on the street. Lenina, 39, which was built in 1925 according to the design of the Polish architect Julian Lisiecki
         and is an architectural monument. This is the only museum in Belarus, the exhibition of which consists of works

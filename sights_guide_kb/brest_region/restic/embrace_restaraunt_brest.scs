@@ -35,7 +35,7 @@ embrace_restaraunt_brest
         интернациональной, средиземноморской и национальной кухни.
         Также основное меню ресторана дополняет спецпредложение от шеф-повара, в котором гостям 
         предлагается попробовать сезонные блюда.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Restaurant "EmbracE" Here you can book a table for a company, stop in for coffee or lunch.
         In the restaurant menu you can find everything you need for a tasty and cozy dinner or lunch: dishes
         international, Mediterranean and national cuisine.

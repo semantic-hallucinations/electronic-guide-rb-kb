@@ -23,7 +23,7 @@ k_years_park_brest
         [Парк Тысячелетия находится в юго-западной части города. Его территория граничит с улицами Краснознаменной,
         Бориса Маслова, Грюнвальдской и Екельчика, а также с храмом Рождества Христова и закрытым,
         но действующим Вульковским кладбищем.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Millennium Park is located in the southwestern part of the city. Its territory borders Krasnoznamennaya, 
         Boris Maslov, Grunvaldskaya and Ekelchik streets, as well as the Church of the Nativity and the closed 
         but active Vulkovsky cemetery.]

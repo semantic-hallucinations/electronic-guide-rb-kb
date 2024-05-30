@@ -23,7 +23,7 @@ the_5th_fort_museum_brest
         [Форт № 5 — уникальный памятник русского фортификационного искусства конца XIX — начала XX веков.
         Форт входил в число оборонительных объектов Брест-Литовской крепости второй линии.
         Построен в 1880-е годы.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[Fort No. 5 is a unique monument of Russian fortification art of the late 19th - early 20th centuries.
         The fort was one of the defensive objects of the Brest-Litovsk Fortress of the second line.
         Built in the 1880s.] 

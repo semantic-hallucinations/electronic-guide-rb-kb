@@ -30,7 +30,7 @@ druft_house_bar_brest
     => nrel_sight_description:
 		[Бар Druft House cтильный, но не вычурный интерьер, приятная обстановка, внимательное обслуживание. 
         Очень вкусно и недорого.] 
-		(* <- lang_ru;; *);;
+		(* <- lang_ru;; *);
 		[Bar Druft House stylish but not pretentious interior, pleasant atmosphere, attentive service. 
         Very tasty and inexpensive.] 
 		(* <- lang_en;; *);;

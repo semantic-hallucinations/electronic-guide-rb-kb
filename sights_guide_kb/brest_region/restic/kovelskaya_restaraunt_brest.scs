@@ -41,7 +41,7 @@ kovelskaya_restaraunt_brest
         белорусской, европейской и кавказской кухни. Также есть специальные предложения для детского меню, 
         а во время религиозного поста повара могут приготовить блюда из постного меню. Стоит отметить широкую 
         винную карту трактира.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [“Tavern on Kovelskaya” is a restaurant with a ten-year history, which is distinguished by its atypical design and
         atmosphere created over the years. The choice of dishes is varied, the menu is regularly updated. The basis is dishes
         Belarusian, European and Caucasian cuisine. There are also special offers for children's menus,

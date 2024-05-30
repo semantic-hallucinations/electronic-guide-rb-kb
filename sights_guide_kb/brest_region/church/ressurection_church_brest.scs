@@ -25,6 +25,6 @@ ressurection_church_brest
     
     => nrel_sight_description:
         [Брестский Воскресенский собор – православный собор, построен в микрорайоне Восток в 1995 году в честь Победы в Великой Отечественной войне. Это — крупнейшее религиозное сооружение города и одно из крупнейших в стране.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Brest Resurrection Cathedral is an Orthodox cathedral, built in the Vostok microdistrict in 1995 in honor of the Victory in the Great Patriotic War. This is the largest religious building in the city and one of the largest in the country.]
         (* <- lang_eng;; *);;

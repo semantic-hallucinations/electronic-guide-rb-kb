@@ -37,7 +37,7 @@ belarus_cinema_brest
         Сейчас в кинотеатре работают три зала - Большой, Малый и VIP, с установленным цифровым оборудованием. 
         Система последнего поколения позволяет улавливать 60 кадров в секунду и дает возможность 
         демонстрации фильмов в формате 3D.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The cinema "Belarus" in the city of Brest was reconstructed in 2001 and already in winter the
         cinema opened its doors with a completely updated furnishing of the halls.
         Now the cinema has three halls - Big, Small and VIP, with installed digital equipment. 

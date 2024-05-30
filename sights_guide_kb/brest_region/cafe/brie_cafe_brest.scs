@@ -31,7 +31,7 @@ brie_cafe_brest
         попробовать его в сочетании с сыром. И да, это действительно интересная гастропара! Можно затестить 
         раф с добавлением сливочного сыра и специй: напиток получается тягучим и слегка солоноватым. Также 
         обратите внимание на капучино с шапочкой из пармезана — неординарная гастрономическая эмоция обеспечена. ]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The Brie Coffee Bar coffee shop is a fairly fresh concept in the understanding of coffee. Here you are offered
         try it in combination with cheese. And yes, this is a really interesting gastro couple! Can be tested
         raf with the addition of cream cheese and spices: the drink is viscous and slightly salty. Also

@@ -29,7 +29,7 @@ internationalistS_park_brest
         на земле Афганистана». У входа в парковую зону выставлен бронетранспортер.
         В парке в летнее время работают аттракционы, зооуголок, есть концертная площадка 
         для мероприятий района, дискотек и литературных встреч.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The Park named after Internationalist Warriors was founded in honor of Afghan soldiers who did not return from the war.
         In memory of the soldiers, a monument was erected there, the sign on which reads “To the combat friends who died
         on the soil of Afghanistan." An armored personnel carrier is stationed at the entrance to the park area.

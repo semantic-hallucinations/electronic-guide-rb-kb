@@ -27,6 +27,6 @@ bloom_cafe_brest
     
     => nrel_sight_description:
         [Заведение с панорамными окнами и видом на набережную, которое, кажется, собрало в себе все тренды. И интерьерные, и гастрономические. Кухню здесь позиционируют как современную европейскую. Можно попробовать и фисташковый хумус, и тартар с маринованной тыквой, и салат с бурратой и прошутто. Обратите внимание на пиццу и джелато собственного производства.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [An establishment with panoramic windows and a view of the embankment, which seems to have collected all the trends. Both interior and gastronomic. The cuisine here is positioned as modern European. You can try pistachio hummus, tartare with pickled pumpkin, and salad with burrata and prosciutto. Pay attention to the pizza and gelato made in-house.]
         (* <- lang_eng;; *);;

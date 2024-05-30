@@ -29,6 +29,6 @@ nevsky_church_pruzhany
     
     => nrel_sight_description:
         [Александро-Невский собор — памятник архитектуры позднего классицизма с элементами ретроспективно-русского стиля. Все элементы и детали собора отличаются высоким мастерством исполнения. Храм представляет собой трехнефную композицию с развитой апсидой, которая завершается световым барабаном с куполом. Средний неф значительно больше боковых и перекрыт цилиндрическим сводом (боковые - крестовыми сводами). Важной частью собора является колокольня, возвышающаяся в ее головной части, над входом.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Alexander Nevsky Cathedral is an architectural monument of late classicism with elements of a retrospective Russian style. All elements and details of the cathedral are distinguished by high craftsmanship. The temple is a three-nave composition with a developed apse, which ends with a light drum with a dome. The middle nave is much larger than the side ones and is covered with a cylindrical vault (the side ones with cross vaults). An important part of the cathedral is the bell tower, rising at its head, above the entrance.]
         (* <- lang_eng;; *);;

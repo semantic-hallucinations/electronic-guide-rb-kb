@@ -32,7 +32,7 @@ coyote_club_bar_brest
         попробовать хорошее бочковое пиво или вкусный виски. Уютная 
         атмосфера этого места позволяет гостям отдохнуть после 
         тяжелого дня.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[Bar Coyote Club Brest If you like international cuisine, be sure to check it out.
         Get some good steaks at Coyote. Of the drinks here it's worth
         try good draft beer or delicious whiskey. Cozy

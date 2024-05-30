@@ -31,7 +31,7 @@ basilico_trattoria_restaraunt_brest
         [Ресторан Basilico Trattoria – место, где можно приятно провести время, погрузиться в атмосферу Неаполя и насладиться блюдами авторской 
         кухни нашего шеф-повара. Популярные блюда нашего ресторана из сезонного меню и авторская подача блюда нашего шеф-повара не оставит 
         вас равнодушными.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Restaurant Basilico Trattoria is a place where you can have a pleasant time, immerse yourself in the atmosphere of Naples and enjoy signature dishes
         our chef's kitchen. The popular dishes of our restaurant from the seasonal menu and the original presentation of the dish by our chef will not leave
         you indifferent.]

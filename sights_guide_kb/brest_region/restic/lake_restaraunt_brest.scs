@@ -40,7 +40,7 @@ lake_restaraunt_brest
         1906 года и оно является своеобразным островком объединения белорусской, польской и еврейской культуры. В интерьере собраны фрагменты традиционной 
         избы, старинной карчмы, шляхецкого замка с камином в центре зала. Коллекция самоваров, а также множество других старинных мелочей создает 
         впечатление, что вы оказались в уютном доме, где всегда тепло и вкусно пахнет едой.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The tavern “At the Lake” is a colorful establishment of Slavic cuisine. Located on the shore of the lake in the central park of Brest. The history of the establishment begins with
         1906 and it is a kind of island of unification of Belarusian, Polish and Jewish culture. The interior contains fragments of traditional
         hut, ancient tavern, noble castle with a fireplace in the center of the hall. The collection of samovars, as well as many other antique trifles, creates

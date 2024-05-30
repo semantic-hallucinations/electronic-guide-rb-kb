@@ -39,7 +39,7 @@ jules_vern_restaraunt_brest
         [Ресторан "Жюль Верн" ещё на заре XXI века стал для брестчан чем-то большим, нежели просто ресторан и занял свое уникальное
         место в культурной жизни города. Качественная кухня, изысканный интерьер и высокий уровеньВ нем представлены европейская и 
         авторская кухни, блюда, приготовленные на Хоспере. Так что, гостей ждет немало гастрономических открытий.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [The restaurant "Jules Verne" at the dawn of the 21st century became for the residents of Brest something more than just a restaurant 
         and took on its own unique place in the cultural life of the city. High-quality cuisine, exquisite interior and high level. 
         It presents European and author's cuisine, dishes prepared on Josper. So, many gastronomic discoveries await guests.]
