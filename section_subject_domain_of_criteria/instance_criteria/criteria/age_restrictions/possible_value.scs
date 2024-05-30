@@ -8,3 +8,62 @@ number
 <= nrel_inclusion:
     criteria_value;;
 
+// -----------------------------------
+
+zero_plus
+=> nrel_main_idtf:
+      [0+]
+      (*<-lang_ru;;*);
+      [0+]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+// -----------------------------------
+
+six_plus
+    => nrel_main_idtf:
+        [6+]
+        (*<-lang_ru;;*);
+        [6+]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------        
+
+twelve_plus
+    => nrel_main_idtf:
+        [12+]
+        (*<-lang_ru;;*);
+        [12+]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------
+
+sixteen_plus
+    => nrel_main_idtf:
+        [16+]
+        (*<-lang_ru;;*);
+        [16+]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
+
+// -----------------------------------
+
+eighteen_plus
+    => nrel_main_idtf:
+        [18+]
+        (*<-lang_ru;;*);
+        [18+]
+        (*<-lang_en;;*);
+
+    <= nrel_inclusion:
+        criteria_value;;
