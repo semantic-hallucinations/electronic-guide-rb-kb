@@ -10,6 +10,11 @@ restaurant_ovino_minsk
 => nrel_wifi_availability:
     wifi_available;  
 
+=> nrel_type_of_kitchen:
+    european;
+    russian;
+    italian;
+
 => nrel_working_hours:
     [12:00 - 23:00]
     (* <- time;; *);

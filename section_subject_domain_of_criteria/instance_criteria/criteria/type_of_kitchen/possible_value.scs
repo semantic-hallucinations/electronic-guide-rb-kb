@@ -57,3 +57,13 @@ pizza
 
 <= nrel_inclusion:
     criteria_value;;
+
+
+asian
+=> nrel_main_idtf:
+    [Азиатская]
+    (* <- lang_ru;; *);
+    [Asian]
+    (* <- lang_en;; *);
+<= nrel_inclusion:
+    criteria_value;;

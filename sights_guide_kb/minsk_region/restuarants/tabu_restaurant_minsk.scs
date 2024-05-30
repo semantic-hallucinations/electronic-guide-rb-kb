@@ -15,6 +15,11 @@ restaurant_TABU_minsk
 <= nrel_inclusion: 
     restaurant;
 
+=> nrel_type_of_kitchen:
+    european;
+    asian;
+    italian;
+
 => nrel_wifi_availability:
     wifi_available;
 
