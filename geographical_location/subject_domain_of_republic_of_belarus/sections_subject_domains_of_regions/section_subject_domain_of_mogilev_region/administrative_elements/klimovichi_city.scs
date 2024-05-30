@@ -1,0 +1,37 @@
+klimovichi_city
+
+    => nrel_main_idtf:
+        [город Климовичи]
+        (* <- lang_ru;;*);
+        [Klimovichi city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Климовичи)]
+            (* <- lang_ru;; *);
+            [Definition (Klimovichi city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Кли́мовичи — город в Могилёвской области Белоруссии. Административный центр Климовичского района. Климовичи расположены в 124 км к востоку от Могилёва, на реке Калиница.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Klimovichi is a city in the Mogilev region of Belarus. Administrative center of Klimovichi district. Klimovichi is located 124 km east of Mogilev, on the Kalinitsa River.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

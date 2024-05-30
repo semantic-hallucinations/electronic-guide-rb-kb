@@ -1,0 +1,38 @@
+grodno_city
+
+    => nrel_main_idtf:
+        [город Гродно]
+        (* <- lang_ru;;*);
+        [Grodno city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Гродно)]
+            (* <- lang_ru;; *);
+            [Definition (Grodno city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на западе Республики Беларусь, административный центр Гродненской области.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in western Belarus, the administrative center of the Grodno region.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                grodno_region;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

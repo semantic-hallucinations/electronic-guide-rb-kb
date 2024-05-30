@@ -1,0 +1,38 @@
+republic_of_belarus
+
+    => nrel_main_idtf:
+        [Республика Беларусь]
+        (* <- lang_ru;;*);
+        [Republic_of_Belarus]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (Республики Беларуси)]
+            (* <- lang_ru;; *);
+            [Definition (Republic_of_Belarus)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Республика Беларусь - это страна в Восточной Европе] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The Republic of Belarus is a country in Eastern Europe.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                concept_country;
+                eastern_europe;
+                nrel_located_in
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_country;;

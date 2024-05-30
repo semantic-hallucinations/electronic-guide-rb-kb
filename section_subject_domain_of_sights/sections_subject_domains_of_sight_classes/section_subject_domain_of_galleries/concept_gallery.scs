@@ -1,0 +1,67 @@
+concept_gallery
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[галлерея]
+	(* <- lang_ru;; *);
+	[gallery]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+    cultural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (галлерея)]
+        (* <- lang_ru;; *);
+        [Definition (gallery)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Галерея — пространство, предназначенное для демонстрации изобразительного искусства. Выставленные произведения часто предлагаются на продажу.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (галлерея)]
+        (* <- lang_ru;; *);
+        [Statement (gallery)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Пространство, предназначенное для демонстрации изобразительного искусства. Выставленные произведения часто предлагаются на продажу.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

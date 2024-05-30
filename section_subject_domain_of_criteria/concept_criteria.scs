@@ -1,0 +1,64 @@
+concept_criteria
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[Критерий поиска электронного гида]
+	(* <- lang_ru;; *);
+	[Search criteria of Electronic guide]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия поиска Электронного гида)]
+        (* <- lang_ru;; *);
+        [Definition (Search criteria of Electronic guide)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий поиска электронного гида - условный элемент характеризующий некую особенность рассматриваемого объекта, используемый для поиска в Электронном гиде.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Electronic guide search criterion is a conditional element characterizing a certain feature of the object in question, used for searching in the Electronic Guide.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_conditional_element;
+	    concept_electronic_guide;
+	    concept_search
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия поиска Электронного гида)]
+        (* <- lang_ru;; *);
+        [Statement (Search criteria of Electronic guide)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Условный элемент характеризующий некую особенность рассматриваемого объекта, используемый для поиска в Электронном гиде.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A conditional element characterizing a certain form of the depicted object, which must be used to search in an electronic directory.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_conditional_element;
+	    concept_electronic_guide;
+	    concept_search
+        };; 
+*);;

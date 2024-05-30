@@ -1,0 +1,38 @@
+vitebsk_city
+
+    => nrel_main_idtf:
+        [город Витебск]
+        (* <- lang_ru;;*);
+        [Vitebsk city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Витебск)]
+            (* <- lang_ru;; *);
+            [Definition (Vitebsk city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на северо-востоке Республики Беларусь, административный центр Витебской области.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in northeastern Belarus, the administrative center of the Vitebsk region.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

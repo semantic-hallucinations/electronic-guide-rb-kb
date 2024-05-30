@@ -1,0 +1,31 @@
+section_subject_domain_of_theaters
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область театров]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of theaters]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_theater;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+section_subject_domain_of_theaters
+    = [*
+        subject_domain_of_theaters
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область театров]
+                (* <- lang_ru;;*);
+                [Subject domain of theaters]
+                (* <- lang_en;;*);
+
+            -> rrel_maximum_studied_object_class:
+                concept_theater;;
+
+            //-> rrel_not_maximum_studied_object_class:
+    *];;

@@ -1,0 +1,67 @@
+concept_theater
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[театр]
+	(* <- lang_ru;; *);
+	[theater]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+    cultural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (театр)]
+        (* <- lang_ru;; *);
+        [Definition (theater)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Театр - это архитектурное сооружение, предназначенное для проведения театрализованных действий, музыкальных концертов или иных видов представлений.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (театр)]
+        (* <- lang_ru;; *);
+        [Statement (theater)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Архитектурное сооружение, предназначенное для проведения театрализованных действий, музыкальных концертов или иных видов представлений.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

@@ -1,0 +1,70 @@
+concept_region
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[область]
+	(* <- lang_ru;; *);
+	[region]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (области)]
+        (* <- lang_ru;; *);
+        [Definition (region)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Область - это крупная административно-территориальная единица, часть страны.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A region is a large administrative-territorial unit, part of the country.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_administrative_territorial_unit;
+            concept_part;
+            concept_country
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (области)]
+        (* <- lang_ru;; *);
+        [Statement (region)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Крупная административно-территориальная единица, часть страны.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Large administrative-territorial unit, part of the country.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_administrative_territorial_unit;
+            concept_part;
+            concept_country
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_country;
+
+<= nrel_inclusion: 
+    concept_geographical_unit;;

@@ -1,0 +1,68 @@
+age_restrictions
+=> nrel_main_idtf:
+    [Критерий экземпляра. Возрастные ограничения]
+    (* <- lang_ru;; *);
+    [Instance criteria. Age restrictions]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_age_restrictions;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Возрастные ограничения)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Age restrictions)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Возрастные ограничения - критерий, отражающий ограничения по возрасту для доступа к определенному контенту или месту.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Age restrictions is a criterion that reflects age limitations for accessing certain content or place.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_age
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Возрастные ограничения)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Age restrictions)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий ограничения по возрасту для доступа к определенному контенту или месту.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects age limitations for accessing certain content or place.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_age
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;

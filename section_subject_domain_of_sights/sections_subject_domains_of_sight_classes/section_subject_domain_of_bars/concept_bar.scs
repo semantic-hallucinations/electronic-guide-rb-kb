@@ -1,0 +1,67 @@
+concept_bar
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[бар]
+	(* <- lang_ru;; *);
+	[bar]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+    physiological_needs_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (бар)]
+        (* <- lang_ru;; *);
+        [Definition (bar)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Бар — предприятие общественного питания, оборудованное барной стойкой и реализующее в зависимости от специализации безалкогольные, горячие и прохладительные напитки, коктейли, холодные и горячие закуски и блюда в ограниченном ассортименте, покупные товары.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (бар)]
+        (* <- lang_ru;; *);
+        [Statement (bar)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Предприятие общественного питания, оборудованное барной стойкой и реализующее в зависимости от специализации безалкогольные, горячие и прохладительные напитки, коктейли, холодные и горячие закуски и блюда в ограниченном ассортименте, покупные товары.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

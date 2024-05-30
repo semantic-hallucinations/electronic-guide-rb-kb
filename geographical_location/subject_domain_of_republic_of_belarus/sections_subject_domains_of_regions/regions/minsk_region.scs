@@ -1,0 +1,37 @@
+minsk_region
+
+    => nrel_main_idtf:
+        [Минская область]
+        (* <- lang_ru;;*);
+        [Minsk region]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (Минская область)]
+            (* <- lang_ru;; *);
+            [Definition (Minsk region)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Административная единица в центре Республики Беларусь.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Administrative unit in the center of the Republic of Belarus.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                concept_administrative_unit;
+                republic_of_belarus
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_region;;

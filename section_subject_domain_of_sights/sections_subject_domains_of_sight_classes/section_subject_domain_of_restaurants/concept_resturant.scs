@@ -1,0 +1,67 @@
+concept_resturant
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[ресторан]
+	(* <- lang_ru;; *);
+	[resturant]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+    physiological_needs_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (ресторан)]
+        (* <- lang_ru;; *);
+        [Definition (resturant)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Ресторан - это предприятие общественного питания с широким ассортиментом блюд сложного приготовления, включая заказные и фирменные.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (ресторан)]
+        (* <- lang_ru;; *);
+        [Statement (resturant)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Предприятие общественного питания с широким ассортиментом блюд сложного приготовления, включая заказные и фирменные.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

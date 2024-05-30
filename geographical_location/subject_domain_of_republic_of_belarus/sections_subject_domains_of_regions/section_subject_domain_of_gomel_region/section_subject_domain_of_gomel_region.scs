@@ -1,0 +1,32 @@
+section_subject_domain_of_gomel_region
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область Гомельской области]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of Gomel region]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        gomel_city;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+ section_subject_domain_of_gomel_region
+    = [*
+        subject_domain_of_gomel_region
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область Гомельской области]
+                (* <- lang_ru;;*);
+                [Subject domain of Gomel region]
+                (* <- lang_en;;*);
+            
+            -> rrel_maximum_studied_object_class:
+                gomel_region;
+
+            -> rrel_not_maximum_studied_object_class:
+                gomel_city;;
+    *];;
