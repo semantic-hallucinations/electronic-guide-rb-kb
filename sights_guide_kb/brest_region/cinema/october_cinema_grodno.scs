@@ -1,0 +1,31 @@
+october_cinema_grodno
+
+    => nrel_main_idtf:
+        [Кинотеатр "Октябрь" в Гродно]
+        (* <- lang_ru;; *);
+        [Cinema "October" in Grodno]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [574]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+
+    <= nrel_inclusion: 
+        concept_cinema;
+
+    <= nrel_lockated_in: 
+        grodno_city;
+    
+    => nrel_sight_description:
+        [Кинотеатр «Октябрь» в Гродно — один из самых больших в городе. Три зала: большой (340 мест), малый (176 мест) и VIP со столиками (58 мест).
+         Два зала оснащены современной акустической системой Dolby Digital Surround.
+         В 2016 году большой зал оборудовали новой системой 3D-звука Dolby Atmos.]
+        (* <- lang_ru;; *);;
