@@ -7,3 +7,25 @@ string
 
 <= nrel_inclusion:
     criteria_value;;
+
+// --------------------------------------------
+
+answer_yes
+=> nrel_main_idtf:
+      [Да]
+      (*<-lang_ru;;*);
+      [Yes]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+answer_no
+=> nrel_main_idtf:
+      [нет]
+      (*<-lang_ru;;*);
+      [No]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
