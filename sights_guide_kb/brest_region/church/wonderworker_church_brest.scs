@@ -1,0 +1,26 @@
+wonderworker_church_brest
+
+    => nrel_main_idtf:
+        [Гарнизонный храм святителя Николая Чудотворца в Бресте]
+        (* <- lang_ru;; *);
+        [Garrison Church of St. Nicholas the Wonderworker in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_working_hours:
+        [09:00 - 18:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_historical_sight;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Гарнизонный храм святителя Николая Чудотворца православный храм в городе Бресте, на территории Брестской крепости. Принадлежит к Брестской епархии Белорусского экзархата Русской православной церкви. Собор представляет собой памятник неовизантийского стиля и является одним из наиболее ярких примеров заимствований из византийского зодчества на территории Беларуси.]
+        (* <- lang_ru;; *);;
+        [The Garrison Church of St. Nicholas the Wonderworker is an Orthodox church in the city of Brest, on the territory of the Brest Fortress. Belongs to the Brest Diocese of the Belarusian Exarchate of the Russian Orthodox Church. The cathedral is a monument of the neo-Byzantine style and is one of the most striking examples of borrowings from Byzantine architecture on the territory of Belarus.]
+        (* <- lang_eng;; *);;

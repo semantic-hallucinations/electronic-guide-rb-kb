@@ -1,0 +1,26 @@
+nickolas_church_brest
+
+    => nrel_main_idtf:
+        [Свято-Никольская братская церковь в Бресте]
+        (* <- lang_ru;; *);
+        [St. Nicholas Brethren Church in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_working_hours:
+        [08:00 - 19:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_historical_sight;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Свято-Никольская братская церковь является крестово-купольным храмом с высокой восьмигранной звонницей, завершённой маковкой. Церковь представляет собой памятник Русско-византийского стиля с элементами московского церковного зодчества середины XVII века с традиционной четырёхчастной композицией.]
+        (* <- lang_ru;; *);;
+        [St. Nicholas Fraternal Church is a cross-domed church with a high octagonal belfry topped with a dome. The church is a monument of the Russian-Byzantine style with elements of Moscow church architecture of the mid-17th century with a traditional four-part composition.]
+        (* <- lang_eng;; *);;
