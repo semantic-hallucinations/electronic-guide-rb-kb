@@ -17,7 +17,6 @@ accesible
       (*<-lang_en;;*);
 
 <= nrel_inclusion:
-    string;
     criteria_value;;
 
 // --------------------------------------------
@@ -29,7 +28,6 @@ not_accesible
       (*<-lang_en;;*);
 
 <= nrel_inclusion:
-    string;
     criteria_value;;
 
 // --------------------------------------------
@@ -42,5 +40,4 @@ partly_accesible
       (*<-lang_en;;*);
 
 <= nrel_inclusion:
-    string;
     criteria_value;;
