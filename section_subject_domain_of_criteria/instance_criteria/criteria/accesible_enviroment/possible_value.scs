@@ -32,12 +32,7 @@ not_accesible
 
 // --------------------------------------------
 
-partly_accesible
-=> nrel_main_idtf:
-      [Частично доступно для инвалидов]
-      (*<-lang_ru;;*);
-      [Partly accesible for disabled people]
-      (*<-lang_en;;*);
+
 
 <= nrel_inclusion:
     criteria_value;;
