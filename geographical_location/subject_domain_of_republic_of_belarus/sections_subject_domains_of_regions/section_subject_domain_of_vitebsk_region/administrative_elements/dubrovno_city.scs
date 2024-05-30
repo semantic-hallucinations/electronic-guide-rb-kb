@@ -1,0 +1,39 @@
+dubrovno_city
+
+    => nrel_main_idtf:
+        [город Дубровно]
+        (* <- lang_ru;;*);
+        [Dubrovno city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Дубровно)]
+            (* <- lang_ru;; *);
+            [Definition (Dubrovno city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Дубровно находится в Витебской области Белоруссии и служит административным центром Дубровенского района.
+                 Расположен на реке Днепр у впадения в нее рек Дубровенка и Свинка, что делает его важным транспортным узлом.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The city of Dubrovna is located in the Vitebsk region of Belarus and serves as the administrative center of the Dubrovno region.
+                 It is located on the Dnieper River at the confluence of the Dubrovenka and Swinka rivers, making it an important transport hub.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

@@ -1,0 +1,39 @@
+chashniki_city
+
+    => nrel_main_idtf:
+        [город Чашники]
+        (* <- lang_ru;;*);
+        [Chashniki city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Чашники)]
+            (* <- lang_ru;; *);
+            [Definition (Chashniki city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Чашники находится в Витебской области Белоруссии и служит административным центром Чашникского района. 
+                    Расположен на реке Улла, левом притоке Западной Двины, на расстоянии 95 км от Витебска и 190 км от Минска. ] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The city of Chashniki is located in the Vitebsk region of Belarus and serves as the administrative center of the Chashniki region.
+                    It is located on the river Ulla, the left tributary of the Western Dvina, at a distance of 95 km from Vitebsk and 190 km from Minsk.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
