@@ -1,0 +1,9 @@
+string
+=> nrel_main_idtf:
+      [Строковое значение]
+      (*<-lang_ru;;*);
+      [String value]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    criteria_value;;
