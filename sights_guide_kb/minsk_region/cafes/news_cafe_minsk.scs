@@ -1,0 +1,32 @@
+
+news_cafe_minsk
+
+    => nrel_main_idtf:
+        [Кафе "News Cafe" в Минске]
+        (* <- lang_ru;; *);
+        [News Cafe in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [08:00 - 22:00]
+        (* <- time;; *);
+    
+    => nrel_wifi_availability:
+        wifi_available;
+    
+    => nrel_age_restrictions:
+        zero_plus;
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_located_in: 
+        minsk_city;
+    
+    => nrel_sight_description:
+        [Кафе "News Cafe" представляет собой идеальное место для работы, 
+        встреч с друзьями или семейного времяпровождения. Оно предлагает комфортные зоны 
+        для работы на компьютере, столовые для обедов и ужинов, а также детскую игровую зону.
+         Бесплатный Wi-Fi доступен для всех гостей. Атмосфера здесь всегда теплая и дружелюбная,
+          что делает "News Cafe" популярным местом среди местных жителей и туристов.]
+        (* <- lang_ru;; *);;

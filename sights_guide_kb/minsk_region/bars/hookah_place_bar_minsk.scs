@@ -1,0 +1,31 @@
+
+hookah_place_minsk
+
+    => nrel_main_idtf:
+        [Бар "Hookah Place" в Минске]
+        (* <- lang_ru;; *);
+        [Bar "Hookah Place" in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [14:00 - 01:00] 
+        (* <- time;; *);
+        [14:00 - 24:00]
+        (* <- time;; *);
+    
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    <= nrel_inclusion: 
+        concept_bar;
+    
+    => nrel_wifi_availability:
+        wifi_available;
+
+    <= nrel_located_in: 
+        minsk_city;
+    
+    => nrel_sight_description::
+        [Бар "Hookah Place" предлагает уникальное пространство для расслабления и общения. Здесь вы найдете широкий ассортимент кальянов, а также множество других напитков и закусок. Уютная атмосфера и профессиональное обслуживание делают этот бар идеальным местом для отдыха после работы или встреч с друзьями.]
+        (* <- lang_ru;; *);;
+
