@@ -1,0 +1,26 @@
+church_of_st_nikolai
+    => nrel_main_idtf:
+        [Церковь Святого Николая Чудотворца]
+        (* <- lang_ru;; *);
+        [The Church of St. Nikolai the Wonderworker]
+        (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_church;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[Церковь Святого Николая Чудотворца — это православный храм, расположенный на месте
+        старой деревни Волотовы. Храм Святителя Николая Чудотворца имеет богатую историю и является
+        местом почитания многих святых. В алтаре храма хранились мощи Святителя Николая и других
+        святых, включая части мощей из различных православных церквей Греции и России. Храм
+        является памятником архитектуры и имеет важное культурное значение для региона.] 
+        (* <- lang_ru;; *);
+		[The Church of St. Nikolai the Wonderworker is an Orthodox church located on the site 
+        old village of Volotov. The Church of St. Nicholas the Wonderworker has a rich history and is
+        a place of veneration for many saints. The relics of St. Nicholas and others were kept in the 
+        altar of the temple saints, including parts of relics from various Orthodox churches in Greece
+        and Russia. Church is an architectural monument and has important cultural significance for the region.] 
+        (* <- lang_en;; *);;

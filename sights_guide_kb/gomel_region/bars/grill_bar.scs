@@ -1,0 +1,38 @@
+grill_bar
+
+    => nrel_main_idtf:
+        [Гриль бар]
+        (* <- lang_ru;; *);
+        [Grill bar]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [17:00 - 05:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[Гриль бар - заведение предлагающие широкий выбор блюд, 
+		приготовленных на гриле, которые придутся по вкусу как взрослым, так 
+        и детям. К ароматным мясным и рыбным блюдам гости могут заказать разнообразные пивные 
+        напитки. пользуется популярностью среди посетителей благодаря уютной атмосфере, 
+		подходящей для отдыха с друзьями, проведения торжественных мероприятий или корпоративных вечеров.] 
+        (* <- lang_ru;; *);
+		[Grill bar is the establishment that offers a wide selection of dishes,
+		grilled dishes that will please both adults and children. For aromatic meat and fish dishes
+		guests can order a variety of beer drinks. The establishment is popular among visitors due to its cozy atmosphere,
+		suitable for relaxing with friends, holding special events or corporate evenings.] 
+        (* <- lang_en;; *);;

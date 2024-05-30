@@ -1,0 +1,39 @@
+museum_of_gomel_history
+
+    => nrel_main_idtf:
+        [Музей истории города Гомеля]
+        (* <- lang_ru;; *);
+        [Museum of the History of the City of Gomel]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [7]
+        (* <- number;; *);
+   
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[Музей истории города Гомеля - это государственное учреждение культуры, основанное в 2009 году 
+        в рамках "Года родной земли" в Беларуси. Музей является научно-просветительским центром, 
+        занимающимся поиском, систематизацией и научной обработкой информации по истории города. 
+        Его экспозиции и мероприятия призваны привлекать как местных жителей, так и туристов, 
+        знакомя их с прошлым и настоящим Гомеля.] 
+      (* <- lang_ru;; *);
+		[The Museum of the History of the City of Gomel is a state cultural institution founded 
+        in 2009 within the framework of the "Year of the Native Land" in Belarus. The museum is 
+        a scientific and educational center, engaged in the search, systematization and scientific 
+        processing of information on the history of the city. Its exhibitions and events are designed 
+        to attract both local residents and tourists, introducing them to the past and present of Gomel.] 
+      (* <- lang_en;; *);;

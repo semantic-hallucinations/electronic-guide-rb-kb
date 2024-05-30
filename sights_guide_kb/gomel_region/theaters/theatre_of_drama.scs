@@ -1,0 +1,33 @@
+theatre_of_drama
+
+    => nrel_main_idtf:
+        [Гомельский областной драматический театр]
+        (* <- lang_ru;; *);
+        [Gomel Regional Drama Theater]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [11]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [143]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [11:30 - 15:30,16:30 - 19:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_theater;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Гомельский областной драматический театр - это важным культурным центром в регионе, где 
+        проводятся различные театральные постановки для зрителей всех возрастов.]
+        (* <- lang_ru;; *);
+        [Gomel Regional Drama Theater is an important cultural center in the region, where
+        Various theatrical performances are held for spectators of all ages.]
+        (* <- lang_eng;; *);;

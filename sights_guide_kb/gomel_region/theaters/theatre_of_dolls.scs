@@ -1,0 +1,43 @@
+theatre_of_dolls
+
+    => nrel_main_idtf:
+        [Гомельский государственный театр кукол]
+        (* <- lang_ru;; *);
+        [Gomel State Puppet Theater]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [3]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [97]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [11:00 - 18:00]
+        (* <- time;; *);
+
+        => nrel_ticket_price:
+        [5 - 12 BYN]
+        (* <- price;; *);
+
+    <= nrel_inclusion: 
+        concept_theater;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Гомельский государственный театр кукол - это театрально-зрелищное учреждение культуры в 
+        Гомеле, Беларусь. Он является важным центром кукольного искусства в регионе, предлагая 
+        разнообразные спектакли для зрителей всех возрастов. Театр кукол проводит различные 
+        мероприятия и акции, такие как продажа подарочных сертификатов и корпоративных билетов. 
+        На официальном сайте театра можно найти информацию о репертуаре, афише и ценах на билеты.]
+        (* <- lang_ru;; *);
+        [Gomel State Puppet Theater is a theatrical and entertainment cultural institution in Gomel, 
+        Belarus. It is an important center for puppetry in the region, offering a variety of 
+        performances for audiences of all ages. The Puppet Theater hosts various events and 
+        promotions, such as selling gift certificates and corporate tickets. On the official website 
+        of the theater you can find information about the repertoire, playbill and ticket prices.]
+        (* <- lang_eng;; *);;

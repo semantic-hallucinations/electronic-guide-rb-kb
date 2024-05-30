@@ -1,0 +1,32 @@
+gallery_of_G_H_Vashchenko
+    => nrel_main_idtf:
+        [Галерея Г. Х. Ващенко]
+        (* <- lang_ru;; *);
+        [Gallery G. Kh. Vashchenko]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [12]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 19:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_gallery;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[Галерея Ващенко в Гомеле - это картинная галерея, расположенная в городе Гомеле, Беларусь. 
+        Она является важным культурным центром, где посетители могут увидеть различные выставки и экспозиции.] 
+        (* <- lang_ru;; *);
+		[Vashchenko Gallery in Gomel is an art gallery located in the city of Gomel, Belarus.
+        It is an important cultural center where visitors can see various exhibitions and displays.] 
+        (* <- lang_en;; *);;
