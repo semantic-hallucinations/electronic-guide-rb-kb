@@ -10,10 +10,10 @@ nrel_age_restrictions
 <=asymmetric_relation;
 
 => nrel_main_idtf:
-    [возрастные ограничения*]
+    [ возрастные ограничения* ]
     (* <- lang_ru;; *);
-    [age restrictions*]
+     [age restrictions* ]
     (* <- lang_en;; *);
 
 => nrel_first_domain: concept_sight;
-=> nrel_second_domain: number;;
+=> nrel_second_domain: concept_age;;
