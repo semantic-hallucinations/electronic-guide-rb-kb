@@ -8,7 +8,7 @@ freedom_square_minsk
         (* <- lang_en;; *);
 
     => nrel_working_hours:
-        [Открыта круглосуточно]
+        [Круглосуточно]
         (* <- time;; *);
 
     => nrel_history:

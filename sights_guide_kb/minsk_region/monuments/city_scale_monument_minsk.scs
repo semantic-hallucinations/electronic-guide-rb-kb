@@ -1,0 +1,31 @@
+
+city_scale_monument_minsk
+
+    => nrel_main_idtf:
+        [Монумент "Городские весы" в Минске]
+        (* <- lang_ru;; *);
+        [City Scale Memorial in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [Круглосуточно]
+        (* <- lang_ru;; *);
+
+    => nrel_accessible_environment:
+        accessible;
+
+    => nrel_wifi_availability:
+        wifi_not_available;
+
+    <= nrel_inclusion: 
+        concept_monument;
+
+    <= nrel_located_in: 
+        minsk_city;
+    
+    => nrel_sight_description:
+        [Скульптурная композиция украсила этот уголок Старого города в 2014 году.
+         Ее расположение недалеко от Ратуши неслучайно: городские весы, предназначенные
+          для точного измерения масс и объемов, имелись лишь в городах,
+           получивших магдебургское право.]
+        (* <- lang_ru;; *);;

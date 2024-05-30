@@ -1,0 +1,28 @@
+
+island_of_tears_monument_minsk
+
+    => nrel_main_idtf:
+        [Монумент "Остров слёз" в Минске]
+        (* <- lang_ru;; *);
+        [Island of Tears Memorial in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [Круглосуточно]
+        (* <- lang_ru;; *);
+
+    => nrel_accessible_environment:
+        accessible;
+
+    => nrel_wifi_availability:
+        wifi_not_available;
+
+    <= nrel_inclusion: 
+        concept_monument;
+
+    <= nrel_located_in: 
+        minsk_city;
+    
+    => nrel_sight_description:
+        [«Остров Мужества и Скорби» (белор. Востраў Мужнасці і Смутку, также «остров слёз») — мемориал, посвящённый белорусским воинам-интернационалистам, павшим в Афганистане в 1979—1989 гг. В войне принимало участие более 30 000 белорусов, из них погибло 789 человек, пропало без вести 12 человек, остались инвалидами 718 человек.]
+        (* <- lang_ru;; *);;
