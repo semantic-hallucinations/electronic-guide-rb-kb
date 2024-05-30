@@ -8,6 +8,19 @@ section_subject_domain_of_grodno_region
 
     -> rrel_key_sc_element:
         grodno_city;
+        volkovysk_city;
+        lida_city;
+        dytlovo_city;
+        ivye_city;
+        mosty_city;
+        novogrudok_city;
+        oshmyany_city;
+        ostrovets_city;
+        svisloch_city;
+        slonim_city;
+        smorgon_city;
+        shchuchyn_city;
+
 
     <- atomic_section;;
 
@@ -28,5 +41,17 @@ section_subject_domain_of_grodno_region
                 grodno_region;
 
             -> rrel_not_maximum_studied_object_class:
+                volkovysk_city;
+                lida_city;
+                dytlovo_city;
+                ivye_city;
+                mosty_city;
+                novogrudok_city;
+                oshmyany_city;
+                ostrovets_city;
+                svisloch_city;
+                slonim_city;
+                smorgon_city;
+                shchuchyn_city;
                 grodno_city;;
     *];;
