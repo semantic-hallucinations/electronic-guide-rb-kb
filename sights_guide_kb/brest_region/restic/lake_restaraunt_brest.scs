@@ -1,0 +1,49 @@
+lake_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Трактир у озера" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Inn by the lake" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [88]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+    
+    => nrel_wifi_avaliability:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_accesible_environment:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_restaraunt;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Трактир «У озера» – колоритное заведение славянской кухни. Расположено на берегу озера в центральном парке Бреста. История заведения начинается с 
+        1906 года и оно является своеобразным островком объединения белорусской, польской и еврейской культуры. В интерьере собраны фрагменты традиционной 
+        избы, старинной карчмы, шляхецкого замка с камином в центре зала. Коллекция самоваров, а также множество других старинных мелочей создает 
+        впечатление, что вы оказались в уютном доме, где всегда тепло и вкусно пахнет едой.]
+        (* <- lang_ru;; *);;
+        [The tavern “At the Lake” is a colorful establishment of Slavic cuisine. Located on the shore of the lake in the central park of Brest. The history of the establishment begins with
+        1906 and it is a kind of island of unification of Belarusian, Polish and Jewish culture. The interior contains fragments of traditional
+        hut, ancient tavern, noble castle with a fireplace in the center of the hall. The collection of samovars, as well as many other antique trifles, creates
+        the impression that you are in a cozy home, where food is always warm and smells delicious.]
+        (* <- lang_eng;; *);;

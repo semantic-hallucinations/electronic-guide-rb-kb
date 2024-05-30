@@ -1,0 +1,39 @@
+basilico_trattoria_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Basilico Trattoria" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Basilico Trattoria" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_wifi_avaliability:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_accesible_environment:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_restaraunt;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Ресторан Basilico Trattoria – место, где можно приятно провести время, погрузиться в атмосферу Неаполя и насладиться блюдами авторской 
+        кухни нашего шеф-повара. Популярные блюда нашего ресторана из сезонного меню и авторская подача блюда нашего шеф-повара не оставит 
+        вас равнодушными.]
+        (* <- lang_ru;; *);;
+        [Restaurant Basilico Trattoria is a place where you can have a pleasant time, immerse yourself in the atmosphere of Naples and enjoy signature dishes
+        our chef's kitchen. The popular dishes of our restaurant from the seasonal menu and the original presentation of the dish by our chef will not leave
+        you indifferent.]
+        (* <- lang_eng;; *);;

@@ -1,0 +1,41 @@
+recreation_park_brest
+
+    => nrel_main_idtf:
+        [Парк культуры и отдыха в Бресте]
+        (* <- lang_ru;; *);
+        [The Park of Culture and Recreation in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_wifi_avaliability:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_accesible_environment:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [11:00 - 20:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_park;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Брестский городской парк (Парк культуры и отдыха) — городской парк в Бресте. В 1906 году его построили русские солдаты либавского
+        гарнизона, находившиеся в Брест-Литовске. Первоначальная площадь была 4 гектара. Сегодня она составляет более 20 гектар, это самый 
+        большой городской парк в городе. Парк включает десятки видов деревьев, редких в этой части Европы, например, платан, тамариск, вяз,
+        ель и серпентин.]
+        (* <- lang_ru;; *);;
+        [Brest City Park (Park of Culture and Leisure) is a city park in Brest. In 1906, it was built by Russian soldiers of the Libau garrison,
+        who were stationed in Brest-Litovsk. The original area was 4 hectares. Today it covers more than 20 hectares, making it the largest urban
+        park in the city. The park includes dozens of tree species rare in this part of Europe, such as sycamore, tamarisk, elm, 
+        spruce and serpentine.]
+        (* <- lang_eng;; *);;

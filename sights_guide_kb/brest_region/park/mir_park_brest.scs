@@ -1,0 +1,31 @@
+mir_park_brest
+
+    => nrel_main_idtf:
+        [Парк культуры и отдыха в Бресте]
+        (* <- lang_ru;; *);
+        [The Park of Culture and Recreation in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_working_hours:
+        [00:00 - 24:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_park;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Парк Мира в Бресте основан более двух десятков лет тому. 8 апреля 2019 ему исполнится четверть века. В 1994 году, в середине весны,
+        в микрорайоне «Восток», рядом с улицами Ленинградская и Янки Купалы, заложили парковую зону. 
+        В высаживании деревьев и кустов участвовали ветераны войны, учащиеся школ и представители польских и немецких посольств.]
+        (* <- lang_ru;; *);;
+        [Peace Park in Brest was founded more than two decades ago. On April 8, 2019 he will turn a quarter of a century old. In 1994, in the middle of spring,
+        In the Vostok microdistrict, near Leningradskaya and Yanka Kupala streets, a park area was laid out.
+        War veterans, school students and representatives of the Polish and German embassies took part in planting trees and bushes.]
+        (* <- lang_eng;; *);;
