@@ -1,0 +1,27 @@
+palace_and_park_ensemble_in_zhilichy
+
+<= nrel_inclusion:
+	concept_museum; 
+	concept_park;
+	concept_historical_sight; 
+
+<= nrel_lockated_in:
+	kirovsk_city;
+
+        => nrel_working_hours:
+        [9:00 - 18:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Мира, д. 5, п. Жиличи ] (* <- lang_ru;; *);
+	[st. Mira, 5, Zhilici village] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Дворцово-парковый ансамбль в Жиличах]
+    (* <- lang_ru;;*);
+    [Palace and park ensemble in Zhilichy]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[В 20-е годы XIX столетия представитель шляхетского рода, ротмистр и предводитель дворянства Бобруйщины Игнатий Булгак стал возводить в деревне Жиличи родовое имение. По плану своей красотой и уникальностью оно должно было затмить все существующие поблизости резиденции. Судя по всему, план удался: дворцово-парковый ансамбль до сих пор называют местным Версалем. Он представляет собой замкнутый четырехугольник. Общая площадь комплекса — 4 тысячи квадратных метров. В него входят костел, старинный парк, посаженный в форме прямоугольника, липовые аллеи. Центральной частью композиции является дворец. Дворец достраивался вплоть до начала XX века, а в 20-е годы нового столетия стал использоваться не по назначению: школа рабочей молодежи, сельхозтехникум. Во время войны имение заняли немцы и часть парка использовали как кладбище. В 2009 году началась реставрация комплекса, которая разделена на несколько этапов и продолжается до сих пор. На территории дворца работает музей.] (* <- lang_ru;; *);
+		[In the 20s of the 19th century, a representative of the noble family, captain and leader of the nobility of the Bobruisk region, Ignatius Bulgak, began to build a family estate in the village of Zhilichi. According to the plan, with its beauty and uniqueness it was supposed to outshine all existing residences nearby. Apparently, the plan was a success: the palace and park ensemble is still called the local Versailles. It is a closed quadrangle. The total area of the complex is 4 thousand square meters. It includes a church, an ancient park planted in the shape of a rectangle, and linden alleys. The central part of the composition is the palace. The palace was completed until the beginning of the 20th century, and in the 20s of the new century it began to be used for other purposes: a school for working youth, an agricultural technical school. During the war, the estate was occupied by the Germans and part of the park was used as a cemetery. In 2009, restoration of the complex began, which is divided into several stages and is still ongoing. There is a museum on the territory of the palace.] (* <- lang_en;; *);;

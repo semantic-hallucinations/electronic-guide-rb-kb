@@ -1,0 +1,38 @@
+mogilev_regional_drama_theater
+
+	<= nrel_inclusion:
+		concept_theater; 
+
+	=> nrel_lockated_in:
+		bobruisk_city; 
+	
+	=> nrel_number_of_halls:
+        	[2]
+        	(* <- number;; *);
+        
+        => nrel_people_capacity:
+        [500]
+        (* <- number;; *);
+        
+        => nrel_working_hours:
+        [8:00 - 17:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Первомайская, 7] (* <- lang_ru;; *);
+	[st. Pervomayskaya, 7] (* <- lang_en;; *);
+	   
+=> nrel_main_idtf:
+    [Могилевский областной драматический театр]
+    (* <- lang_ru;;*);
+    [Mogilev Regional Drama Theater]
+    (* <- lang_en;;*);
+
+  -> rrel_example: "file://img/mogilev_regional_drama_theater.png"
+  (*
+   => nrel_format: format_png;;
+  *);
+
+=> nrel_sight_description:
+		[Могилевский театр драмы известен не только своими постановками, но и зданием, которое он занимает. Красная кирпичная постройка со сложной композицией считается одной из красивейших в Могилеве и уже более ста лет украшает собой город. Проект здания разработан епархиальным архитектором П. Камбуровым, оно является памятником архитектуры псевдорусского стиля. Строительство театра на месте бывших оборонительных укреплений средневекового Могилева велось на пожертвования жителей всей губернии с 1886 по 1888 гг. Стены городского театра помнят российского императора Николая II, главу Временного правительства Александра Керенского и адмирала Александра Колчака. На сцене театра выступали Вера Комиссаржевская, Сергей Рахманинов. Спектакли посещали Янка Купала и Якуб Колас. В 1985 году могилевская общественность отстояла театр, не допустив его разрушения. После этого были проведены восстановительные работы, и в январе 2001 года театр снова открыл свои двери для зрителей.] (* <- lang_ru;; *);
+		[The Mogilev Drama Theater is famous not only for its productions, but also for the building it occupies. The red brick building with a complex composition is considered one of the most beautiful in Mogilev and has been decorating the city for more than a hundred years. The design of the building was developed by the diocesan architect P. Kamburov; it is an architectural monument of the pseudo-Russian style. The construction of the theater on the site of the former defensive fortifications of medieval Mogilev was carried out with donations from residents of the entire province from 1886 to 1888. The walls of the city theater remember the Russian Emperor Nicholas II, the head of the Provisional Government Alexander Kerensky and Admiral Alexander Kolchak. Vera Komissarzhevskaya and Sergei Rachmaninov performed on the theater stage. The performances were attended by Yanka Kupala and Yakub Kolas. In 1985, the Mogilev public defended the theater, preventing its destruction. After this, restoration work was carried out, and in January 2001 the theater reopened its doors to spectators.] (* <- lang_en;; *);;

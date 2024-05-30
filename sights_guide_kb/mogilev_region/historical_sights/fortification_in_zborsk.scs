@@ -1,0 +1,22 @@
+fortification_in_zborsk
+
+<= nrel_inclusion:
+	concept_historical_sight;
+	concept_park; 
+
+<= nrel_lockated_in:
+	osipovichi_city;
+
+     => nrel_adress:
+	[Зборск] (* <- lang_ru;; *);
+	[Zborsk] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Городище в Зборске]
+    (* <- lang_ru;;*);
+    [Settlement in Zborsk]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Городище в Зборске расположено на южной окраине этой деревни. Оно занимает мыс, образованный Свислочью и впадающим в нее безымянным ручьем. Проведенные раскопки позволили установить, что в разное время здесь проживали представители милоградской и зарубинецкой культур, а также культуры штриховой керамики. Последний слой относится к эпохе Киевской Руси. Городище в Зборске состоит из двух площадок, разделенных земляным валом, чья высота достигает 2 м. Оно является памятником археологии. ] (* <- lang_ru;; *);
+		[The settlement in Zborsk is located on the southern outskirts of this village. It occupies a cape formed by the Svisloch River and an unnamed stream flowing into it. The excavations made it possible to establish that at different times representatives of the Milograd and Zarubinets cultures, as well as the culture of lined ceramics, lived here. The last layer dates back to the era of Kievan Rus. The settlement in Zborsk consists of two platforms separated by an earthen rampart, whose height reaches 2 m. It is an archaeological monument.] (* <- lang_en;; *);;

@@ -1,0 +1,26 @@
+bobruisk_fortress
+
+<= nrel_inclusion:
+	concept_museum; 
+
+<= nrel_lockated_in:
+	bobruisk_city;
+
+        => nrel_working_hours:
+        [00:00 - 24:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Карбышева, 11] (* <- lang_ru;; *);
+	[st. Karbysheva, 11] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Бобруйская крепость]
+    (* <- lang_ru;;*);
+    [Bobruisk fortress]
+    (* <- lang_en;;*);
+
+
+=> nrel_sight_description:
+		[Остатки легендарной цитадели, которая в свое время являлась крупнейшей в Европе (ее площадь превышала 120 га), расположены на восточной окраине города. Строительство крепости началось в 1810 году на месте средневекового замчища, на правом берегу Березины, и всего год спустя возведенная ударными темпами фортеция была причислена к оборонным сооружениям первого класса. Руководивший земляными работами инженер Теодор Нарбут усилил и без того неприступную твердыню замаскированными «волчьими ямами» и системой подземных ходов, позволявшей внезапно напасть на врага с тыла. «Ни одна крепость России не была столь полезною, как Бобруйская в 1812 году», – писал генерал-майор Михайловский в книге «Герои Отечественной войны». Более четырех месяцев ее малочисленный гарнизон сдерживал натиск двадцатитысячного французского войска. Именно под защитой Бобруйской крепости командующий 2-й русской армией Багратион смог переформировать подразделения, пополнить боезапас и затем благополучно соединиться с 1-й армией Барклая де Толли. По окончании войны с Наполеоном генерал-инженер Карл Опперман составил новый проект перестройки и усовершенствования крепости, согласно которому, она возводилась до 1825 года. А затем фортецию, в силу укрепления западных границ империи утратившую свое военное значение, власти превратили в политическую каторгу, первыми узниками которой стали участники восстания декабристов. О тяжелейших условиях содержания в бобруйских казематах Герцен писал: «Пусть Сибирь, пусть что угодно, но только не эта страшная тюрьма на реке Березине!». Кстати, нынешняя городская тюрьма также расположена в бывшем крепостном строении – башне Оппермана, возведенной в 1831 году, отчего об арестантах в Бобруйске говорят «сидит на башне». От прежних укреплений Бобруйской крепости сохранились несколько фортов, ныне ожидающих своей реконструкции, фрагменты валов, Водяные (Рогачевские) ворота. В ее прибрежной части под землей сокрыты остатки славянского городища V-VI веков, точное расположение которого обычный турист, не археолог, вряд ли определит. Зато в самом центре крепости трудно не заметить сооруженный в 2006–2008 гг. спортивный комплекс «Бобруйск-Арена», прозванный благодаря своей форме «летающей тарелкой».] (* <- lang_ru;; *);
+		[The remains of the legendary citadel, which at one time was the largest in Europe (its area exceeded 120 hectares), are located on the eastern outskirts of the city. Construction of the fortress began in 1810 on the site of a medieval castle, on the right bank of the Berezina, and just a year later, the fortification, erected at an accelerated pace, was classified as a first-class defensive structure. The engineer Theodor Narbut, who led the excavation work, strengthened the already impregnable stronghold with camouflaged “wolf pits” and a system of underground passages, which made it possible to suddenly attack the enemy from the rear. “Not a single fortress in Russia was as useful as Bobruisk in 1812,” wrote Major General Mikhailovsky in the book “Heroes of the Patriotic War.” For more than four months, its small garrison held back the onslaught of twenty thousand French troops. It was under the protection of the Bobruisk fortress that the commander of the 2nd Russian Army Bagration was able to reorganize units, replenish ammunition and then safely connect with the 1st Army of Barclay de Tolly. At the end of the war with Napoleon, General Engineer Karl Oppermann drew up a new project for the reconstruction and improvement of the fortress, according to which it was built until 1825. And then the fortification, which, due to the strengthening of the western borders of the empire, had lost its military significance, the authorities turned into a political penal servitude, the first prisoners of which were participants in the Decembrist uprising. Herzen wrote about the difficult conditions of detention in Bobruisk casemates: “Let Siberia, let anything, but not this terrible prison on the Berezina River!” By the way, the current city prison is also located in a former fortification - the Opperman Tower, erected in 1831, which is why they say about prisoners in Bobruisk “sitting on the tower.” From the former fortifications of the Bobruisk fortress, several forts have been preserved, now awaiting their reconstruction, fragments of ramparts, and the Water (Rogachev) Gate. In its coastal part, the remains of a Slavic settlement of the 5th-6th centuries are hidden underground, the exact location of which is unlikely to be determined by an ordinary tourist, not an archaeologist. But in the very center of the fortress it is difficult not to notice the one built in 2006–2008. the Bobruisk Arena sports complex, nicknamed the “flying saucer” due to its shape.] (* <- lang_en;; *);;

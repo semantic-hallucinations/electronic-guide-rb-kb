@@ -1,0 +1,32 @@
+cafe_moderato_krichev
+
+	<= nrel_inclusion:
+		concept_cafe; 
+
+	<= nrel_lockated_in:
+		krichev_city;
+	
+	=> nrel_working_hours:
+        [17:00 - 2:00]
+        (* <- time;; *);
+        
+        => nrel_wifi_availability:
+	wifi_available;
+	
+	=> nrel_type_of_kitchen:
+		eastern_european;
+		european;
+		russian;
+=> nrel_adress:
+	[ул. Ленинская, 46А] (* <- lang_ru;; *);
+	[st. Leninskaya, 46A] (* <- lang_en;; *);
+	
+	=> nrel_main_idtf:
+    		[Кафе "Модерато"]
+    		(* <- lang_ru;;*);
+    		[Cafe "Moderato"]
+    		(* <- lang_en;;*);
+
+	=> nrel_sight_description:
+			[Кафе «Модерато» расположено в историческом центре Кричева. Вмещает около 40-50 человек, а открытие летней террасы ожидается в июле 2016 года. Кафе начало работать в 2015 году со столовой, которая привлекает посетителей роскошным итальянским интерьером. Теперь «Модерато» предлагает живую музыку, бесплатный WI-FI, приятное обслуживание и вкуснейшие блюда, приготовленные в лучших традициях европейской кухни.] (* <- lang_ru;; *);
+		[Cafe Moderato is located in the historical centre of Krichev. It seats about 40-50 people, and summer terrace is expected to open in July 2016. Cafe started to work in 2015 with the dining room which attracts visitors by its italian luxurious interior. Now "Moderato" offers live music, free WI-FI, pleasant service and delicious dishes made in best traditions of European cuisine.] (* <- lang_en;; *);;

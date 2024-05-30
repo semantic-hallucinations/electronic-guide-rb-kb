@@ -1,0 +1,45 @@
+memorial_in_honor_of_the_liberator_soldiers_who_fell_in_1944
+
+	<= nrel_inclusion:
+		concept_monument; 
+
+	<= nrel_lockated_in:
+		bobruisk_city; 
+
+     => nrel_adress:
+	[ул. Минская] (* <- lang_ru;; *);
+	[st. Minskaya] (* <- lang_en;; *);
+	
+	=> nrel_main_idtf:
+    		[Мемориал в честь павших в 1944 году воинов-освободителей]
+    		(* <- lang_ru;;*);
+    		[Memorial in honor of the soldiers-liberators who fell in 1944]
+    		(* <- lang_en;;*);
+
+	=> nrel_sight_description:
+			[Мемориал находится на улице Минской недалеко от главных ворот Минского кладбища. Является памятником истории местного значения.
+
+
+Мемориал в честь воинов, погибших при освобождении г. Бобруйска от немецко-фашистских захватчиков в июне 1944 года открыт 3 июля 1999 года. Художественная концепция разработана лауреатом Государственной премии, заслуженным работн­иком культуры БССР, действительным членом Парижской академии гуманитарных наук в области архитектуры Э.К. Агуновичем.
+
+
+В 1965 году на братской могиле советских воинов, погибших за освобождение г. Бобруйска от немецко-фашистских оккупантов в ходе Бобруйской наступательной операции, поставлен обелиск и 2 стелы с именами похороненных. В 1974 г. - дополнительно две наклоненные плиты, а в 1994 г. - ещё 4. В 1998 году принято решение о проектировании и реконструкции памятника на братской могиле. ­
+
+
+Мемориал выполнен в виде открытой книги, расположенной полукругом, на страницах которой увековечены имена 938 погибших героев.
+
+
+Верхняя часть памятника исполнена в виде пантеона и имеет вид полусферы, вход оформлен аркой - вратами. На 10 опорах высотой 21 метр закреплён конный памятник, первый в Беларуси, высотой 5,5 м. В центре композиции фигура святого Георгия Победоносца в форме советского солдата, пронзающего фашистскую свастику в виде змея-аспида. Автор скульптуры Г.В. Буралкин, член Союза художников Республики Беларусь, скульптор. При изготовлении мемориала использованы алюминий и бронза.] (* <- lang_ru;; *);
+		[The memorial is located on Minskaya Street not far from the main gate of the Minsk Cemetery. It is a historical monument of local significance.
+
+
+The memorial in honor of the soldiers who died during the liberation of Bobruisk from the Nazi invaders in June 1944 was opened on July 3, 1999. The artistic concept was developed by the State Prize laureate, Honored Cultural Worker of the BSSR, full member of the Paris Academy of Humanities in the field of architecture E.K. Agunovich.
+
+
+In 1965, at the mass grave of Soviet soldiers who died for the liberation of Bobruisk from the Nazi occupiers during the Bobruisk offensive operation, an obelisk and 2 steles with the names of those buried were erected. In 1974, two additional inclined slabs were added, and in 1994, 4 more. In 1998, a decision was made to design and reconstruct the monument at the mass grave. ­
+
+
+The memorial is made in the form of an open book, located in a semicircle, on the pages of which the names of 938 fallen heroes are immortalized.
+
+
+The upper part of the monument is made in the form of a pantheon and has the shape of a hemisphere; the entrance is decorated with an arch - a gate. An equestrian monument, the first in Belarus, 5.5 m high, is fixed on 10 supports 21 meters high. In the center of the composition is the figure of St. George the Victorious in the form of a Soviet soldier piercing a fascist swastika in the form of an asp snake. The author of the sculpture is G.V. Buralkin, member of the Union of Artists of the Republic of Belarus, sculptor. Aluminum and bronze were used in the manufacture of the memorial.] (* <- lang_en;; *);;

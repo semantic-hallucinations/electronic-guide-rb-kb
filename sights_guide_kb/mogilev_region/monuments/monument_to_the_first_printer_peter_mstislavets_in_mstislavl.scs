@@ -1,0 +1,21 @@
+monument_to_the_first_printer_peter_mstislavets_in_mstislavl
+
+<= nrel_inclusion:
+	concept_monument; 
+
+<= nrel_lockated_in:
+	mstislavl_city;
+
+     => nrel_adress:
+	[Мстиславль] (* <- lang_ru;; *);
+	[Mstislavl] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Памятник первопечатнику Петру Мстиславцу в Мстиславле]
+    (* <- lang_ru;;*);
+    [Monument to the first printer Peter Mstislavets in Mstislavl]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Петр Мстиславец – один из первопечатников Беларуси, последователь Ф. Скорины и соратник И. Федорова. Родился в Мстиславле в первой половине XVI века.В апреле 1563 года Федоровым и Мстиславцем в Москве начался набор первой точно датированной русской печатной книги «Апостол». В марте 1564 года эта книга была закончена, а через год они начали выпуск  двух текстов молитв «Часовника». Однако по неизвестным причинам после этого Ивану и Петру пришлось переселиться в город Заблудов (Польша), хозяином которого являлся ревнитель православия гетман ВКЛ Григорий Ходкевич. Там он посодействовал печати очередного творения, «Евангелия учительного» (1569 г.). После этого Петр Мстиславец расстался с Иваном Федоровым и переехал в Вильну, где при помощи богатых горожан и православных купцов создал новую типографию, где между 1574 и 1576 гг. напечатал очередные труды – «Евангелие напрестольное», «Часовник»,  «Псалтырь». Также Мстиславец создал уставную азбуку великорусского почерка, которая стала началом так называемых евангельских шрифтов. Примерно в  1580-х годах первопечатник умирает. В Мстиславле сегодня стоят два памятника первопечатнику. Один из них (установленный напротив Иезуитского костела на улице Пролетарской) изображает его в молодом возрасте, сидящим на большом камне, надпись на котором гласит «Памятник первопечатнику Петру Мстиславцу от благодарных земляков». Второй (открытый в 2001 году на главной площади напротив здания райисполкома) представляет нам Петра в преклонных годах, который стоит с развернутой книгой в руке.] (* <- lang_ru;; *);
+		[Pyotr Mstislavets is one of the first printers in Belarus, a follower of F. Skaryna and an ally of I. Fedorov. Born in Mstislavl in the first half of the 16th century. In April 1563, Fedorov and Mstislavets began typing the first accurately dated Russian printed book, “The Apostle,” in Moscow. This book was completed in March 1564, and a year later they began publishing two texts of the prayers of the Book of Hours. However, for unknown reasons, after this Ivan and Peter had to move to the city of Zabludov (Poland), whose owner was the zealot of Orthodoxy, Hetman of the Grand Duchy of Lithuania Grigory Khodkevich. There he contributed to the printing of the next creation, “The Teaching Gospel” (1569). After this, Peter Mstislavets parted with Ivan Fedorov and moved to Vilna, where, with the help of wealthy townspeople and Orthodox merchants, he created a new printing house, where between 1574 and 1576. published further works - “The Altar Gospel”, “The Book of Hours”, “The Psalter”. Mstislavets also created the statutory alphabet of Great Russian handwriting, which became the beginning of the so-called Gospel fonts. Around the 1580s, the pioneer printer dies. In Mstislavl today there are two monuments to the first printer. One of them (installed opposite the Jesuit Church on Proletarskaya Street) depicts him at a young age, sitting on a large stone, the inscription on which reads “Monument to the first printer Peter Mstislavets from grateful fellow countrymen.” The second (opened in 2001 on the main square opposite the district executive committee building) presents us with Peter in old age, standing with an open book in his hand.] (* <- lang_en;; *);;

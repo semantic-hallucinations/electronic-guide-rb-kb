@@ -1,0 +1,36 @@
+rodina_cinema_in_mogilev
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	mogilev_city;
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [247]
+        (* <- number;; *);
+        
+=> nrel_main_idtf:
+    [Кинотеатр Родина]
+    (* <- lang_ru;;*);
+    [Cinema Rodina]
+    (* <- lang_en;;*);
+=> nrel_adress:
+	[ул. Ленинская, 47] (* <- lang_ru;; *);
+	[st. Leninskaya, 47] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [Кинотеатр «Родина» был торжественно открыт 6 ноября 1939 года. По воспоминаниям ветерана труда, киномеханика кинотеатра «Родина» 1941 года Ю.Ю. Сервирога, в день открытия кинотеатра демонстрировался фильма «Ленин в 1918 году». Великолепная игра актёров Бориса Щукина, игравшего роль Ленина, и Николая Охлопкова, исполнявшего роль рабочего Василия, оказали большое эмоциональное воздействие на зрителей.
+В самом начале Великой Отечественной войны кинотеатр «Родина» продолжал работать. Для бойцов Красной Армии ежедневно демонстрировался художественный фильм «Парень из тайги» (СССР, 1941). Кинопоказы не прекращалась и во время воздушных боёв над Могилёвом. В послевоенный период кинотеатр «Родина» был отремонтирован. На втором этаже кинотеатра был оборудован малый зал на 100-120 мест. Здесь проходили встречи с ветеранами и участниками Великой Отечественной войны, передовиками производства, вечера и праздники для учащихся и молодёжи. С 1971 по 1983 годы малый зал функционировал как детский кинотеатр «Пионер».За свою долгую жизнь (в 2019 году кинотеатр «Родина» отметит 80-летие со дня основания) здание кинотеатра и его внутренние помещения неоднократно ремонтировались, подвергались перепланировке. С 2011 года кинотеатр оснащён современным кинопроекционным оборудованием, демонстрация кинофильмов осуществляется в 3D формате. Здание кинотеатра «Родина», построенное в стиле классический «ампир», привлекает жителей и гостей города, как своей внешней красотой, так и современным дизайном, комфортом и уютом внутри здания.Сотрудники кинотеатра «Родина» внедряют в работу с кинозрителями интерактивные формы: ночные кинопоказы, киновидеопраздники и киновидеопоздравления, развлекательные шоу-программы, – которые особенно популярны среди молодёжи.Традиционно в кинотеатре «Родина» проходят церемонии открытия и закрытия широкомасштабных киномероприятий: Дней кино стран мира, Международного фестиваля анимационных фильмов «Анимаёвка», кинонедели «Туровская осень» и «Кіно маёй краіны». Кинотеатр предлагает зрителям культурно-познавательную киновидеопрограмму «Cinema-Могилёв», которая знакомит кинозрителей с историей кинематографа и кинотеатра «Родина» во время обзорной экскурсии, с видеопрограммами «Кіно маёй краіны», «Золотая коллекция «Анимаёвки», «О Беларуси и белорусах».]
+        (* <- lang_ru;; *);
+	[The Rodina cinema was inaugurated on November 6, 1939. According to the memoirs of labor veteran, projectionist of the Rodina cinema in 1941, Yu.Yu. Servirog, on the opening day of the cinema, the film “Lenin in 1918” was shown. The excellent performances of actors Boris Shchukin, who played the role of Lenin, and Nikolai Okhlopkov, who played the role of the worker Vasily, had a great emotional impact on the audience.
+At the very beginning of the Great Patriotic War, the Rodina cinema continued to operate. The feature film “The Guy from the Taiga” (USSR, 1941) was shown daily for the soldiers of the Red Army. Film screenings did not stop during air battles over Mogilev. In the post-war period, the Rodina cinema was renovated. On the second floor of the cinema there was a small hall with 100-120 seats. Meetings with veterans and participants of the Great Patriotic War, leading production workers, evenings and holidays for students and youth were held here. From 1971 to 1983, the small hall functioned as the Pioneer children's cinema. During its long life (in 2019, the Rodina cinema will celebrate the 80th anniversary of its founding), the cinema building and its interior were repeatedly renovated and redeveloped. Since 2011, the cinema has been equipped with modern film projection equipment; films are shown in 3D format. The building of the Rodina cinema, built in the classic Empire style, attracts residents and guests of the city, both with its external beauty and modern design, comfort and coziness inside the building. The staff of the Rodina cinema introduce interactive forms in working with moviegoers: night film screenings, film-video celebrations and film-video congratulations, entertainment show programs - which are especially popular among young people. Traditionally, the Rodina cinema hosts the opening and closing ceremonies of large-scale film events: World Cinema Days, the Animaevka International Animated Film Festival, the Turov Autumn film week and “Cinema of My Country”. The cinema offers viewers a cultural and educational film and video program “Cinema-Mogilev”, which introduces moviegoers to the history of cinema and the Rodina cinema during a sightseeing tour, with video programs “Cinema of My Country”, “Golden Collection of Animaevka”, “About Belarus and Belarusians” .]
+        (* <- lang_en;; *);;

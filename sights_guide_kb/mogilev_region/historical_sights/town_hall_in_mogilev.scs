@@ -1,0 +1,21 @@
+town_hall_in_mogilev
+
+<= nrel_inclusion:
+	concept_historical_sight; 
+
+<= nrel_lockated_in:
+	mogilev_city; 
+
+         => nrel_adress:
+	[ул. Ленинская, 1а] (* <- lang_ru;; *);
+	[st. Leninskaya, 1a] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Ратуша в Могилеве]
+    (* <- lang_ru;;*);
+    [Town Hall in Mogilev]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Могилевская ратуша возводилась в 1679–1681 гг. местными мастерами Феской и Афанасом с участием «дойлидов» Игнатия, Недосеки, Васьки, Андрея и Гришки. Выполненная в стиле барокко, ратуша считалась лучшим произведением гражданской архитектуры Беларуси XVII века. Высота ее восьмигранной башни со шпилем составляла 46 метров. В 1780 году с этой башни осматривали город российская императрица Екатерина II и австрийский император Иосиф II, встретившиеся в Могилеве, чтобы решить судьбу Речи Посполитой. После реформы 1870 года в ратуше разместились отдельные службы городской управы. Во время нахождения в Могилеве Ставки Верховного Главнокомандующего здесь находилась военная радиостанция. Позднее башня ратуши использовалась как пожарная вышка города. В 1957-м ратушу, пострадавшую в годы Великой Отечественной войны, взорвали, но в начале ХХI века ее удалось восстановить на прежнем месте по старым чертежам. Строительство было завершено в 2008 году. Теперь в ратуше находится Музей истории Могилева.] (* <- lang_ru;; *);
+		[Mogilev Town Hall was built in 1679–1681. local masters Feska and Afanas with the participation of “doylids” Ignatius, Nedoseka, Vaska, Andrey and Grishka. Made in the Baroque style, the town hall was considered the best work of civil architecture in Belarus in the 17th century. The height of its octagonal tower with a spire was 46 meters. In 1780, the Russian Empress Catherine II and the Austrian Emperor Joseph II, who met in Mogilev to decide the fate of the Polish-Lithuanian Commonwealth, viewed the city from this tower. After the reform of 1870, the town hall housed separate services of the city government. During the stay of the Supreme Commander-in-Chief Headquarters in Mogilev, there was a military radio station here. The town hall tower was later used as the city's fire tower. In 1957, the town hall, damaged during the Great Patriotic War, was blown up, but at the beginning of the 21st century it was restored in its original place according to old drawings. Construction was completed in 2008. Now the town hall houses the Mogilev History Museum.] (* <- lang_en;; *);;

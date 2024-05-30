@@ -1,0 +1,31 @@
+3d_movie_cinema_in_shklov
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	shklov_city;
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+
+=> nrel_main_idtf:
+    [Кинотеатр 3D кино]
+    (* <- lang_ru;;*);
+    [Cinema 3D movie]
+    (* <- lang_en;;*);
+
+=> nrel_adress:
+	[ул. Гончарная, 47] (* <- lang_ru;; *);
+	[st. Goncharnaya, 47] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [3D-кинотеатр в Шклове – это два комфортных кинозала с удобными, современными сиденьями; многоканальный объемный звук от DOLBY DIGITAL 7.1. и акустической системы легендарной американской марки JBL; применение поляризационной 3D технологии на серебряных экранах французского производства; ультрасовременный цифровой кинопроектор NEC NC1000C с разрешением 2К 2048х1080 пикселей; фудкорт с попкорном, вкусными закусками и напитками для еще более комфортного просмотра кинолент; а также еженедельные мировые кинопремьеры!]
+        (* <- lang_ru;; *);
+	[3D cinema in Shklov - these are two comfortable cinema halls with comfortable, modern seats; multi-channel surround sound from DOLBY DIGITAL 7.1. and an acoustic system of the classic American brand JBL; the use of polarized 3D technology on French-made silver screens; ultra-modern digital cinema projector NEC NC1000C with 2K 2048x1080 pixels; food court with popcorn, delicious snacks and drinks for an even more comfortable movie viewing experience; as well as weekly world film premieres!]
+        (* <- lang_en;; *);;
