@@ -1,0 +1,37 @@
+druft_house_bar_brest
+
+    => nrel_main_idtf:
+        [Бар Druft House в Бресте]
+        (* <- lang_ru;; *);
+        [Bar Druft House in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+		
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_accesible_environment:
+        [NO]
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [14:00 - 02:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Бар Druft House cтильный, но не вычурный интерьер, приятная обстановка, внимательное обслуживание. 
+        Очень вкусно и недорого.] 
+		(* <- lang_ru;; *);;
+		[Bar Druft House stylish but not pretentious interior, pleasant atmosphere, attentive service. 
+        Very tasty and inexpensive.] 
+		(* <- lang_en;; *);;

@@ -1,0 +1,41 @@
+local_lore_museum_brest
+
+    => nrel_main_idtf:
+        [Oбластной краеведческий музей в Бресте]
+        (* <- lang_ru;; *);
+        [Regional Museum of Local Lore in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [9]
+        (* <- number;; *);
+    
+    => nrel_accesible_environment:
+        [NO]
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Брестский областной краеведческий музей входит в список крупнейших музеев страны. 
+        Его собрание насчитывает более 175 тысяч единиц хранения, включает в себя уникальные 
+        предметы археологии, старопечатные книги, монетные и вещевые клады из драгоценных 
+        металлов и многое другое.] 
+        (* <- lang_ru;; *);;
+		[The Brest Regional Museum of Local Lore is included in the list of the largest museums 
+        in the country. Its collection numbers more than 175 thousand items and includes unique archaeological 
+        objects, early printed books, coins and treasures made of precious metals 
+        and much more.] 
+        (* <- lang_en;; *);;
