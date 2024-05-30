@@ -1,0 +1,37 @@
+khotimsk_city
+
+    => nrel_main_idtf:
+        [город Хотимск]
+        (* <- lang_ru;;*);
+        [Khotimsk city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Хотимск)]
+            (* <- lang_ru;; *);
+            [Definition (Khotimsk city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Хо́тимск — городской посёлок Могилёвской области Белоруссии. Административный центр Хотимского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Khotimsk is an urban village in the Mogilev region of Belarus. Administrative center of Khotimsky district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;
