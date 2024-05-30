@@ -1,0 +1,31 @@
+section_subject_domain_of_museums
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область музеев]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of museums]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_museum;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+section_subject_domain_of_museums
+    = [*
+        subject_domain_of_museums
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область музеев]
+                (* <- lang_ru;;*);
+                [Subject domain of museums]
+                (* <- lang_en;;*);
+
+            -> rrel_maximum_studied_object_class:
+                concept_museum;;
+
+            //-> rrel_not_maximum_studied_object_class:
+    *];;

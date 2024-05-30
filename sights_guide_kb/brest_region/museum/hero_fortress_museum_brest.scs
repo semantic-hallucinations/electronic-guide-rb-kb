@@ -1,0 +1,43 @@
+hero_fortress_museum_brest
+
+    => nrel_main_idtf:
+        [Брестская крепость-герой]
+        (* <- lang_ru;; *);
+        [Brest Hero-Fortress]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [11]
+        (* <- number;; *);
+    
+    => nrel_accesible_environment:
+        [YES]
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [9:00 - 17:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Брестская крепость – это историческая крепость, расположенная в городе Бресте, 
+      Беларусь. Она известна как место начала Великой Отечественной войны, когда в июне
+      1941 года немецкие войска атаковали её и захватили. Крепость стала символом 
+      сопротивления советских войск в начале войны. Сегодня она служит мемориалом
+      и местом памяти погибших во время войны.] 
+      (* <- lang_ru;; *);;
+		[Brest Fortress is a historical fortress located in the city of Brest,
+      Belarus. It is known as the site where the Great Patriotic War began, as in June
+      1941, German forces attacked and captured it. The fortress became a symbol of Soviet
+      resistance at the outset of the war. Today, it serves as a memorial and a place of 
+      remembrance for those who perished during the war.] 
+      (* <- lang_en;; *);;

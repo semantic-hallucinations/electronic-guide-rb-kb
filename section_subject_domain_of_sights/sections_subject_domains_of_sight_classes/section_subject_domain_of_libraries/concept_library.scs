@@ -1,0 +1,68 @@
+concept_library
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[библиотека]
+	(* <- lang_ru;; *);
+	[library]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    educational_value;
+    entertainment_value;
+    cultural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (библиотека)]
+        (* <- lang_ru;; *);
+        [Definition (library)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Библиотека - это учреждение, собирающее и хранящее книги для общественного пользования.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (библиотека)]
+        (* <- lang_ru;; *);
+        [Statement (library)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Учреждение, собирающее и хранящее книги для общественного пользования.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

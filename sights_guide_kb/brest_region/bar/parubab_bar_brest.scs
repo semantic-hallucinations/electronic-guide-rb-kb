@@ -1,0 +1,54 @@
+parubab_bar_brest
+
+    => nrel_main_idtf:
+        [Бар Парубаб в Бресте]
+        (* <- lang_ru;; *);
+        [Bar Parubab in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [24]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_accesible_environment:
+        [NO]
+        (* <- string;; *);
+
+    => nrel_wifi_availability:
+        [YES]        
+        (* <- string;; *);
+
+    => nrel_working_hours:
+        [12:00 - 00:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Бар Парубаб атмосферное и в то же время простое место.
+        С хорошим персоналом, со своей изюминкой.
+        Для любителей посидеть в хорошей компании, и для любителей
+        посидеть "в себе". Прекрасная музыка (Шевчук, Пикник, Ногу свело и др.).
+        Отличное пиво - ребята подскажут/посоветуют и расскажут о наличии и уточняет
+        предпочтения. Расценки на напитки естественно выше, меню по еде очень даже 
+        приемлимое, даже недорогое. Очень классный интерьер.] 
+        (* <- lang_ru;; *);;
+		[Bar Parubab is an atmospheric and at the same time simple place. With good staff, with 
+        its own twist.For those who like to sit in good company, and for those who like to sit 
+        “by themselves”. Wonderful music (Shevchuk, Picnic, Cramped Leg, etc.).
+        Excellent beer - the guys will give you tips/advice and tell you about availability
+        and clarify your preferences. Prices for drinks are naturally higher, the food menu 
+        is very acceptable, even inexpensive. Very cool interior.] 
+        (* <- lang_en;; *);;

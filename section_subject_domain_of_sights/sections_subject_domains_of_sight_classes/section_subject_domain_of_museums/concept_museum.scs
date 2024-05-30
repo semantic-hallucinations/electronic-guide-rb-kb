@@ -1,0 +1,69 @@
+concept_museum
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[музей]
+	(* <- lang_ru;; *);
+	[museum]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    historical_value;
+    educational_value;
+    entertainment_value;
+    cultural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (музей)]
+        (* <- lang_ru;; *);
+        [Definition (museum)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Музей - это учреждение, занимающееся собиранием, хранением и выставкой для обозрения чего-лтбо (памятников искусства, предметов техники, научных коллекций, предметов, представляющих исторический интерес, и т. п.).] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (музей)]
+        (* <- lang_ru;; *);
+        [Statement (museum)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Учреждение, занимающееся собиранием, хранением и выставкой для обозрения чего-лтбо (памятников искусства, предметов техники, научных коллекций, предметов, представляющих исторический интерес, и т. п.).] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

@@ -1,0 +1,69 @@
+adress
+
+=> nrel_main_idtf:
+    [Критерий экземпляра. Адрес]
+    (* <- lang_ru;; *);
+    [Instance criteria. Adress]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_adress;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Адрес)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Adress)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Адрес - критерий, отражающий точное местоположение объекта.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Address is a criterion that reflects the exact location of an object.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_adress
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Адрес)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Adress)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий точное местоположение объекта.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects the exact location of an object.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_adress
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;

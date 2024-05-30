@@ -13,7 +13,7 @@ section_subject_domain_of_criteria
 		};
 
     -> rrel_key_sc_element:
-        cocept_criteria;
+        concept_criteria;
         concept_class_criteria;
         concept_instance_criteria;
 
@@ -37,7 +37,7 @@ section_subject_domain_of_criteria
                 subject_domain_of_instance_criteria;
 
             -> rrel_maximum_studied_object_class:
-                cocept_criteria;
+                concept_criteria;
 
             -> rrel_not_maximum_studied_object_class:
                 concept_class_criteria;

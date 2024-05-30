@@ -35,7 +35,7 @@ concept_sight
             concept_special_attention;
             concept_reason;
             nrel_due_to;
-            cocept_quality
+            concept_quality
         };; 
 *);
 
@@ -67,6 +67,6 @@ concept_sight
             concept_special_attention;
             concept_reason;
             nrel_due_to;
-            cocept_quality
+            concept_quality
         };; 
 *);;

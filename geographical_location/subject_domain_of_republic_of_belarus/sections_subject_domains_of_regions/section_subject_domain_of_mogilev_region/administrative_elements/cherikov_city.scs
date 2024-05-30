@@ -1,0 +1,37 @@
+cherikov_city
+
+    => nrel_main_idtf:
+        [город Чериков]
+        (* <- lang_ru;;*);
+        [Cherikov city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Чериков)]
+            (* <- lang_ru;; *);
+            [Definition (Cherikov city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Че́риков — город в Могилёвской области Белоруссии. Административный центр Чериковского района. Расположен на реке Сож, в 32 км от железнодорожного узла Кричев, в 77 от Могилёва.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Cherikov is a city in the Mogilev region of Belarus. Administrative center of Cherikovsky district. Located on the Sozh River, 32 km from the Krichev railway junction, 77 from Mogilev.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

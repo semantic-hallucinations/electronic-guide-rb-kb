@@ -1,0 +1,31 @@
+berestye_museum_brest
+
+    => nrel_main_idtf:
+        [Археологический музей "Берестье" в Бресте]
+        (* <- lang_ru;; *);
+        [Berestye Archeological Museum in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_working_hours:
+        [10:00 - 17:30]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Археологический музей «Берестье» – единственный в мире музей 
+        средневекового восточнославянского города, расположенный на месте детинца
+        древнего Берестья.] 
+        (* <- lang_ru;; *);;
+		[Archaeological Museum "Berestye" is the only museum in the
+        world of a medieval East Slavic city, located on the site of the ancient 
+        Berestye village.] 
+        (* <- lang_en;; *);;

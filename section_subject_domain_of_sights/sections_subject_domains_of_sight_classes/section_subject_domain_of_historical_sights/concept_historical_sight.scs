@@ -1,0 +1,68 @@
+concept_historical_sight
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[историческая достопримечательность]
+	(* <- lang_ru;; *);
+	[historical sight]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    educational_value;
+    historical_value;
+    cultural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (историческая достопримечательность)]
+        (* <- lang_ru;; *);
+        [Definition (historical sight)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Историческая достопримечательность - это место, вещь или объект, являющиеся историческим наследием.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (историческая достопримечательность)]
+        (* <- lang_ru;; *);
+        [Statement (historical sight)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Место, вещь или объект, являющиеся историческим наследием.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_empty
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_sight;;

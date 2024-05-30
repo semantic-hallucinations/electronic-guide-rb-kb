@@ -19,17 +19,16 @@ mogilev_city
         <= nrel_sc_text_translation:
             ...
             (*
-                -> [Город на востоке Республики Беларусь, административный центр Могилёвской области.] (* <- lang_ru;; *);;
+                -> [Могилёв — город на востоке Беларуси, административный центр Могилёвской области и Могилёвского района. В XVII—XIX веках c целью отличия от города Могилёва-на-Днестре до его переименования в 1923 году в Могилёв-Подольский часто именовался Могилёвом-на-Днепре или Могилёвом губернским.] (* <- lang_ru;; *);;
             *);
             ...
             (*
-                -> [A city in eastern Belarus, the administrative center of the Mogilev region.] (* <- lang_en;; *);;
+                -> [Mogilev is a city in eastern Belarus, the administrative center of the Mogilev region and Mogilev district. In the 17th-19th centuries, in order to distinguish it from the city of Mogilev-on-Dniester, before its renaming in 1923 to Mogilev-Podolsky, it was often called Mogilev-on-Dnieper or Mogilev provincial.] (* <- lang_en;; *);;
             *);;
 
         <= nrel_using_constants:
             {
                 mogilev_region;
-                concept_administrative_center;
                 concept_city
             };; 
     *);

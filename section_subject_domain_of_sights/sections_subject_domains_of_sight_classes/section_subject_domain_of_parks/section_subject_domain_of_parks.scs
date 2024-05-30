@@ -1,0 +1,31 @@
+section_subject_domain_of_parks
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область парков]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of parks]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_park;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+section_subject_domain_of_parks
+    = [*
+        subject_domain_of_parks
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область парков]
+                (* <- lang_ru;;*);
+                [Subject domain of parks]
+                (* <- lang_en;;*);
+
+            -> rrel_maximum_studied_object_class:
+                concept_park;;
+
+            //-> rrel_not_maximum_studied_object_class:
+    *];;
