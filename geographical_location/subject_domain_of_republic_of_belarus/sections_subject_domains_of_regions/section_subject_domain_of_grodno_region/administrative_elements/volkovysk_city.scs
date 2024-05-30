@@ -1,0 +1,37 @@
+volkovysk_city
+    => nrel_main_idtf:
+        [город Волковыск]
+        (* <- lang_ru;;*);
+        [Volkovysk city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Волковыск)]
+            (* <- lang_ru;; *);
+            [Definition (Volkovysk city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город в Беларуси, административный центр Волковыского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in Belarus, the administrative center of the Volkovysk district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                volkovysk_district;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

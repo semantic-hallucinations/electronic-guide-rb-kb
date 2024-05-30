@@ -30,12 +30,18 @@ concept_museum
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A museum is an institution engaged in collecting, storing and exhibiting something for viewing (art monuments, pieces of technology, scientific collections, objects of historical interest, etc.).] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_institution;
+            concept_collection;
+            concept_exhibition;
+            concept_art;
+            concept_technology;
+            concept_scince;
+            concept_history
         };; 
 *);
 
@@ -56,12 +62,18 @@ concept_museum
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [An institution engaged in collecting, storing and exhibiting something for viewing (art monuments, pieces of technology, scientific collections, objects of historical interest, etc.).] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_institution;
+            concept_collection;
+            concept_exhibition;
+            concept_art;
+            concept_technology;
+            concept_scince;
+            concept_history
         };; 
 *);
 

@@ -28,12 +28,16 @@ concept_cafe
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A cafe is a catering and recreation establishment, similar to a small restaurant, but with a limited range of products compared to a restaurant, and, possibly, with self-service.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_catering;
+            concept_self_service;
+            concept_restaurant;
+            concept_establishment;
+            concept_recreation
         };; 
 *);
 
@@ -54,12 +58,16 @@ concept_cafe
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A catering and recreation establishment, similar to a small restaurant, but with a limited range of products compared to a restaurant, and, possibly, with self-service.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_catering;
+            concept_self_service;
+            concept_restaurant;
+            concept_establishment;
+            concept_recreation
         };; 
 *);
 

@@ -28,12 +28,14 @@ concept_theater
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A theater is an architectural structure designed to host theatrical performances, musical concerts or other types of performances.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_performance;
+            concept_musical_concert;
+            concept_architectural_structure
         };; 
 *);
 
@@ -54,12 +56,14 @@ concept_theater
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [An architectural structure designed to host theatrical performances, musical concerts or other types of performances.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_performance;
+            concept_musical_concert;
+            concept_architectural_structure
         };; 
 *);
 

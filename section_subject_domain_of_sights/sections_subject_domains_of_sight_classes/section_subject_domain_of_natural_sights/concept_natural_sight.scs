@@ -14,7 +14,7 @@ concept_natural_sight
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Определение (кинотеатр)]
+        [Определение (природная достопримечательность)]
         (* <- lang_ru;; *);
         [Definition (natural sight)]
         (* <- lang_en;; *);;
@@ -24,23 +24,23 @@ concept_natural_sight
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Природная ддостопримечательность - достопримечательность, имеющая некоторую природную ценность.] (* <- lang_ru;; *);;
+            -> [Природная достопримечательность - достопримечательность, имеющая некоторую природную ценность.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A natural sight is a sight that has some natural value.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_nature
         };; 
 *);
 
 <- rrel_key_sc_element: ...
 (*
     => nrel_main_idtf:
-        [Утверждение (кинотеатр)]
+        [Утверждение (природная достопримечательность)]
         (* <- lang_ru;; *);
         [Statement (natural sight)]
         (* <- lang_en;; *);;
@@ -54,12 +54,12 @@ concept_natural_sight
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A natural sight is a sight that has some natural value.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_nature
         };; 
 *);
 

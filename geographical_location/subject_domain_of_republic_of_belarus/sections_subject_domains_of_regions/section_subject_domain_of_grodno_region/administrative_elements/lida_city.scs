@@ -1,0 +1,37 @@
+lida_city
+    => nrel_main_idtf:
+        [город Лида]
+        (* <- lang_ru;;*);
+        [Lida city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Лида)]
+            (* <- lang_ru;; *);
+            [Definition (Lida city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на западе Республики Беларусь, административный центр Лидского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in western Belarus, the administrative center of the Lida district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                lida_district;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

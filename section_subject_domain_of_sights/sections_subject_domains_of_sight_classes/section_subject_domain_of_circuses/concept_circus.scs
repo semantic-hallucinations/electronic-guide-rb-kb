@@ -27,12 +27,14 @@ concept_circus
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A circus is a spectacular establishment for organizing performances with the participation of acrobats, gymnasts, clowns, and trained animals.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_spectacle;
+            concept_establishment;
+            concept_performance
         };; 
 *);
 
@@ -53,12 +55,14 @@ concept_circus
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A spectacular establishment for organizing performances with the participation of acrobats, gymnasts, clowns, and trained animals.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_spectacle;
+            concept_establishment;
+            concept_performance
         };; 
 *);
 

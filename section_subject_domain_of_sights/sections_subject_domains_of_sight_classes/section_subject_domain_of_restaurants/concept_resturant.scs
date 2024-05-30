@@ -28,12 +28,15 @@ concept_resturant
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A restaurant is a catering establishment with a wide range of complexly prepared dishes, including custom and signature dishes.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_establishment;
+            concept_dish;
+            concept_assortment;
+            concept_catering
         };; 
 *);
 
@@ -54,12 +57,15 @@ concept_resturant
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A catering establishment with a wide range of complexly prepared dishes, including custom and signature dishes.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_establishment;
+            concept_dish;
+            concept_assortment;
+            concept_catering
         };; 
 *);
 

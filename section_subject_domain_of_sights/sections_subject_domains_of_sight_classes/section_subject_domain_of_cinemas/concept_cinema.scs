@@ -28,12 +28,13 @@ concept_cinema
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [Cinema is a public building or part of it with equipment for the public demonstration of films.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_film;
+            concept_public
         };; 
 *);
 
@@ -54,12 +55,13 @@ concept_cinema
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [Cinema is a public building or part of it with equipment for the public demonstration of films.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_film;
+            concept_public
         };; 
 *);
 

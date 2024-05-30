@@ -29,12 +29,14 @@ concept_library
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A library is an institution that collects and stores books for public use.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_institution;
+            concept_book;
+            concept_public
         };; 
 *);
 
@@ -55,12 +57,14 @@ concept_library
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [An institution that collects and stores books for public use.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_institution;
+            concept_book;
+            concept_public
         };; 
 *);
 

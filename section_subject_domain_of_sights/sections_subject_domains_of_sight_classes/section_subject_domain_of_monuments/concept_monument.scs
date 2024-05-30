@@ -25,16 +25,20 @@ concept_monument
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Монумент - это большой памятник.] (* <- lang_ru;; *);;
+            -> [Монумент - статуя, здание или другое сооружение, воздвигнутое в память о выдающемся человеке или событии.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A monument is a statue, building, or other structure erected to commemorate a notable person or event.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_statue;
+            concept_building;
+            concept_notable_person;
+            concept_notable_event;
+            concept_memory
         };; 
 *);
 
@@ -51,16 +55,20 @@ concept_monument
     <= nrel_sc_text_translation:
         ...
         (*
-            -> [Большой памятник.] (* <- lang_ru;; *);;
+            -> [Cтатуя, здание или другое сооружение, воздвигнутое в память о выдающемся человеке или событии.] (* <- lang_ru;; *);;
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A statue, building, or other structure erected to commemorate a notable person or event.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_statue;
+            concept_building;
+            concept_notable_person;
+            concept_notable_event;
+            concept_memory
         };; 
 *);
 

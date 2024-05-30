@@ -29,12 +29,13 @@ concept_historical_sight
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A historical sight is a place, thing or object that is a historical heritage.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_historical_heritage;
+            concept_history
         };; 
 *);
 
@@ -55,12 +56,13 @@ concept_historical_sight
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A place, thing or object that is a historical heritage.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_historical_heritage;
+            concept_history
         };; 
 *);
 
