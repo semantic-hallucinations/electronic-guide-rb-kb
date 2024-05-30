@@ -1,0 +1,54 @@
+sight_description
+=> nrel_main_idtf:
+    [Описание достопримечательности]
+    (* <- lang_ru;; *);
+    [Sight description]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_sight_description;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Описание достопримечательности)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Sight description)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Описание достопримечательности предоставляет базовое представление об объекте.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Sight description provides a basic understanding of the object.] (* <- lang_en;; *);;
+        *);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Описание достопримечательности)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Sight description)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Предоставляет базовое представление об объекте.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Sight description provides a basic understanding of the object.] (* <- lang_en;; *);;
+        *);;
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
