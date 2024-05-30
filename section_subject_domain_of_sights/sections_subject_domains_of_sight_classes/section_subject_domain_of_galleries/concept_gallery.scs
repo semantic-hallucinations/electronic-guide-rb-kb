@@ -28,12 +28,14 @@ concept_gallery
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A gallery is a space designed to display fine art. The works on display are often offered for sale.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_art;
+            concept_space;
+            concept_fine_art
         };; 
 *);
 
@@ -54,12 +56,14 @@ concept_gallery
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A gallery is a space designed to display fine art. The works on display are often offered for sale.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_art;
+            concept_space;
+            concept_fine_art
         };; 
 *);
 

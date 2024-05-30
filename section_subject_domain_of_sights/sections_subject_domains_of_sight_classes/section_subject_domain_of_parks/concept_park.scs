@@ -28,12 +28,16 @@ concept_park
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A park is a large garden or planted grove with alleys, flower beds, etc.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_garden;
+            concept_plant;
+            concept_flower;
+            concept_alley;
+            concept_grove
         };; 
 *);
 
@@ -54,12 +58,16 @@ concept_park
         *);
         ...
         (*
-            -> [.] (* <- lang_en;; *);;
+            -> [A park is a large garden or planted grove with alleys, flower beds, etc.] (* <- lang_en;; *);;
         *);;
 
     <= nrel_using_constants:
         {
-            concept_empty
+            concept_garden;
+            concept_plant;
+            concept_flower;
+            concept_alley;
+            concept_grove
         };; 
 *);
 
