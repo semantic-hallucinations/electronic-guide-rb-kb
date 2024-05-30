@@ -9,8 +9,8 @@ nezabudka_cafe_brest
     => nrel_age_restrictions:
         zero_plus;
     
-    => nrel_wifi_avaliability:
-        wifi_not_avaliable;  
+    => nrel_wifi_availability:
+        wifi_not_availsable;  
 
     => nrel_accesible_environment:
         accesible;

@@ -9,8 +9,8 @@ bufet_cafe_brest
     => nrel_age_restrictions:
         twelve_plus;
     
-    => nrel_wifi_avaliability:
-        wifi_avaliable;  
+    => nrel_wifi_availability:
+        wifi_available;  
 
     => nrel_accesible_environment:
         accesible;

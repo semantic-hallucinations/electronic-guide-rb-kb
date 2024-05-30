@@ -6,8 +6,8 @@ meatra_restaraunt_brest
         [Restaraunt "Meatra" in Brest]
         (* <- lang_en;; *);
     
-    => nrel_wifi_avaliability:
-       wifi_avaliable;  
+    => nrel_wifi_availability:
+       wifi_available;  
 
     => nrel_accesible_environment:
        not_accesible;

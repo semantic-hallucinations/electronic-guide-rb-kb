@@ -14,7 +14,7 @@ railway_museum_brest
 
 
     => nrel_wifi_availability:
-        wifi_avaliable;  
+        wifi_available;  
 
     => nrel_working_hours:
         [10:00 - 18:30]

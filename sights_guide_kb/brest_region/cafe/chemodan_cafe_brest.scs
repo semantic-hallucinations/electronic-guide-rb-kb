@@ -9,8 +9,8 @@ chemodan_cafe_brest
     => nrel_age_restrictions:
         zero_plus;
 
-    => nrel_wifi_avaliability:
-        wifi_avaliable;  
+    => nrel_wifi_availability:
+       wifi_available;  
 
     => nrel_accesible_environment:
         not_accesible;

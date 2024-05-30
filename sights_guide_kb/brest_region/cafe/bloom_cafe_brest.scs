@@ -9,7 +9,7 @@ bloom_cafe_brest
     => nrel_age_restrictions:
         zero_plus;
 
-    => nrel_wifi_avaliability:
+    => nrel_wifi_availability:
         wifi_avaliable;  
 
     => nrel_accesible_environment:

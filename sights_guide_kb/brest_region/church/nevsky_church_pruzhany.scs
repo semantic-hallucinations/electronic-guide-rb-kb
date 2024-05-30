@@ -17,8 +17,8 @@ nevsky_church_pruzhany
         [1]
         (* <- number;; *);
     
-    => nrel_wifi_avaliability:
-        wifi_not_avaliable;  
+    => nrel_wifi_availability:
+        wifi_not_available;  
 
 
     <= nrel_inclusion: 

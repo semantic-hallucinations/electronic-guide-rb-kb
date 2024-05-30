@@ -22,7 +22,7 @@ parubab_bar_brest
 
 
     => nrel_wifi_availability:
-        wifi_avaliable;   
+        wifi_available;   
 
     => nrel_working_hours:
         [12:00 - 00:00]

@@ -10,8 +10,8 @@ basilico_trattoria_restaraunt_brest
         [0]
         (* <- concept_age;; *);
 
-    => nrel_wifi_avaliability:
-        wifi_avaliable;  
+    => nrel_wifi_availability:
+        wifi_available;  
 
     => nrel_accesible_environment:
        not_accesible;

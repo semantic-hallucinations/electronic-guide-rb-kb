@@ -7,8 +7,7 @@ kovelskaya_restaraunt_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_people_capacity:
         [85]
@@ -18,8 +17,8 @@ kovelskaya_restaraunt_brest
         [3]
         (* <- number;; *);
     
-    => nrel_wifi_avaliability:
-        wifi_avaliable;  
+    => nrel_wifi_availability:
+        wifi_available;  
 
     => nrel_accesible_environment:
         not_accesible;

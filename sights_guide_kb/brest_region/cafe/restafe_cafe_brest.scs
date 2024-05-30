@@ -13,8 +13,8 @@ restafe_cafe_brest
         [50]
         (* <- number;; *);
 
-    => nrel_wifi_avaliability:
-        wifi_avaliable;  
+    => nrel_wifi_availability:
+        wifi_available;  
 
     => nrel_accesible_environment:
         accesible;
