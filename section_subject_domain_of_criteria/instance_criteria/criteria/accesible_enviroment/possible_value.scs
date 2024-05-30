@@ -9,23 +9,38 @@ string
     criteria_value;;
 
 // --------------------------------------------
-
-answer_yes
+accesible
 => nrel_main_idtf:
-      [Да]
+      [Доступно для инвалидов]
       (*<-lang_ru;;*);
-      [Yes]
+      [Accesible for disabled people]
       (*<-lang_en;;*);
 
 <= nrel_inclusion:
+    string;
     criteria_value;;
 
-answer_no
+// --------------------------------------------
+not_accesible
 => nrel_main_idtf:
-      [нет]
+      [Не доступно для инвалидов]
       (*<-lang_ru;;*);
-      [No]
+      [Not accesible for disabled people]
       (*<-lang_en;;*);
 
 <= nrel_inclusion:
+    string;
+    criteria_value;;
+
+// --------------------------------------------
+
+partly_accesible
+=> nrel_main_idtf:
+      [Частично доступно для инвалидов]
+      (*<-lang_ru;;*);
+      [Partly accesible for disabled people]
+      (*<-lang_en;;*);
+
+<= nrel_inclusion:
+    string;
     criteria_value;;
