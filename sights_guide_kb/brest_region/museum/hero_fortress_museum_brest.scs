@@ -7,16 +7,14 @@ hero_fortress_museum_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_number_of_halls:
         [11]
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [YES]
-        (* <- string;; *);
+       accesible;
 
     => nrel_working_hours:
         [9:00 - 17:00]

@@ -7,8 +7,7 @@ mir_park_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_working_hours:
         [00:00 - 24:00]

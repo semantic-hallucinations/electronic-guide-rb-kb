@@ -7,16 +7,14 @@ history_museum_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_number_of_halls:
         [4]
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+       not_accesible;
 
 
     => nrel_working_hours:

@@ -19,12 +19,11 @@ lake_restaraunt_brest
         (* <- number;; *);
     
     => nrel_wifi_avaliability:
-        [YES]
-        (* <- string;; *);
+        wifi_avaliable;  
 
     => nrel_accesible_environment:
-        [YES]
-        (* <- string;; *);
+        accesible;
+
 
     => nrel_working_hours:
         [12:00 - 23:00]

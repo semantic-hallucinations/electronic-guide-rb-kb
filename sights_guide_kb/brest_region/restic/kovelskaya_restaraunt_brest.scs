@@ -19,12 +19,11 @@ kovelskaya_restaraunt_brest
         (* <- number;; *);
     
     => nrel_wifi_avaliability:
-        [YES]
-        (* <- string;; *);
+        wifi_avaliable;  
 
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+        not_accesible;
+
 
     => nrel_working_hours:
         [12:00 - 02:00]

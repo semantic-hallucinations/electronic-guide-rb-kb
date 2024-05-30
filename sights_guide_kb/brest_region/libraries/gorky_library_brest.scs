@@ -11,8 +11,8 @@ gorky_library_brest
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+        not_accesible;
+
 
     => nrel_working_hours:
         [10:00 - 19:00]

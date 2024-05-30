@@ -7,16 +7,15 @@ druft_house_bar_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [18]
-        (* <- concept_age;; *);
-		
+        eighteen_plus;
+        
     => nrel_number_of_halls:
         [1]
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+       not_accesible;
+
 
     => nrel_working_hours:
         [14:00 - 02:00]

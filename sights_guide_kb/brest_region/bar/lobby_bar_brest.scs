@@ -7,8 +7,7 @@ lobby_bar_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [18]
-        (* <- concept_age;; *);
+        eighteen_plus;
 
     => nrel_number_of_halls:
         [1]

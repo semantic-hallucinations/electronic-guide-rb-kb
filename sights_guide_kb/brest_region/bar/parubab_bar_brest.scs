@@ -7,8 +7,7 @@ parubab_bar_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [18]
-        (* <- concept_age;; *);
+        eighteen_plus;
 
     => nrel_people_capacity:
         [24]
@@ -19,12 +18,11 @@ parubab_bar_brest
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+        not_accesible;
+
 
     => nrel_wifi_availability:
-        [YES]        
-        (* <- string;; *);
+        wifi_avaliable;   
 
     => nrel_working_hours:
         [12:00 - 00:00]

@@ -7,8 +7,7 @@ drama_theater_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        six_plus;
 
     => nrel_people_capacity:
         [590]
@@ -19,12 +18,11 @@ drama_theater_brest
         (* <- number;; *);
     
     => nrel_wifi_avaliability:
-        [YES]
-        (* <- string;; *);
+        wifi_avaliable;  
 
     => nrel_accesible_environment:
-        [YES]
-        (* <- string;; *);
+        accesible;
+
 
     => nrel_working_hours:
         [13:00 - 22:00]
