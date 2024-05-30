@@ -1,0 +1,68 @@
+type_of_kitchen
+=> nrel_main_idtf:
+    [Критерий экземпляра. Тип кухни]
+    (* <- lang_ru;; *);
+    [Instance criteria. Type of kitchen]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_type_of_kitchen;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Тип кухни)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Type of kitchen)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Тип кухни - критерий, отражающий ориентированность по составу, способу приготовления, разнообразию блюд.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [The type of cuisine is a criterion that reflects the focus on the composition, method of preparation, and variety of dishes.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_kitchen
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Тип кухни)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Type of kitchen)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий ориентированность по составу, способу приготовления, разнообразию блюд.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects the focus on the composition, method of preparation, and variety of dishes.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_kitchen
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
