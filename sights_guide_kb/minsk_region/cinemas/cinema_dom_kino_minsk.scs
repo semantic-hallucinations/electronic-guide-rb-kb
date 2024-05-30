@@ -11,8 +11,8 @@ dom_kino_cinema_minsk
         [10:00 - 23:00]
         (* <- time;; *);
     
-    => nrel_accesible_environment:
-        not_accesible;
+    => nrel_accessible_environment:
+        not_accessible;
     
     => nrel_people_capacity:
         [301]

@@ -14,7 +14,7 @@ belarusian_national_arts_museum_minsk
 
 
     => nrel_accessible_environment:
-        accessible;
+        not_accessible;
 
     => nrel_wifi_availability:
         wifi_available;

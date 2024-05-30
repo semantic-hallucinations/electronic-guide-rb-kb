@@ -9,7 +9,7 @@ string
     criteria_value;;
 
 // --------------------------------------------
-accesible
+accessible
 => nrel_main_idtf:
       [Доступно для инвалидов]
       (*<-lang_ru;;*);
@@ -20,7 +20,7 @@ accesible
     criteria_value;;
 
 // --------------------------------------------
-not_accesible
+not_accessible
 => nrel_main_idtf:
       [Не доступно для инвалидов]
       (*<-lang_ru;;*);

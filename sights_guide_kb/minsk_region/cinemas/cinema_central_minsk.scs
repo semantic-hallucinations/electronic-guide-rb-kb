@@ -14,8 +14,8 @@ central_cinema_minsk
         [501]
         (* <- number;; *);
 
-    => nrel_accesible_environment:
-        not_accesible;
+    => nrel_accessible_environment:
+        not_accessible;
 
     <= nrel_inclusion: 
         concept_cinema;
