@@ -1,0 +1,14 @@
+nrel_placed_in_Brest_city
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [Находится в городе Бресте*] (* <- lang_ru;;*);   
+    [Placed in Brest city*] (* <- lang_en;;*);;    
+
+
+definition -> definition_of_placed_in_Brest_city (*
+	-> rrel_key_sc_element: nrel_placed_in_Brest_city;;
+
+    => nrel_main_idtf:
+		[Опр. (Находится в городе Бресте)] (* <- lang_ru;; *);
+		[Def. (Placed in Brest city)] (* <- lang_en;; *);;
+*);;

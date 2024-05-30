@@ -1,0 +1,39 @@
+museum_of_nemtsevichi_estate
+
+<-concept_museum; 
+
+=> nrel_main_idtf:
+    [Усадьба Немцевичей] (* <- lang_ru;;*);   
+    [Nemtsevichi Estate] (* <- lang_en;;*);;
+
+// <- rrel_key_sc_element: ...
+// (*
+//  <- illustration;;
+//  => nrel_main_idtf:museum_of_nemtsevichi_estate 
+//   	[Усадьба Немцевичей] (* <- lang_ru;; *);
+// 	[Nemtsevichi Estate] (* <- lang_en;; *);;
+//  <= nrel_sc_text_translation: ...
+//  (*
+//   -> rrel_example: "file://img/museum_of_nemtsevichi_estate.jpg"
+//   (*
+//    => nrel_format: format_jpg;;
+//   *);;
+//  *);;
+// *);;
+
+definition -> definition_of_museum_of_nemtsevichi_estate (*
+	-> rrel_key_sc_element: museum_of_nemtsevichi_estate;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Усадьба Немцевичей - это историческое здание в Бресте, построенное в начале XIX века. 
+        Оно представляет собой образец классицизма и является памятником архитектуры национального
+         значения в Беларуси.] (* <- lang_ru;; *);;
+		-> [Nemtsovich Estate is a historic building in Brest, built in the early 19th century. 
+        It is an example of classicism and is a monument of national architectural 
+        significance in Belarus.] (* <- lang_en;; *);;
+	*);;
+
+  => nrel_main_idtf:
+		[Опр. (Усадьба Немцевичей)] (* <- lang_ru;; *);
+		[Def. (Nemtsevichi Estate)] (* <- lang_en;; *);;
+*);;
