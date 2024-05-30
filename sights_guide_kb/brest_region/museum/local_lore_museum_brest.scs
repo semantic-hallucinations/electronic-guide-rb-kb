@@ -7,16 +7,15 @@ local_lore_museum_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_number_of_halls:
         [9]
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+        not_accesible;
+
 
     => nrel_working_hours:
         [10:00 - 18:00]
@@ -33,7 +32,7 @@ local_lore_museum_brest
         Его собрание насчитывает более 175 тысяч единиц хранения, включает в себя уникальные 
         предметы археологии, старопечатные книги, монетные и вещевые клады из драгоценных 
         металлов и многое другое.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[The Brest Regional Museum of Local Lore is included in the list of the largest museums 
         in the country. Its collection numbers more than 175 thousand items and includes unique archaeological 
         objects, early printed books, coins and treasures made of precious metals 

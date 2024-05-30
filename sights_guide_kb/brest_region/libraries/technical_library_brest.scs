@@ -11,12 +11,11 @@ technical_library_brest
         (* <- number;; *);
     
     => nrel_wifi_avaliability:
-        [YES]
-        (* <- string;; *);
+        wifi_avaliable;  
 
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+       not_accesible;
+
 
     => nrel_working_hours:
         [08:30 - 19:00]
@@ -33,7 +32,7 @@ technical_library_brest
         информации для обеспечения научно-производственной и инновационной деятельности. 
         Здесь открыт доступ к полным текстам Электронной библиотеки диссертаций из фонда Российской 
         государственной библиотеки.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Brest Regional Scientific and Technical Library - the largest source in the Brest region
         information to support scientific, production and innovation activities.
         Here you can access the full texts of the Electronic Library of Dissertations from the Russian Federation

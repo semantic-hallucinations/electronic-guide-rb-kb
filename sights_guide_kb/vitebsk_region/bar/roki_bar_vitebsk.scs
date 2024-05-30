@@ -1,0 +1,32 @@
+roki_bar_vitebsk
+    => nrel_main_idtf:
+        [Бар "Роки" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Roki" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [232]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [13:00 - 04:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [ Атмосфера хорошая. Напитки - дорого. Еда - не очень, долго и дорого. Алкоголь - дорого. Персонал - нормальный. ]
+        (* <- lang_ru;; *);;

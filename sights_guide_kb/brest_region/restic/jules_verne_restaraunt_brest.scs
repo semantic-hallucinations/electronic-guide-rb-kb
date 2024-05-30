@@ -1,0 +1,46 @@
+jules_vern_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Жюль Верн" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Tavern on Kovelskaya" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [100]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+    
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+    => nrel_accesible_environment:
+        not_accesible;
+
+
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_restaraunt;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Ресторан "Жюль Верн" ещё на заре XXI века стал для брестчан чем-то большим, нежели просто ресторан и занял свое уникальное
+        место в культурной жизни города. Качественная кухня, изысканный интерьер и высокий уровеньВ нем представлены европейская и 
+        авторская кухни, блюда, приготовленные на Хоспере. Так что, гостей ждет немало гастрономических открытий.]
+        (* <- lang_ru;; *);
+        [The restaurant "Jules Verne" at the dawn of the 21st century became for the residents of Brest something more than just a restaurant 
+        and took on its own unique place in the cultural life of the city. High-quality cuisine, exquisite interior and high level. 
+        It presents European and author's cuisine, dishes prepared on Josper. So, many gastronomic discoveries await guests.]
+        (* <- lang_eng;; *);;

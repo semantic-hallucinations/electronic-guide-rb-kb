@@ -1,0 +1,49 @@
+hermitage_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Hermitage" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Hermitage" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [80]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+    
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+    => nrel_accesible_environment:
+        accesible;
+
+    => nrel_working_hours:
+        [7:30 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_restaraunt;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Ресторан национальной и европейской кухни отеля HERMITAGE – это тихое уютное место всего в 10 минутах ходьбы от центра города. 
+        Изюминку интерьеру придают стильная винтажная мебель и невероятные картины современных белорусских художников.
+        Ресторан открыт не только для гостей отеля, но и для самых требовательных гурманов и всех тех, кто ищет незабываемые 
+        вкусовые впечатления и идеальное место для празднования особых случаев. Все это благодаря разделению ресторана на 
+        основной зал с летней террасой и каминный GOURMET зал.]
+        (* <- lang_ru;; *);
+        [The restaurant serving national and European cuisine at the HERMITAGE hotel is a quiet, cozy place just a 10-minute walk from the city center.
+        Stylish vintage furniture and incredible paintings by contemporary Belarusian artists add a zest to the interior.
+        The restaurant is open not only to hotel guests, but also to the most demanding gourmets and all those who are looking for an unforgettable
+        a taste experience and the perfect place to celebrate special occasions. All this thanks to the division of the restaurant into
+        main hall with a summer terrace and a fireplace GOURMET room.]
+        (* <- lang_eng;; *);;

@@ -7,8 +7,7 @@ parubab_bar_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [18]
-        (* <- concept_age;; *);
+        eighteen_plus;
 
     => nrel_people_capacity:
         [24]
@@ -19,12 +18,11 @@ parubab_bar_brest
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+        not_accesible;
+
 
     => nrel_wifi_availability:
-        [YES]        
-        (* <- string;; *);
+        wifi_avaliable;   
 
     => nrel_working_hours:
         [12:00 - 00:00]
@@ -44,7 +42,7 @@ parubab_bar_brest
         Отличное пиво - ребята подскажут/посоветуют и расскажут о наличии и уточняет
         предпочтения. Расценки на напитки естественно выше, меню по еде очень даже 
         приемлимое, даже недорогое. Очень классный интерьер.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[Bar Parubab is an atmospheric and at the same time simple place. With good staff, with 
         its own twist.For those who like to sit in good company, and for those who like to sit 
         “by themselves”. Wonderful music (Shevchuk, Picnic, Cramped Leg, etc.).

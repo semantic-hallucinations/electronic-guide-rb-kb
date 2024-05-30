@@ -1,0 +1,36 @@
+rodina_cinema_in_bykhov
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	bykhov_city; 
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [249]
+        (* <- number;; *);
+        
+=> nrel_main_idtf:
+    [Кинотеатр Родина]
+    (* <- lang_ru;;*);
+    [Cinema Rodina]
+    (* <- lang_en;;*);
+=> nrel_adress:
+	[ул. Ленина, 43] (* <- lang_ru;; *);
+	[st. Lenina, 43] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [Кинотеатр «Родина» в Быхове был построен в 1953 году и стал первым кинотеатром в городе. Зрительный зал «Родины» насчитывает 249 мест. В репертуаре всегда можно найти самые свежие новинки мирового кинематографа.
+Зрителям стоит обратить внимание на режим работы кинотеатра: со вторника по субботу двери «Родины» открыты с 13:00 до 20:00, а в воскресенье с 13:00 до 19:00. ]
+        (* <- lang_ru;; *);
+	[The Rodina cinema in Bykhov was built in 1953 and became the first cinema in the city. The Rodina auditorium has 249 seats. In the repertoire you can always find the latest news from world cinema.
+Viewers should pay attention to the operating hours of the cinema: from Tuesday to Saturday the doors of Rodina are open from 13:00 to 20:00, and on Sunday from 13:00 to 19:00.]
+        (* <- lang_en;; *);;

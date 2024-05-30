@@ -1,0 +1,49 @@
+starlight_cinema_in_mogilev
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	mogilev_city;
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [5]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [540]
+        (* <- number;; *);
+        
+=> nrel_main_idtf:
+    [Starlight cinema]
+    (* <- lang_ru;;*);
+    [Starlight cinema]
+    (* <- lang_en;;*);
+
+=> nrel_adress:
+	[ул. Первомайская, 57] (* <- lang_ru;; *);
+	[st. Pervomaiskaya, 57] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [Кинотеатр Starlight Cinema — это:
+    Пятьсот сорок  мест, пять залов, два из которых – повышенной комфортности, оснащенные удобными креслами-реклайнерами и диванчиками
+    «Серебряные экраны», называемые так из-за напыления на них серебра, обеспечивают высокую четкость и контрастность видеоизображения
+    Проекторы Sony 4К, благодаря которым вы получите возможность ощутить невероятный эффект присутствия и полностью погрузиться в богатый деталями и красками мир 4K
+    Звуковая технология  Dolby Atmos – система цифрового многоканального звука, обеспечивающая максимально реалистичное озвучивание всех происходящих событий фильма. Dolby Atmos – это новейшая разработка, которая позволяет зрителям не просто наблюдать за событиями на экране, а ощутить себя вовлеченным в действие. Система установлена в кинозале Atmos.
+    На территории кинотеатра расположены Star Bar и Кинобар с зоной самообслуживания, в котором можно провести время до и после киносеанса
+    Удобное расписание фильмов. Количество залов позволяет одновременно демонстрировать несколько кинопремьер. Вы непременно попадете на ближайший сеанс в выбранной киноафише
+    Уютные зоны ожидания. Время до сеанса Вы с комфортом проведете в наших зонах отдыха с прекрасным видом на город]
+        (* <- lang_ru;; *);
+	[Starlight Cinema is:
+ Five hundred and forty seats, five halls, two of which are superior, equipped with comfortable recliner chairs and sofas
+ “Silver screens”, so called because they are coated with silver, provide high clarity and contrast of video images
+ Sony 4K projectors, thanks to which you will get the opportunity to experience an incredible effect of presence and be completely immersed in the rich details and colors of the 4K world
+ Dolby Atmos sound technology is a digital multi-channel sound system that provides the most realistic sound recording of all the events taking place in the film. Dolby Atmos is the latest development that allows viewers to not only watch events on the screen, but feel involved in the action. The system is installed in the Atmos cinema hall.
+ On the territory of the cinema there is a Star Bar and a Cinema Bar with a self-service area where you can spend time before and after the film show.
+ Convenient movie schedule. The number of halls allows several film premieres to be shown simultaneously. You will certainly get to the next show at the selected movie poster
+ Cozy waiting areas. You will spend the time before the session comfortably in our relaxation areas with beautiful views of the city.]
+        (* <- lang_en;; *);;

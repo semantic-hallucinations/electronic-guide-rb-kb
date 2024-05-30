@@ -1,0 +1,21 @@
+railway_station_in_osipovichi
+
+<= nrel_inclusion:
+	concept_historical_sight;
+
+<= nrel_lockated_in:
+	osipovichi_city;
+
+     => nrel_adress:
+	[ул. Вокзальная, 18] (* <- lang_ru;; *);
+	[st. Vokzalnaya, 18] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Железнодорожная станция в Осиповичах]
+    (* <- lang_ru;;*);
+    [Railway station in Osipovichi]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Традиционно экскурсии в городе Осиповичи начинаются с городской застройки прошлого века, в частности это здания старой железнодорожной станции, построенные в конце XIX – начале XX столетия. Сохранились административный и служебные корпуса, локомотивное депо. В 1872 году одна из станций на новой Либаво-Роменской железной дороге дала начало городу Осиповичи. Здание первого вокзала появилось здесь в 1873 году. Уже к концу XIX века место было вторым по грузообороту на новом железнодорожном пути. Комплекс застроек вокзала постоянно расширялся. Но в 1943 году партизаны Осиповичей провели крупную диверсию, в ходе которой было уничтожено четыре эшелона с вражескими боеприпасами и техникой. В отместку немецкие войска при отступлении вывели станцию из строя, уничтожив большую часть корпусов. Новый железнодорожный вокзал был построен в Осиповичах в 1956 году. Вблизи основного здания сохранились более старые постройки, которые стали достопримечательностью современных Осиповичей.] (* <- lang_ru;; *);
+		[Traditionally, excursions in the city of Osipovichi begin with the urban development of the last century, in particular the buildings of the old railway station, built in the late 19th - early 20th centuries. The administrative and service buildings and the locomotive depot have been preserved. In 1872, one of the stations on the new Libavo-Romenskaya railway gave rise to the city of Osipovichi. The building of the first station appeared here in 1873. By the end of the 19th century, the place was second in terms of freight turnover on the new railway track. The station development complex was constantly expanding. But in 1943, the Osipovich partisans carried out a major sabotage, during which four trains with enemy ammunition and equipment were destroyed. In retaliation, German troops disabled the station during their retreat, destroying most of the buildings. A new railway station was built in Osipovichi in 1956. Near the main building, older buildings have been preserved, which have become a landmark of modern Osipovichi.] (* <- lang_en;; *);;

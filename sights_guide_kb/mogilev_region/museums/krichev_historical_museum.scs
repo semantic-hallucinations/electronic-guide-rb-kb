@@ -1,0 +1,27 @@
+krichev_historical_museum
+
+<= nrel_inclusion:
+	concept_museum;
+	concept_park;
+	concept_historical_sight; 
+
+<= nrel_lockated_in:
+	krichev_city;
+
+        => nrel_working_hours:
+        [9:00 - 17:30]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Ленинская] (* <- lang_ru;; *);
+	[st. Leninskaya] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Исторический музей Кричева]
+    (* <- lang_ru;;*);
+    [Krichev Historical Museum]
+    (* <- lang_en;;*);
+
+=> nrel_sight_description:
+		[Визитной карточкой города Кричева является памятник архитектуры русского классицизма XVIII в. (с позднейшими наслоениями элементов псевдоготического стиля) – дворец князя Г.А. Потемкина, построенный в период между 1778 – 1787 гг. Григорием Потемкиным по проекту Ивана Старова. На Могилевщине – это единственный сохранившиеся памятник такого типа, включенный в государственный список историко-культурных ценностей Республики Беларусь, что привлекает туристов его посетить. Основанную экспозицию музея составляют 10 интерьерных залов дворца.] (* <- lang_ru;; *);
+		[The visiting card of the city of Krichev is an architectural monument of Russian classicism of the 18th century. (with later layers of pseudo-Gothic style elements) – the palace of Prince G.A. Potemkin, built between 1778 – 1787. Grigory Potemkin based on the design of Ivan Starov. In the Mogilev region, this is the only surviving monument of this type, included in the state list of historical and cultural values of the Republic of Belarus, which attracts tourists to visit it. The main exposition of the museum consists of 10 interior] (* <- lang_en;; *);;

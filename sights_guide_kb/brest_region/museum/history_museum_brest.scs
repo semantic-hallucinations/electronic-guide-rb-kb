@@ -7,16 +7,14 @@ history_museum_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_number_of_halls:
         [4]
         (* <- number;; *);
     
     => nrel_accesible_environment:
-        [NO]
-        (* <- string;; *);
+       not_accesible;
 
 
     => nrel_working_hours:
@@ -35,7 +33,7 @@ history_museum_brest
         дворца и представляет богатую коллекцию артефактов, документов и экспонатов,
         связанных с историей города. Музей позволяет посетителям узнать о различных 
         периодах и событиях, которые сформировали историю Бреста.] 
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
 		[The Brest City History Museum is one of the largest museums in Belarus dedicated
         to the history of the city of Brest. Located in the former princely palace, 
         it houses a rich collection of artifacts, documents, and exhibits related to

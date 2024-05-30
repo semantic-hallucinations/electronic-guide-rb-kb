@@ -1,0 +1,31 @@
+pechersky_forest_park_mogilev
+
+<= nrel_inclusion:
+		concept_park; 
+
+	<= nrel_lockated_in:
+		mogilev_city;
+		
+        => nrel_working_hours:
+        [0:00 - 24:00]
+        (* <- time;; *);
+        
+=> nrel_adress:
+	[Монилёв] (* <- lang_ru;; *);
+	[Mogilev] (* <- lang_en;; *);
+		
+=> nrel_main_idtf:
+    [Печерский лесопарк]
+    (* <- lang_ru;;*);
+    [Pechersky Forest Park]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Печерский лесопарк — лесной массив, расположенный в северо-западной части Могилёва в долине реки Дубровенка (приток Днепра), на которой искусственно создано Печерское озеро.
+2 сентября 2021 года лесопарк был объявлен заказником местного значения "Печерский". 30 июня 2023 года заказник преобразован.
+В лесопарке проводятся общегородские праздники, спортивные соревнования.
+На территории лесопарка находится памятник Председателю временного рабоче-крестьянского правительства ССРБ Тишка Гартный.] (* <- lang_ru;; *);
+		[Pechersky Forest Park is a forest area located in the northwestern part of Mogilev in the valley of the Dubrovenka River (a tributary of the Dnieper), on which Pechersky Lake was artificially created.
+On September 2, 2021, the forest park was declared a local nature reserve "Pechersky". On June 30, 2023, the reserve was transformed.
+The forest park hosts citywide holidays and sports competitions.
+On the territory of the forest park there is a monument to the Chairman of the Provisional Workers' and Peasants' Government of the SSRB Tishka Gartny.] (* <- lang_en;; *);;

@@ -1,0 +1,36 @@
+meatra_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Meatra" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Meatra" in Brest]
+        (* <- lang_en;; *);
+    
+    => nrel_wifi_avaliability:
+       wifi_avaliable;  
+
+    => nrel_accesible_environment:
+       not_accesible;
+
+
+    => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_restaraunt;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Ресторан "Meatra" в Бресте предлагает разнообразное меню, включающее широкий выбор мясных 
+        блюд: сочные стейки, ребрышки, бургеры с рваной говядиной, тартар, колбаски.
+        Заведение отличается не только вкусной кухней и эстетичной подачей блюд, но 
+        эксклюзивным интерьером и комфортной обстановкой.]
+        (* <- lang_ru;; *);
+        [Restaurant "Meatra" in Brest offers a varied menu, including a wide selection of meat
+        dishes: juicy steaks, ribs, burgers with pulled beef, tartare, sausages.
+        The establishment is distinguished not only by its delicious cuisine and aesthetic presentation of dishes, but
+        exclusive interior and comfortable environment.]
+        (* <- lang_eng;; *);;

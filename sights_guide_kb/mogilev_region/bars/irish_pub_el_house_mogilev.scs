@@ -1,0 +1,31 @@
+irish_pub_el_house_mogilev
+
+<= nrel_inclusion:
+		concept_bar; 
+
+	<= nrel_lockated_in:
+		mogilev_city;
+		
+        => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *);
+        
+        => nrel_wifi_availability:
+	wifi_available;
+	
+	=> nrel_type_of_kitchen:
+		irish;
+		european;
+=> nrel_adress:
+	[ул. Ленинская, 61] (* <- lang_ru;; *);
+	[st. Leninskaya, 61] (* <- lang_en;; *);
+		
+=> nrel_main_idtf:
+    [Ирландский Паб Эль Хаус]
+    (* <- lang_ru;;*);
+    [Irish Pub El House]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Квалифицированный, приветливый персонал. Хорошая кухня, ассортимент европейского пива, кислого нет. Ресторан сертифицирован H.A.C.C.P., что имеют избранные рестораны по РБ, как итог к кухне вопросов нет. Живая музыка по выходным, хорошие кавер-бэнды.] (* <- lang_ru;; *);
+		[Qualified, friendly staff. Good cuisine, assortment of European beers, no sour ones. The restaurant is certified by H.A.C.C.P., which selected restaurants in the Republic of Belarus have, as a result, there are no questions about the cuisine. Live music on weekends, good cover bands.] (* <- lang_en;; *);;

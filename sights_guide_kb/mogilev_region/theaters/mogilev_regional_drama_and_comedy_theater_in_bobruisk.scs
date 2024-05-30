@@ -1,0 +1,69 @@
+mogilev_regional_drama_and_comedy_theater_in_bobruisk
+ 
+	<= nrel_inclusion:
+		concept_theater; 
+
+	<= nrel_lockated_in:
+		bobruisk_city;
+		
+	=> nrel_number_of_halls:
+        	[2]
+        	(* <- number;; *);
+        
+        => nrel_people_capacity:
+        [603]
+        (* <- number;; *);
+        
+        => nrel_working_hours:
+        [8:00 - 17:00]
+        (* <- time;; *);
+        
+	=> nrel_main_idtf:
+    		[Могилевский областной театр драмы и комедии в Бобруйске]
+    		(* <- lang_ru;;*);
+    		[Mogilev Regional Drama and Comedy Theater in Bobruisk]
+    		(* <- lang_en;;*);
+=> nrel_adress:
+	[ул. Социалистическая, 105] (* <- lang_ru;; *);
+	[st. Socialist, 105] (* <- lang_en;; *);
+	
+  			-> rrel_example: "file://img/mogilev_regional_drama_and_comedy_theater_in_bobruisk.png"
+  		(*
+   			=> nrel_format: format_png;;
+  		*);
+
+	=> nrel_sight_description:
+			[Могилёвский областной театр драмы и комедии имени В. И. Дунина-Марцинкевича — театр в городе Бобруйск (Республика Беларусь).
+
+Датой возникновения драматического театра в Бобруйске считается 1944 год, когда постановлением Совета народных комиссаров Белорусской ССР № 918 от 18 декабря был создан Бобруйский областной драматический театр. Художественным руководителем стал К. Стецкий, затем Н. Ковязин.
+
+В 1947 году театр был переведён в Гродно и реорганизован в Гродненский областной драматический театр. А в Бобруйске в это время работали гастролирующие театры, проводились вечера отдыха, концерты и т. д. Здание театра было восстановлено в 1949 году. Только в 1956 году Совет Министров БССР постановил открыть в Бобруйске передвижной колхозно-совхозный театр, который открылся 1 января 1957 года спектаклем по пьесе Я. Купалы «Раскіданае гняздо». Возглавил театр А. Аркадьев. В те годы в театре работали актёры Г. Лавров, Л. Федченко, Т. Бондарчик, Я. Громов, Л. Мацкевич, Е. Говша, Ф. Пухович, Г. Вавуло, Ю. Саевич, В. Деменкова и др. Театр тогда объездил практически всю Беларусь, карта его гастролей даже была показана на ВДНХ в Москве.
+
+В 1962 году театр в Бобруйске был преобразован в музыкально-драматический, который в 1965 году стал называться Могилёвским областным театром музыкальной комедии. В этом качестве он работал до 1970 года и параллельно с музыкальными спектаклями ставились драматические. А в 1970 году в связи с постановлением Совета Министров БССР о создании на его базе Государственного театра музыкальной комедии и переводе его в Минск, театр в Бобруйске был преобразован в областной драматический театр, который с декабря 1977 года стал носить имя уроженца Бобруйщины, зачинателя белорусской национальной драматургии В. И. Дунина-Марцинкевича. Современное здание театра построено в 1978 году.
+
+На базе театра 4 раза проводился фестиваль национальной драматургии им. В. И. Дунина-Марцинкевича, собиравший лучшие спектакли белорусских авторов.
+
+У театра интересный, разнообразный репертуар, включающий 26 вечерних спектаклей и 22 спектакля для детей. Труппа насчитывает 33 актёра. Особое место занимают актёры, отдающие театру свои силы более 30 лет: Заслуженный артист Республики Беларусь А. Парфенович, Л. Кучко, Ж. Зарембо, Н. Герасименя, А. Грахова, А. Дворянников, Г. Агейкина, Е. Сафронова. В театре много талантливой, перспективной молодёжи, это В. Лебедева, Н. Будник, О. Матвеева, П. Микулик и др.
+
+В разные годы театр в Бобруйске возглавляли режиссёры В. Королько, Ф. Пухович, М. Ковальчик, В. Мухин, Г. Нестер, С. Полещенков, В. Лосовский, Т. Дорогобед, М. Сохарь.
+
+В 2018 году главным режиссёром назначен П. Микулик. Кроме главного режиссёра, плодотворно работают очередные — Л. Покревская, Т. Дорогобед, Н. Кашпур.
+
+У театра налажены тесные творческие контакты с театрами Брянска, Калуги, Смоленска, Каменского.] (* <- lang_ru;; *);
+		[Mogilev Regional Drama and Comedy Theater named after V. I. Dunin-Martsinkevich is a theater in the city of Bobruisk (Republic of Belarus).
+
+The date of origin of the drama theater in Bobruisk is considered to be 1944, when the Bobruisk Regional Drama Theater was created by decree of the Council of People's Commissars of the Belarusian SSR No. 918 of December 18. K. Stetsky became the artistic director, then N. Kovyazin.
+
+In 1947, the theater was transferred to Grodno and reorganized into the Grodno Regional Drama Theater. And in Bobruisk at that time there were touring theaters, recreational evenings, concerts, etc. were held. The theater building was restored in 1949. Only in 1956, the Council of Ministers of the BSSR decided to open a mobile collective farm and state farm theater in Bobruisk, which opened on January 1, 1957 with a performance based on Y. Kupala’s play “The Scattered Nest.” The theater was headed by A. Arkadyev. In those years, actors G. Lavrov, L. Fedchenko, T. Bondarchik, Y. Gromov, L. Matskevich, E. Govsha, F. Pukhovich, G. Vavulo, Yu. Saevich, V. Demenkova and others worked in the theater. then he traveled almost all of Belarus, the map of his tour was even shown at VDNKh in Moscow.
+
+In 1962, the theater in Bobruisk was transformed into a musical and dramatic theater, which in 1965 became known as the Mogilev Regional Theater of Musical Comedy. He worked in this capacity until 1970, and in parallel with musical performances, dramatic ones were staged. And in 1970, in connection with the resolution of the Council of Ministers of the BSSR on the creation of the State Theater of Musical Comedy on its basis and its transfer to Minsk, the theater in Bobruisk was transformed into a regional drama theater, which from December 1977 began to bear the name of a native of Bobruisk region, the founder of the Belarusian national dramaturgy by V. I. Dunin-Martsinkevich. The modern theater building was built in 1978.
+
+The theater hosted the National Drama Festival 4 times. V.I. Dunin-Martsinkevich, who collected the best performances by Belarusian authors.
+
+The theater has an interesting, varied repertoire, including 26 evening performances and 22 performances for children. The troupe consists of 33 actors. A special place is occupied by actors who have been devoting their strength to the theater for more than 30 years: Honored Artist of the Republic of Belarus A. Parfenovich, L. Kuchko, Zh. Zarembo, N. Gerasimenya, A. Grakhova, A. Dvoryannikov, G. Ageikina, E. Safronova. There are many talented, promising young people in the theater, such as V. Lebedeva, N. Budnik, O. Matveeva, P. Mikulik and others.
+
+Over the years, the theater in Bobruisk was headed by directors V. Korolko, F. Pukhovich, M. Kovalchik, V. Mukhin, G. Nester, S. Poleshchenkov, V. Losovsky, T. Dorogobed, M. Sokhar.
+
+In 2018, P. Mikulik was appointed chief director. In addition to the main director, the following are working fruitfully - L. Pokrevskaya, T. Dorogobed, N. Kashpur.
+
+The theater has established close creative contacts with theaters in Bryansk, Kaluga, Smolensk, and Kamensky.] (* <- lang_en;; *);;

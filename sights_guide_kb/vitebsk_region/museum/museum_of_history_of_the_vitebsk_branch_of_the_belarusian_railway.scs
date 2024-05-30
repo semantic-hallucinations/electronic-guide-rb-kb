@@ -1,0 +1,36 @@
+museum_of_history_of_the_vitebsk_branch_of_the_belarusian_railway
+
+    => nrel_main_idtf:
+        ["Музей истории Витебского отделения Белорусской железной дороги" в Витебске]
+        (* <- lang_ru;; *);
+        ["Museum of History of the Vitebsk Branch of the Belarusian Railway" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [617]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [10]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [08:00 - 17:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Во Дворце культуры железнодорожников Культурно-спортивного центра работает «Музей истории Витебского отделения»,размещенный в трёх экспозиционных залах
+        и насчитывает более 4000 экспонатов.Музей открыт 15 октября 1966 года в канун празднования 100-летия Витебского железнодорожного узла и является первым
+        музеем на Белорусской железной дороге.]
+        (* <- lang_ru;; *);;

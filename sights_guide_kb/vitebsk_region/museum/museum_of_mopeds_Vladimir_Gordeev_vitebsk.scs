@@ -1,0 +1,33 @@
+museum_of_mopeds_Vladimir_Gordeev_vitebsk
+
+    => nrel_main_idtf:
+        ["Музей истории Витебского народного художественного училища" в Витебске]
+        (* <- lang_ru;; *);
+        ["Vitebsk National Art School History Museum" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [427]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [5]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [11:00 - 18:00]
+        (* <- time;; *);
+
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Музей Мопедов Владимира Гордеева — это единственный на постсоветском пространстве историко-технический музей, который специализируется
+        на истории мопедов и мотовелосипедов СССР и стран СЭВ.]
+        (* <- lang_ru;; *);;

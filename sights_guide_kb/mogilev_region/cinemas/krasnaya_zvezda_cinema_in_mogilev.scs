@@ -1,0 +1,46 @@
+krasnaya_zvezda_cinema_in_mogilev
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	mogilev_city;
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [325]
+        (* <- number;; *);
+        
+=> nrel_main_idtf:
+    [Кинотеатр Красная звезда]
+    (* <- lang_ru;;*);
+    [Cinema Krasnaya Zvezda]
+    (* <- lang_en;;*);
+=> nrel_adress:
+	[ул. Первомайская, 14] (* <- lang_ru;; *);
+	[st. Pervomaiskaya, 14] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [Кинотеатр «Чырвоная Зорка» является старейшим кинотеатром города Могилёва. Он был построен в 1930 году по проекту инженера Э. Лоссера.  
+Торжественное открытие кинотеатра «Чырвоная Зорка» состоялось 24 декабря 1930 года. В этот день зрители увидели первую звуковую кинопрограмму «Переворот» режиссёра киностудии «Беларусьфильм» Юрия Тарича. Фильм демонстрировался на аппарате фирмы «Пате» усиленной модели.
+В годы Великой Отечественной войны кинотеатр «Чырвоная Зорка» был переименован в «Луч», в нём демонстрировались немецкие фильмы.
+После освобождения Могилёва от немецко-фашистских захватчиков кинотеатр продолжил работу под прежним названием «Чырвоная Зорка».
+В декабре 2020 года старейший кинотеатр города отметит свое 90-летие. Несмотря на почтенный возраст, «Чырвоная Зорка» сегодня – это современный кинотеатр, который оснащён новым цифровым кинопроекционным оборудованием, позволяющим осуществлять кинообслуживание в формате 2D и 3D.
+В кинотеатре работает творческий коллектив, который не ограничивается только показом кинофильмов. Большое внимание здесь уделяют современным формам работы с кинозрителем. В кинотеатре проходят премьерные показы кинофильмов, музыкально-развлекательные программы, киновикторины, розыгрыши призов, выступление персонажей детских анимационных фильмов. За многолетнюю историю кинотеатр «Чырвоная Зорка» неоднократно встречал гостей – актёров, режиссёров, сценаристов национальной киностудии «Беларусьфильм» и мирового киноискусства. Кинотеатр стал стартовой площадкой киноакции «Кіно маёй краіны». В зрительном зале кинотеатра проходят показы анимационных фильмов Международного фестиваля анимационных фильмов «Анимаёвка», творческие встречи с режиссёрами-аниматорами.
+Здание кинотеатра «Чырвоная Зорка» представляет собой историко-культурное наследие Республики Беларусь. На фасаде кинотеатра установлена охранная доска.]
+        (* <- lang_ru;; *);
+	[Cinema "Chyrvonaya Zorka" is the oldest cinema in the city of Mogilev. It was built in 1930 according to the design of engineer E. Losser.
+The grand opening of the Chyrvonaya Zorka cinema took place on December 24, 1930. On this day, viewers saw the first sound film program “Coup” by director of the Belarusfilm film studio Yuri Tarich. The film was shown on a PATH equipment of an enhanced model.
+During the Great Patriotic War, the Chyrvonaya Zorka cinema was renamed Luch, and German films were shown there.
+After the liberation of Mogilev from the Nazi invaders, the cinema continued to operate under the previous name “Chyrvonaya Zorka”.
+In December 2020, the city's oldest cinema will celebrate its 90th anniversary. Despite its venerable age, “Chyrvonaya Zorka” today is a modern cinema, which is equipped with new digital film projection equipment that allows for cinema services in 2D and 3D formats.
+The cinema has a creative team that is not limited to just showing films. Much attention is paid here to modern forms of working with film audiences. The cinema hosts premiere screenings of films, music and entertainment programs, film quizzes, prize drawings, and performances by characters from children's animated films. Over its long history, the Chyrvonaya Zorka cinema has repeatedly welcomed guests - actors, directors, screenwriters of the national film studio "Belarusfilm" and world cinema. The cinema became the launching pad for the film campaign “Cinema of My Country”. The cinema's auditorium hosts screenings of animated films from the International Animation Film Festival "Animaevka" and creative meetings with animation directors.
+The building of the cinema "Chyrvonaya Zorka" represents the historical and cultural heritage of the Republic of Belarus. A security board has been installed on the façade of the cinema.]
+        (* <- lang_en;; *);;

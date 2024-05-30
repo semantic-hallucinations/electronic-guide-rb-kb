@@ -1,0 +1,31 @@
+cafe_pizzeria_napoli_mogilev
+
+<= nrel_inclusion:
+		concept_cafe; 
+
+	<= nrel_lockated_in:
+		mogilev_city;
+		
+        => nrel_working_hours:
+        [15:00 - 23:00]
+        (* <- time;; *);
+        
+        => nrel_wifi_availability:
+	wifi_available;
+	
+	=> nrel_type_of_kitchen:
+		pizza;
+		european;
+=> nrel_adress:
+	[ул. Ленинская, 5] (* <- lang_ru;; *);
+	[st. Leninskaya, 5] (* <- lang_en;; *);
+		
+=> nrel_main_idtf:
+    [Любимое место]
+    (* <- lang_ru;;*);
+    [Lyubimoye mesto]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Уютное семейное кафе, расположенное в центре Могилева, названное в честь итальянского города Неаполь, родины нашего шеф-повара Vittorio. В нашем кафе вы можете попробовать настоящую итальянскую пиццу по оригинальным рецептам, привезенным в Беларусь нашим шеф-поваром. А так же попробовать вкуснейшие итальянские десерты, фирменные блюда и выпить чашечку ароматного кофе.] (* <- lang_ru;; *);
+		[A cozy family cafe located in the center of Mogilev, named after the Italian city of Naples, the birthplace of our chef Vittorio. In our cafe you can try real Italian pizza according to original recipes brought to Belarus by our chef. You can also try delicious Italian desserts, specialties and drink a cup of aromatic coffee.] (* <- lang_en;; *);;

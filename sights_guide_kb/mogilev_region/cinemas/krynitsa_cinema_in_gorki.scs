@@ -1,0 +1,35 @@
+krynitsa_cinema_in_gorki
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	gorki_city;
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [188]
+        (* <- number;; *);
+        
+=> nrel_main_idtf:
+    [Кинотеатр Крыница]
+    (* <- lang_ru;;*);
+    [Cinema Krynitsa]
+    (* <- lang_en;;*);
+=> nrel_adress:
+	[ул. Якубовского, 18] (* <- lang_ru;; *);
+	[st. Yakubovsky, 18] (* <- lang_en;; *);
+=> nrel_sight_description:
+        [В кинотеатре «Крыница» работает один зал. Кинотеатр оснащен цифровым оборудованием, которое обновилось в 2016 году. Фильмы показываются в обычном формате и 3D.
+
+В кинотеатре работают кафе-бары, где продаются напитки, попкорн, фруктовый лед на основе натуральных соков и мармелад.] (* <- lang_ru;; *);
+	[The Krynitsa cinema has one hall. The cinema is equipped with digital equipment, which was updated in 2016. Films are shown in regular format and 3D.
+
+The cinema has cafe-bars selling drinks, popcorn, fruit ice made from natural juices and marmalade.] (* <- lang_en;; *);;

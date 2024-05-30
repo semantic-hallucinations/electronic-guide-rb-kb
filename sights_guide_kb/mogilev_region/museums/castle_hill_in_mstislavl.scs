@@ -1,0 +1,23 @@
+castle_hill_in_mstislavl
+
+<= nrel_inclusion:
+	concept_museum; 
+	concept_park;
+	concept_historical_sight;
+
+<= nrel_lockated_in:
+	mstislavl_city; 
+
+        => nrel_working_hours:
+        [00:00 - 24:00]
+        (* <- time;; *);
+	
+=> nrel_main_idtf:
+    [Замковая гора в Мстиславле]
+    (* <- lang_ru;;*);
+    [Castle Hill in Mstislavl]
+    (* <- lang_en;;*);
+
+=> nrel_sight_description:
+		[Замковая гора – это историко-археологический памятник, музей под открытым небом, где почти девять веков назад и начал свою историю современный Мстиславль. Площадка, на которой расположилось городище, была укреплена по периметру кольцевым валом. Внутри этого кольца появился замок, войти в который можно было только по подъемному мосту, переброшенному через ров. Не раз эта крепость принимала на себя удары осаждающих ее войск. Свидетельства древней истории места были найдены в 1959 году во время археологических раскопок. Тогда и был обнаружен культурный слой с деревянными постройками и предметами XII века. Ценные находки стали экспонатами, которые теперь можно увидеть в местном музее. Это украшения, оружие, предметы из стекла и металла, даже берестяная грамота XII века. То, что на Замковой горе был найден стеклянный бокал с арабской надписью и старейшая берестяная грамота, дает неопровержимое доказательство, что испокон веков на этих землях жили люди, обладающие высокой культурой. Именно Замковая гора ежегодно становится местом проведения праздника средневековой культуры «Рыцарскі фэст». У подножия горы (в начале улицы Ленина) расположен ныне благоустроенный кагальный колодец – официально охраняемый гидрологический памятник природы местного значения. Он является свидетелем славной и давней истории края: именно этот колодец, имеющий историческое название «Здоровец», был главным источником питьевой воды в городе долгое время, когда не было возможным рыть колодцы в городе из-за близкого залегания твердых пород, именно из него в деревянных бочках на лошадях привозили горожанам воду. Изначально же, при возникновении древнего городища, вода из источника выполняла еще одну важнейшую роль – наполняла широкий и глубокий защитный ров, охраняя вместе с Вихрой древний Мстиславль от внезапного нападения врагов. ] (* <- lang_ru;; *);
+		[Castle Hill is a historical and archaeological monument, an open-air museum, where modern Mstislavl began its history almost nine centuries ago. The site on which the fort was located was fortified along the perimeter with a ring rampart. A castle appeared inside this ring, which could only be entered via a drawbridge thrown over a moat. More than once this fortress took on the blows of the troops besieging it. Evidence of the ancient history of the site was found in 1959 during archaeological excavations. It was then that a cultural layer with wooden buildings and objects from the 12th century was discovered. Valuable finds became exhibits that can now be seen in the local museum. These are jewelry, weapons, objects made of glass and metal, even a birch bark letter from the 12th century. The fact that a glass goblet with an Arabic inscription and the oldest birch bark letter were found on Castle Hill provides irrefutable evidence that from time immemorial people with high culture lived on these lands. It is Castle Hill that annually becomes the venue for the festival of medieval culture “Knights Fest”. At the foot of the mountain (at the beginning of Lenin Street) there is a now well-maintained kagal well - an officially protected hydrological natural monument of local importance. It bears witness to the glorious and long-standing history of the region: it was this well, which has the historical name “Zdorovets”, that was the main source of drinking water in the city for a long time, when it was not possible to dig wells in the city due to the close occurrence of hard rocks, it is from it that They brought water to the townspeople in wooden barrels on horseback. Initially, when the ancient settlement arose, the water from the source played another important role - it filled a wide and deep protective ditch, protecting ancient Mstislavl together with Vihra from a sudden attack by enemies.] (* <- lang_en;; *);;

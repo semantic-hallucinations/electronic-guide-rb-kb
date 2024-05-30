@@ -1,0 +1,44 @@
+embrace_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "EmbracE" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "EmbracE" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+        
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+    => nrel_accesible_environment:
+        zero_plus;
+
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_restaraunt;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Ресторан "EmbracE" здесь можно заказать столик для компании, забежать выпить кофе или пообедать. 
+        В меню ресторана можно найти все, что необходимо для вкусного и уютного ужина или обеда: блюда 
+        интернациональной, средиземноморской и национальной кухни.
+        Также основное меню ресторана дополняет спецпредложение от шеф-повара, в котором гостям 
+        предлагается попробовать сезонные блюда.]
+        (* <- lang_ru;; *);
+        [Restaurant "EmbracE" Here you can book a table for a company, stop in for coffee or lunch.
+        In the restaurant menu you can find everything you need for a tasty and cozy dinner or lunch: dishes
+        international, Mediterranean and national cuisine.
+        Also, the main menu of the restaurant is complemented by a special offer from the chef, in which guests
+        We invite you to try seasonal dishes..]
+        (* <- lang_eng;; *);;

@@ -1,0 +1,33 @@
+teatro_bar_vitebsk
+    => nrel_main_idtf:
+        [Бар "Teatro" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Teatro" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [20]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [347]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [4]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [18:00 - 02:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [ Отличный лаунч.Замечательная работа персонала, выделяется высокий профессионализм официантов.
+        Еда вкусная. Коктейли вкусные и по отличной цене. Красивый интерьер. Атмосфера оживлённая. ]
+        (* <- lang_ru;; *);;

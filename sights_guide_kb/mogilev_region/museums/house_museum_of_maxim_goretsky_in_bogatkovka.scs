@@ -1,0 +1,25 @@
+house_museum_of_maxim_goretsky_in_bogatkovka
+
+<= nrel_inclusion:
+	concept_museum; 
+
+<= nrel_lockated_in:
+	mstislavl_city;
+
+        => nrel_working_hours:
+        [10:00 - 17:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[д. Малая Богатьковка] (* <- lang_ru;; *);
+	[Malaya Bogatkovka village] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Дом-музей Максима Горецкого в Богатьковке]
+    (* <- lang_ru;;*);
+    [House-Museum of Maxim Goretsky in Bogatkovkam]
+    (* <- lang_en;;*);
+
+=> nrel_sight_description:
+		[В деревне Малой Богатьковке Мстиславского района в 1893 году родился белорусский писатель, литературовед, переводчик и фольклорист Максим Горецкий. С инициативой восстановить семейную усадьбу Горецких выступил писатель Владимир Короткевич — так в бывшем отцовском доме Горецкого появился литературный музей. Здание музея представляет собой типичную деревенскую жилую постройку конца XIX века. Экспозиция была открыта в 1993 году и включает в себя два зала: литературно-документальный, где рассказывается о сложной судьбе писателя, и этнографически-бытовой, где воссоздан интерьер деревенского дома тех времен. ] (* <- lang_ru;; *);
+		[In the village of Malaya Bogatkovka, Mstislavsky district, the Belarusian writer, literary critic, translator and folklorist Maxim Goretsky was born in 1893. The initiative to restore the Goretsky family estate was taken by the writer Vladimir Korotkevich - this is how a literary museum appeared in Goretsky’s former father’s house. The museum building is a typical village residential building from the late 19th century. The exhibition was opened in 1993 and includes two halls: a literary and documentary hall, where the difficult fate of the writer is told, and an ethnographic and everyday hall, where the interior of a village house of those times is recreated.] (* <- lang_en;; *);;

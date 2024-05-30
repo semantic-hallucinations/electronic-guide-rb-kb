@@ -1,0 +1,38 @@
+victoria_restaurant_vitebsk
+
+    => nrel_main_idtf:
+        [Ресторан "Виктория" в Витебске]
+        (* <- lang_ru;; *);
+        [Restaurant "Victoria" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [623]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [4]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_availaible;
+
+    <= nrel_inclusion: 
+        concept_restaurant;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Отличный ресторан с вкусной кухней. Отдых с семьей, корпоратив, свадьба, выпускной- ресторан Виктория поможет вам реализовать любое мероприятие.
+        Есть банкетный зал, утепленная терраса. Вежливый персонал оставит только наилушчие впечатления. ]
+        (* <- lang_ru;; *);;

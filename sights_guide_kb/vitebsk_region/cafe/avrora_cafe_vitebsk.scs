@@ -1,0 +1,30 @@
+avrora_cafe_vitebsk
+
+    => nrel_main_idtf:
+        [Кафе "Аврора" в Витебске]
+        (* <- lang_ru;; *);
+        [Кафе "Avrora" in Vitebsk]
+        (* <- lang_en;; *);
+
+    
+    => nrel_people_capacity:
+        [83]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 18:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_availaible;
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Отличное заведение на любой вкус. В ассортименте как спиртное, так и закуска.
+        При желании можно и с детьми прийти. Мороженое и сладости на любой вкус. Кофе тоже делают очень хороший.]
+        (* <- lang_ru;; *);;

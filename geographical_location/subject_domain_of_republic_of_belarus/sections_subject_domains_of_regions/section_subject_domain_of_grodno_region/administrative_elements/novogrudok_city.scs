@@ -1,0 +1,37 @@
+novogrudok_city
+    => nrel_main_idtf:
+        [город Новогрудок]
+        (* <- lang_ru;;*);
+        [Novogrudok city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Новогрудок)]
+            (* <- lang_ru;; *);
+            [Definition (Novogrudok city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на западе Республики Беларусь, административный центр Новогрудского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in western Belarus, the administrative center of the Novogrudok district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                novogrudok_district;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <= nrel_inclusion: 
+    	concept_city;;

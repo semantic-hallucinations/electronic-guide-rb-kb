@@ -1,0 +1,69 @@
+italian
+=> nrel_main_idtf:
+    [Итальянская]
+    (* <- lang_ru;; *);
+    [Italian]
+    (* <- lang_en;; *);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+french
+=> nrel_main_idtf:
+    [Французская]
+    (* <- lang_ru;; *);
+    [French]
+    (* <- lang_en;; *);
+
+<= nrel_inclusion:
+    criteria_value;;
+    
+eastern_european
+=> nrel_main_idtf:
+    [Восточноевропейская]
+    (* <- lang_ru;; *);
+    [Eastern European]
+    (* <- lang_en;; *);
+
+<= nrel_inclusion:
+    criteria_value;;
+    
+european
+=> nrel_main_idtf:
+    [Европейская]
+    (* <- lang_ru;; *);
+    [European]
+    (* <- lang_en;; *);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+russian
+=> nrel_main_idtf:
+    [Русская]
+    (* <- lang_ru;; *);
+    [Russian]
+    (* <- lang_en;; *);
+
+<= nrel_inclusion:
+    criteria_value;;
+      
+pizza
+=> nrel_main_idtf:
+    [Пицца]
+    (* <- lang_ru;; *);
+    [Pizza]
+    (* <- lang_en;; *);
+
+<= nrel_inclusion:
+    criteria_value;;
+
+
+asian
+=> nrel_main_idtf:
+    [Азиатская]
+    (* <- lang_ru;; *);
+    [Asian]
+    (* <- lang_en;; *);
+<= nrel_inclusion:
+    criteria_value;;

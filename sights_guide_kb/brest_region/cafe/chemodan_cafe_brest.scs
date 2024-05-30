@@ -1,0 +1,32 @@
+chemodan_cafe_brest
+
+    => nrel_main_idtf:
+        [Кафе "ЧЕМОDAN" в Бресте]
+        (* <- lang_ru;; *);
+        [Cafe "ЧЕМОDAN" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+    => nrel_accesible_environment:
+        not_accesible;
+
+    => nrel_working_hours:
+        [07:30 - 22:30]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Без претензии на изыски: просто, вкусно, сытно. ЧЕМОDAN достаточно свеж: не так давно по этому адресу работало другое заведение, кардинально сменившее концепцию. Сейчас в меню 5 видов пельменей собственного производства и столько же вареников.]
+        (* <- lang_ru;; *);
+        [No pretense of sophistication: simple, tasty, satisfying. SUITCASE is quite fresh: not so long ago another establishment operated at this address, radically changing its concept. Now the menu includes 5 types of homemade dumplings and the same number of dumplings.]
+        (* <- lang_eng;; *);;

@@ -7,17 +7,14 @@ special12_library_brest
         (* <- lang_en;; *);
 
     => nrel_age_restrictions:
-        [0]
-        (* <- concept_age;; *);
+        zero_plus;
 
     => nrel_wifi_avaliability:
-        [YES]
-        (* <- string;; *);
+        wifi_avaliable;  
 
     => nrel_accesible_environment:
-        [YES]
-        (* <- string;; *);
-
+        accesible;
+        
     => nrel_working_hours:
         [09:00 - 18:00]
         (* <- time;; *);
@@ -30,6 +27,6 @@ special12_library_brest
     
     => nrel_sight_description:
         [Специальная библиотека-филиал №12 в Бресте для инвалидов по зрению и людей с ослабленным зрением.]
-        (* <- lang_ru;; *);;
+        (* <- lang_ru;; *);
         [Special library-branch No. 12 in Brest for the visually impaired and people with low vision.]
         (* <- lang_eng;; *);;

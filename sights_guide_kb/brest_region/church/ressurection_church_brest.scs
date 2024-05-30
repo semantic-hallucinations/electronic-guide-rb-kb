@@ -1,0 +1,30 @@
+ressurection_church_brest
+
+    => nrel_main_idtf:
+        [Собор Воскресения Христова в Бресте]
+        (* <- lang_ru;; *);
+        [Cathedral of the Resurrection of Christ in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_people_capacity:
+        [5000]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [08:00 - 19:30]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_historical_sight;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Брестский Воскресенский собор – православный собор, построен в микрорайоне Восток в 1995 году в честь Победы в Великой Отечественной войне. Это — крупнейшее религиозное сооружение города и одно из крупнейших в стране.]
+        (* <- lang_ru;; *);
+        [Brest Resurrection Cathedral is an Orthodox cathedral, built in the Vostok microdistrict in 1995 in honor of the Victory in the Great Patriotic War. This is the largest religious building in the city and one of the largest in the country.]
+        (* <- lang_eng;; *);;

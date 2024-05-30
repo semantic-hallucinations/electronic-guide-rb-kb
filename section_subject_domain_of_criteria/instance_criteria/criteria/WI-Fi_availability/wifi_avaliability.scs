@@ -1,4 +1,4 @@
-wi_fi_availability
+wifi_availability
 => nrel_main_idtf:
     [Критерий экземпляра. Наличие Wi-Fi]
     (* <- lang_ru;; *);

@@ -1,0 +1,42 @@
+restafe_cafe_brest
+
+    => nrel_main_idtf:
+        [Кафе "AVA restafe" в Бресте]
+        (* <- lang_ru;; *);
+        [Cafe "AVA restafe" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_people_capacity:
+        [50]
+        (* <- number;; *);
+
+    => nrel_wifi_avaliability:
+        wifi_avaliable;  
+
+    => nrel_accesible_environment:
+        accesible;
+
+    => nrel_working_hours:
+        [08:00 - 22:00]
+        (* <- time;; *); 
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [В AVA restafe все в лучших традициях жанра: панорамные окна, зеркала и картины 
+        в багетных рамах, торшеры, сухоцветы, мебель в старинном стиле… В общем, все, что понравится 
+        эстетам. В меню с гастрономической точки зрения ничего любопытного — классика кофеен. Но зато 
+        позавтракать здесь можно с 8:00.]
+        (* <- lang_ru;; *);
+        [At AVA restafe everything is in the best traditions of the genre: panoramic windows, mirrors and paintings
+        in baguette frames, floor lamps, dried flowers, antique-style furniture... In general, everything you like
+        aesthetes. There is nothing interesting on the menu from a gastronomic point of view - a coffee shop classic. But
+        You can have breakfast here from 8:00.]
+        (* <- lang_eng;; *);;

@@ -1,0 +1,37 @@
+zorka_cinema_in_belynici
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	belynici_city;
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [210]
+        (* <- number;; *);
+        
+        
+=> nrel_main_idtf:
+    [Кинотеатр Зорька]
+    (* <- lang_ru;;*);
+    [Cinema Zorka]
+    (* <- lang_en;;*);
+=> nrel_adress:
+	[ул. Ленинская, 55] (* <- lang_ru;; *);
+	[st. Leninskaya, 55] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [В "Зорке" - два зрительных зала: на 160 и на 50 посадочных мест. Большой оснащен цифровым оборудованием и 3D-системой. Подойдет он также для творческих встреч и деловых конференций.
+В малом зале для предсеансных мероприятий установлено проекционное оборудование.]
+        (* <- lang_ru;; *);
+	[“Zorka” has two auditoriums: for 160 and for 50 seats. The large one is equipped with digital equipment and a 3D system. It is also suitable for creative meetings and business conferences.
+The small hall for pre-session events is equipped with projection equipment.]
+        (* <- lang_en;; *);;

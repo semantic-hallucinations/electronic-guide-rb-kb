@@ -1,0 +1,33 @@
+socialist_pedestrian_street
+
+	<= nrel_inclusion:
+		concept_historical_sight; 
+
+	<= nrel_lockated_in:
+		bobruisk_city;  
+
+     => nrel_adress:
+	[Бобруйск] (* <- lang_ru;; *);
+	[Bobruisk] (* <- lang_en;; *);
+	
+	=> nrel_main_idtf:
+    		[Пешеходная улица Социалистическая]
+    		(* <- lang_ru;;*);
+    		[Pedestrian street Socialist]
+    		(* <- lang_en;;*);
+
+	=> nrel_sight_description:
+			[«Социалка» – самая любимая бобруйчанами улица со сложившимся ансамблем исторической застройки и первой в городе пешеходной зоной – бобруйским «Арбатом»
+До 1917-го улица была Муравьёвской (в честь могилёвского губернатора, графа М.Н. Муравьёва, усмирившего польское восстание 1863 года). Во время оккупации фашистами её называли Гаупштрассе. В 1987-88 гг. ХХ столетия улицу снова переименовали – в ул. Победы (в честь победы над немецко-фашистскими захватчиками). Но всякий раз (трижды) ей возвращалось привычное — улица Социалистическая.
+Проходит эта улица через весь старый Бобруйск и тянется от центрального рынка и до реки Березины.
+В 1908 году Муравьёвская стала одной из первых мощёных улиц в Бобруйске. Горожане торжественно именовали её Невским проспектом. В те времена она по праву считалась комфортабельной и наиболее престижной в городе и проживали на ней самые именитые бобруйчане. Но чем она может гордиться, так это тем, что на ней жили потомки великого русского поэта А.с. Пушкина.
+В XIX столетии на Муравьёвской процветала торговля.
+
+Также на ней расположен главный символ города – памятник Бобру.] (* <- lang_ru;; *);
+		[“Sotsialka” is the street most beloved by Bobruisk residents with an established ensemble of historical buildings and the city’s first pedestrian zone – Bobruisk “Arbat”
+Until 1917, the street was Muravyovskaya (in honor of the Mogilev governor, Count M.N. Muravyov, who pacified the Polish uprising of 1863). During the Nazi occupation it was called Gaupstrasse. In 1987-88 In the 20th century, the street was renamed again - to st. Victory (in honor of the victory over the Nazi invaders). But every time (three times) she returned to the familiar - Socialist Street.
+This street runs through the entire old Bobruisk and stretches from the central market to the Berezina River.
+In 1908, Muravyovskaya became one of the first paved streets in Bobruisk. The townspeople solemnly called it Nevsky Prospekt. In those days, it was rightfully considered comfortable and the most prestigious in the city, and the most eminent Bobruisk residents lived on it. But what she can be proud of is the fact that the descendants of the great Russian poet A.S. lived on it. Pushkin.
+In the 19th century, trade flourished on Muravyovskaya.
+
+Also on it is the main symbol of the city - the monument to the Beaver.] (* <- lang_en;; *);;

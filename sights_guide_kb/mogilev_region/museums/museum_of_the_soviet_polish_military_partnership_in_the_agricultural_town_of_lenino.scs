@@ -1,0 +1,26 @@
+museum_of_the_soviet_polish_military_partnership_in_the_agricultural_town_of_lenino
+
+<= nrel_inclusion:
+	concept_museum; 
+
+<= nrel_lockated_in:
+	gorki_city; 
+
+        => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[г/п Ленино] (* <- lang_ru;; *);
+	[g/p Lenino] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Музей советско-польского боевого содружества в агрогородке Ленино]
+    (* <- lang_ru;;*);
+    [Museum of the Soviet-Polish military partnership in the agricultural town of Lenino]
+    (* <- lang_en;;*);
+
+
+=> nrel_sight_description:
+		[ Музей советско-польского боевого содружества в Ленино не похож на привычные нам небольшие музеи в деревнях и агрогородках. Здание было спроектировано известными советскими архитекторами Я. Белопольским и В. Хавиным. Купол музея напоминает лежащую на земле солдатскую каску. Весной 1943 года 14 тысяч поляков, проживавших в СССР, по призыву «Союза польских патриотов» собрались под Рязанью, где из них составили Первую польскую пехотную дивизию имени Тадеуша Костюшко. Буквально через несколько месяцев, 12 октября, вместе с войсками советской 33-й армии дивизия впервые приняла бой с немцами. Это случилось под деревней Ленино Горецкого района. Место стало символом советско-польского боевого содружества. В 1968 году в Ленино был открыт мемориальный комплекс, в который входят музей и несколько памятников, в том числе погибшим солдатам. В тот день погибли 1711 советских и 502 польских воина. До сих пор каждый год 12 октября в музее проходят памятные мероприятия, на которые съезжаются как белорусы, так и поляки. ] (* <- lang_ru;; *);
+		[The Museum of the Soviet-Polish Military Cooperation in Lenino is not like the small museums we are used to in villages and agricultural towns. The building was designed by famous Soviet architects Y. Belopolsky and V. Khavin. The museum's dome resembles a soldier's helmet lying on the ground. In the spring of 1943, 14 thousand Poles living in the USSR, at the call of the Union of Polish Patriots, gathered near Ryazan, where they formed the First Polish Infantry Division named after Tadeusz Kosciuszko. Just a few months later, on October 12, together with the troops of the Soviet 33rd Army, the division took on the Germans for the first time. This happened near the village of Lenino, Goretsky district. The place became a symbol of the Soviet-Polish military partnership. In 1968, a memorial complex was opened in Lenino, which includes a museum and several monuments, including to fallen soldiers. On that day, 1,711 Soviet and 502 Polish soldiers died. Until now, every year on October 12, the museum hosts commemorative events, which attract both Belarusians and Poles.] (* <- lang_en;; *);;
