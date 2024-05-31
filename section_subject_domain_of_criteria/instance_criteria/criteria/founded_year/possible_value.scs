@@ -1,12 +1,4 @@
-number
-=> nrel_main_idtf:
-      [Численное значение]
-      (*<-lang_ru;;*);
-      [Numeric value]
-      (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
 
 // -----------------------------------
 
