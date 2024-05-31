@@ -1,0 +1,36 @@
+pogrujenie_bar_brest
+
+    => nrel_main_idtf:
+        [Бар Погружение в Бресте]
+        (* <- lang_ru;; *);
+        [Bar Pogrujenie in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_accessible_environment:
+        not_accessible;
+
+    => nrel_working_hours:
+        [18:00 - 02:00]
+        (* <- time;; *);
+
+    <-concept_bar;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Бар Погружение Если вам захотелось попробовать что-то необычное или вы просто хотите выпить 
+        вкусного пива, то лучше места не найти. Крафт, много крафта и сидры. Кухни нет, но есть снеки 
+        (орешки, чипсы). Особенно рекомендую посетить этот бар тем, кто скучает по концертам и фестивалям.] 
+        (* <- lang_ru;; *);
+		[Bar Pogrujenie If you want to try something unusual or just want to drink delicious beer, 
+        then there is no better place. Craft, a lot of craft and ciders. There is no kitchen, but there 
+        are snacks (nuts, chips). I especially recommend visiting this bar for those who miss concerts and festivals.] 
+        (* <- lang_en;; *);;

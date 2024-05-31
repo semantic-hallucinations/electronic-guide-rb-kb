@@ -1,0 +1,38 @@
+new_time_bar
+    => nrel_main_idtf:
+        [NEW TIME бар]
+        (* <- lang_ru;; *);
+        [NEW TIME bar]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[NEW TIME бар - это коктейль-бар в центре Гомеля, предлагающий более 60 разнообразных 
+		коктейлей на большом танцполе с уютной летней площадкой. Заведение расположено по адресу ул. Ланге, 17. 
+		NEW TIME также функционирует как ресторан и клуб, предлагая разнообразное меню и атмосферу для развлечений. 
+		В баре также доступно специальное меню, включая сезонные блюда и гриль. NEW TIME является популярным заведением среди 
+		местных жителей и посетителей, предлагая разнообразные развлечения и кулинарные удовольствия.] 
+        (* <- lang_ru;; *);
+		[NEW TIME bar - is a cocktail bar in the center of Gomel, offering more than 60 different
+		cocktails on a large dance floor with a cozy summer area. The establishment is located at st. Lange, 17.
+		NEW TIME also functions as a restaurant and club, offering a varied menu and an entertaining atmosphere.
+		The bar also offers a special menu including seasonal dishes and grills. NEW TIME is a popular establishment among
+		locals and visitors alike, offering a variety of entertainment and culinary delights.] 
+        (* <- lang_en;; *);;

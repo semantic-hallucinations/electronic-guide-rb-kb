@@ -1,0 +1,36 @@
+disco_bar
+    => nrel_main_idtf:
+        [Диско-бар]
+        (* <- lang_ru;; *);
+        [Disco bar]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+		
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [round-the-clock]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_located_in: 
+        zhlobin_city;
+    
+    => nrel_sight_description:
+		[Диско-бар предлагает атмосферу ночного клуба с возможностью насладиться 
+        разнообразными напитками и закусками. Посетители могут насладиться блюдами 
+        русской и белорусской кухни, а также заказать вкусную шаурму. В баре 
+        создана атмосфера для приятного времяпровождения с друзьями.] 
+		(* <- lang_ru;; *);
+		[Disco-bar offers a nightclub atmosphere with the opportunity to enjoy
+        a variety of drinks and snacks. Visitors can enjoy the dishes
+        Russian and Belarusian cuisine, as well as order delicious shawarma. 
+        In the bar atmosphere has been created for a pleasant time with friends.] 
+		(* <- lang_en;; *);;

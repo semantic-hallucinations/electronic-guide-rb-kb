@@ -1,0 +1,23 @@
+church_of_the_holy_venerable_seraphim_sarovsky
+
+=> nrel_main_idtf:
+	[Храм Святого преподобного Серафима Саровского] (* <- lang_ru;; *);
+	[The Church of the Holy Venerable Seraphim Sarovsky] (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_church;
+
+    <= nrel_located_in: 
+        gomel_city;
+
+				=> nrel_sight_description:
+		[Храм Святого преподобного Серафима Саровского - это православный храм, построенный в честь преподобного Серафима Саровского, 
+		одного из самых почитаемых русских святых.В нем регулярно проводятся богослужения, таинства крещения, 
+		венчания и отпевания. Прихожане храма почитают преподобного Серафима как своего небесного покровителя 
+		и обращаются к нему с молитвами о помощи и исцелении.]
+        (* <- lang_ru;; *);
+		[The Church of the Holy Venerable Seraphim Sarovsky is an Orthodox church built in honor of 
+		the Venerable Seraphim Sarovsky, one of the most revered Russian saints. Divine services, sacraments of christening,
+    weddings and funerals. The parishioners of the temple venerate St. Seraphim as their heavenly patron
+    and turn to him with prayers for help and healing.] 
+        (* <- lang_en;; *);;

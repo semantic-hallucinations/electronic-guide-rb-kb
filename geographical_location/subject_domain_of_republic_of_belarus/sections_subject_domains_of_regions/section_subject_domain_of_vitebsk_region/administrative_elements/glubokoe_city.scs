@@ -1,0 +1,38 @@
+glubokoe_city
+
+    => nrel_main_idtf:
+        [город Глубокое]
+        (* <- lang_ru;;*);
+        [Glubokoe city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Глубокое)]
+            (* <- lang_ru;; *);
+            [Definition (Glubokoe city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Глубокое — город областного подчинения в Витебской области Белоруссии. Он расположен на реке Свольна, в 60 км на юг от Витебска.
+                 Глубокое известно своей богатой историей, впервые упомянутое в летописях в 1414 году.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The city of Glubochny is a regional subordination city in the Vitebsk region of Belarus. It is located on the river Svolna, 60 km south of Vitebsk. 
+                It is well known for its rich history, first mentioned in chronicles in 1414.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

@@ -1,0 +1,36 @@
+lyakhovichi_city
+
+    => nrel_main_idtf:
+        [город Ляховичи]
+        (* <- lang_ru;;*);
+        [Lyakhovichi city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Ляховичи)]
+            (* <- lang_ru;; *);
+            [Definition (Lyakhovichi city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Ляховичи— город на реке Ведьме в Брестской области Республики Беларусь, в 225 км от Бреста. ] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Lyakhovichi is a city on the Witch River in the Brest region of the Republic of Belarus, 225 km from Brest.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <-concept_city;;

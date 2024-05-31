@@ -1,0 +1,36 @@
+chausy_city
+
+    => nrel_main_idtf:
+        [город Чаусы]
+        (* <- lang_ru;;*);
+        [Chausy city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Чаусы)]
+            (* <- lang_ru;; *);
+            [Definition (Chausy city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Ча́усы — город в Могилёвской области Белоруссии. Административный центр Чаусского района. Расположен на реке Бася, притоке Прони. Находится в 41 км от города Могилёва. Одноимённая железнодорожная станция расположена в 5 км на линии Могилёв — Кричев. Узел автомобильных дорог на Могилёв, Кричев, Мстиславль, Чериков.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Chausy is a city in the Mogilev region of Belarus. Administrative center of the Chaussky district. Located on the Basya River, a tributary of the Pronya. It is located 41 km from the city of Mogilev. The railway station of the same name is located 5 km on the Mogilev - Krichev line. A junction of highways to Mogilev, Krichev, Mstislavl, Cherikov.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

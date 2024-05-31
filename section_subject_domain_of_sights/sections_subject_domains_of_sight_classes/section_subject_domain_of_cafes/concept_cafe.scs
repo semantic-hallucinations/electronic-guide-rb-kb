@@ -1,0 +1,74 @@
+concept_cafe
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[кафе]
+	(* <- lang_ru;; *);
+	[cafe]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+    physiological_needs_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (кафе)]
+        (* <- lang_ru;; *);
+        [Definition (cafe)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Кафе — предприятие общественного питания и отдыха, похожее на небольшой ресторан, но с ограниченным по сравнению с рестораном ассортиментом продукции, также, возможно, — с самообслуживанием.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A cafe is a catering and recreation establishment, similar to a small restaurant, but with a limited range of products compared to a restaurant, and, possibly, with self-service.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_catering;
+            concept_self_service;
+            concept_restaurant;
+            concept_establishment;
+            concept_recreation
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (кафе)]
+        (* <- lang_ru;; *);
+        [Statement (cafe)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Предприятие общественного питания и отдыха, похожее на небольшой ресторан, но с ограниченным по сравнению с рестораном ассортиментом продукции, также, возможно, — с самообслуживанием.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A catering and recreation establishment, similar to a small restaurant, but with a limited range of products compared to a restaurant, and, possibly, with self-service.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_catering;
+            concept_self_service;
+            concept_restaurant;
+            concept_establishment;
+            concept_recreation
+        };; 
+*);
+
+<- concept_sight;;

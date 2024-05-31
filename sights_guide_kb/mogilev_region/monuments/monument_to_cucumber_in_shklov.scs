@@ -1,0 +1,21 @@
+monument_to_cucumber_in_shklov
+
+<= nrel_inclusion:
+	concept_monument; 
+
+<= nrel_lockated_in:
+	shklov_city;
+
+     => nrel_adress:
+	[ул. 70 лет Великой Победы] (* <- lang_ru;; *);
+	[st. 70 years of the Great Victory] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Памятник огурцу в Шклове]
+    (* <- lang_ru;;*);
+    [Monument to the cucumber in Shklov]
+    (* <- lang_en;;*);
+    
+	=> nrel_sight_description:
+		[Шкловский район издавна славится своими огурцами. Многие местные жители заняты выращиванием этой сельскохозяйственной культуры. День огурца является главным городским праздником. Вот почему решение увековечить его образ именно в этом районном центре выглядит вполне логичным. Памятник огурцу в Шклове появился в 2007 году. Его автором является скульптор Андрей Воробьев. С тех пор памятник успел стать одним из символов города и вошел в городской фольклор. Поверье, распространенное как среди местных жителей, так и среди туристов, гласит, что надо потереть карман огурца, чтобы обеспечить себе финансовое благополучие.] (* <- lang_ru;; *);
+		[The Shklov region has long been famous for its cucumbers. Many local residents are engaged in cultivating this crop. Cucumber Day is the main city holiday. That is why the decision to immortalize his image in this particular regional center seems quite logical. The cucumber monument in Shklov appeared in 2007. Its author is the sculptor Andrey Vorobyov. Since then, the monument has become one of the symbols of the city and entered the city folklore. A popular belief among both locals and tourists says that you need to rub a cucumber in your pocket to ensure financial well-being.] (* <- lang_en;; *);;

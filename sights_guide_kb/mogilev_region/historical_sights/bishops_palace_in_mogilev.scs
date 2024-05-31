@@ -1,0 +1,21 @@
+bishops_palace_in_mogilev
+
+<= nrel_inclusion:
+	concept_historical_sight; 
+     
+     => nrel_adress:
+	[ул. Ленинская, 11А] (* <- lang_ru;; *);
+	[st. Leninskaya, 11A] (* <- lang_en;; *);
+	
+<= nrel_lockated_in:
+	mogilev_city;
+
+=> nrel_main_idtf:
+    [Архиерейский дворец в Могилеве]
+    (* <- lang_ru;;*);
+    [Bishop's Palace in Mogilev]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Архиерейский дворец в стиле позднего барокко с чертами раннего классицизма был построен в Могилеве в 1762–1785 гг. по проекту знаменитого виленского архитектора Иоганна Глаубица. Дворец возводился на территории бывшего Спасского монастыря как резиденция православного архиепископа Георгия Конисского – известного просветителя, писателя и политика. Сейчас на этом здании установлена мемориальная доска в его честь. Поэт Александр Пушкин называл Конисского одним из самых видных деятелей XVIII столетия. Сорок лет из биографии архиепископа связано с Могилевом. В 1757 году он открыл в городе духовную семинарию, позже создал типографию, много сил отдал строительству Спасской церкви. Резиденция, ныне известная как архиерейский дворец, где с 1785 по 1795 год жил Георгий Конисский, в советское время использовалась как жилой дом. Сегодня здание принадлежит Могилевско-Мстиславской епархии.] (* <- lang_ru;; *);
+		[The bishop's palace in the late Baroque style with features of early classicism was built in Mogilev in 1762–1785. designed by the famous Vilna architect Johann Glaubitz. The palace was built on the territory of the former Spassky Monastery as the residence of the Orthodox Archbishop George of Konissky, a famous educator, writer and politician. Now there is a memorial plaque on this building in his honor. The poet Alexander Pushkin called Konissky one of the most prominent figures of the 18th century. Forty years of the archbishop's biography are connected with Mogilev. In 1757, he opened a theological seminary in the city, later created a printing house, and devoted a lot of effort to the construction of the Savior Church. The residence, now known as the bishop's palace, where George Konissky lived from 1785 to 1795, was used as a residential building during Soviet times. Today the building belongs to the Mogilev-Mstislav diocese.] (* <- lang_en;; *);;

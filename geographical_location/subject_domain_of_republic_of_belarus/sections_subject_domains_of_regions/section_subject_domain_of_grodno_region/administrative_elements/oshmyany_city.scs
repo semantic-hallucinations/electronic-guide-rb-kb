@@ -1,0 +1,36 @@
+oshmyany_city
+    => nrel_main_idtf:
+        [город Ошмяны]
+        (* <- lang_ru;;*);
+        [Oshmyany city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Ошмяны)]
+            (* <- lang_ru;; *);
+            [Definition (Oshmyany city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на западе Республики Беларусь, административный центр Ошмянского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in western Belarus, the administrative center of the Oshmyany district.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                oshmyany_district;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

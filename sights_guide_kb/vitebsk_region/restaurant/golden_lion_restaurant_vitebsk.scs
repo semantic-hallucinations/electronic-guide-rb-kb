@@ -1,0 +1,38 @@
+golden_lion_restaurant_vitebsk
+
+    => nrel_main_idtf:
+        [Ресторан "Золотой Лев" в Витебске]
+        (* <- lang_ru;; *);
+        [Restaurant "Golden Lion" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [16]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [473]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_restaurant;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Отличное заведение! Изысканно. Подача блюд,сервировка стола-на высоте! Еда вкусная,порции большие. Официанты вежливые,всегда рядом и следят за чистотой стола,
+        вовремя подают блюда,разливают алкоголь. В гардеробе можно взять плед для выхода на улицу.  ]
+        (* <- lang_ru;; *);;

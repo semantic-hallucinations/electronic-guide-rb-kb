@@ -1,0 +1,56 @@
+section_subject_domain_of_vitebsk_region
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область Витебской области]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of Vitebsk region]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        chashniki_city;
+        disna_city;
+        dokshitsy_city;
+        dubrovno_city;
+        glubokoe_city;
+        lepel_city;
+        miory_city;
+        novopolotsk_city;
+        orsha_city;
+        polotsk_city;
+        postavy_city;
+        tolochin_city;
+        vitebsk_city;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+ section_subject_domain_of_vitebsk_region
+    = [*
+        subject_domain_of_vitebsk_region
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область Витебской области]
+                (* <- lang_ru;;*);
+                [Subject domain of Vitebsk region]
+                (* <- lang_en;;*);
+            
+            -> rrel_maximum_studied_object_class:
+                vitebsk_region;
+
+            -> rrel_not_maximum_studied_object_class:
+                chashniki_city;
+                disna_city;
+                dokshitsy_city;
+                dubrovno_city;
+                glubokoe_city;
+                lepel_city;
+                miory_city;
+                novopolotsk_city;
+                orsha_city;
+                polotsk_city;
+                postavy_city;
+                tolochin_city;
+                vitebsk_city;;
+    *];;

@@ -1,0 +1,41 @@
+vetka_museum_of_old_believers
+    => nrel_main_idtf:
+        [Ветковский музей старообрядчества и белорусских традиций]
+        (* <- lang_ru;; *);
+        [Vetka Museum of Old Believers and Belarusian Traditions]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [7]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [5]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [09:00 - 18:00]
+        (* <- time;; *);
+
+    => nrel_adress:
+	[Красная площадь, 7] (* <- lang_ru;; *);
+	[Red Square, 7] (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_located_in: 
+        vetka_city;
+    
+    => nrel_sight_description:
+		[Ветковский музей старообрядчества и белорусских традиций имени Ф. Г. Шклярова - это уникальный 
+        музей, посвященный культуре старообрядцев и белорусским народным традициям.
+Музей был открыт в 1978 году по инициативе местного жителя Фёдора Шклярова на основе 
+его личной коллекции. Сегодня это научно-исследовательский и просветительский центр региона в области традиционной культуры.
+] 
+        (* <- lang_ru;; *);
+		[Vetka Museum of Old Believers and Belarusian Traditions named after F. G. Shklyarov is a unique
+ a museum dedicated to the culture of the Old Believers and Belarusian folk traditions.
+The museum was opened in 1978 on the initiative of local resident Fyodor Shklyarov based on
+his personal collection. Today it is a research and educational center of the region in the field of traditional culture.] 
+        (* <- lang_en;; *);;

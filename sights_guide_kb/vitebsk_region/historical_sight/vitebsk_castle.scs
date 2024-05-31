@@ -1,0 +1,19 @@
+vitebsk_castle
+
+    => nrel_main_idtf:
+        [Витебский замок]
+        (* <- lang_ru;; *);
+        [Vitebsk Castle]
+        (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_historical_sight;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Витебский замок — это система оборонительных сооружений, которая состояла из Верхнего, Нижнего и Узгорского замков, расположенных в городе Витебске, Белоруссия.
+        Эти замки играли ключевую роль в истории города, начиная с времен Киевской Руси и до XVIII века. ]
+        (* <- lang_ru;; *);;

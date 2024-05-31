@@ -1,0 +1,37 @@
+gomel_city
+
+    => nrel_main_idtf:
+        [город Гомель]
+        (* <- lang_ru;;*);
+        [Gomel city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Гомель)]
+            (* <- lang_ru;; *);
+            [Definition (Gomel city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на юго-востоке Республики Беларусь, административный центр Гомельской области.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in the southeast of the Republic of Belarus, the administrative center of the Gomel region.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                gomel_region;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

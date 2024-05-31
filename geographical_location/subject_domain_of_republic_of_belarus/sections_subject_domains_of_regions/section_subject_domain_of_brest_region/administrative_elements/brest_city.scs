@@ -1,0 +1,37 @@
+brest_city
+
+    => nrel_main_idtf:
+        [город Брест]
+        (* <- lang_ru;;*);
+        [Brest city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Брест)]
+            (* <- lang_ru;; *);
+            [Definition (Brest city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город на юго-западе Республики Беларусь, административный центр Брестской области.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [A city in the southwest of the Republic of Belarus, the administrative center of the Brest region.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_administrative_center;
+                concept_city
+            };; 
+    *);
+
+    <-concept_city;;

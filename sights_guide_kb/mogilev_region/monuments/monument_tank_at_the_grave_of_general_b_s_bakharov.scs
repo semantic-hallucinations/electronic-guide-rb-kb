@@ -1,0 +1,21 @@
+monument_tank_at_the_grave_of_general_b_s_bakharov
+
+	<= nrel_inclusion:
+		concept_monument; 
+
+	<= nrel_lockated_in:
+		bobruisk_city; 
+
+     => nrel_adress:
+	[ул. Социалистическая] (* <- lang_ru;; *);
+	[st. Socialist] (* <- lang_en;; *);
+	
+	=> nrel_main_idtf:
+    		[Памятник-танк на могиле генерала Б.С.Бахарова]
+    		(* <- lang_ru;;*);
+    		[Monument-tank at the grave of General B.S. Bakharov]
+    		(* <- lang_en;;*);
+
+	=> nrel_sight_description:
+			[В Беларуси очень трепетно относятся к памятникам героям войны. У пешеходной зоны в сквере установлен танк в память об освободителе города от немецко-фашистских захватчиков. Рядом могила генерала Бахарова. Светлая Память Герою. Легенда отечественных войск.В 1985 году место захоронения советских воинов реконструировалось, и площадь Победы приобрела нынешний вид. Сегодня танк грозно возвышается над площадью, но даже маленькие дети знают, что выстрел не прогремит и виснут на стволе пушки. Танк номер 300 — лишь напоминание о минувших событиях...] (* <- lang_ru;; *);
+		[In Belarus, they treat monuments to war heroes with great care. Near the pedestrian zone in the park there is a tank in memory of the liberator of the city from the Nazi invaders. Nearby is the grave of General Bakharov. Bright Memory of the Hero. A legend of domestic troops. In 1985, the burial place of Soviet soldiers was reconstructed, and Victory Square acquired its current appearance. Today the tank towers menacingly over the square, but even small children know that the shot will not fire and hang on the gun barrel. Tank number 300 is just a reminder of past events...] (* <- lang_en;; *);;

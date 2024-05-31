@@ -1,0 +1,43 @@
+puppet_theater_brest
+
+    => nrel_main_idtf:
+        [Брестский областной театр кукол]
+        (* <- lang_ru;; *);
+        [Brest Regional Puppet Theater]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_people_capacity:
+        [303]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+
+    => nrel_accesible_environment:
+        accesible;
+
+
+    => nrel_working_hours:
+        [10:00 - 19:00]
+        (* <- time;; *);
+
+    <-concept_theater;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Брестский областной театр кукол — кукольный театр, основанный в 1963 году в белорусском Бресте.
+        Театр успешно выступает на фестивалях в странах Европы и Азии. Имеет в своем активе большое 
+        количество престижных наград, является обладателем трёх Гран-при Всемирного фестиваля театров кукол 
+        в Праге. Является одним из организаторов Международного театрального фестиваля «Белая Вежа».]
+        (* <- lang_ru;; *);
+        [Brest Regional Puppet Theater is a puppet theater founded in 1963 in the Belarusian Brest.
+        The theater successfully performs at festivals in Europe and Asia. Has to its credit a large
+        number of prestigious awards, is the owner of three Grand Prix of the World Puppet Theater Festival
+        in Prague. He is one of the organizers of the International Theater Festival "Belaya Vezha".]
+        (* <- lang_eng;; *);;

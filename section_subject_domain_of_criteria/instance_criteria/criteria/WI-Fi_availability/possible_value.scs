@@ -1,0 +1,22 @@
+
+// --------------------------------------------
+wifi_available
+=> nrel_main_idtf:
+      [Wi-Fi доступен]
+      (*<-lang_ru;;*);
+      [Wi-Fi is not available]
+      (*<-lang_en;;*);
+
+<- criteria_value;;
+
+
+// --------------------------------------------
+
+wifi_not_available
+=> nrel_main_idtf:
+      [Wi-Fi не доступен]
+      (*<-lang_ru;;*);
+      [Wi-Fi is not available]
+      (*<-lang_en;;*);
+
+<- criteria_value;;

@@ -1,0 +1,36 @@
+bobruisk_city
+
+    => nrel_main_idtf:
+        [город Бобруйск]
+        (* <- lang_ru;;*);
+        [Bobruisk city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Бобруйск)]
+            (* <- lang_ru;; *);
+            [Definition (Bobruisk city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Бобру́йск — город областного подчинения в Белоруссии, административный центр Бобруйского района Могилёвской области. Седьмой по численности населения и площади город Белоруссии, наиболее крупный центр областного подчинения. Город располагается на реке Березине (бассейн Днепра) в 145 км от Минска, 115 км от Могилёва, 414 км от Киева, 704 км от Москвы. ] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Bobruisk is a city of regional subordination in Belarus, the administrative center of the Bobruisk district of the Mogilev region. The seventh largest city in Belarus by population and area, the largest center of regional subordination. The city is located on the Berezina River (Dnieper basin) 145 km from Minsk, 115 km from Mogilev, 414 km from Kyiv, 704 km from Moscow.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

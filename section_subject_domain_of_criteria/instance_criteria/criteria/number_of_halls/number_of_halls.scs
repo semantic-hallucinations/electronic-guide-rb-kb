@@ -1,0 +1,66 @@
+number_of_halls
+
+=> nrel_main_idtf:
+    [Криттерий экземпляра. Количество залов]
+    (* <- lang_ru;; *);
+    [Instance criteria. Number of halls]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_number_of_halls;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Количество залов)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Number of halls)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Количество залов - критерий, отражающий количество залов в здании.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Number of halls is a criterion that reflects the number of halls in the building.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Количество залов)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Number of halls)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий количество залов в здании.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects hthe number of halls in the building.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria
+        };; 
+*);
+
+<- concept_instance_criteria;;

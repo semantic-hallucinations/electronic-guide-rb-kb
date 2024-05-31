@@ -1,0 +1,64 @@
+section_subject_domain_of_mogilev_region
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область Могилёвской области]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of Mogilev region]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        mogilev_city;
+	bobruisk_city;
+	belynici_city;
+	bykhov_city;
+	gorki_city;
+	kirovsk_city;
+	klimovichi_city;
+	klichev_city;
+	kostyukovichi_city;
+	krichev_city;
+	krugloe_city;
+	mstislavl_city;
+	osipovichi_city;
+	slavgorod_city;
+	chausy_city;
+	cherikov_city;
+	shklov_city;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+ section_subject_domain_of_mogilev_region
+    = [*
+        subject_domain_of_mogilev_region
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область Могилёвской области]
+                (* <- lang_ru;;*);
+                [Subject domain of Mogilev region]
+                (* <- lang_en;;*);
+            
+            -> rrel_maximum_studied_object_class:
+                mogilev_region;
+
+            -> rrel_not_maximum_studied_object_class:
+                mogilev_city;
+		bobruisk_city;
+		belynici_city;
+		bykhov_city;
+		gorki_city;
+		kirovsk_city;
+		klimovichi_city;
+		klichev_city;
+		kostyukovichi_city;
+		krichev_city;
+		krugloe_city;
+		mstislavl_city;
+		osipovichi_city;
+		slavgorod_city;
+		chausy_city;
+		cherikov_city;
+		shklov_city;;
+    *];;

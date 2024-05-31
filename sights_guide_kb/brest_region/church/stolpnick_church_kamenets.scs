@@ -1,0 +1,21 @@
+stolpnick_church_kamenets
+
+    => nrel_main_idtf:
+        [Церковь Симеона Столпника в Каменце]
+        (* <- lang_ru;; *);
+        [Church of Simeon the Stylite in Kamenets]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    <-concept_historical_sight;
+
+    <= nrel_located_in: 
+        kamenets_city;
+    
+    => nrel_sight_description:
+        [Свято-Симеоновский храм построен на месте деревянного храма XVI века, является памятником архитектуры ретроспективно-русского стиля. Церковь была построена в 1912-1914 годах к 300-летию династии дома Романовых.]
+        (* <- lang_ru;; *);
+        [The St. Simeon Church was built on the site of a wooden church of the 16th century and is an architectural monument of the retrospective Russian style. The church was built in 1912-1914 for the 300th anniversary of the Romanov dynasty.]
+        (* <- lang_eng;; *);;

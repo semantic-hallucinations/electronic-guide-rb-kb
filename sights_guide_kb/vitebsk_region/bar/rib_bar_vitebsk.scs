@@ -1,0 +1,36 @@
+rib_bar_vitebsk
+    => nrel_main_idtf:
+        [Бар "Ребро" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Rebro" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [247]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [18:00 - 02:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_wifi_availabilty:
+        wifi_availaible;
+    
+    => nrel_sight_description:
+        ["Ребро Гриль Бар" в Витебске является популярным заведением, специализирующимся на гриль-блюдах. 
+        Этот бар привлекает посетителей своим уютным интерьером, дружелюбной атмосферой и качественной кухней.]
+        (* <- lang_ru;; *);;

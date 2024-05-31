@@ -1,0 +1,38 @@
+cinema_Mir
+    => nrel_main_idtf:
+        [Кинотеатр "Мир"]
+        (* <- lang_ru;; *);
+        [Cinema "Mir"]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [3]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [117]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 22:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_cinema;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Кинотеатр "Мир" - это один из старейших кинотеатров города, открытый в 1959 году. 
+        "Мир" предлагает широкий выбор фильмов и премьер, скидки и акции. Билеты можно приобрести 
+        онлайн на официальном сайте. Кинотеатр также имеет бар.]
+        (* <- lang_ru;; *);
+        [Cinema "Mir" is one of the oldest cinemas in the city, opened in 1959. "Mir" offers a wide 
+        selection of films and premieres, discounts and promotions. Tickets can be purchased
+        online on the official website. The cinema also has a bar.]
+        (* <- lang_eng;; *);;

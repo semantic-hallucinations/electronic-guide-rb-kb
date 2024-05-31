@@ -1,0 +1,36 @@
+mstislavl_city
+
+    => nrel_main_idtf:
+        [город Мстиславль]
+        (* <- lang_ru;;*);
+        [Mstislavl city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Мстиславль)]
+            (* <- lang_ru;; *);
+            [Definition (Mstislavl city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Мстисла́вль — город в Могилёвской области Белоруссии. Административный центр Мстиславского района. Находится на реке Вихра, притоке Сожа. Расположен недалеко от границы с Россией (13 км), в 62 км к юго-востоку от Горок, к 40 км к северу от Кричева и 107 км к востоку от Могилёва. Ближайшая железнодорожная станция Ходосы (линия Орша — Кричев) расположена в 19 км к юго-западу. Узел автомобильных дорог Р73 (Могилёв — Чаусы — Граница Российской Федерации (Каськово)), Р15 (Кричев — Орша — Лепель) и Р96 (Могилёв — Рясно — Мстиславль).] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Mstislavl is a city in the Mogilev region of Belarus. Administrative center of Mstislavsky district. It is located on the Vihra River, a tributary of the Sozh. Located near the border with Russia (13 km), 62 km southeast of Gorki, 40 km north of Krichev and 107 km east of Mogilev. The nearest railway station Khodosy (Orsha - Krichev line) is located 19 km to the southwest. Highway junction P73 (Mogilev - Chausy - Border of the Russian Federation (Kaskovo)), P15 (Krichev - Orsha - Lepel) and P96 (Mogilev - Ryasno - Mstislavl).] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

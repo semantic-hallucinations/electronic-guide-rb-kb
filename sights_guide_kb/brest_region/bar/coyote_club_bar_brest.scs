@@ -1,0 +1,40 @@
+coyote_club_bar_brest
+
+    => nrel_main_idtf:
+        [Бар Coyote Club в Бресте]
+        (* <- lang_ru;; *);
+        [Bar Coyote Club in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+       eighteen_plus;
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_accessible_environment:
+        not_accessible;
+
+    => nrel_working_hours:
+        [16:00 - 03:00]
+        (* <- time;; *);
+
+    <-concept_bar;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Бар Coyote Club Brest если любите международную кухню, обязательно загляните сюда. 
+        В Coyote закажите неплохие стейки. Из напитков здесь стоит 
+        попробовать хорошее бочковое пиво или вкусный виски. Уютная 
+        атмосфера этого места позволяет гостям отдохнуть после 
+        тяжелого дня.] 
+        (* <- lang_ru;; *);
+		[Bar Coyote Club Brest If you like international cuisine, be sure to check it out.
+        Get some good steaks at Coyote. Of the drinks here it's worth
+        try good draft beer or delicious whiskey. Cozy
+        the atmosphere of this place allows guests to relax after
+        hard day.] 
+        (* <- lang_en;; *);;

@@ -1,0 +1,38 @@
+miory_city
+
+    => nrel_main_idtf:
+        [город Миоры]
+        (* <- lang_ru;;*);
+        [Miory city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Миоры)]
+            (* <- lang_ru;; *);
+            [Definition (Miory city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Миоры находится в Витебской области Беларуси и служит административным центром Миорского района.
+                    Расположен на берегу озера Миорское, в 190 км на северо-запад от Витебска.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The city of Miora is located in the Vitebsk region of Belarus and serves as the administrative center of the Miori district.
+                    Located on the shore of Lake Miorskoe, 190 km northwest of Vitebsk.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

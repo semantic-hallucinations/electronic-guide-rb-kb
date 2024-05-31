@@ -1,0 +1,36 @@
+central_city_library_brest
+
+    => nrel_main_idtf:
+        [Брестская центральная городская библиотека им. А. С. Пушкина]
+        (* <- lang_ru;; *);
+        [Brest Central City Library named after. A. S. Pushkin]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+    
+    => nrel_wifi_availability:
+        wifi_available;  
+
+    => nrel_accesible_environment:
+        accesible;
+
+
+    => nrel_working_hours:
+        [10:00 - 20:00]
+        (* <- time;; *);
+
+    <-concept_library;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Городская библиотека им. А. С. Пушкина сегодня – это универсальный хранитель
+        информации в самых разных видах и формах, центр предоставления библиотечных и 
+        информационных услуг, распространения знаний, духовности и интеллектуального общения.]
+        (* <- lang_ru;; *);
+        [City Library named after. A. S. Pushkin today is a universal keeper
+        information in a variety of types and forms, a center for providing library and
+        information services, knowledge dissemination, spirituality and intellectual communication.]
+        (* <- lang_eng;; *);;

@@ -1,0 +1,40 @@
+place_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Место" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Place" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_wifi_availability:
+        wifi_available;  
+
+    => nrel_accesible_environment:
+        not_accesible;
+
+
+    => nrel_working_hours:
+        [12:00 - 03:00]
+        (* <- time;; *); 
+
+    <-concept_restaraunt;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_descripti.on:
+        [Ресторан "Место". Разнообразное меню из самых свежих и качественных продуктов,
+        чтобы вы могли насладиться вкусным обедом и зарядиться энергией на оставшуюся часть дня. 
+        Кухня: европейская. Тип заведения: ресторан с живой музыкой.]
+        (* <- lang_ru;; *);
+        [Restaurant "Mesto". A varied menu made from the freshest and highest quality products,
+        so you can enjoy a delicious lunch and recharge your batteries for the rest of the day.
+        Cuisine: European. Type of establishment: restaurant with live music.]
+        (* <- lang_eng;; *);;

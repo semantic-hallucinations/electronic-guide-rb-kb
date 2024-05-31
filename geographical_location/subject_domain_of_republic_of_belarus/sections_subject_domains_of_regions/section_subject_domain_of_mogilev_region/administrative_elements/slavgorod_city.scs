@@ -1,0 +1,36 @@
+slavgorod_city
+
+    => nrel_main_idtf:
+        [город Славгород]
+        (* <- lang_ru;;*);
+        [Slavgorod city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Славгород)]
+            (* <- lang_ru;; *);
+            [Definition (Slavgorod city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Сла́вгород (до 23 мая 1945 — Пропойск, белор. Прапойск) — город в Белоруссии, административный центр Славгородского района Могилёвской области. Узел автодорог на Могилёв, Рогачёв, Чериков. Пристань на реке Сож.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Slavgorod (until May 23, 1945 - Propoisk, Belorussia Prapoisk) is a city in Belarus, the administrative center of the Slavgorod district of the Mogilev region. Road junction to Mogilev, Rogachev, Cherikov. Pier on the Sozh River.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

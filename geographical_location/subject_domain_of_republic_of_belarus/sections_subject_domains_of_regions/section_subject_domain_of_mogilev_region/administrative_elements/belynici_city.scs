@@ -1,0 +1,36 @@
+belynici_city
+
+    => nrel_main_idtf:
+        [город Белы́ничи]
+        (* <- lang_ru;;*);
+        [Belynici city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Белы́ничи)]
+            (* <- lang_ru;; *);
+            [Definition (Belynici city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Белы́ничи — город в Могилёвской области Белоруссии. Административный центр Белыничского района. Расположены на реке Друть, в 36 км к западу от Могилёва на автомобильной дороге Минск — Могилёв.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Belynichi is a city in the Mogilev region of Belarus. Administrative center of Belynichi district. Located on the Drut River, 36 km west of Mogilev on the Minsk-Mogilev highway.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

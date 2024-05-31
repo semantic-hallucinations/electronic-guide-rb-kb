@@ -1,0 +1,69 @@
+concept_circus
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[цирк]
+	(* <- lang_ru;; *);
+	[circus]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (цирк)]
+        (* <- lang_ru;; *);
+        [Definition (circus)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Цирк - это зрелищное предприятие для устройства представлений с участием акробатов, гимнастов, клоунов, дрессированных животных.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A circus is a spectacular establishment for organizing performances with the participation of acrobats, gymnasts, clowns, and trained animals.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_spectacle;
+            concept_establishment;
+            concept_performance
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (цирк)]
+        (* <- lang_ru;; *);
+        [Statement (circus)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Зрелищное предприятие для устройства представлений с участием акробатов, гимнастов, клоунов, дрессированных животных.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A spectacular establishment for organizing performances with the participation of acrobats, gymnasts, clowns, and trained animals.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_spectacle;
+            concept_establishment;
+            concept_performance
+        };; 
+*);
+
+<- concept_sight;;

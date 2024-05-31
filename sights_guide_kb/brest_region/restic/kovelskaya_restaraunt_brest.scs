@@ -1,0 +1,48 @@
+kovelskaya_restaraunt_brest
+
+    => nrel_main_idtf:
+        [Ресторан "Беласток" в Бресте]
+        (* <- lang_ru;; *);
+        [Restaraunt "Tavern on Kovelskaya" in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_people_capacity:
+        [85]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+    
+    => nrel_wifi_availability:
+        wifi_available;  
+
+    => nrel_accesible_environment:
+        not_accesible;
+
+
+    => nrel_working_hours:
+        [12:00 - 02:00]
+        (* <- time;; *); 
+
+    <-concept_restaraunt;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [«Трактир на Ковельской» — ресторан с десятилетней историей, который отличает нетипичный дизайн и 
+        созданная годами атмосфера.Выбор блюд разнообразный, меню регулярно обновляется. В основе — блюда 
+        белорусской, европейской и кавказской кухни. Также есть специальные предложения для детского меню, 
+        а во время религиозного поста повара могут приготовить блюда из постного меню. Стоит отметить широкую 
+        винную карту трактира.]
+        (* <- lang_ru;; *);
+        [“Tavern on Kovelskaya” is a restaurant with a ten-year history, which is distinguished by its atypical design and
+        atmosphere created over the years. The choice of dishes is varied, the menu is regularly updated. The basis is dishes
+        Belarusian, European and Caucasian cuisine. There are also special offers for children's menus,
+        and during religious fasting, cooks can prepare dishes from the Lenten menu. It is worth noting the wide
+        the tavern's wine list.]
+        (* <- lang_eng;; *);;

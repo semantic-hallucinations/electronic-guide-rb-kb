@@ -1,0 +1,31 @@
+osipovichi_district_museum_of_history_and_local_lore
+
+<= nrel_inclusion:
+	concept_museum; 
+
+<= nrel_lockated_in:
+	osipovichi_city;
+
+        => nrel_working_hours:
+        [9:00 - 18:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Интернациональная, 48] (* <- lang_ru;; *);
+	[st. International, 48] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Осиповичский районный историко-краеведческий музей]
+    (* <- lang_ru;;*);
+    [Osipovichi District Museum of History and Local Lore]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[На улице Интернациональной, д. 48, располагается краеведческая экспозиция, посвященная истории города и района начиная с периода каменного века и заканчивая 1945 годом. Наиболее интересные экспонаты краеведческой экспозиции:
+– фрагмент рукописного свитка Торы на пергаменте, XIX в., текст на иврите представляет собой отрывок из первой книги Библии "Бытие";
+– стеклянный браслет ХII в. из Свислочского замка, изготовленный местными мастерами по византийским образцам, и макет самого замка, созданный на основе данных археологических раскопок и эскизов последнего владельца замка Богуслава Радзивилла (сер. XVII в.)
+Осиповичский музей оказывает услуги по проведению традиционного белорусского свадебного обряда для молодоженов. Обряд проводится народными вокальными коллективами в тематическом зале музея "Этнография и быт. Свадьба".] (* <- lang_ru;; *);
+		[On Internatsionalnaya Street, 48, there is a local history exhibition dedicated to the history of the city and region from the Stone Age to 1945. The most interesting exhibits of the local history exhibition:
+– a fragment of a handwritten Torah scroll on parchment, 19th century, the Hebrew text is an excerpt from the first book of the Bible, “Genesis”;
+– glass bracelet of the 12th century. from the Svisloch Castle, made by local craftsmen according to Byzantine models, and a model of the castle itself, created on the basis of archaeological excavations and sketches of the last owner of the castle, Boguslav Radziwill (mid-17th century)
+The Osipovichi Museum provides services for conducting traditional Belarusian wedding ceremonies for newlyweds. The ceremony is performed by folk vocal groups in the thematic hall of the museum "Ethnography and Life. Wedding".] (* <- lang_en;; *);;

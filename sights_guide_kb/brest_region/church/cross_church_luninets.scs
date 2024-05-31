@@ -1,0 +1,25 @@
+cross_church_luninets
+
+    => nrel_main_idtf:
+        [Церковь Воздвижения Креста Господня в Лунинце]
+        (* <- lang_ru;; *);
+        [Church of the Exaltation of the Holy Cross in Luninets]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_working_hours:
+        [09:30 - 13:30]
+        (* <- time;; *); 
+
+    <-concept_historical_sight;
+
+    <= nrel_located_in: 
+        luninets_city;
+    
+    => nrel_sight_description:
+        [Церковь Воздвижения Креста Господня — православная церковь в Лунинце. Памятник архитектуры ретроспективно-русского стиля. Воздвигнута в 1912—1921 годах на месте деревянного храма 1816 года постройки.]
+        (* <- lang_ru;; *);
+        [Church of the Exaltation of the Holy Cross is an Orthodox church in Luninets. An architectural monument of the retrospective Russian style. Erected in 1912-1921 on the site of a wooden church built in 1816.]
+        (* <- lang_eng;; *);;

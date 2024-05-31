@@ -1,0 +1,44 @@
+syabry_restaurant
+
+    => nrel_main_idtf:
+        [Сябры ресторан]
+        (* <- lang_ru;; *);
+        [Syabry restaurant]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [64]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [11:00 - 23:00]
+        (* <- time;; *);
+
+    => nrel_adress:
+	[просп. Ленина, 33] (* <- lang_ru;; *);
+	[ave. Lenina, 33] (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_restaurant;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Сябры - это уникальный ресторан, расположенный в центре города. Он известен 
+        своей уникальной атмосферой, основанной на белорусском колорите, воплощенном 
+        в современном стиле. В ресторане предлагается обширное меню, включая обеды и 
+        основные блюда. Меню регулярно обновляется, чтобы предложить посетителям сезонные 
+        блюда и новые вкусовые сочетания. Шеф-повар использует свежие местные продукты 
+        и авторские рецепты, чтобы удивить и порадовать гостей.]
+        (* <- lang_ru;; *);
+        [Syabry is a unique restaurant located in the city center. It is known for 
+        its unique atmosphere, based on the Belarusian flavor, embodied in a modern style.
+The restaurant offers an extensive menu including lunches and main courses. The menu is 
+regularly updated to offer diners seasonal dishes and new flavor combinations. The chef uses 
+fresh, local ingredients and signature recipes to surprise and delight guests.]
+        (* <- lang_eng;; *);;

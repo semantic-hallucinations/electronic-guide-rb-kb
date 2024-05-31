@@ -1,0 +1,39 @@
+Mysteria_cinema
+    => nrel_main_idtf:
+        [Кинотеатр "Mysteria"]
+        (* <- lang_ru;; *);
+        [Cinema "Mysteria"]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [3]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [102]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [1];
+
+    => nrel_working_hours:
+        [10:00 - 22:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_cinema;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Кинтеатр "Mysteria" предлагает удобное расписание сеансов, афишу на сегодня и ближайшие дни. 
+        Цены на билеты начинаются от 7 рублей. Их можно приобрести онлайн на сайте кинотеатра.
+        Кинтеатр "Mysteria" оснащен современным оборудованием и предлагает зрителям комфортный просмотр 
+        фильмов. Кинотеатр регулярно обновляет репертуар, включая новинки кинопроката.]
+        (* <- lang_ru;; *);
+        [Cinema "Mysteria" offers a convenient schedule of shows, a poster for today and the coming days.
+        Ticket prices start from 7 rubles. They can be purchased online on the cinema website. The "Mysteria" 
+        cinema is equipped with modern equipment and offers viewers a comfortable viewing experience.
+        films. The cinema regularly updates its repertoire, including new releases.]
+        (* <- lang_eng;; *);;

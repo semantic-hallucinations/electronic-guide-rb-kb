@@ -1,0 +1,31 @@
+lobby_bar_brest
+
+    => nrel_main_idtf:
+        [Lobby Бар в Бресте]
+        (* <- lang_ru;; *);
+        [Bar Lobby in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+		
+    => nrel_working_hours:
+        [00:00 - 24:00]
+        (* <- time;; *);
+
+    <-concept_bar;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+		[Lobby Бар большинство гостей говорят, что персонал здесь профессиональный. 
+        В этом баре средние цены. Lobby bar может похвастаться современным интерьером.] 
+		(* <- lang_ru;; *);
+		[Lobby Bar most guests say that the staff here is professional. This bar has average prices. 
+        Lobby bar boasts a modern interior.] 
+		(* <- lang_en;; *);;

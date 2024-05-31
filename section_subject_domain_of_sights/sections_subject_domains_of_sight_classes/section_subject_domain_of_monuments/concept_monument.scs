@@ -1,0 +1,75 @@
+concept_monument
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[монумент]
+	(* <- lang_ru;; *);
+	[monument]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    historical_value;
+    educational_value;
+    cultural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (монумент)]
+        (* <- lang_ru;; *);
+        [Definition (monument)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Монумент - статуя, здание или другое сооружение, воздвигнутое в память о выдающемся человеке или событии.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A monument is a statue, building, or other structure erected to commemorate a notable person or event.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_statue;
+            concept_building;
+            concept_notable_person;
+            concept_notable_event;
+            concept_memory
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (монумент)]
+        (* <- lang_ru;; *);
+        [Statement (monument)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Cтатуя, здание или другое сооружение, воздвигнутое в память о выдающемся человеке или событии.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A statue, building, or other structure erected to commemorate a notable person or event.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_statue;
+            concept_building;
+            concept_notable_person;
+            concept_notable_event;
+            concept_memory
+        };; 
+*);
+
+<- concept_sight;;

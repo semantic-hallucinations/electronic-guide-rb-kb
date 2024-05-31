@@ -1,0 +1,38 @@
+disna_city
+
+    => nrel_main_idtf:
+        [город Дисна]
+        (* <- lang_ru;;*);
+        [Disna city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Дисна)]
+            (* <- lang_ru;; *);
+            [Definition (Disna city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Дисна находится в Миорском районе Витебской области Белоруссии. Он расположен на реке Дисна в месте ее впадения в реку Западная Двина, 
+                    что делает его важным транспортным узлом, соединяющим дороги на Полоцк, Миоры и Глубокое.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The town of Disna is located in the Myor district of the Vitebsk region of Belarus. It is located on the Disna River at its confluence into the Western Dvina River, 
+                    which makes it an important transport hub connecting the roads to Polotsk, Miora and Dolgov.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

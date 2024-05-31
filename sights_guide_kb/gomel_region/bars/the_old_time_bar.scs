@@ -1,0 +1,38 @@
+the_old_time_bar
+    => nrel_main_idtf:
+        [Бар "Старое время"]
+        (* <- lang_ru;; *);
+        ["Old Time" bar]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+		
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		["Старое время" - это кафе-бар с уникальной тематикой, оформленный 
+		в стиле советских времен. Это одно из популярных заведений города, известное своей отличной 
+		кухней, настойками и внимательным персоналом. Кафе "Старое время" состоит из четырех залов, 
+		оформленных в стиле советских фильмов, что создает атмосферу ностальгии и уюта для посетителей.] 
+		(* <- lang_ru;; *);
+		["Old Time" is a cafe-bar with a unique theme, decorated
+		in the style of Soviet times. This is one of the city's 
+        popular establishments, known for its excellent
+		cuisine, infusions and attentive staff. Cafe "Old Time" consists of four halls,
+		decorated in the style of Soviet films, which creates 
+        an atmosphere of nostalgia and comfort for visitors.] 
+		(* <- lang_en;; *);;

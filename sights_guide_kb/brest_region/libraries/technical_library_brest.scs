@@ -1,0 +1,39 @@
+technical_library_brest
+
+    => nrel_main_idtf:
+        [Брестская областная научно-техническая библиотека]
+        (* <- lang_ru;; *);
+        [Brest Regional Scientific and Technical Library]
+        (* <- lang_en;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+    
+    => nrel_wifi_availability:
+        wifi_available;  
+
+    => nrel_accesible_environment:
+       not_accesible;
+
+
+    => nrel_working_hours:
+        [08:30 - 19:00]
+        (* <- time;; *);
+
+    <-concept_library;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Брестская областная научно-техническая библиотека - крупнейший на Брестчине источник 
+        информации для обеспечения научно-производственной и инновационной деятельности. 
+        Здесь открыт доступ к полным текстам Электронной библиотеки диссертаций из фонда Российской 
+        государственной библиотеки.]
+        (* <- lang_ru;; *);
+        [Brest Regional Scientific and Technical Library - the largest source in the Brest region
+        information to support scientific, production and innovation activities.
+        Here you can access the full texts of the Electronic Library of Dissertations from the Russian Federation
+        State Library.]
+        (* <- lang_eng;; *);;

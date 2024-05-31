@@ -1,0 +1,37 @@
+internationalistS_park_brest
+
+    => nrel_main_idtf:
+        [Парк имени Воинов-интернационалистов в Бресте]
+        (* <- lang_ru;; *);
+        [Park named after Warriors-Internationalists in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_accesible_environment:
+        not_accesible;
+
+
+    => nrel_working_hours:
+        [00:00 - 24:00]
+        (* <- time;; *); 
+
+    <-concept_park;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Парк имени Воинов-интернационалистов заложен в честь воинов-афганцев, не вернувшихся с войны. 
+        В память о солдатах там установлен памятник, табличка на котором гласит «Боевым друзьям, погибшим 
+        на земле Афганистана». У входа в парковую зону выставлен бронетранспортер.
+        В парке в летнее время работают аттракционы, зооуголок, есть концертная площадка 
+        для мероприятий района, дискотек и литературных встреч.]
+        (* <- lang_ru;; *);
+        [The Park named after Internationalist Warriors was founded in honor of Afghan soldiers who did not return from the war.
+        In memory of the soldiers, a monument was erected there, the sign on which reads “To the combat friends who died
+        on the soil of Afghanistan." An armored personnel carrier is stationed at the entrance to the park area.
+        In the summer, the park has attractions, a zoo corner, and a concert venue.
+        for area events, discos and literary meetings.]
+        (* <- lang_eng;; *);;

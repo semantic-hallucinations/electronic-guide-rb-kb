@@ -1,0 +1,31 @@
+section_subject_domain_of_galleries
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область галерей]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of galleries]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        concept_gallery;
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+section_subject_domain_of_galleries
+    = [*
+        subject_domain_of_galleries
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область галерей]
+                (* <- lang_ru;;*);
+                [Subject domain of galleries]
+                (* <- lang_en;;*);
+
+            -> rrel_maximum_studied_object_class:
+                concept_gallery;;
+
+            //-> rrel_not_maximum_studied_object_class:
+    *];;

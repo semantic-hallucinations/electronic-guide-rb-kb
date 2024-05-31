@@ -1,0 +1,45 @@
+skyline_cinema_r
+    => nrel_main_idtf:
+        [Кинотеатр "Skyline cinema"]
+        (* <- lang_ru;; *);
+        [Cinema "Skyline cinema"]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [3]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [102]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2];
+
+    => nrel_ticket_price:
+        [5 - 11 BYN]
+        (* <- price;; *);
+
+    => nrel_working_hours:
+        [14:00 - 00:00]
+        (* <- time;; *);
+
+    => nrel_adress:
+	[ул. Григория Ширмы, 30] (* <- lang_ru;; *);
+	[st. Gregory Shirma, 30] (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_cinema;
+
+    <= nrel_located_in: 
+        rechitsa_city;
+    
+    => nrel_sight_description:
+        [Skyline Cinema - это кинотеатр, расположенный в торговом центре Global Market. 
+        Он предлагает посетителям широкий выбор фильмов, включая премьеры и акции. Кинотеатр также 
+        предлагает аренду кинозала для проведения мероприятий и продажу подарочных сертификатов.]
+        (* <- lang_ru;; *);
+        [Skyline Cinema is a movie theater located in the Global Market shopping center.
+        It offers visitors a wide selection of films, including premieres and promotions. Cinema also
+        offers rental of a cinema hall for events and sale of gift certificates.]
+        (* <- lang_eng;; *);;

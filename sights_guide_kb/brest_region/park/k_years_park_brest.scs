@@ -1,0 +1,29 @@
+k_years_park_brest
+
+    => nrel_main_idtf:
+        [Парк 1000-летия города Бреста]
+        (* <- lang_ru;; *);
+        [Park of the 1000th anniversary of the city of Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_working_hours:
+        [00:00 - 24:00]
+        (* <- time;; *); 
+
+    <-concept_park;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Парк Тысячелетия находится в юго-западной части города. Его территория граничит с улицами Краснознаменной,
+        Бориса Маслова, Грюнвальдской и Екельчика, а также с храмом Рождества Христова и закрытым,
+        но действующим Вульковским кладбищем.]
+        (* <- lang_ru;; *);
+        [Millennium Park is located in the southwestern part of the city. Its territory borders Krasnoznamennaya, 
+        Boris Maslov, Grunvaldskaya and Ekelchik streets, as well as the Church of the Nativity and the closed 
+        but active Vulkovsky cemetery.]
+        (* <- lang_eng;; *);;

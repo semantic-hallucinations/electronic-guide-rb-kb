@@ -1,0 +1,40 @@
+saved_artifacts_museum_brest
+
+    => nrel_main_idtf:
+        [Музей «Спасённые художественные ценности» в Бресте]
+        (* <- lang_ru;; *);
+        [Saved Artifacts Museum in Brest]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => nrel_people_capacity:
+        [24]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [10]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    <-concept_museum;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Музей «Спасённые художественные ценности» открыт 4 февраля 1989 г. Он разместился в живописном здании усадебного
+        типа по ул. Ленина, 39, которое было построено в 1925 г. по проекту польского архитектора Юлиана Лисецкого и является
+        памятником архитектуры. Это единственный в Беларуси музей, экспозиция которого состоит из произведений 
+        искусства и предметов антиквариата, изъятых таможенниками при попытке их незаконного вывоза за рубеж.] 
+        (* <- lang_ru;; *);
+		[The Museum “Saved Artifacts” was opened on February 4, 1989. It is located in a picturesque manor-type building
+        on the street. Lenina, 39, which was built in 1925 according to the design of the Polish architect Julian Lisiecki
+        and is an architectural monument. This is the only museum in Belarus, the exhibition of which consists of works
+        of art and antiques seized by customs officers during an attempt to illegally export them abroad.] 
+        (* <- lang_en;; *);;
+

@@ -1,0 +1,36 @@
+novopolotsk_city
+
+    => nrel_main_idtf:
+        [город Новополоцк]
+        (* <- lang_ru;;*);
+        [Novopolotsk city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Новополоцк)]
+            (* <- lang_ru;; *);
+            [Definition (Novopolotsk city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Новополоцк — город областного подчинения в Витебской области Белоруссии. Он расположен на реке Свольна, в 30 км на север от Полоцка и в 200 км на северо-запад от Витебска.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Novopolotsk is a city of regional subordination in the Vitebsk region of Belarus. It is located on the river Svolna, 30 km north of Polotsk and 200 km northwest of Vitebsk.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

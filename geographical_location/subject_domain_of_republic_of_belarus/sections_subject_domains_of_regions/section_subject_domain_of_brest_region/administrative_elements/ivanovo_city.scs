@@ -1,0 +1,36 @@
+ivanovo_city
+
+    => nrel_main_idtf:
+        [город Иваново]
+        (* <- lang_ru;;*);
+        [Ivanovo city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Иваново)]
+            (* <- lang_ru;; *);
+            [Definition (Ivanovo city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Иваново — город в Брестской области Белоруссии. Административный центр Ивановского района. Железнодорожная станция — Янов-Полесский.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Ivanovo is a city in the Brest region of Belarus. Administrative center of the Ivanovo region. Railway station - Yanov-Polessky.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <-concept_city;;

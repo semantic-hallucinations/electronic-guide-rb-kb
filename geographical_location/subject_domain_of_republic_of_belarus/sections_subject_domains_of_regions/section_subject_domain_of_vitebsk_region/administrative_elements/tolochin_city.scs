@@ -1,0 +1,38 @@
+tolochin_city
+
+    => nrel_main_idtf:
+        [город Толочин]
+        (* <- lang_ru;;*);
+        [Tolochin city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Толочин)]
+            (* <- lang_ru;; *);
+            [Definition (Tolochin city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Толочин находится в Витебской области Белоруссии и служит административным центром Толочинского района. 
+                Расположен на реке Друть, в 56 км от Орши, в 128 км от Витебска, в 177 км от Минска и в 124 км от границы с Российской Федерацией.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The city of Tolochin is located in the Vitebsk region of Belarus and serves as the administrative center of the Tolochin district. 
+                It is located on the Drut River, 56 km from Orsha, 128 km from Vitebsk, 177 km from Minsk and 124 km from the border with the Russian Federation.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

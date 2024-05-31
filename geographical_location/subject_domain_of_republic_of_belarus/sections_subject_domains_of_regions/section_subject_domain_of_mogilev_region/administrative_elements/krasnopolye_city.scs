@@ -1,0 +1,36 @@
+krasnopolye_city
+
+    => nrel_main_idtf:
+        [город Краснополье]
+        (* <- lang_ru;;*);
+        [Krasnopolye city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Краснополье)]
+            (* <- lang_ru;; *);
+            [Definition (Krasnopolye city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Краснопо́лье — городской посёлок в Могилёвской области Белоруссии. Административный центр Краснопольского района. Расположен в 120 км к юго-востоку от Могилёва и в 52 км от железнодорожной станции Коммунары (на линии Кричев — Унеча). ] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Krasnopolye is an urban village in the Mogilev region of Belarus. Administrative center of the Krasnopolsky district. Located 120 km southeast of Mogilev and 52 km from the Kommunary railway station (on the Krichev - Unecha line).] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

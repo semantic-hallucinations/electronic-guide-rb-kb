@@ -1,0 +1,36 @@
+drogichin_city
+
+    => nrel_main_idtf:
+        [город Дрогичин]
+        (* <- lang_ru;;*);
+        [Drogichin city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Дрогичин)]
+            (* <- lang_ru;; *);
+            [Definition (Drogichin city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Дрогичин — город на юге Беларуси, административный центр Дрогичинского района Брестской области.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Drogichin is a city in the south of Belarus, the administrative center of the Drogichin district of the Brest region.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <-concept_city;;

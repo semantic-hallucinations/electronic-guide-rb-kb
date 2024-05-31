@@ -1,0 +1,38 @@
+dokshitsy_city
+
+    => nrel_main_idtf:
+        [город Докшицы]
+        (* <- lang_ru;;*);
+        [Dokshitsy city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Докшицы)]
+            (* <- lang_ru;; *);
+            [Definition (Dokshitsy city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Докшицы находится в Витебской области Белоруссии и служит административным центром Докшицкого района.
+                 Расположен на реке Дрисса, в 100 км на юго-восток от Витебска.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Dokshitsi is located in the Vitebsk region of Belarus and serves as the administrative center of Dokshitsky district.
+                 Located on the Drissa River, 100 km south-east of Vitebsk.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

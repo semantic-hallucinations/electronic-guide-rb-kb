@@ -1,0 +1,67 @@
+founded_years
+=> nrel_main_idtf:
+    [Критерий экземпляра. Год постройки]
+    (* <- lang_ru;; *);
+    [Instance criteria. Founded year]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_founded_years;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Годы постройки)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Founded years)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Годы постройки - критерий, отражающий период постройки объкта.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Founded years is a criterion that reflects period of construction of the facility.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_number
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Годы постройки)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Founded years)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий период постройки объкта.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects period of construction of the facility.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_number
+        };; 
+*);
+
+<- concept_instance_criteria;;

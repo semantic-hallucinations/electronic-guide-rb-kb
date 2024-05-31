@@ -1,0 +1,24 @@
+art_museum_named_after_vitold_byalynitsky_birulya
+
+<= nrel_inclusion:
+	concept_museum; 
+
+<= nrel_lockated_in:
+	mogilev_city;
+                
+        => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Советская, 13а] (* <- lang_ru;; *);
+	[st. Sovetskaya, 13a] (* <- lang_en;; *);
+=> nrel_main_idtf:
+    [Художественный музей им. Витольда Бялыницкого-Бирули]
+    (* <- lang_ru;;*);
+    [Art Museum named after. Vitold Byalynitsky-Birulya]
+    (* <- lang_en;;*);
+
+=> nrel_sight_description:
+		[Витольд Бялыницкий-Бируля – известный живописец-пейзажист, который развивал традиции лирического пейзажа и создал более 200 картин с изображением весенней природы. Художественный музей в Могилеве – первый в Беларуси, посвященный этому прославленному уроженцу региона. Помимо экспозиции, посвященной пейзажисту, музей Бялыницкого-Бирули интересен и зданием, в котором он располагается. Это памятник архитектуры барокко, точная дата постройки которого неизвестна. В XVIII веке дом принадлежал могилевским купцам Оношко. Как самое красивое каменное здание в городе этот дом был предоставлен для проживания австрийскому императору Иосифу II во время его пребывания в Могилеве в конце XVIII столетия. В XX веке здесь сперва располагалось дворянское депутатское собрание, затем городская библиотека, а в 1982 году помещение было приспособлено под художественный музей.] (* <- lang_ru;; *);
+		[Witold Bialynitsky-Birulya is a famous landscape painter who developed the traditions of lyrical landscape and created more than 200 paintings depicting spring nature. The art museum in Mogilev is the first in Belarus dedicated to this famous native of the region. In addition to the exhibition dedicated to the landscape painter, the Byalynitsky-Birulya Museum is also interesting because of the building in which it is located. This is a monument of Baroque architecture, the exact date of construction of which is unknown. In the 18th century, the house belonged to the Mogilev merchants Onoshko. As the most beautiful stone building in the city, this house was provided for residence by the Austrian Emperor Joseph II during his stay in Mogilev at the end of the 18th century. In the 20th century, there was first a noble parliamentary assembly here, then a city library, and in 1982 the premises were converted into an art museum.] (* <- lang_en;; *);;

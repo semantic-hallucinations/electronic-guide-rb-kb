@@ -1,0 +1,42 @@
+drama_theater_brest
+
+    => nrel_main_idtf:
+        [Брестский академический теарт драмы]
+        (* <- lang_ru;; *);
+        [Brest academic drama theater]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        six_plus;
+
+    => nrel_people_capacity:
+        [590]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+    
+    => nrel_wifi_availability:
+        wifi_available;  
+
+    => nrel_accesible_environment:
+        accesible;
+
+
+    => nrel_working_hours:
+        [13:00 - 22:00]
+        (* <- time;; *);
+
+    <-concept_theater;
+
+    <= nrel_located_in: 
+        brest_city;
+    
+    => nrel_sight_description:
+        [Брестский академический театр драмы — драматический театр, которому было присвоено имя 
+        Ленинского комсомола Беларуси. Основан в октябре 1944 года в Бресте.]
+        (* <- lang_ru;; *);
+        [Brest Academic Drama Theater is a drama theater that was named after
+        the Lenin Komsomol of Belarus. Founded in October 1944 in Brest, located at st. Lenina, 21.]
+        (* <- lang_eng;; *);;

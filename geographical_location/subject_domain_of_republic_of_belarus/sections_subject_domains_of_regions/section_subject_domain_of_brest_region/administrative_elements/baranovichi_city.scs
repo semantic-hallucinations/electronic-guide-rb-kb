@@ -1,0 +1,36 @@
+baranovichi_city
+
+    => nrel_main_idtf:
+        [город Барановичи]
+        (* <- lang_ru;;*);
+        [Baranovichi city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Барановичи)]
+            (* <- lang_ru;; *);
+            [Definition (Baranovichi city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Барановичи— город областного подчинения в Беларуси, административный центр Барановичского района Брестской области, крупный железнодорожный узел.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Baranovichi is a city of regional subordination in Belarus, the administrative center of the Baranovichi district of the Brest region, a large railway junction.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <-concept_city;;

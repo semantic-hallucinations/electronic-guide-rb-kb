@@ -1,0 +1,57 @@
+section_subject_domain_of_grodno_region
+
+    => nrel_main_idtf:
+        [Раздел. Предметная область Гродненской области]
+        (* <- lang_ru;;*);
+        [Section. Subject domain of Grodno region]
+        (* <- lang_en;;*);
+
+    -> rrel_key_sc_element:
+        grodno_city;
+        volkovysk_city;
+        lida_city;
+        dytlovo_city;
+        ivye_city;
+        mosty_city;
+        novogrudok_city;
+        oshmyany_city;
+        ostrovets_city;
+        svisloch_city;
+        slonim_city;
+        smorgon_city;
+        shchuchyn_city;
+
+
+    <- atomic_section;;
+
+ //////////////////////////////////////////////////////////////////
+
+ section_subject_domain_of_grodno_region
+    = [*
+        subject_domain_of_grodno_region
+            <- subject_domain;
+
+            => nrel_main_idtf:
+                [Предметная область Гродненской области]
+                (* <- lang_ru;;*);
+                [Subject domain of Grodno region]
+                (* <- lang_en;;*);
+            
+            -> rrel_maximum_studied_object_class:
+                grodno_region;
+
+            -> rrel_not_maximum_studied_object_class:
+                volkovysk_city;
+                lida_city;
+                dytlovo_city;
+                ivye_city;
+                mosty_city;
+                novogrudok_city;
+                oshmyany_city;
+                ostrovets_city;
+                svisloch_city;
+                slonim_city;
+                smorgon_city;
+                shchuchyn_city;
+                grodno_city;;
+    *];;

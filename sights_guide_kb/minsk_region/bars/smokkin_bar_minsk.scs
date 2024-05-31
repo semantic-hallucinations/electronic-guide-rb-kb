@@ -1,0 +1,29 @@
+smokkin_bar_minsk
+
+    => nrel_main_idtf:
+        [Бар "Смоккин" в Минске]
+        (* <- lang_ru;; *);
+        [Bar "Smokkin" in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [12:00 - 00:00]
+        (* <- time;; *);
+        [00:00 - 23:59]
+        (* <- time;; *);
+    
+    => nrel_wifi_availability:
+        wifi_available;
+    
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_located_in: 
+        minsk_city;
+    
+    => nrel_sight_description::
+        [Бар "Смоккин" известен своим уютным интерьером и высоким качеством обслуживания. Предлагает широкий выбор кофе и напитков, а также поднимает тему тематических вечеринок с живой музыкой каждый субботний вечер.]
+        (* <- lang_ru;; *);;

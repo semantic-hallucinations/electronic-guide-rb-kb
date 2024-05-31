@@ -1,0 +1,34 @@
+museum_of_national_glory_vitebsk
+
+    => nrel_main_idtf:
+        ["Музей народной славы" в Витебске]
+        (* <- lang_ru;; *);
+        ["Museum of national glory" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [423]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [6]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [10:00 - 12:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Музей народной славы — компания из категории Культура и искусство.]
+        (* <- lang_ru;; *);;

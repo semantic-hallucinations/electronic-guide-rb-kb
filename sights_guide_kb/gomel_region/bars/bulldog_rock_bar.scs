@@ -1,0 +1,36 @@
+bulldog_rock_bar
+    => nrel_main_idtf:
+        [BullDog Rock бар]
+        (* <- lang_ru;; *);
+        [BullDog Rock bar]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+  
+    => nrel_working_hours:
+        [17:00 - 01:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[BullDog Rock бар - это популярный бар, который предлагает посетителям 
+        широкий выбор пива, закусок и развлечений. Бар пользуется популярностью 
+		среди местных жителей и туристов благодаря уютной атмосфере, 
+        качественному обслуживанию и разнообразной развлекательной программе.] 
+        (* <- lang_ru;; *);
+		[BullDog Rock bar BullDog Rock bar is a popular bar which offers visitors
+        a wide selection of beer, snacks and entertainment. The bar is popular 
+		among locals and tourists thanks to the cozy atmosphere, quality service 
+        and varied entertainment program.] 
+        (* <- lang_en;; *);;

@@ -1,0 +1,29 @@
+
+prime_time_cafe_minsk
+
+    => nrel_main_idtf:
+        [Кафе "Prime Time" в Минске]
+        (* <- lang_ru;; *);
+        [Prime Time Cafe in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [09:00 - 23:00]
+        (* <- time;; *);
+    
+    => nrel_accessible_environment:
+        accessible;
+    
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_located_in: 
+        minsk_city;
+    
+    => nrel_sight_description:
+        [Кафе "Prime Time" известно своими свежими ингредиентами и разнообразием меню,
+         которое включает в себя завтраки, обеды и ужины. 
+         Это место идеально подходит как для бизнес-встреч, так и для семейного обеда.
+          Атмосфера в кафе всегда спокойная и приятная, что делает его отличным выбором для тех,
+           кто ценит качественное обслуживание и вкусную еду.]
+        (* <- lang_ru;; *);;

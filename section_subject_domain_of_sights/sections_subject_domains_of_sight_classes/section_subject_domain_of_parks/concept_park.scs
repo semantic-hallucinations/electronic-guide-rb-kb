@@ -1,0 +1,74 @@
+concept_park
+<- sc_node_class;
+
+=> nrel_main_idtf:
+	[парк]
+	(* <- lang_ru;; *);
+	[park]
+	(* <- lang_en;; *);
+
+=> nrel_type_of_value:
+    entertainment_value;
+    natural_value;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (парк)]
+        (* <- lang_ru;; *);
+        [Definition (park)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Парк - это большой сад или насаженная роща с аллеями, цветниками и пр.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A park is a large garden or planted grove with alleys, flower beds, etc.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_garden;
+            concept_plant;
+            concept_flower;
+            concept_alley;
+            concept_grove
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (парк)]
+        (* <- lang_ru;; *);
+        [Statement (park)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Большой сад или насаженная роща с аллеями, цветниками и пр.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A park is a large garden or planted grove with alleys, flower beds, etc.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_garden;
+            concept_plant;
+            concept_flower;
+            concept_alley;
+            concept_grove
+        };; 
+*);
+
+<- concept_sight;;

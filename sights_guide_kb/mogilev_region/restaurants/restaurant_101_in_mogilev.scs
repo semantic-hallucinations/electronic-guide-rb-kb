@@ -1,0 +1,31 @@
+restaurant_101_in_mogilev
+
+	<= nrel_inclusion:
+		concept_restaurant; 
+
+	<= nrel_lockated_in:
+		mogilev_city;
+
+	=> nrel_working_hours:
+        [12:00 - 2:00]
+        (* <- time;; *);
+        
+        => nrel_wifi_availability:
+	wifi_not_available;
+	
+	=> nrel_type_of_kitchen:
+		eastern_european;
+		european;
+=> nrel_adress:
+	[Пожарный переулок, 6] (* <- lang_ru;; *);
+	[Pozharny Lane, 6] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Ресторан 101]
+    (* <- lang_ru;;*);
+    [Restaurant 101]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Теперь это не только номер службы спасения, но и название нового заведения в центре Могилева — «Ресторан 101». И, конечно же, оно находится в Пожарном переулке в двадцати метрах от музея МЧС. Самобытность ресторана заключается в том, что в конце XIX века на месте ресторана находилась пожарная часть города. Поэтому символичным стало открытие ресторана в День пожарный службы 25 июля 2014 года. Интерьер ресторана вобрал в себя лучшие детали, формы и цвета, которые отражают отвагу, стойкость, храбрость и оперативность работы МЧС. Яркий стильный дизайн помещения, оригинальная пожарная атрибутика создают позитивное настроение и располагают к отличному отдыху, а также вкусному обеду или ужину. В «Ресторане 101» Вы откроете для себя полюбившуюся постоянным посетителям колоритную европейскую кухню по приятным ценам. Стоит попробовать фирменные блюда: салат «101», крылья «Огненные» и закуску «Ушки от хрюшки», к которой Вы можете заказать свежее европейское пиво, ведь у нас его представлено 20 сортов на любой цвет и вкус.] (* <- lang_ru;; *);
+		[Now this is not only the emergency number, but also the name of a new establishment in the center of Mogilev - “Restaurant 101”. And, of course, it is located in Pozharny Lane, twenty meters from the Museum of the Ministry of Emergency Situations. The originality of the restaurant lies in the fact that at the end of the 19th century, the city’s fire station was located on the site of the restaurant. Therefore, the opening of the restaurant on Firefighter Day, July 25, 2014, became symbolic. The interior of the restaurant has incorporated the best details, shapes and colors that reflect the courage, resilience, bravery and efficiency of the work of the Ministry of Emergency Situations. The bright, stylish design of the room and original firefighting paraphernalia create a positive mood and are conducive to a great rest, as well as a delicious lunch or dinner. In “Restaurant 101” you will discover colorful European cuisine, beloved by regular visitors, at reasonable prices. It is worth trying the signature dishes: “101” salad, “Fiery” wings and the “Pig Ears” appetizer, with which you can order fresh European beer, because we have 20 varieties of it for every color and taste.] (* <- lang_en;; *);;

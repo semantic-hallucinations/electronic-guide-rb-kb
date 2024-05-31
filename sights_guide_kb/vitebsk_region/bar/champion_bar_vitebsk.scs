@@ -1,0 +1,35 @@
+champion_bar_vitebsk
+    => nrel_main_idtf:
+        [Бар "Чемпион" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Champion" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [223]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [17:00 - 02:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+    
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [ Приятная атмосфера. Отличное место для встречи с друзьями. И, что не менее важно, демократичные цены. ]
+        (* <- lang_ru;; *);;

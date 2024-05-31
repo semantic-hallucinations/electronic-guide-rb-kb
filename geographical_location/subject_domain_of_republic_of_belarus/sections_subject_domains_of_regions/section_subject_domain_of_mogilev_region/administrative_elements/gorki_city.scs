@@ -1,0 +1,36 @@
+gorki_city
+
+    => nrel_main_idtf:
+        [город Горки]
+        (* <- lang_ru;;*);
+        [Gorki city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Горки)]
+            (* <- lang_ru;; *);
+            [Definition (Gorki city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Го́рки — город в Могилёвской области Белоруссии. Административный центр Горецкого района. Расположен на реке Проня (бассейн Днепра), где в неё впадает река Поросица.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Gorki is a city in the Mogilev region of Belarus. Administrative center of the Goretsky district. It is located on the Pronya River (Dnieper basin), where the Porositsa River flows into it.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                mogilev_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

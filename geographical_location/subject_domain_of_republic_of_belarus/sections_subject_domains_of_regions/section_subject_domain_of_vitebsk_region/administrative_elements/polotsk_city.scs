@@ -1,0 +1,38 @@
+polotsk_city
+
+    => nrel_main_idtf:
+        [город Полоцк]
+        (* <- lang_ru;;*);
+        [Polotsk city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Полоцк)]
+            (* <- lang_ru;; *);
+            [Definition (Polotsk city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Полоцк — город в Витебской области на севере Белоруссии. Город расположен на обоих берегах реки Западная Двина, при впадении в неё реки Полоты.
+                 Полоцк является одним из древнейших городов Белоруссии, впервые упомянутый в «Повести временных лет» под 862 годом.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Polotsk - a city in the Vitebsk region in the north of Belarus. The city is located on both banks of the Western Dvina River, at the confluence of the Vista River.
+                 Polotsk is one of the oldest cities of Belarus, first mentioned in «Novels of Temporary Years» in 862.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

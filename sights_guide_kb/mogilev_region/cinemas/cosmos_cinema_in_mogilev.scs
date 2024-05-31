@@ -1,0 +1,40 @@
+cosmos_cinema_in_mogilev
+
+<= nrel_inclusion:
+	concept_cinema; 
+
+<= nrel_lockated_in:
+	mogilev_city; 
+
+=> nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+        
+=> nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
+        
+=> nrel_people_capacity:
+        [316]
+        (* <- number;; *);
+        
+=> nrel_main_idtf:
+    [Кинотеатр Космос]
+    (* <- lang_ru;;*);
+    [Cinema Cosmos]
+    (* <- lang_en;;*);
+=> nrel_adress:
+	[Пушкинский проспект, 10] (* <- lang_ru;; *);
+	[Pushkinsky Prospekt, 10] (* <- lang_en;; *);
+
+=> nrel_sight_description:
+        [В 2018 году кинотеатр «Космос» отметил свой 55-летний юбилей. Однако, несмотря на зрелый возраст, он остаётся всё таким же современным и по-прежнему гостеприимно встречает кинозрителей, предлагая им интересные художественные фильмы белорусского и зарубежного кинопроизводства.
+В настоящее время для кинозрителей работают два зала на 160 и 156 мест. Кинотеатр оснащён современным цифровым оборудованием, 5D-аттракционом, что способствует обслуживанию населения на качественно новом уровне. Демонстрация кинофильмов осуществляется в 2D, 3D форматах. Сотрудники кинотеатра «Космос» большое внимание уделяют работе со зрительской аудиторией, создают благоприятные условия для обслуживания, учитывая пожелания и возрастную категорию кинозрителей.
+Премьерные показы и спецпоказы кинофильмов с приглашением почётных гостей, тематические кинолектории и киновикторины, шоу- программы с участием ростовых кукол и розыгрышами призов, создание особой атмосферы праздника – всё это способствует популярности кинотеатра «Космос» среди кинозрителей.
+Для ребят, увлечённых анимацией, в кинотеатре с 2012 года работает детская студия анимации «Карандаш», участники которой неоднократно были отмечены дипломами и сертификатами различных конкурсов. Во время проведения Международного фестиваля анимационных фильмов «Анимаёвка» в кинотеатре проводятся мастер-классы по обучению искусству анимации.]
+        (* <- lang_ru;; *);
+	[In 2018, the Cosmos cinema celebrated its 55th anniversary. However, despite its mature age, it remains just as modern and still hospitably welcomes moviegoers, offering them interesting feature films of Belarusian and foreign film production.
+Currently, there are two halls for moviegoers with 160 and 156 seats. The cinema is equipped with modern digital equipment and 5D attractions, which contributes to serving the public at a qualitatively new level. Films are shown in 2D and 3D formats. The employees of the Cosmos cinema pay great attention to working with the audience, creating favorable conditions for service, taking into account the wishes and age category of moviegoers.
+Premiere screenings and special screenings of films with the invitation of honored guests, thematic film lectures and film quizzes, show programs with the participation of life-size puppets and prize drawings, the creation of a special holiday atmosphere - all this contributes to the popularity of the Cosmos cinema among moviegoers.
+For children who are passionate about animation, the children's animation studio “Karandash” has been operating in the cinema since 2012, whose participants have been repeatedly awarded diplomas and certificates in various competitions. During the International Animation Film Festival "Animaevka", master classes on teaching the art of animation are held in the cinema.]
+        (* <- lang_en;; *);;

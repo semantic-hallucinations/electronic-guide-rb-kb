@@ -1,0 +1,38 @@
+postavy_city
+
+    => nrel_main_idtf:
+        [город Поставы]
+        (* <- lang_ru;;*);
+        [Postavy city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Поставы)]
+            (* <- lang_ru;; *);
+            [Definition (Postavy city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Город Поставы находится в Витебской области Белоруссии и служит административным центром Поставского района. 
+                    Расположен на реке Мяделка, которая является притоком Западной Двины.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [The city of Stadty is located in the Vitebsk region of Belarus and serves as the administrative center of the Stavka district. 
+                    It is located on the river Mädelka, which is a tributary of the Western Dvina.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                vitebsk_region;
+                concept_city
+            };; 
+    *);
+
+    <- concept_city;;

@@ -1,0 +1,23 @@
+beaver_monument
+
+	<= nrel_inclusion:
+		concept_monument; 
+
+	<= nrel_lockated_in:
+		bobruisk_city;
+
+     => nrel_adress:
+	[ул. К. Маркса, 38] (* <- lang_ru;; *);
+	[st. K. Marx, 38] (* <- lang_en;; *);
+	
+	=> nrel_main_idtf:
+    		[Памятник Бобру]
+    		(* <- lang_ru;;*);
+    		[Beaver Monument]
+    		(* <- lang_en;;*);
+
+	=> nrel_sight_description:
+			[Быть в Бобруйске и не встретить бобра просто невозможно. Один из них расположен на пешеходной Социалистической улице, прямо напротив рынка.
+“Находится в начале знаменитой улицы Социалки,пешеходная как Московский Арбат.” Символ города ,есть еще Бобер сидящей на лавочке. Обязательная примета потереть цепочку на жилете господина Бобра.] (* <- lang_ru;; *);
+		[It is simply impossible to be in Bobruisk and not meet a beaver. One of them is located on the pedestrian Socialist Street, directly opposite the market.
+“Located at the beginning of the famous Socialki Street, pedestrianized like Moscow Arbat.” The symbol of the city, there is also a Beaver sitting on a bench. A mandatory sign is to rub the chain on Mr. Beaver's vest.] (* <- lang_en;; *);;

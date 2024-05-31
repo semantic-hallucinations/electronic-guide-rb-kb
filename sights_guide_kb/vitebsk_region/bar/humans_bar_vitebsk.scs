@@ -1,0 +1,33 @@
+humans_bar_vitebsk
+
+    => nrel_main_idtf:
+        [Бар "Humans" в Витебске]
+        (* <- lang_ru;; *);
+        [Bar "Humans" in Vitebsk]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [20]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [358]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [4]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [19:00 - 03:00]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Лаунж-бар «Humans (Хьюманс)» расположен в Центре г. Витебска, рядом с парком Фрунзе.]
+        (* <- lang_ru;; *);;

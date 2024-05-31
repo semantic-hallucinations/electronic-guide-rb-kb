@@ -1,0 +1,36 @@
+stolin_city
+
+    => nrel_main_idtf:
+        [город Столин]
+        (* <- lang_ru;;*);
+        [Stolin city]
+        (* <- lang_en;;*);
+    
+    <- rrel_key_sc_element: ...
+    (*
+        => nrel_main_idtf:
+            [Определение (город Столин)]
+            (* <- lang_ru;; *);
+            [Definition (Stolin city)]
+            (* <- lang_en;; *);;
+
+        <- definition;;
+
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> [Столин — город в Брестской области Белоруссии. Административный центр Столинского района.] (* <- lang_ru;; *);;
+            *);
+            ...
+            (*
+                -> [Stolin is a city in the Brest region of Belarus. Administrative center of the Stolin region.] (* <- lang_en;; *);;
+            *);;
+
+        <= nrel_using_constants:
+            {
+                brest_region;
+                concept_city
+            };; 
+    *);
+
+    <-concept_city;;

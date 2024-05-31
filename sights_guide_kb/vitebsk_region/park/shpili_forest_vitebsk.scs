@@ -1,0 +1,17 @@
+shpili_forest_vitebsk
+
+    => nrel_main_idtf:
+        ["лес Шпили" в Витебске]
+        (* <- lang_ru;; *);
+        ["forest Shpili" in Vitebsk]
+        (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_park;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Лес Шпили - парк культуры и отдыха, сквер в Витебске.]
+        (* <- lang_ru;; *);;

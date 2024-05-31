@@ -1,0 +1,35 @@
+vitebsk_regional_museum
+
+    => nrel_main_idtf:
+        ["Витебский областной краеведческий музей" в Витебске]
+        (* <- lang_ru;; *);
+        ["Vitebsk Regional Museum of Local History" in Vitebsk]
+        (* <- lang_en;; *);
+
+
+    => nrel_people_capacity:
+        [563]
+        (* <- number;; *);
+
+    => nrel_number_of_halls:
+        [10]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [10:00 - 17:30]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [На сегодняшний день Витебский областной краеведческий музей состоит из Ратуши и филиалов: Художественный музей, 
+        Музей истории частного коллекционирования, Музей-усадьбы И.Е. Репина «Здравнево» и самостоятельная экспозиция «Памяти патриотов Витебщины».]
+        (* <- lang_ru;; *);;

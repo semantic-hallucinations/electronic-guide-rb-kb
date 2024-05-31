@@ -1,0 +1,31 @@
+salsa_cafe_vitebsk
+
+    => nrel_main_idtf:
+        [Кафе "Salsa" в Витебске]
+        (* <- lang_ru;; *);
+        [Cafe "Salsa" in Vitebsk]
+        (* <- lang_en;; *);
+        
+
+    => nrel_people_capacity:
+        [57]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [12:00 - 23:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_cofe;
+
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Очень приятное, тихое, спокойное место. Чисто, уютно, комфортно.
+        Персонал вежливый, доброжелательный и вполне искренне улыбающийся, профессиональный.]
+        (* <- lang_ru;; *);;

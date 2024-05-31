@@ -1,0 +1,8 @@
+time
+=> nrel_main_idtf:
+      [Значение времени]
+      (*<-lang_ru;;*);
+      [Time value]
+      (*<-lang_en;;*);
+
+<- criteria_value;;

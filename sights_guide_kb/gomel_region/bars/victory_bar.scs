@@ -1,0 +1,41 @@
+victory_bar
+
+    => nrel_main_idtf:
+        [Бар "Victory"]
+        (* <- lang_ru;; *);
+        ["Victory" bar]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [18]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [1]
+        (* <- number;; *);
+		
+    => nrel_working_hours:
+        [round-the-clock]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_bar;
+
+    <= nrel_located_in: 
+        zhlobin_city;
+    
+    => nrel_sight_description:
+		[Бар "Victory" представляет собой кафе-бар, который описывается 
+        как уголок Нью-Йорка в центре города. 
+		"Семь пятниц" предлагает посетителям
+		уютную атмосферу и разнообразное меню. Несмотря на то, 
+        что заведение может казаться обычным кафе, оно 
+		привлекает посетителей своим уникальным стилем и атмосферой.] 
+		(* <- lang_ru;; *);
+		["Victory" bar is a coffee bar that is described 
+        as a New York City corner in the heart of the city.
+		"Seven Fridays" offers visitors
+		cozy atmosphere and varied menu. Despite the fact that 
+        the establishment may seem like an ordinary cafe, it
+		attracts visitors with its unique style and atmosphere.] 
+		(* <- lang_en;; *);;

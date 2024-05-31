@@ -1,0 +1,25 @@
+mstislavsky_district_historical_and_archaeological_museum
+
+<= nrel_inclusion:
+	concept_museum; 
+
+<= nrel_lockated_in:
+	mstislavl_city;
+
+=> nrel_main_idtf:
+    [Мстиславский районный историко-археологический музей]
+    (* <- lang_ru;;*);
+    [Mstislavsky District Historical and Archaeological Museum]
+    (* <- lang_en;;*);
+
+        => nrel_working_hours:
+        [8:00 - 17:00]
+        (* <- time;; *);
+     
+     => nrel_adress:
+	[ул. Калинина, 49] (* <- lang_ru;; *);
+	[st. Kalinina, 49] (* <- lang_en;; *);
+	
+=> nrel_sight_description:
+		[Мстиславский районный историко-археологический музей создан в июне 1988 года, открыт для посетителей в мае 1995 в здании бывшей почты, построенном в конце XIX в. Сегодня музей насчитывает более 12 тысяч предметов основного фонда (он сам содержит более 20 тысяч предметов) и 8 тысяч научно-вспомогательного.  Общая площадь музейных зданий: 301 кв. м. Экспозиционная площадь – 265 кв. м. В музее три зала: 2 экспозиционных и 1 выставочный. Постоянная экспозиция представлена в трех залах: «Духовные источники земли Мстиславской», «Из истории Мстиславщины с древности до к. XVIII в.», «Уездный город Мстиславль» - которые отражают основные вехи историко-культурного развития региона. В экспозициях представлены находки из раскопок Мстиславского замчища, посада и окольного города, демонстрируются коллекции стекла, керамики, Мстиславские изразцы XVI–XVIII вв., орудия труда, предметы быта, посуда XV–XIX вв., мебель XIX–ХХ вв., коллекция монет XIV–ХХ вв. Режим работы: 10.30–13.00, 14.00–17.00, кроме воскресения и понедельника. Основными формами культурно-образовательной деятельности являются экскурсии, интерактивные музейные занятия, выставки, научные конференции. С 2007 г. Мстиславский районный музей принимает участие в организации и проведении праздника средневековой культуры «Рыцарский фест. Мстиславль».] (* <- lang_ru;; *);
+		[Mstislavsky District Historical and Archaeological Museum was created in June 1988, opened to visitors in May 1995 in the former post office building, built at the end of the 19th century. Today the museum has more than 12 thousand items from the main fund (it itself contains more than 20 thousand items) and 8 thousand scientific and auxiliary items. Total area of museum buildings: 301 sq. m. Exhibition area – 265 sq. m. The museum has three halls: 2 exhibition halls and 1 exhibition hall. The permanent exhibition is presented in three halls: “Spiritual Sources of the Mstislav Land”, “From the History of the Mstislav Region from Antiquity to the 18th Century”, “The District Town of Mstislavl” - which reflect the main milestones of the historical and cultural development of the region. The exhibitions present finds from the excavations of the Mstislav castle, settlement and roundabout town, display collections of glass, ceramics, Mstislav tiles of the 16th–18th centuries, tools, household items, dishes of the 15th–19th centuries, furniture of the 19th–20th centuries, and a collection of coins XIV–XX centuries Opening hours: 10.30–13.00, 14.00–17.00, except Sunday and Monday. The main forms of cultural and educational activities are excursions, interactive museum classes, exhibitions, and scientific conferences. Since 2007, the Mstislavsky Regional Museum has been participating in the organization and holding of the festival of medieval culture “Knight’s Fest. Mstislavl".] (* <- lang_en;; *);;

@@ -1,0 +1,29 @@
+luna_cafe_vitebsk
+
+    => nrel_main_idtf:
+        [Кафе "Луна" в Витебске]
+        (* <- lang_ru;; *);
+        [Кафе "Luna" in Vitebsk]
+        (* <- lang_en;; *);
+
+    
+    => nrel_people_capacity:
+        [69]
+        (* <- number;; *);
+    
+    => nrel_working_hours:
+        [09:00 - 22:00]
+        (* <- time;; *);
+
+    => nrel_wifi_availabilty:
+        wifi_not_availaible;
+
+    <= nrel_inclusion: 
+        concept_cafe;
+
+    <= nrel_lockated_in: 
+        vitebsk_city;
+    
+    => nrel_sight_description:
+        [Небольшая симпатичная кофейня с вкусным кофе и выбором выпечки и десертов. Бариста приветливая, посидеть с чашкой кофе приятно.]
+        (* <- lang_ru;; *);;

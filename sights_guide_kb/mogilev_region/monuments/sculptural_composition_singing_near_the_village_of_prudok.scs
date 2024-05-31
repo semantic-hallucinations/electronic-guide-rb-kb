@@ -1,0 +1,21 @@
+sculptural_composition_singing_near_the_village_of_prudok
+
+<= nrel_inclusion:
+	concept_monument; 
+
+<= nrel_lockated_in:
+	krichev_city; 
+
+     => nrel_adress:
+	[Прудок] (* <- lang_ru;; *);
+	[Prudok] (* <- lang_en;; *);
+	
+=> nrel_main_idtf:
+    [Скульптурная композиция «Поющие» возле деревни Прудок]
+    (* <- lang_ru;;*);
+    [Sculptural composition “Singing” near the village of Prudok]
+    (* <- lang_en;;*);
+
+	=> nrel_sight_description:
+		[Кричевский район был оккупирован немцами с июля 1941 года по 30 сентября 1943-го. Буквально в километре от деревни Прудок состоялся массовый расстрел узников Кричевского лагеря смерти, были убиты 1200 человек, в том числе много детей. Среди жертв расстрела оказались артисты из Москвы — певец Александр Окаемов и хормейстер Геннадий Лузенин. В 1982 году скульпторы Эдуард Астафьев и Юрий Казаков установили на месте трагедии скульптурную композицию «Поющие» в память обо всех расстрелянных узниках.] (* <- lang_ru;; *);
+		[The Krichevsky district was occupied by the Germans from July 1941 to September 30, 1943. Literally a kilometer from the village of Prudok, a mass execution of prisoners of the Krichev death camp took place; 1,200 people were killed, including many children. Among the victims of the shooting were artists from Moscow - singer Alexander Okaemov and choirmaster Gennady Luzenin. In 1982, sculptors Eduard Astafiev and Yuri Kazakov installed the sculptural composition “Singing” at the site of the tragedy in memory of all the executed prisoners.] (* <- lang_en;; *);;
