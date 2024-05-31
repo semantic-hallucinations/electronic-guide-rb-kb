@@ -28,10 +28,9 @@ drama_theater_brest
         [13:00 - 22:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_theater;
+    <-concept_theater;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

@@ -9,10 +9,9 @@ stolpnick_church_kamenets
     => nrel_age_restrictions:
         zero_plus;
 
-    <= nrel_inclusion: 
-        concept_historical_sight;
+    <-concept_historical_sight;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         kamenets_city;
     
     => nrel_sight_description:

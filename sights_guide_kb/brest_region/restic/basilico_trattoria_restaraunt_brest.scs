@@ -21,10 +21,9 @@ basilico_trattoria_restaraunt_brest
         [11:00 - 23:00]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_restaraunt;
+    <-concept_restaraunt;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

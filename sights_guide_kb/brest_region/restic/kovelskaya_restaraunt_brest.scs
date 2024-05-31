@@ -28,10 +28,9 @@ kovelskaya_restaraunt_brest
         [12:00 - 02:00]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_restaraunt;
+    <-concept_restaraunt;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

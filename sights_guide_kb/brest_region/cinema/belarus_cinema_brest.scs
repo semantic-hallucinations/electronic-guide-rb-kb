@@ -24,10 +24,9 @@ belarus_cinema_brest
         [10:15 - 22:15]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_cinema;
+    <-concept_cinema;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

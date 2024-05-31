@@ -13,10 +13,9 @@ cross_church_luninets
         [09:30 - 13:30]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_historical_sight;
+    <-concept_historical_sight;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         luninets_city;
     
     => nrel_sight_description:

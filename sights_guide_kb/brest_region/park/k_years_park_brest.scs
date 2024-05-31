@@ -13,10 +13,9 @@ k_years_park_brest
         [00:00 - 24:00]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_park;
+    <-concept_park;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

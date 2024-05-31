@@ -21,10 +21,9 @@ passage_yard_cafe_brest
         [09:30 - 22:00]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_cafe;
+    <-concept_cafe;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

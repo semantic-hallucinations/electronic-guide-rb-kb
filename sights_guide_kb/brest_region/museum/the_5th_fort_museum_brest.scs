@@ -13,10 +13,9 @@ the_5th_fort_museum_brest
         [9:00 - 18:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_museum;
+    <-concept_museum;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:
