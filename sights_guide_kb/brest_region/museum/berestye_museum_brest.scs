@@ -13,10 +13,9 @@ berestye_museum_brest
         [10:00 - 17:30]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_museum;
+    <-concept_museum;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

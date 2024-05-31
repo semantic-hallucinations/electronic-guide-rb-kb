@@ -21,10 +21,9 @@ nevsky_church_pruzhany
         wifi_not_available;  
 
 
-    <= nrel_inclusion: 
-        concept_historical_sight;
+    <-concept_historical_sight;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         pruzhany_city;
     
     => nrel_sight_description:

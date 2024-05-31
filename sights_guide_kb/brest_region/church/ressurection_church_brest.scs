@@ -17,10 +17,9 @@ ressurection_church_brest
         [08:00 - 19:30]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_historical_sight;
+    <-concept_historical_sight;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

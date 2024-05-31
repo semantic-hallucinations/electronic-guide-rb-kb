@@ -19,10 +19,9 @@ nevsky_church_kobrin
         [08:15 - 13:00]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_historical_sight;
+    <-concept_historical_sight;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         kobrin_city;
     
     => nrel_sight_description:

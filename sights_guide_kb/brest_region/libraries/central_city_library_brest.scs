@@ -20,10 +20,9 @@ central_city_library_brest
         [10:00 - 20:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_library;
+    <-concept_library;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:

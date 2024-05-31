@@ -27,10 +27,9 @@ hermitage_restaraunt_brest
         [7:30 - 23:00]
         (* <- time;; *); 
 
-    <= nrel_inclusion: 
-        concept_restaraunt;
+    <-concept_restaraunt;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         brest_city;
     
     => nrel_sight_description:
