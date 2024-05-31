@@ -64,5 +64,4 @@ wifi_availability
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_instance_criteria;;
+<- concept_instance_criteria;;

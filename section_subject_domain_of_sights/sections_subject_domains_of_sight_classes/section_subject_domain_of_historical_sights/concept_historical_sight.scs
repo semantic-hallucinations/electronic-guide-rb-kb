@@ -66,5 +66,4 @@ concept_historical_sight
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

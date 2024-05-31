@@ -67,5 +67,4 @@ concept_theater
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

@@ -77,5 +77,4 @@ concept_museum
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

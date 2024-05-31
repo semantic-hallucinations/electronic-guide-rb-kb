@@ -67,5 +67,4 @@ concept_gallery
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

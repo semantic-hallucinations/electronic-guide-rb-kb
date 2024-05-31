@@ -68,5 +68,4 @@ concept_library
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;
