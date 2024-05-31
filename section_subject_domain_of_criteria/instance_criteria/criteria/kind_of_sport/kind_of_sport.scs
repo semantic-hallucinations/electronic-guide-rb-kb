@@ -1,4 +1,4 @@
-type_of_kitchen
+kind_of_sport
 => nrel_main_idtf:
     [Критерий экземпляра. Вид спорта]
     (* <- lang_ru;; *);
