@@ -17,7 +17,7 @@ embrace_restaraunt_brest
         wifi_available;  
 
     => nrel_accesible_environment:
-        zero_plus;
+        accessible;
 
     => nrel_working_hours:
         [12:00 - 23:00]
