@@ -11,15 +11,24 @@ dom_kino_cinema_minsk
         [10:00 - 23:00]
         (* <- time;; *);
     
-    => nrel_accessible_environment:
+    => nrel_wifi_availability:
+    wifi_available;
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => accessible_environment:
         not_accessible;
     
     => nrel_people_capacity:
         [301]
         (* <- number;; *);
+        
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
 
-    <= nrel_inclusion: 
-        concept_cinema;
+    <- concept_cinema;
 
     <= nrel_located_in: 
         minsk_city;

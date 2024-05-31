@@ -13,9 +13,21 @@ komsomolets_cinema_minsk
     => nrel_people_capacity:
         [404]
         (* <- number;; *);
+    
+    => nrel_number_of_halls:
+        [2]
+        (* <- number;; *);
 
-    <= nrel_inclusion: 
-        concept_cinema;
+    => nrel_wifi_availability:
+    wifi_available;
+
+    => nrel_age_restrictions:
+        zero_plus;
+
+    => accessible_environment:
+        not_accessible;
+     
+    <- concept_cinema;
 
     <= nrel_located_in: 
         minsk_city;

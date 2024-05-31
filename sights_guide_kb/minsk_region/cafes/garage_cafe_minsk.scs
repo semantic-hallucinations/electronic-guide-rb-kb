@@ -1,0 +1,35 @@
+garage_cafe_minsk
+
+=> nrel_main_idtf:
+    [Кафе "Гараж" в Минске]
+    (* <- lang_ru;; *);
+    [Garage Cafe in Minsk]
+    (* <- lang_en;; *);
+
+=> nrel_working_hours:
+    [09:00 - 23:00]
+    (* <- time;; *);
+
+=> nrel_wifi_availability:
+    wifi_available;
+
+=> nrel_age_restrictions:
+    zero_plus;
+
+=> accessible_environment:
+    not_accessible;
+
+=> nrel_type_of_kitchen:
+    european;
+    asian;
+    italian;
+
+<- concept_cafe;
+
+<= nrel_located_in: 
+    minsk_city;
+
+=> nrel_sight_description:
+    [Кафе "Гараж" известно своим уникальным интерьером и атмосферой, которая сочетает в себе элементы современного искусства и минимализма. Это место идеально подходит для проведения времени с друзьями, работы или просто отдыха после дня. Гости могут насладиться различными видами еды и напитков, а также воспользоваться бесплатным Wi-Fi. "Гараж" привлекает посетителей своей неповторимой атмосферой и креативной концепцией, делая его одним из самых интересных мест в городе.]
+    (* <- lang_ru;; *);;
+
