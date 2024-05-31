@@ -20,7 +20,6 @@ belarus_cinema_brest
     => nrel_accesible_environment:
         accesible;
 
-
     => nrel_working_hours:
         [10:15 - 22:15]
         (* <- time;; *);

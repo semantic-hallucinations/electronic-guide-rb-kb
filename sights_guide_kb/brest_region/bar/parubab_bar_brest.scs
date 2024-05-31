@@ -17,12 +17,12 @@ parubab_bar_brest
         [1]
         (* <- number;; *);
     
-    => nrel_accesible_environment:
-        not_accesible;
+    => nrel_accessible_environment:
+        not_accessible;
 
 
     => nrel_wifi_availability:
-        wifi_avaliable;   
+        wifi_available;   
 
     => nrel_working_hours:
         [12:00 - 00:00]

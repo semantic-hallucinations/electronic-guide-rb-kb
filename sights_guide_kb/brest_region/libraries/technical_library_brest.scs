@@ -10,8 +10,8 @@ technical_library_brest
         [1]
         (* <- number;; *);
     
-    => nrel_wifi_avaliability:
-        wifi_avaliable;  
+    => nrel_wifi_availability:
+        wifi_available;  
 
     => nrel_accesible_environment:
        not_accesible;

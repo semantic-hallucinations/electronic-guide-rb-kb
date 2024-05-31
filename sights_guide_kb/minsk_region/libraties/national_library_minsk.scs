@@ -15,8 +15,8 @@ national_library_minsk
         [3500] 
         (* <- number;; *);
     
-    => nrel_accesible_environment:
-        accesible;
+    => nrel_accessible_environment:
+        accessible;
     
     => nrel_wifi_availability:
         wifi_available;

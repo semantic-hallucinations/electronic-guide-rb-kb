@@ -13,8 +13,8 @@ brie_cafe_brest
         [1]
         (* <- number;; *);
 
-    => nrel_wifi_avaliability:
-        wifi_not_avaliable;  
+    => nrel_wifi_availability:
+        wifi_not_available;  
 
     => nrel_working_hours:
         [09:00 - 23:00]

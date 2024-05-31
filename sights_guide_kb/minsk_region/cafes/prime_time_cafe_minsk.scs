@@ -11,8 +11,8 @@ prime_time_cafe_minsk
         [09:00 - 23:00]
         (* <- time;; *);
     
-    => nrel_accesible_environment:
-        accesible;
+    => nrel_accessible_environment:
+        accessible;
     
     <= nrel_inclusion: 
         concept_cafe;

@@ -1,7 +1,7 @@
 section_subject_domain_of_galleries
 
     => nrel_main_idtf:
-        [Раздел. Предметная область галлерей]
+        [Раздел. Предметная область галерей]
         (* <- lang_ru;;*);
         [Section. Subject domain of galleries]
         (* <- lang_en;;*);
@@ -19,7 +19,7 @@ section_subject_domain_of_galleries
             <- subject_domain;
 
             => nrel_main_idtf:
-                [Предметная область галлерей]
+                [Предметная область галерей]
                 (* <- lang_ru;;*);
                 [Subject domain of galleries]
                 (* <- lang_en;;*);

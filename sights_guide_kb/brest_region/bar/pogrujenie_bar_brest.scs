@@ -13,8 +13,8 @@ pogrujenie_bar_brest
         [1]
         (* <- number;; *);
     
-    => nrel_accesible_environment:
-        not_accesible;
+    => nrel_accessible_environment:
+        not_accessible;
 
     => nrel_working_hours:
         [18:00 - 02:00]
