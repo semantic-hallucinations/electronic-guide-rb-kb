@@ -1,0 +1,27 @@
+park_of_Gomel_palace
+    => nrel_main_idtf:
+        [Парк Гомельского дворцово-паркового ансамбля]
+        (* <- lang_ru;; *);
+        [Park of the Gomel Palace and Park Ensemble]
+        (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_park;
+
+    <= nrel_lockated_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+		[Парк Гомельского дворцово-паркового ансамбля является одной из главных достопримечательностей 
+        и настоящей жемчужиной белорусской земли. Он расположен на обрывистом берегу реки Сож и оврага 
+        с ручьем Гомий. Парк занимает площадь 34 гектара и насчитывает более 5 тысяч деревьев, 
+        преимущественно липы, акации, берёзы, каштана, ясеня, клёна остролистного и других видов. 
+        В парке также есть более 30 видов экзотов, включая гинкго билоба, яблоню Недзвецкого, 
+        сосну чёрную, дуб гребенчатый, бархат амурский и лиственницу.] 
+        (* <- lang_ru;; *);
+		[The park of the Gomel Palace and Park Ensemble is one of the main attractions and a real 
+        pearl of the Belarusian land. It is located on the steep bank of the Sozh River and a ravine with
+        the Gomiy stream. The park covers an area of ​​34 hectares and has more than 5 thousand trees, mainly 
+        linden, acacia, birch, chestnut, ash, Norway maple and other species. The park also has more than 
+        30 species of exotics, including ginkgo biloba, Niedzvetsky apple tree, black pine, comb oak, Amur velvet and larch.] 
+        (* <- lang_en;; *);;

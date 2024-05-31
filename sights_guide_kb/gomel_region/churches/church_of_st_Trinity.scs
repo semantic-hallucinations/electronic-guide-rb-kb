@@ -1,0 +1,20 @@
+church_of_st_trinity
+
+=> nrel_main_idtf:
+	[Храм Святой Живоначальной Троицы] (* <- lang_ru;; *);
+	[The Church of the Holy Life-Giving Trinity] (* <- lang_en;; *);
+
+<= nrel_inclusion: 
+  concept_church;
+
+<= nrel_lockated_in: 
+  zhlobin_city;
+
+=> nrel_sight_description:
+		[Храм Святой Живоначальной Троицы - один из главных православных храмов города. Он имеет богатую историю и 
+		играет важную роль в духовной жизни местных жителей. В нем регулярно проводятся богослужения, таинства крещения, венчания 
+		и отпевания.  Особенно торжественно отмечается день Святой Троицы, когда в храме собирается множество верующих.] (* <- lang_ru;; *);
+		[The Church of the Holy Life-Giving Trinity is one of the main Orthodox churches in the city. It has a rich history and
+    plays an important role in the spiritual life of local residents. Divine services, sacraments of christening, weddings and funeral 
+		service are regularly held there. The day of the Holy Trinity is celebrated especially solemnly, when many believers gather in the church.]
+        (* <- lang_en;; *);;

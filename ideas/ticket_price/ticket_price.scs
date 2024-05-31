@@ -1,0 +1,69 @@
+ticket_price
+
+=> nrel_main_idtf:
+    [Критерий экземпляра. Цена билета]
+    (* <- lang_ru;; *);
+    [Instance criteria. Ticket price]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_ticket_price;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Цена билета)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Ticket price)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Цена билета - критерий, отражающий стоимость прохода.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Ticket price is a criterion that reflects cost of passage.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_ticket_price
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Цена билета)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Ticket price)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий стоимость прохода.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects cost of passage.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria;
+            concept_ticket_price
+        };; 
+*);
+
+<= nrel_inclusion: 
+    concept_instance_criteria;;
