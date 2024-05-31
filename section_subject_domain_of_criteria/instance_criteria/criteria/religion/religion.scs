@@ -1,0 +1,65 @@
+religion
+=> nrel_main_idtf:
+    [Критерий экземпляра. Религия]
+    (* <- lang_ru;; *);
+    [Instance criteria. Religion]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_religion;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Религия)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Religion)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Религия  - критерий, отражающий определённую систему взглядов, обусловленная верой в сверхъестественное, включающая в себя свод моральных норм и типов поведения, обрядов, культовых действий и объединение людей в организацию.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Kind of sport is a criterion that reflects a certain system of beliefs, determined by belief in the supernatural, which includes a set of moral norms and types of behavior, rituals, religious activities and the unification of people into an organization.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Религия)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Religion)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий определённую систему взглядов, обусловленная верой в сверхъестественное, включающая в себя свод моральных норм и типов поведения, обрядов, культовых действий и объединение людей в организацию.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects a certain system of beliefs, determined by belief in the supernatural, which includes a set of moral norms and types of behavior, rituals, religious activities and the unification of people into an organization.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria
+        };; 
+*);
+
+<- concept_instance_criteria;;

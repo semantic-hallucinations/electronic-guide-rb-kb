@@ -1,0 +1,35 @@
+orthodoxy
+=> nrel_main_idtf:
+    [Православие]
+    (* <- lang_ru;; *);
+    [Orthodoxy]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+
+catholicism
+=> nrel_main_idtf:
+    [Католичество]
+    (* <- lang_ru;; *);
+    [Catholicism]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+    
+judaism
+=> nrel_main_idtf:
+    [Иудаизм]
+    (* <- lang_ru;; *);
+    [Judaism]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+    
+islam
+=> nrel_main_idtf:
+    [Ислам]
+    (* <- lang_ru;; *);
+    [Islam]
+    (* <- lang_en;; *);
+
+<- criteria_value;;

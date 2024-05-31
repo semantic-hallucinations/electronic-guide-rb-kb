@@ -1,0 +1,44 @@
+hockey
+=> nrel_main_idtf:
+    [Хоккей]
+    (* <- lang_ru;; *);
+    [Hockey]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+
+football
+=> nrel_main_idtf:
+    [Футбол]
+    (* <- lang_ru;; *);
+    [Football]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+    
+basketball
+=> nrel_main_idtf:
+    [Баскетбол]
+    (* <- lang_ru;; *);
+    [Basketball]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+    
+volleyball
+=> nrel_main_idtf:
+    [Волейбол]
+    (* <- lang_ru;; *);
+    [Volleyball]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
+
+rowing
+=> nrel_main_idtf:
+    [Гребля]
+    (* <- lang_ru;; *);
+    [Rowing]
+    (* <- lang_en;; *);
+
+<- criteria_value;;

@@ -1,0 +1,65 @@
+type_of_kitchen
+=> nrel_main_idtf:
+    [Критерий экземпляра. Вид спорта]
+    (* <- lang_ru;; *);
+    [Instance criteria. Kind of sport]
+    (* <- lang_en;; *);
+
+<= nrel_connected_relation:
+    nrel_kind_of_sport;
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Критерия экземпляра. Вид спорта)]
+        (* <- lang_ru;; *);
+        [Definition (Instance criteria. Kind of sport)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Вид спорта - критерий, отражающий конкретный вид соревновательной деятельности, исторически сложившийся и развивающийся как самостоятельная её составляющая.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [Kind of sport is a criterion that reflects a specific type of competitive activity, historically established and developing as an independent component.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Критерия экземпляра. Вид спорта)]
+        (* <- lang_ru;; *);
+        [Statement (Instance criteria. Kind of sport)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Критерий, отражающий конкретный вид соревновательной деятельности, исторически сложившийся и развивающийся как самостоятельная её составляющая.] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A criterion that reflects a specific type of competitive activity, historically established and developing as an independent component.] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_criteria;
+            concept_instance_criteria
+        };; 
+*);
+
+<- concept_instance_criteria;;
