@@ -29,7 +29,7 @@ svetlogorsk_museum_of_history_and_local_lore
         concept_museum;
 
     <= nrel_located_in: 
-        vetka_city;
+        svetlogorsk_city;
     
     => nrel_sight_description:
 		[Светлогорский историко-краеведческий музей яввляется государственным учреждением культуры. Музей 

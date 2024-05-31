@@ -22,7 +22,7 @@ victory_bar
         concept_bar;
 
     <= nrel_located_in: 
-        zhlobin_city;
+        zhlobyn_city;
     
     => nrel_sight_description:
 		[Бар "Victory" представляет собой кафе-бар, который описывается 

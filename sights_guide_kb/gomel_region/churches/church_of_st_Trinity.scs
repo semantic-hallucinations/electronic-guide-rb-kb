@@ -8,7 +8,7 @@ church_of_st_trinity
   concept_church;
 
 <= nrel_located_in: 
-  zhlobin_city;
+  zhlobyn_city;
 
 => nrel_sight_description:
 		[Храм Святой Живоначальной Троицы - один из главных православных храмов города. Он имеет богатую историю и 

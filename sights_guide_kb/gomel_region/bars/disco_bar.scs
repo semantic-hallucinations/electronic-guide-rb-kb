@@ -21,7 +21,7 @@ disco_bar
         concept_bar;
 
     <= nrel_located_in: 
-        zhlobin_city;
+        zhlobyn_city;
     
     => nrel_sight_description:
 		[Диско-бар предлагает атмосферу ночного клуба с возможностью насладиться 

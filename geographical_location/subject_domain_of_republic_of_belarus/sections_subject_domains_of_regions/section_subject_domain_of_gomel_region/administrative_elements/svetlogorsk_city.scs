@@ -28,7 +28,7 @@ svetlogorsk_city
 
         <= nrel_using_constants:
             {
-                minsk_region;
+                gomel_region;
                 concept_city
             };; 
     *);
