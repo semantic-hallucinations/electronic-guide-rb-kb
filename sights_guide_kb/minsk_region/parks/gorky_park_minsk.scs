@@ -17,8 +17,10 @@ gorky_park_minsk
 => nrel_wifi_availability:
     wifi_not_available;
 
-<= nrel_inclusion: 
-    park;
+=> nrel_age_restrictions:
+        zero_plus;
+
+<- concept_park;
 
 <= nrel_located_in: 
     minsk_city;

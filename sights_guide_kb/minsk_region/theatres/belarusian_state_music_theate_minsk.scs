@@ -11,12 +11,21 @@ belarusian_state_music_theatre_minsk
     [10:00 - 20:00]
     (* <- time;; *);
 
-=> people_capacity:
+=> nrel_people_capacity:
     [500]
     (* <- number;; *);
 
-<= nrel_inclusion: 
-    theatre;
+=> nrel_number_of_halls:
+    [1]
+    (* <- number;; *);
+
+=> nrel_age_restrictions:
+    six_plus;
+
+=> nrel_accessible_environment:
+    not_accessible;
+
+<- concept_theatre;
 
 <= nrel_located_in: 
     minsk_city;

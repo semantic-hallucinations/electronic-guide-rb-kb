@@ -11,8 +11,7 @@ restaurant_the_view_minsk
     [11:00 - 23:00]
     (* <- time;; *);
 
-<= nrel_inclusion: 
-    restaurant;
+<- concept_restaurant;
 
 => nrel_type_of_kitchen:
     european;

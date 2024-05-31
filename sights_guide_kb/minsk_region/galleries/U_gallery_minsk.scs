@@ -10,8 +10,13 @@ U_gallery_minsk
         [12:00 - 20:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_gallery;
+    <- concept_gallery;
+
+    => nrel_wifi_availability:
+        wifi_available;
+
+    => nrel_age_restrictions:
+        six_plus;
 
     <= nrel_located_in: 
         minsk_city;

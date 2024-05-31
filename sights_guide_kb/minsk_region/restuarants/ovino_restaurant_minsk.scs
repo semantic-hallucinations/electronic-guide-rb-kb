@@ -6,21 +6,24 @@ restaurant_ovino_minsk
     (* <- lang_ru;; *);
     [Restaurant Owino in Minsk]
     (* <- lang_en;; *);
+
+=> nrel_working_hours:
+    [12:00 - 23:00]
+    (* <- time;; *);
   
 => nrel_wifi_availability:
-    wifi_available;  
+    wifi_available; 
+
+=> nrel_age_restrictions:
+    eighteen_plus;
 
 => nrel_type_of_kitchen:
     european;
     russian;
     italian;
 
-=> nrel_working_hours:
-    [12:00 - 23:00]
-    (* <- time;; *);
-
-<= nrel_inclusion: 
-    restaurant;
+<- concept_restaurant;
+<- concept_bar;
 
 <= nrel_located_in: 
     minsk_city;

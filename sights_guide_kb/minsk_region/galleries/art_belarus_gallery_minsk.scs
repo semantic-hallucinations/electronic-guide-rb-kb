@@ -13,9 +13,12 @@ art_belarus_gallery_minsk
 
     => nrel_wifi_availability:
         wifi_available;
+    
+    => nrel_age_restrictions:
+        six_plus;
+ 
+    <- concept_gallery;
 
-    <= nrel_inclusion: 
-        concept_gallery;
 
     <= nrel_located_in: 
         minsk_city;

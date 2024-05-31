@@ -16,9 +16,11 @@ belarusian_state_circus_minsk
 
     => nrel_accessible_environment:
         accessible;
-
-    <= nrel_inclusion: 
-        concept_circus;
+    
+    => age_restrictions:
+        zero_plus;
+ 
+    <- concept_circus;
 
     <= nrel_located_in: 
         minsk_city;

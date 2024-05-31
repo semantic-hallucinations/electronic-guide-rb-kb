@@ -14,8 +14,10 @@ great_patriotic_war_museum_minsk
     => nrel_wifi_availability:
         wifi_available;
 
-    <= nrel_inclusion: 
-        concept_museum;
+    <- concept_museum;
+
+    => nrel_age_restrictions:
+        zero_plus;
 
     <= nrel_located_in: 
         minsk_city;

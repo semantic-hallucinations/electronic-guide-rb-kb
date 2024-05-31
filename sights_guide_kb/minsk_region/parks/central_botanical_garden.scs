@@ -16,9 +16,11 @@ central_botanical_garden_minsk
 
     => nrel_wifi_availability:
         wifi_not_available;
+    
+    => nrel_age_restrictions:
+        zero_plus;
 
-    <= nrel_inclusion: 
-        concept_garden;
+    <- concept_park;
 
     <= nrel_located_in: 
         minsk_city;

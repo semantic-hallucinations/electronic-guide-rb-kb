@@ -20,9 +20,8 @@ national_library_minsk
     
     => nrel_wifi_availability:
         wifi_available;
-
-    <= nrel_inclusion: 
-        concept_library;
+ 
+    <- concept_library;
 
     <= nrel_located_in: 
         minsk_city;

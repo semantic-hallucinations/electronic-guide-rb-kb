@@ -13,8 +13,7 @@ holy_elena_church_minsk
         [08:00 - 20:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_historical_sight;
+    <- concept_historical_sight;
 
     <= nrel_located_in: 
         minsk_city;

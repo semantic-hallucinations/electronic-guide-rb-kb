@@ -17,8 +17,10 @@ country_mini_museum_minsk
     => nrel_wifi_availability:
         wifi_available;
 
-    <= nrel_inclusion: 
-        concept_museum;
+    => nrel_age_restrictions:
+        zero_plus;
+
+    <- concept_museum;
 
     <= nrel_located_in: 
         minsk_city;

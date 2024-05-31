@@ -7,11 +7,9 @@ belarusian_national_arts_museum_minsk
         [Belarusian National Arts Museum in Minsk]
         (* <- lang_en;; *);
 
-
     => nrel_working_hours:
         [10:00 - 18:00]
         (* <- time;; *);
-
 
     => nrel_accessible_environment:
         not_accessible;
@@ -19,8 +17,10 @@ belarusian_national_arts_museum_minsk
     => nrel_wifi_availability:
         wifi_available;
 
-    <= nrel_inclusion: 
-        concept_museum;
+    => nrel_age_restrictions:
+        zero_plus;
+
+    <- concept_museum;
 
     <= nrel_located_in: 
         minsk_city;
