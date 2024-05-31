@@ -66,5 +66,4 @@ concept_circus
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

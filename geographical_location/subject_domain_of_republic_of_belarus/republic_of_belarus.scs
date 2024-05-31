@@ -34,5 +34,4 @@ republic_of_belarus
             };; 
     *);
 
-    <= nrel_inclusion: 
-    	concept_country;;
+    <- concept_country;;

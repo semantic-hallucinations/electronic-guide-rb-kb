@@ -5,8 +5,7 @@ string
       [String value]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 // --------------------------------------------
 accessible
@@ -16,8 +15,7 @@ accessible
       [Accesible for disabled people]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 // --------------------------------------------
 not_accessible
@@ -27,8 +25,7 @@ not_accessible
       [Not accesible for disabled people]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 // --------------------------------------------
 
@@ -41,8 +38,7 @@ accesible
       [Accesible for disabled people]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 // --------------------------------------------
 not_accesible
@@ -52,5 +48,4 @@ not_accesible
       [Not accesible for disabled people]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;

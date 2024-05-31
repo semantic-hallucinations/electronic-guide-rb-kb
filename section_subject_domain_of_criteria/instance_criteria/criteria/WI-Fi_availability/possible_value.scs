@@ -7,8 +7,7 @@ wifi_available
       [Wi-Fi is not available]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 
 // --------------------------------------------
@@ -20,5 +19,4 @@ wifi_not_available
       [Wi-Fi is not available]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;

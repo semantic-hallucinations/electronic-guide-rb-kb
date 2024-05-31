@@ -63,5 +63,4 @@ number_of_halls
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_instance_criteria;;
+<- concept_instance_criteria;;

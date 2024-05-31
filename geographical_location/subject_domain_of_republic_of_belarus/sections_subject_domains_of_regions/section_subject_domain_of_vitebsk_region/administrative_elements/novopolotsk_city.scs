@@ -33,4 +33,8 @@ novopolotsk_city
             };; 
     *);
 
+<<<<<<< HEAD
     <- concept_city;;
+=======
+    <- concept_city;;
+>>>>>>> 61834a31e9bb8188961977651bcc8f2171a3c71a

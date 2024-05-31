@@ -1,0 +1,35 @@
+central_city_library_named_after_herzen
+
+    => nrel_main_idtf:
+        [Центральная городская библиотека имени А. И. Герцена]
+        (* <- lang_ru;; *);
+        [Central City Library named after A. I. Herzen]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [3]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [24]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [11:30 - 19:00, Friday is a day off]
+        (* <- time;; *);
+
+    <= nrel_inclusion: 
+        concept_library;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Центральная городская библиотека имени А. И. Герцена (ЦГБ им. А. И. Герцена) - это 
+        важное учреждение в системе публичных библиотек города. Она является центром для 
+        предоставления библиотечных услуг и хранения информации в различных формах.]
+        (* <- lang_ru;; *);
+        [Central City Library named after A. I. Herzen (TsGB named after A. I. Herzen) is
+ an important institution in the city's public library system. She is the center for
+ providing library services and storing information in various forms.]
+        (* <- lang_eng;; *);;

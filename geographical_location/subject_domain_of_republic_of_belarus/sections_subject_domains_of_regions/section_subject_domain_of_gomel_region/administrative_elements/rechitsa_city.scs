@@ -33,5 +33,4 @@ rechitsa_city
             };; 
     *);
 
-    <= nrel_inclusion: 
-        concept_city;;
+    <- concept_city;;
