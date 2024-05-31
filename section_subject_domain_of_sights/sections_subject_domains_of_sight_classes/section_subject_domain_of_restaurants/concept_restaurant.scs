@@ -69,5 +69,4 @@ concept_restaurant
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

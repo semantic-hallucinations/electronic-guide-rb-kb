@@ -5,5 +5,4 @@ time
       [Time value]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;

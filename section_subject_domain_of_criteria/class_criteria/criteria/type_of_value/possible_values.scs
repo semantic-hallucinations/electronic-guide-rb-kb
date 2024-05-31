@@ -6,8 +6,7 @@ historical_value
     [Historical value]
     (* <- lang_en;; *);
 
-<= nrel_inclusion: 
-    criteria_value;;
+<- criteria_value;;
 
  //////////////////////////////////////////////////////////////////
 
@@ -19,8 +18,7 @@ entertainment_value
     [Entertainment value]
     (* <- lang_en;; *);
 
-<= nrel_inclusion: 
-    criteria_value;;
+<- criteria_value;;
 
  //////////////////////////////////////////////////////////////////
 
@@ -32,8 +30,7 @@ cultural_value
     [Cultural value]
     (* <- lang_en;; *);
 
-<= nrel_inclusion: 
-    criteria_value;;
+<- criteria_value;;
 
  //////////////////////////////////////////////////////////////////
 
@@ -45,8 +42,7 @@ natural_value
     [Natural value]
     (* <- lang_en;; *);
 
-<= nrel_inclusion: 
-    criteria_value;;
+<- criteria_value;;
 
  //////////////////////////////////////////////////////////////////
 
@@ -58,8 +54,7 @@ physiological_needs_value
     [Physiological needs]
     (* <- lang_en;; *);
 
-<= nrel_inclusion: 
-    criteria_value;;
+<- criteria_value;;
 
  //////////////////////////////////////////////////////////////////
 
@@ -71,5 +66,4 @@ educational_value
     [Educational value]
     (* <- lang_en;; *);
 
-<= nrel_inclusion: 
-    criteria_value;;
+<- criteria_value;;

@@ -5,8 +5,7 @@ italian
     [Italian]
     (* <- lang_en;; *);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 french
 => nrel_main_idtf:
@@ -15,8 +14,7 @@ french
     [French]
     (* <- lang_en;; *);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
     
 eastern_european
 => nrel_main_idtf:
@@ -25,8 +23,7 @@ eastern_european
     [Eastern European]
     (* <- lang_en;; *);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
     
 european
 => nrel_main_idtf:
@@ -35,8 +32,7 @@ european
     [European]
     (* <- lang_en;; *);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 russian
 => nrel_main_idtf:
@@ -45,8 +41,7 @@ russian
     [Russian]
     (* <- lang_en;; *);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
       
 pizza
 => nrel_main_idtf:
@@ -55,8 +50,7 @@ pizza
     [Pizza]
     (* <- lang_en;; *);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 
 asian
@@ -65,5 +59,4 @@ asian
     (* <- lang_ru;; *);
     [Asian]
     (* <- lang_en;; *);
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;

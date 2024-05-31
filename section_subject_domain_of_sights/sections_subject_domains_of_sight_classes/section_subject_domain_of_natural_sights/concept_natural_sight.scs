@@ -63,5 +63,4 @@ concept_natural_sight
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_sight;;
+<- concept_sight;;

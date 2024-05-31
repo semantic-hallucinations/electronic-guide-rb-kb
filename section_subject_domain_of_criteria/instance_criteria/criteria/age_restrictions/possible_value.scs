@@ -5,8 +5,7 @@ number
       [Numeric value]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 // -----------------------------------
 
@@ -17,8 +16,7 @@ zero_plus
       [0+]
       (*<-lang_en;;*);
 
-<= nrel_inclusion:
-    criteria_value;;
+<- criteria_value;;
 
 // -----------------------------------
 
@@ -29,8 +27,7 @@ six_plus
         [6+]
         (*<-lang_en;;*);
 
-    <= nrel_inclusion:
-        criteria_value;;
+    <- criteria_value;;
 
 // -----------------------------------        
 
@@ -41,8 +38,7 @@ twelve_plus
         [12+]
         (*<-lang_en;;*);
 
-    <= nrel_inclusion:
-        criteria_value;;
+    <- criteria_value;;
 
 // -----------------------------------
 
@@ -53,8 +49,7 @@ sixteen_plus
         [16+]
         (*<-lang_en;;*);
 
-    <= nrel_inclusion:
-        criteria_value;;
+    <- criteria_value;;
 
 // -----------------------------------
 
@@ -65,5 +60,4 @@ eighteen_plus
         [18+]
         (*<-lang_en;;*);
 
-    <= nrel_inclusion:
-        criteria_value;;
+    <- criteria_value;;

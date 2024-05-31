@@ -65,5 +65,4 @@ people_capacity
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_instance_criteria;;
+<- concept_instance_criteria;;

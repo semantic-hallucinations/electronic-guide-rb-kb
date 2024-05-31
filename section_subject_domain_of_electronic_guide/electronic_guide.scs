@@ -1,0 +1,61 @@
+electronic_guide
+
+=> nrel_main_idtf:
+	[Электронный гид по Республике Беларусь]
+	(* <- lang_ru;; *);
+	[Electronic guide of the Republic of Belarus]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Определение (Электронного гида по Республике Беларусь)]
+        (* <- lang_ru;; *);
+        [Definition (Electronic guide of the Republic of Belarus)]
+        (* <- lang_en;; *);;
+
+    <- definition;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Электронный гид по Республике Беларусь - это путеводитель по туристическим объектам нашей страны, разрабатываемый в рамках экосистемы OSTIS] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [The electronic guide to the Republic of Belarus is a guide to the tourist sites of our country, developed within the framework of the OSTIS ecosystem] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_guide;
+            concept_tourist
+        };; 
+*);
+
+<- rrel_key_sc_element: ...
+(*
+    => nrel_main_idtf:
+        [Утверждение (Электронного гида по Республике Беларусь)]
+        (* <- lang_ru;; *);
+        [Statement (Electronic guide of the Republic of Belarus)]
+        (* <- lang_en;; *);;
+
+    <- statement;;
+
+    <= nrel_sc_text_translation:
+        ...
+        (*
+            -> [Это путеводитель по туристическим объектам нашей страны, разрабатываемый в рамках экосистемы OSTIS] (* <- lang_ru;; *);;
+        *);
+        ...
+        (*
+            -> [A guide to the tourist sites of our country, developed within the framework of the OSTIS ecosystem] (* <- lang_en;; *);;
+        *);;
+
+    <= nrel_using_constants:
+        {
+            concept_guide;
+            concept_tourist
+        };; 
+*);;

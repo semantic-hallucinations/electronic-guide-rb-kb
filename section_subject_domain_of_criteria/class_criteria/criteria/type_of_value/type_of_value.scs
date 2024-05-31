@@ -65,5 +65,4 @@ type_of_value
         };; 
 *);
 
-<= nrel_inclusion: 
-    concept_class_criteria;;
+<- concept_class_criteria;;
