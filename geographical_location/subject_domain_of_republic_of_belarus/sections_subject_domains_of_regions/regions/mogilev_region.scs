@@ -33,5 +33,4 @@ mogilev_region
             };; 
     *);
 
-    <= nrel_inclusion: 
-    	concept_region;;
+    <- concept_region;;
