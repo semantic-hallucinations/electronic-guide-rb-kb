@@ -1,9 +1,8 @@
 irish_pub_el_house_mogilev
 
-<= nrel_inclusion:
-		concept_bar; 
+<- concept_bar; 
 
-	<= nrel_lockated_in:
+	<= nrel_located_in:
 		mogilev_city;
 		
         => nrel_working_hours:

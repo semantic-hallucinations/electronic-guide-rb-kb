@@ -1,10 +1,9 @@
 fortification_in_zborsk
 
-<= nrel_inclusion:
-	concept_historical_sight;
-	concept_park; 
+<- concept_historical_sight;
+<- concept_park; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	osipovichi_city;
 
      => nrel_adress:

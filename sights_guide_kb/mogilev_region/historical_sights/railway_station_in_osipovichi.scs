@@ -1,9 +1,8 @@
 railway_station_in_osipovichi
 
-<= nrel_inclusion:
-	concept_historical_sight;
+<- concept_historical_sight;
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	osipovichi_city;
 
      => nrel_adress:

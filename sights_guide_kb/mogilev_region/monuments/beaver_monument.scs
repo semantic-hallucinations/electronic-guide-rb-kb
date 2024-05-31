@@ -1,9 +1,8 @@
 beaver_monument
 
-	<= nrel_inclusion:
-		concept_monument; 
+	<- concept_monument; 
 
-	<= nrel_lockated_in:
+	<= nrel_located_in:
 		bobruisk_city;
 
      => nrel_adress:

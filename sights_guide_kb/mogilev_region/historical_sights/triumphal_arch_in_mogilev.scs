@@ -1,10 +1,9 @@
 triumphal_arch_in_mogilev
 
-<= nrel_inclusion:
-	concept_historical_sight; 
-	concept_monument;
+<- concept_historical_sight; 
+<- concept_monument;
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	mogilev_city;
 
          => nrel_adress:

@@ -1,7 +1,6 @@
 lyubimoye_mesto_in_bobruisk
 
-<= nrel_inclusion:
-		concept_cafe; 
+<- concept_cafe; 
 
 	<= nrel_lockated_in:
 		bobruisk_city;

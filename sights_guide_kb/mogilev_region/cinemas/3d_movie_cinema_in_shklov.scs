@@ -1,9 +1,8 @@
 3d_movie_cinema_in_shklov
 
-<= nrel_inclusion:
-	concept_cinema; 
+<- concept_cinema; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	shklov_city;
 
 => nrel_age_restrictions:
