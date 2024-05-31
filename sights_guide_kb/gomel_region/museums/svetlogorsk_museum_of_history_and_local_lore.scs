@@ -1,0 +1,44 @@
+svetlogorsk_museum_of_history_and_local_lore
+    => nrel_main_idtf:
+        [Светлогорский историко-краеведческий музей]
+        (* <- lang_ru;; *);
+        [Svetlogorsk Museum of History and Local Lore]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [7]
+        (* <- concept_age;; *);
+
+    => nrel_number_of_halls:
+        [3]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:00 - 18:00]
+        (* <- time;; *);
+
+    => nrel_ticket_price:
+        [1 BYN]
+        (* <- price;; *);
+        
+    => nrel_adress:
+	[Зелёная ул., 1] (* <- lang_ru;; *);
+	[Zelenaya st., 1] (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_museum;
+
+    <= nrel_located_in: 
+        vetka_city;
+    
+    => nrel_sight_description:
+		[Светлогорский историко-краеведческий музей яввляется государственным учреждением культуры. Музей 
+        расположен в здании, напоминающем блиндаж. Он активно участвует в праздничных мероприятиях, в том 
+        числе в Ночи музеев. Светлогорский историко-краеведческий музей бережно хранит и популяризирует 
+        природное и культурное наследие региона.] 
+        (* <- lang_ru;; *);
+		[The Svetlogorsk Museum of History and Local Lore is a state cultural institution. Museum
+ located in a building resembling a dugout. He actively participates in festive events, including
+ including the Night of Museums. The Svetlogorsk Museum of History and Local Lore carefully preserves and popularizes
+ natural and cultural heritage of the region.] 
+        (* <- lang_en;; *);;

@@ -1,0 +1,45 @@
+la_salute_restaurant
+
+    => nrel_main_idtf:
+        [La Salute ресторан]
+        (* <- lang_ru;; *);
+        [La Salute restaurant]
+        (* <- lang_en;; *);
+
+    => nrel_age_restrictions:
+        [0]
+        (* <- concept_age;; *);
+
+    => nrel_people_capacity:
+        [58]
+        (* <- number;; *);
+
+    => nrel_working_hours:
+        [10:30 - 23:00]
+        (* <- time;; *);
+
+    => nrel_adress:
+	[Рогачёвская ул., 4] (* <- lang_ru;; *);
+	[Rogachevskaya st., 4] (* <- lang_en;; *);
+
+    <= nrel_inclusion: 
+        concept_restaurant;
+
+    <= nrel_located_in: 
+        gomel_city;
+    
+    => nrel_sight_description:
+        [Ресторан европейской кухни La Salute известен своим уникальным сочетанием 
+        традиционных европейских блюд и знакомых с детства вкусов, с акцентом на 
+        органические фермерские продукты. Ресторан предлагает разнообразное меню, 
+        включая завтраки, обеды и основные блюда, такие как тофу на рисовых чипсах 
+        с сушеными томатами. La Salute славится уютным и нестандартным интерьером, 
+        а цены считаются разумными, учитывая качество еды и обслуживания.]
+        (* <- lang_ru;; *);
+        [The European cuisine restaurant La Salute is known for its unique combination
+ traditional European dishes and tastes familiar from childhood, with an emphasis on
+ organic farm products. The restaurant offers a varied menu,
+ including breakfasts, lunches and main dishes such as tofu on rice crispies
+ with dried tomatoes. La Salute is famous for its cozy and unusual interior,
+ and prices are considered reasonable considering the quality of food and service.]
+        (* <- lang_eng;; *);;

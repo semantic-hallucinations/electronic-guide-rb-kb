@@ -25,7 +25,7 @@ theatre_of_dolls
     <= nrel_inclusion: 
         concept_theater;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         gomel_city;
     
     => nrel_sight_description:

@@ -7,7 +7,7 @@ church_of_st_trinity
 <= nrel_inclusion: 
   concept_church;
 
-<= nrel_lockated_in: 
+<= nrel_located_in: 
   zhlobin_city;
 
 => nrel_sight_description:

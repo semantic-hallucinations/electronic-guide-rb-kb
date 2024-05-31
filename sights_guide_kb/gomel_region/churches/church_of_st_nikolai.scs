@@ -8,7 +8,7 @@ church_of_st_nikolai
     <= nrel_inclusion: 
         concept_church;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         gomel_city;
     
     => nrel_sight_description:

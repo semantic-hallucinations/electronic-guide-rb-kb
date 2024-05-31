@@ -21,7 +21,7 @@ victory_bar
     <= nrel_inclusion: 
         concept_bar;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         zhlobin_city;
     
     => nrel_sight_description:

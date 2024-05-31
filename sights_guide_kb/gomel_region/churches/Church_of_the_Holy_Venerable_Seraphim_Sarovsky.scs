@@ -7,7 +7,7 @@ church_of_the_holy_venerable_seraphim_sarovsky
     <= nrel_inclusion: 
         concept_church;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         gomel_city;
 
 				=> nrel_sight_description:

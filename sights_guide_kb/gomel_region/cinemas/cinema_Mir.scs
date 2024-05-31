@@ -24,7 +24,7 @@ cinema_Mir
     <= nrel_inclusion: 
         concept_cinema;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         gomel_city;
     
     => nrel_sight_description:
