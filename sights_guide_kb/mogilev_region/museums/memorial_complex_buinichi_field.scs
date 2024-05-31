@@ -1,9 +1,8 @@
 memorial_complex_buinichi_field
 
-<= nrel_inclusion:
-	concept_museum; 
+<- concept_museum; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	mogilev_city;
 
         => nrel_working_hours:

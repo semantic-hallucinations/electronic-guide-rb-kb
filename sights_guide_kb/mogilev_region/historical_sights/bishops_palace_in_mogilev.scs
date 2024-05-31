@@ -1,13 +1,12 @@
 bishops_palace_in_mogilev
 
-<= nrel_inclusion:
-	concept_historical_sight; 
+<- concept_historical_sight; 
      
      => nrel_adress:
 	[ул. Ленинская, 11А] (* <- lang_ru;; *);
 	[st. Leninskaya, 11A] (* <- lang_en;; *);
 	
-<= nrel_lockated_in:
+<= nrel_located_in:
 	mogilev_city;
 
 => nrel_main_idtf:

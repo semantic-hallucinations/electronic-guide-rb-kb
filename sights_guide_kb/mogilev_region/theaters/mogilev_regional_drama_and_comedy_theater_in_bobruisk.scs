@@ -1,9 +1,8 @@
 mogilev_regional_drama_and_comedy_theater_in_bobruisk
  
-	<= nrel_inclusion:
-		concept_theater; 
+	<- concept_theater; 
 
-	<= nrel_lockated_in:
+	<= nrel_located_in:
 		bobruisk_city;
 		
 	=> nrel_number_of_halls:

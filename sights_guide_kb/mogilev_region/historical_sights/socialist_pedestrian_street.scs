@@ -1,9 +1,8 @@
 socialist_pedestrian_street
 
-	<= nrel_inclusion:
-		concept_historical_sight; 
+	<- concept_historical_sight; 
 
-	<= nrel_lockated_in:
+	<= nrel_located_in:
 		bobruisk_city;  
 
      => nrel_adress:

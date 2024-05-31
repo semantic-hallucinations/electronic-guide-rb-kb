@@ -1,9 +1,8 @@
 monument_to_cucumber_in_shklov
 
-<= nrel_inclusion:
-	concept_monument; 
+<- concept_monument; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	shklov_city;
 
      => nrel_adress:

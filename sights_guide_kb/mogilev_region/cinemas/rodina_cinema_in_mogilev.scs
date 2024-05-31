@@ -1,9 +1,8 @@
 rodina_cinema_in_mogilev
 
-<= nrel_inclusion:
-	concept_cinema; 
+<- concept_cinema; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	mogilev_city;
 
 => nrel_age_restrictions:

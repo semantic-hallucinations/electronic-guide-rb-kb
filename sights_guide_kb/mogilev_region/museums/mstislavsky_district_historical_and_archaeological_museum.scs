@@ -1,9 +1,8 @@
 mstislavsky_district_historical_and_archaeological_museum
 
-<= nrel_inclusion:
-	concept_museum; 
+<- concept_museum; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	mstislavl_city;
 
 => nrel_main_idtf:

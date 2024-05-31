@@ -1,11 +1,10 @@
 palace_and_park_ensemble_in_zhilichy
 
-<= nrel_inclusion:
-	concept_museum; 
-	concept_park;
-	concept_historical_sight; 
+<- concept_museum; 
+<- concept_park;
+<- concept_historical_sight; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	kirovsk_city;
 
         => nrel_working_hours:
