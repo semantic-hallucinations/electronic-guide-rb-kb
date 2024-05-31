@@ -1,4 +1,4 @@
-nrel_lockated_in
+nrel_located_in
 
 <-sc_node_norole_relation;
 <-relation;
@@ -12,7 +12,7 @@ nrel_lockated_in
 => nrel_main_idtf:
 	[ расположено в* ]
 	(* <- lang_ru;; *);
-	[ lockated in* ]
+	[ located in* ]
 	(* <- lang_en;; *);
 
 => nrel_first_domain: concept_geographical_unit;
