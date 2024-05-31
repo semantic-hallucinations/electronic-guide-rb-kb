@@ -1,11 +1,10 @@
 krichev_historical_museum
 
-<= nrel_inclusion:
-	concept_museum;
-	concept_park;
-	concept_historical_sight; 
+<- concept_museum;
+<- concept_park;
+<- concept_historical_sight; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	krichev_city;
 
         => nrel_working_hours:

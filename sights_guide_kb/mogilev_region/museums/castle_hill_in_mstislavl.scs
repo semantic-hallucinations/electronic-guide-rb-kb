@@ -1,11 +1,10 @@
 castle_hill_in_mstislavl
 
-<= nrel_inclusion:
-	concept_museum; 
-	concept_park;
-	concept_historical_sight;
+<- concept_museum; 
+<- concept_park;
+<- concept_historical_sight;
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	mstislavl_city; 
 
         => nrel_working_hours:

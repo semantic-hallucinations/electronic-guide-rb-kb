@@ -1,9 +1,8 @@
 cafe_pizzeria_napoli_mogilev
 
-<= nrel_inclusion:
-		concept_cafe; 
+<- concept_cafe; 
 
-	<= nrel_lockated_in:
+	<= nrel_located_in:
 		mogilev_city;
 		
         => nrel_working_hours:

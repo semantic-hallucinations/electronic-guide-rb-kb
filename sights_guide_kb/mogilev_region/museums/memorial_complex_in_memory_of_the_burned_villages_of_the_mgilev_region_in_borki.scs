@@ -1,9 +1,8 @@
 memorial_complex_in_memory_of_the_burned_villages_of_the_mgilev_region_in_borki
 
-<= nrel_inclusion:
-	concept_museum; 
+<- concept_museum; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	kirovsk_city;
 
         => nrel_working_hours:

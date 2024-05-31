@@ -1,9 +1,8 @@
 zorka_cinema_in_belynici
 
-<= nrel_inclusion:
-	concept_cinema; 
+<- concept_cinema; 
 
-<= nrel_lockated_in:
+<= nrel_located_in:
 	belynici_city;
 
 => nrel_age_restrictions:

@@ -1,0 +1,31 @@
+cathedral_of_the_transfiguration_of_the_lord
+
+    <- concept_temple; 
+
+    <= nrel_located_in:
+	mogilev_city;
+    
+    	=> nrel_religion:
+    		orthodoxy;
+        	
+        => nrel_working_hours:
+        [7:00 - 19:00]
+        (* <- time;; *);
+        
+         => nrel_adress:
+	[ул. Габровская, 35] (* <- lang_ru;; *);
+	[st. Gabrovskaya, 35] (* <- lang_en;; *);
+	
+    => nrel_main_idtf:
+    [Кафедральный Собор Преображения Господня]
+    (* <- lang_ru;;*);
+    [Cathedral of the Transfiguration of the Lord]
+    (* <- lang_en;;*);
+    
+	=> nrel_sight_description:
+		[Спасо-Преображенский собор в Могилеве, чье строительство началось в 2000 году, расположен в южной части города, на пересечении Пушкинского проспекта и улицы Габровской. Он может одновременно вместить до 3,5 тыс. прихожан, что делает данный храм одним из самых больших в Беларуси.
+
+Облик Спасо-Преображенского собора в Могилеве определяют черты, характерные для древнерусского зодчества. Речь идет о пятиглавой композиции, а также о целом ряде наружных декоративных элементов, включая закомары, кокошники, световые барабаны.] (* <- lang_ru;; *);
+		[The Transfiguration Cathedral in Mogilev, whose construction began in 2000, is located in the southern part of the city, at the intersection of Pushkinsky Prospekt and Gabrovskaya Street. It can simultaneously accommodate up to 3.5 thousand parishioners, which makes this temple one of the largest in Belarus.
+
+The appearance of the Transfiguration Cathedral in Mogilev is determined by features characteristic of ancient Russian architecture. We are talking about a five-domed composition, as well as a number of external decorative elements, including zakomaras, kokoshniks, and light drums.] (* <- lang_en;; *);;
