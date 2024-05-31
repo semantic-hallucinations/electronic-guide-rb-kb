@@ -6,10 +6,9 @@
         [Vitebsk 1000th Anniversary Park]
         (* <- lang_en;; *);
 
-    <= nrel_inclusion: 
-        concept_park;
+    <- concept_park;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         vitebsk_city;
     
     => nrel_sight_description:

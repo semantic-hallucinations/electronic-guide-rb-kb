@@ -22,10 +22,10 @@ white_fox_restaurant_vitebsk
         [12:00 - 00:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_restaurant;
+    <- concept_restaurant;
 
-    <= nrel_lockated_in: 
+
+    <= nrel_located_in: 
         vitebsk_city;
     
     => nrel_sight_description:
