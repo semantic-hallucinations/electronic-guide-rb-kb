@@ -7,6 +7,26 @@ section_subject_domain_of_instance_criteria
         (* <- lang_en;;*);
 
     -> rrel_key_sc_element:
+    	wifi_availability;
+    	nrel_wifi_availability;
+    	accessible_environment;
+    	nrel_accessible_environment;
+    	age_restrictions;
+    	nrel_age_restrictions;
+    	founded_years;
+    	nrel_founded_years;
+    	kind_of_sport;
+    	nrel_kind_of_sport;
+    	number_of_halls;
+    	nrel_number_of_halls;
+    	people_capacity;
+    	nrel_people_capacity;
+    	religion;
+    	nrel_religion;
+    	type_of_kitchen;
+    	nrel_type_of_kitchen;
+    	working_hours;
+    	nrel_working_hours;
         concept_instance_criteria;
 
     <- atomic_section;;
@@ -27,6 +47,26 @@ section_subject_domain_of_instance_criteria
             -> rrel_maximum_studied_object_class:
                 concept_instance_criteria;;
 
-           // -> rrel_not_maximum_studied_object_class:
+            -> rrel_not_maximum_studied_object_class:
+           	wifi_availability;
+    		nrel_wifi_availability;
+    		accessible_environment;
+    		nrel_accessible_environment;
+    		age_restrictions;
+    		nrel_age_restrictions;
+    		founded_years;
+    		nrel_founded_years;
+    		kind_of_sport;
+    		nrel_kind_of_sport;
+    		number_of_halls;
+    		nrel_number_of_halls;
+    		people_capacity;
+    		nrel_people_capacity;
+    		religion;
+    		nrel_religion;
+    		type_of_kitchen;
+    		nrel_type_of_kitchen;
+    		working_hours;
+    		nrel_working_hours;;
                 
     *];;
