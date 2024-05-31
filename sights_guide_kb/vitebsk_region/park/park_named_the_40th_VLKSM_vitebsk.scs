@@ -6,10 +6,9 @@ park_named_the_40th_VLKSM_vitebsk
         ["Park named the 40th VLKSM" in Vitebsk]
         (* <- lang_en;; *);
 
-    <= nrel_inclusion: 
-        concept_park;
+    <- concept_park;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         vitebsk_city;
     
     => nrel_sight_description:

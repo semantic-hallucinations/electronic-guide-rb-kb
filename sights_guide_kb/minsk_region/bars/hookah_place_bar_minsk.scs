@@ -16,8 +16,16 @@ hookah_place_minsk
     => nrel_age_restrictions:
         eighteen_plus;
 
-    <= nrel_inclusion: 
-        concept_bar;
+    => nrel_accessible_environment:
+        not_accessible;
+    
+    => nrel_type_of_kitchen:
+        european;
+    
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    <-concept_bar;
     
     => nrel_wifi_availability:
         wifi_available;

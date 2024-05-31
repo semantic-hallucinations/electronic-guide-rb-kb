@@ -21,10 +21,9 @@ liga_bar_vitebsk
         [12:00 - 01:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_bar;
+    <- concept_bar;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         vitebsk_city;
     
     => nrel_sight_description:

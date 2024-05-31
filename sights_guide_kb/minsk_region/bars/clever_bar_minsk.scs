@@ -1,0 +1,32 @@
+
+clever_bar_minsk
+
+    => nrel_main_idtf:
+        [Бар "Клевер" в Минске]
+        (* <- lang_ru;; *);
+        [Bar "Clever" in Minsk]
+        (* <- lang_en;; *);
+
+    => nrel_working_hours:
+        [11:00 - 02:00] 
+        (* <- time;; *);
+        [13:00 - 02:00]
+        (* <- time;; *);
+    
+    => nrel_accessible_environment:
+        not_accessible;
+    
+    => nrel_type_of_kitchen:
+        european;
+    
+    => nrel_age_restrictions:
+        eighteen_plus;
+
+    <= nrel_located_in: 
+        minsk_city;
+      
+    <-concept_bar;
+    
+    => nrel_sight_description:
+      [В «Clever» влюбляются ценители классически вкусной еды и поистине дружелюбной, веселой атмосферы. Это то самое место, где можно быть простым и понятным — долгожданным гостем, который пришел за бокалом любимого пива]
+      (* <- lang_ru;; *);;

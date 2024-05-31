@@ -18,12 +18,10 @@ manao_cafe_vitebsk
     => nrel_wifi_availabilty:
         wifi_not_availaible;
 
-    <= nrel_inclusion: 
-        concept_cafe;
+    <- concept_cafe;
 
-
-    <= nrel_lockated_in: 
-        vitebsk_city;
+    <= nrel_located_in: 
+        vitebsk_city;   
     
     => nrel_sight_description:
         [Вкусная еда, уютный интерьер, быстрое обслуживание, вежливый персонал, самый вкусный кальян в городе, бесконечно шикарная, расслабленная атмосфера. ]

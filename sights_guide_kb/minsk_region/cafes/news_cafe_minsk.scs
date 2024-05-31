@@ -16,9 +16,14 @@ news_cafe_minsk
     
     => nrel_age_restrictions:
         zero_plus;
+    
+    => accessible_environment:
+        not_accesible;
+    
+    => nrel_type_of_kitchen:
+        european;
 
-    <= nrel_inclusion: 
-        concept_cafe;
+    <- concept_cafe;
 
     <= nrel_located_in: 
         minsk_city;

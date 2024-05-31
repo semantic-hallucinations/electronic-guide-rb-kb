@@ -13,11 +13,16 @@ polugar_bar_minsk
         [13:00 - 02:00]
         (* <- time;; *);
     
+    => nrel_accessible_environment:
+        not_accessible;
+    
+    => nrel_type_of_kitchen:
+        european;
+    
     => nrel_age_restrictions:
         eighteen_plus;
 
-    <= nrel_inclusion: 
-        concept_bar;
+    <-concept_bar;
 
     <= nrel_located_in: 
         minsk_city;

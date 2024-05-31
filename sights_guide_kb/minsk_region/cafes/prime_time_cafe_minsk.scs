@@ -14,8 +14,7 @@ prime_time_cafe_minsk
     => nrel_accessible_environment:
         accessible;
     
-    <= nrel_inclusion: 
-        concept_cafe;
+    <- concept_cafe;
 
     <= nrel_located_in: 
         minsk_city;

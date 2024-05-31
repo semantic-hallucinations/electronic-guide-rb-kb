@@ -21,10 +21,9 @@ big_tim_bar_vitebsk
         [18:00 - 02:00]
         (* <- time;; *);
 
-    <= nrel_inclusion: 
-        concept_bar;
+    <- concept_bar;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         vitebsk_city;
     
     => nrel_sight_description:

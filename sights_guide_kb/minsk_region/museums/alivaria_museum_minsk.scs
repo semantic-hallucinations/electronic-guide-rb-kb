@@ -12,7 +12,7 @@ alivaria_brewery_museum_minsk
         (* <- time;; *);
 
     => nrel_accessible_environment:
-        accessible;
+        not_accessible;
     
     => nrel_age_restrictions:
         eighteen_plus;

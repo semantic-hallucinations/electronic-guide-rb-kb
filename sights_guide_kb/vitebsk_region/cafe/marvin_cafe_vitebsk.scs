@@ -18,10 +18,9 @@ marvin_cafe_vitebsk
     => nrel_wifi_availabilty:
         wifi_not_availaible;
 
-    <= nrel_inclusion: 
-        concept_cafe;
+    <- concept_cafe;
 
-    <= nrel_lockated_in: 
+    <= nrel_located_in: 
         vitebsk_city;
     
     => nrel_sight_description:
