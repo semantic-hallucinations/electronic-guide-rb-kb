@@ -67,3 +67,13 @@ educational_value
     (* <- lang_en;; *);
 
 <- criteria_value;;
+
+sport_value
+
+=> nrel_main_idtf:
+    [Спорт]
+    (* <- lang_ru;; *);
+    [Sport]
+    (* <- lang_en;; *);
+
+<- criteria_value;;
